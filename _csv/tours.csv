@@ -1,0 +1,29 @@
+tour_id,tour_url,tour_name,num_shows
+1,/stats:shows-23int-tour,2023 International Tour,103
+2,/stats:shows-sob-tour,Springsteen On Broadway,273
+3,/stats:shows-sumr17-tour,Summer '17 Tour,15
+4,/stats:shows-book-tour,Book Promotion Tour,0
+5,/stats:shows-rvr16-tour,The River Tour '16,78
+6,/stats:shows-hh-tour,High Hopes Tour,38
+7,/stats:shows-wb-tour,Wrecking Ball Tour,141
+8,/stats:shows-woad-tour,Working On A Dream Tour,91
+9,/stats:shows-mgc-tour,Magic Tour,111
+10,/stats:shows-sgrs-tour,The Seeger Sessions Tour,73
+11,/stats:shows-dd-tour,Devils & Dust Tour,83
+12,/stats:shows-vfc-tour,Vote For Change,27
+13,/stats:shows-rsng-tour,The Rising Tour,131
+14,/stats:shows-rnn-tour,The Reunion Tour,143
+15,/stats:shows-gotj-tour,The Ghost Of Tom Joad Tour,129
+16,/stats:shows-htlt-tour,World Tour 1992-93,114
+17,/stats:shows-hrn-tour,Human Rights Now! Tour,21
+18,/stats:shows-tol-tour,Tunnel Of Love Express Tour,71
+19,/stats:shows-bitusa-tour,Born In The U.S.A. Tour,167
+20,/stats:shows-rvr-tour,The River Tour,139
+21,/stats:shows-doteot-tour,Darkness On The Edge Of Town Tour,112
+22,/stats:shows-lwst-tour,The Lawsuit Tour,54
+23,/stats:shows-cs-tour,Chicken Scratch Tour,36
+24,/stats:shows-btr-tour,Born To Run Tour,82
+25,/stats:shows-wiess-tour,"The Wild, The Innocent & The E Street Shuffle Tour",201
+26,/stats:shows-gfap-tour,Greetings From Asbury Park Tour,168
+27,/stats:shows-early-years,Early Years,342
+28,/stats:shows-none-tour,Non-tour Shows,649
