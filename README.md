@@ -30,4 +30,4 @@ Provided in this repo are all the python files you need to create a copy of the 
 
 - `csv_export.py` - exports all the data in the `database.sqlite` file out to `.csv` files. Just makes it easier to view the data without any SQL knowledge. These are also updated with the database file.
 
-- `helper_stuff.py` - Various functions to help with data collection. Fixes some edge cases with incorrect formatting on Brucebase. As well as lists of state/provience abbreviations. And a list of Albums/Release Year/Type, this was the best solution I could come up with to the problem of "there isn't a single page with all this information".
+- `helper_stuff.py` - Various functions to help with data collection. Fixes some edge cases with incorrect formatting on Brucebase. As well as lists of state/provience abbreviations. And a list of Albums/Release Year/Type, this was the best solution I could come up with to the problem of "there isn't a single page with all this information, and this is preferable to looking at several different pages per album."
