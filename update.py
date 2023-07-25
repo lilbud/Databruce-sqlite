@@ -93,6 +93,7 @@ def full_update(start, end): #gets show info for all events in events table
 # #usually can just be run for the current year
 #full_update(current_year, current_year)
 
+get_songs()
 update_counts()
 run_time(start_time)
 
