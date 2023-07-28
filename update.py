@@ -88,12 +88,12 @@ def full_update(start, end): #gets show info for all events in events table
 			cur.execute("""vacuum;""")
 
 #basic_update()
-#full_update(2023, 2023) 
+#full_update(2023, 2023)
 
 # #usually can just be run for the current year
 #full_update(current_year, current_year)
 
-get_songs()
+setlistToEvents()
 update_counts()
 run_time(start_time)
 

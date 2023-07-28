@@ -121,12 +121,12 @@ def get_events_by_year(year):
 	for e in soup.find_all('a', href=re.compile(event_types + str(year))):
 		if e.find_parent().name == "strong":
 			event_url = e.get('href')
-			event_location = event_type = show = tour = event_name = ""
+			event_location = event_type = show = tour = event_name = setlist = ""
 			event_date = e.text[0:10]
 
-			shows.append([event_date, event_url, event_name, event_location, tour])
+			shows.append([event_date, event_url, event_name, event_location, tour, setlist])
 	
-	cur.executemany("""INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?)""", shows)
+	cur.executemany("""INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?, ?)""", shows)
 	
 	conn.commit()
 	print("got events for year: " + str(year))
@@ -180,7 +180,7 @@ def get_setlist_by_url(tab, url):
 					for i in temp:
 						song_url = song_link_corrector(i.get('href'))
 						song_name = cur.execute("""SELECT song_name FROM SONGS WHERE song_url=?""", (song_url, )).fetchone()[0]
-						show.append([url, song_url, song_name, set_type, song_num_in_set, song_num, ""])
+						show.append([url, song_url, song_name, set_type, song_num_in_set, song_num])
 						song_num += 1
 						
 						if temp.index(i) != (len(temp) - 1):
@@ -191,7 +191,7 @@ def get_setlist_by_url(tab, url):
 						temp = s.text.split(" - ")
 						for t in temp:
 							song_name = titlecase(t)
-							show.append([url, song_url, song_name, set_type, song_num_in_set, song_num, ""])
+							show.append([url, song_url, song_name, set_type, song_num_in_set, song_num])
 							song_num += 1
 
 							if temp.index(t) != (len(temp) - 1):
@@ -199,17 +199,18 @@ def get_setlist_by_url(tab, url):
 
 					else:
 						song_name = titlecase(s.text)
-						show.append([url, song_url, song_name, set_type, song_num_in_set, song_num, ""])
+						show.append([url, song_url, song_name, set_type, song_num_in_set, song_num])
 						song_num += 1
 			
 				song_num_in_set += 1
 
 	if show:
-		cur.executemany("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""", show)
+		cur.executemany("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?)""", show)
+		#cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", ((", ".join(x[2] for x in show)), url))
 	else:
-		cur.execute("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""",
-			(url, "", "", set_type, 0, 0, "no set details known"))
-	
+		# cur.execute("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""",
+		# 	(url, "", "", set_type, 0, 0, "no set details known"))
+		cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", ("No set details known", url))
 	conn.commit()
 
 def get_show_info(url):
@@ -287,5 +288,18 @@ def get_albums():
 	conn.commit()
 	print("Got Albums")
 
-## TO DO
-# write to csv script
+# figured out afterwards that setlist matching would be much easier
+# if I could just match a comma list as opposed to my first attempt
+# which looked like the following: 
+# input two songs -> find all shows with those songs ->
+# return id of song1 setlist entry -> check if id+1 equals song 2
+def setlistToEvents():
+	eventList = cur.execute("""SELECT event_url FROM EVENTS""").fetchall()
+	for e in eventList:
+		s = cur.execute("""SELECT song_name FROM SETLISTS WHERE event_url=? AND set_type NOT IN ('Soundcheck','Rehearsal') ORDER BY song_num ASC""", (e[0],)).fetchall()
+		setlist = ", ".join(x[0] for x in s)
+
+		cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", (setlist, e[0]))
+		conn.commit()
+
+get_show_info("/gig:2023-07-25-autodromo-monza-italy")

@@ -21,6 +21,7 @@ cur.execute("""CREATE TABLE IF NOT EXISTS EVENTS (
 	event_name TEXT NOT NULL,
 	event_location TEXT NOT NULL,
 	tour TEXT NOT NULL,
+	setlist TEXT NOT NULL,
 	UNIQUE(event_url));""")
 
 #venues
@@ -54,8 +55,7 @@ cur.execute("""CREATE TABLE IF NOT EXISTS SETLISTS (
 	set_type TEXT NOT NULL,
 	song_num_in_set INT NOT NULL,
 	song_num INT NOT NULL,
-    notes TEXT NOT NULL,
-	UNIQUE(event_url, song_url, song_name, set_type, song_num_in_set, song_num, notes));""")
+	UNIQUE(event_url, song_url, song_name, set_type, song_num_in_set, song_num));""")
 
 #on_stage
 cur.execute("""CREATE TABLE IF NOT EXISTS ON_STAGE (
