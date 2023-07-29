@@ -296,10 +296,8 @@ def get_albums():
 def setlistToEvents():
 	eventList = cur.execute("""SELECT event_url FROM EVENTS""").fetchall()
 	for e in eventList:
-		s = cur.execute("""SELECT song_name FROM SETLISTS WHERE event_url=? AND set_type NOT IN ('Soundcheck','Rehearsal') ORDER BY song_num ASC""", (e[0],)).fetchall()
+		s = cur.execute("""SELECT song_name FROM SETLISTS WHERE event_url=? AND set_type NOT IN ('Soundcheck','Rehearsal','Pre-show') ORDER BY song_num ASC""", (e[0],)).fetchall()
 		setlist = ", ".join(x[0] for x in s)
 
 		cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", (setlist, e[0]))
 		conn.commit()
-
-get_show_info("/gig:2023-07-25-autodromo-monza-italy")
