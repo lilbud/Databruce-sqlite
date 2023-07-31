@@ -1,0 +1,6 @@
+requests
+datetime
+titlecase
+BeautifulSoup4
+pandas
+lxml

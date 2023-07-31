@@ -50,7 +50,7 @@ def setlist_finder(date):
             for s in cur.execute("""SELECT DISTINCT(set_type) FROM SETLISTS WHERE event_url=? ORDER BY setlist_song_id ASC""", (r[2],)).fetchall():
                 print("\n" + s[0] + ":")
                 setlist = cur.execute("""SELECT song_name FROM SETLISTS WHERE event_url=? AND set_type=? ORDER BY song_num ASC""", (r[2], s[0],))
-                print("\n".join([x[0] for x in setlist.fetchall()]))
+                print(", ".join([x[0] for x in setlist.fetchall()]))
         
         print("-"*len(header))
 
