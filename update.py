@@ -17,8 +17,8 @@ def update_counts():
 	for s in cur.execute("""SELECT song_url FROM SONGS""").fetchall():
 		count = cur.execute("""SELECT COUNT(?) FROM SETLISTS WHERE song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck')""", (s[0], s[0],)).fetchone()
 		
-		f = cur.execute("""SELECT event_date FROM SETLISTS where song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY setlist_song_id ASC""", (s[0],)).fetchone()
-		l = cur.execute("""SELECT event_date FROM SETLISTS where song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY setlist_song_id DESC""", (s[0],)).fetchone()
+		f = cur.execute("""SELECT event_date FROM SETLISTS where song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY event_date ASC""", (s[0],)).fetchone()
+		l = cur.execute("""SELECT event_date FROM SETLISTS where song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY event_date DESC""", (s[0],)).fetchone()
 
 		if f and l:
 			cur.execute("""UPDATE SONGS SET num_plays=?, first_played=?, last_played=? WHERE song_url=?""", (count[0], f[0], l[0], s[0],))
