@@ -15,8 +15,16 @@ start_time = datetime.datetime.now()
 
 def update_counts():
 	for s in cur.execute("""SELECT song_url FROM SONGS""").fetchall():
-		count = cur.execute("""SELECT COUNT(?) FROM SETLISTS WHERE song_url=?""", (s[0], s[0])).fetchone()
-		cur.execute("""UPDATE SONGS SET num_plays=? WHERE song_url=?""", (count[0], s[0],))
+		count = cur.execute("""SELECT COUNT(?) FROM SETLISTS WHERE song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck')""", (s[0], s[0],)).fetchone()
+		
+		f = cur.execute("""SELECT event_date FROM SETLISTS where song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY setlist_song_id ASC""", (s[0],)).fetchone()
+		l = cur.execute("""SELECT event_date FROM SETLISTS where song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY setlist_song_id DESC""", (s[0],)).fetchone()
+
+		if f and l:
+			cur.execute("""UPDATE SONGS SET num_plays=?, first_played=?, last_played=? WHERE song_url=?""", (count[0], f[0], l[0], s[0],))
+		else:
+			cur.execute("""UPDATE SONGS SET num_plays=? WHERE song_url=?""", (count[0], s[0],))
+		
 		conn.commit()
 
 	for v in cur.execute("""SELECT venue_url FROM VENUES""").fetchall():
@@ -53,15 +61,16 @@ def basic_update():
 	for i in range(1965, current_year + 1):
 		get_events_by_year(i)
 		cur.execute("""vacuum;""")
-		time.sleep(0.5)
+		time.sleep(1)
 
 	for t in cur.execute("""SELECT tour_url, tour_name FROM TOURS""").fetchall():
 		get_tour_events(t[0], t[1])
 		print(t[1])
-		time.sleep(0.5)
+		time.sleep(1)
 
-	print("Sleeping for: " + str(5) + " seconds")
-	time.sleep(5)
+	# uncomment the below lines if running both basic and full update
+	# print("Sleeping for: " + str(5) + " seconds")
+	# time.sleep(5)
 
 def full_update(start, end): #gets show info for all events in events table
 	delay = 0
@@ -93,7 +102,7 @@ def full_update(start, end): #gets show info for all events in events table
 # #usually can just be run for the current year
 #full_update(current_year, current_year)
 
-setlistToEvents()
+#setlistToEvents()
 update_counts()
 run_time(start_time)
 

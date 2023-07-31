@@ -43,19 +43,22 @@ cur.execute("""CREATE TABLE IF NOT EXISTS SONGS (
 	song_id INTEGER primary key autoincrement,
 	song_url TEXT NOT NULL,
 	song_name TEXT NOT NULL,
+	first_played TEXT NOT NULL,
+	last_played TEXT NOT NULL,
 	num_plays INT NOT NULL,
 	UNIQUE(song_url));""")
 
 #Setlists
 cur.execute("""CREATE TABLE IF NOT EXISTS SETLISTS (
 	setlist_song_id INTEGER primary key autoincrement,
+	event_date TEXT NOT NULL,
 	event_url TEXT NOT NULL,
 	song_url TEXT NOT NULL,
 	song_name TEXT NOT NULL,
 	set_type TEXT NOT NULL,
 	song_num_in_set INT NOT NULL,
 	song_num INT NOT NULL,
-	UNIQUE(event_url, song_url, song_name, set_type, song_num_in_set, song_num));""")
+	UNIQUE(date, event_url, song_url, song_name, set_type, song_num_in_set, song_num));""")
 
 #on_stage
 cur.execute("""CREATE TABLE IF NOT EXISTS ON_STAGE (

@@ -69,9 +69,9 @@ def get_songs():
 
 	for s in soup.find_all(href=re.compile("/song:.*")):
 		#song_url, song_name, album_name, num_plays
-		songs.append([s.get('href'), s.text.strip(), 0])
+		songs.append([s.get('href'), s.text.strip(), "", "", 0])
 
-	cur.executemany("""INSERT OR IGNORE INTO SONGS VALUES (NULL, ?, ?, ?)""", songs)
+	cur.executemany("""INSERT OR IGNORE INTO SONGS VALUES (NULL, ?, ?, ?, ?, ?)""", songs)
 	conn.commit()
 
 	print("Got Songs")
@@ -125,6 +125,8 @@ def get_events_by_year(year):
 			event_date = e.text[0:10]
 
 			shows.append([event_date, event_url, event_name, event_location, tour, setlist])
+			cur.execute("""UPDATE SETLISTS SET event_date=? WHERE event_url=?""", (event_date, event_url))
+			conn.commit()
 	
 	cur.executemany("""INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?, ?)""", shows)
 	
