@@ -20,21 +20,26 @@ def on_this_day(date):
         print("Event Link: " + main_url + i[3].strip("/") + "\n")
 
 def song_finder(song):
-    #id, url, song_name, num_performances
+    #0,  1,    2,     3,     4,     5
+    #id, url, name, first, last, num_plays
     s = cur.execute("""SELECT * FROM SONGS WHERE song_name LIKE '%""" + song + "%'").fetchone()
 
     if s:
-        f = cur.execute("""SELECT event_url FROM SETLISTS where song_url=? ORDER BY setlist_song_id ASC""", (s[1],)).fetchone()
-        l = cur.execute("""SELECT event_url FROM SETLISTS where song_url=? ORDER BY setlist_song_id DESC""", (s[1],)).fetchone()
+        f = cur.execute("""SELECT event_name FROM EVENTS WHERE event_date=?""", (s[3],)).fetchone()
+        l = cur.execute("""SELECT event_name FROM EVENTS WHERE event_date=?""", (s[4],)).fetchone()
 
-        firstplayed = cur.execute("""SELECT event_date, event_name FROM EVENTS WHERE event_url=?""", (f[0],)).fetchone()
-        lastplayed = cur.execute("""SELECT event_date, event_name FROM EVENTS WHERE event_url=?""", (l[0],)).fetchone()
+        opener = cur.execute("""SELECT COUNT(song_url) FROM SETLISTS WHERE song_url=? AND song_num=1""", (s[1],)).fetchone()
+        closer = cur.execute("""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '%""" + song + "'").fetchone()
 
         print("\nSong Name: " + s[2])
         print("Song Link: " + main_url + s[1].strip("/"))
-        print("Num Times Played: " + str(s[3]))
-        print("First Played: " + " - ".join(firstplayed))
-        print("Last Played: " + " - ".join(lastplayed) + "\n")
+        print("Num Times Played: " + str(s[5]))
+        print("First Played: " + s[3] + " - " + f[0])
+        print("Last Played: " + s[4] + " - " + l[0])
+        print("Number of Times as Show Opener: " + str(opener[0]))
+        print("Number of Times as Show Closer: " + str(closer[0]) + "\n")
+
+
     else:
         print("\nNo Results Found For: " + song + "\n")
 
@@ -68,7 +73,7 @@ def menu():
         case "1": #setlist
             setlist_finder(input("Enter Date to Find Setlist For (YYYY-MM-DD Format): "))
         case "2": #song finder
-            song_finder(input("Enter Song to Find: "))
+            song_finder(input("Enter Song to Find: ").replace("'", "''"))
         case "3": #on this day
             on_this_day(input("Enter Date to Find Shows For (MM-DD Format) or leave blank for current day: "))
 
