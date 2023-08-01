@@ -71,7 +71,7 @@ def setlistMatching(seq):
 
     setlists = cur.execute("""SELECT event_date, event_name, event_url from EVENTS WHERE setlist LIKE '%""" + ", ".join(sequence).replace("'", "''") + "%'").fetchall()
     
-    print(str(len(setlists)) + " Shows Where This Sequence Took Place: " + ", ".join(sequence))
+    print(str(len(setlists)) + " Shows Where This Sequence Took Place (first 10 shown): " + ", ".join(sequence))
     
     for show in setlists[:10]:
         print(show[0] + " - " + show[1])
