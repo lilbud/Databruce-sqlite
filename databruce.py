@@ -16,8 +16,8 @@ def on_this_day(date):
 
     for i in cur.execute("""SELECT * FROM EVENTS WHERE event_date LIKE '%""" + date + "'").fetchall():
         print("Date: " + i[1])
-        print("Event Title: " + i[2])
-        print("Event Link: " + main_url + i[3].strip("/") + "\n")
+        print("Event Location: " + i[3])
+        print("Event Link: " + main_url + i[2].strip("/") + "\n")
 
 def song_finder(song):
     #0,  1,    2,     3,     4,     5
@@ -62,19 +62,36 @@ def setlist_finder(date):
     else:
         print("Show not found")
 
+def setlistMatching(seq):
+    sequence = []
+
+    for song in re.split(", *", seq):
+        s = cur.execute("""SELECT song_name FROM SONGS WHERE song_name LIKE '%""" + song + "%'").fetchone()
+        sequence.append(s[0])
+
+    setlists = cur.execute("""SELECT event_date, event_name, event_url from EVENTS WHERE setlist LIKE '%""" + ", ".join(sequence).replace("'", "''") + "%'").fetchall()
+    
+    print(str(len(setlists)) + " Shows Where This Sequence Took Place: " + ", ".join(sequence))
+    
+    for show in setlists[:10]:
+        print(show[0] + " - " + show[1])
+
 def menu():
     print("Databruce Menu")
     print("A (kinda) frontend to interact with the Databruce db")
     print("(Note: the best I can manage with no frontend skills)\n")
 
-    print("Options:\n[1] Setlist Finder (Find Setlists By Date)\n[2] Song Finder (Find Songs by Name\n[3] On This Day (Find Events from this Day)\n")
+    print("Options:\n\t[!sl or !setlist YYYY-MM-DD] Setlist Finder (Find Setlists By Date)\n\t[!song SONG NAME] Song Finder (Find Songs by Name\n\t[!otd or !onthisday MM-DD] On This Day (Find Events from this Day)\n\t[!match song1, song2...] Setlist Matching (Find Shows Where a Specific Sequence Occurred)")
 
-    match input("Select Option: "):
-        case "1": #setlist
-            setlist_finder(input("Enter Date to Find Setlist For (YYYY-MM-DD Format): "))
-        case "2": #song finder
-            song_finder(input("Enter Song to Find: ").replace("'", "''"))
-        case "3": #on this day
-            on_this_day(input("Enter Date to Find Shows For (MM-DD Format) or leave blank for current day: "))
+    cmd = input("\nEnter Command: ")
+
+    if re.search("!(setlist|sl)", cmd):
+        setlist_finder(re.sub("!(setlist|sl) ", "", cmd))
+    elif re.search("!song", cmd):
+        song_finder(re.sub("!song ", "", cmd))
+    elif re.search("!(onthisday|otd)", cmd):
+        on_this_day(re.sub("!(onthisday|otd) ", "", cmd))
+    elif re.search("!match", cmd):
+        setlistMatching(re.sub("!match ", "", cmd).replace("'", "''"))
 
 menu()
