@@ -14,11 +14,13 @@ current_year = int(datetime.datetime.now().date().strftime("%Y"))
 start_time = datetime.datetime.now()
 
 def update_counts():
-	for s in cur.execute("""SELECT song_url FROM SONGS""").fetchall():
+	for s in cur.execute("""SELECT song_url, song_name FROM SONGS""").fetchall():
 		count = cur.execute("""SELECT COUNT(?) FROM SETLISTS WHERE song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck')""", (s[0], s[0],)).fetchone()
+
+		song_name = "'%" + s[1].replace("'", "''") + "%'"
 		
-		f = cur.execute("""SELECT event_date FROM SETLISTS where song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY event_date ASC""", (s[0],)).fetchone()
-		l = cur.execute("""SELECT event_date FROM SETLISTS where song_url=? AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY event_date DESC""", (s[0],)).fetchone()
+		f = cur.execute("""SELECT event_date FROM EVENTS WHERE setlist LIKE """ + song_name + """ ORDER BY event_date ASC""").fetchone()
+		l = cur.execute("""SELECT event_date FROM EVENTS WHERE setlist LIKE """ + song_name + """ ORDER BY event_date DESC""").fetchone()
 
 		if f and l:
 			cur.execute("""UPDATE SONGS SET num_plays=?, first_played=?, last_played=? WHERE song_url=?""", (count[0], f[0], l[0], s[0],))
@@ -27,25 +29,25 @@ def update_counts():
 		
 		conn.commit()
 
-	for v in cur.execute("""SELECT venue_url FROM VENUES""").fetchall():
-		count = cur.execute("""SELECT COUNT(?) FROM EVENTS WHERE event_location=?""", (v[0], v[0])).fetchone()
-		cur.execute("""UPDATE VENUES SET num_performances=? WHERE venue_url=?""", (count[0], v[0],))
-		conn.commit()
+	# for v in cur.execute("""SELECT venue_url FROM VENUES""").fetchall():
+	# 	count = cur.execute("""SELECT COUNT(?) FROM EVENTS WHERE event_location=?""", (v[0], v[0])).fetchone()
+	# 	cur.execute("""UPDATE VENUES SET num_performances=? WHERE venue_url=?""", (count[0], v[0],))
+	# 	conn.commit()
 
-	for b in cur.execute("""SELECT band_url FROM BANDS""").fetchall():
-		count = cur.execute("""SELECT COUNT(?) FROM ON_STAGE WHERE relation_url=?""", (b[0], b[0])).fetchone()
-		cur.execute("""UPDATE BANDS SET num_performances=? WHERE band_url=?""", (count[0], b[0],))
-		conn.commit()
+	# for b in cur.execute("""SELECT band_url FROM BANDS""").fetchall():
+	# 	count = cur.execute("""SELECT COUNT(?) FROM ON_STAGE WHERE relation_url=?""", (b[0], b[0])).fetchone()
+	# 	cur.execute("""UPDATE BANDS SET num_performances=? WHERE band_url=?""", (count[0], b[0],))
+	# 	conn.commit()
 
-	for p in cur.execute("""SELECT person_url FROM PERSONS""").fetchall():
-		count = cur.execute("""SELECT COUNT(?) FROM ON_STAGE WHERE relation_url=?""", (p[0], p[0])).fetchone()
-		cur.execute("""UPDATE PERSONS SET num_appearances=? WHERE person_url=?""", (count[0], p[0],))
-		conn.commit()
+	# for p in cur.execute("""SELECT person_url FROM PERSONS""").fetchall():
+	# 	count = cur.execute("""SELECT COUNT(?) FROM ON_STAGE WHERE relation_url=?""", (p[0], p[0])).fetchone()
+	# 	cur.execute("""UPDATE PERSONS SET num_appearances=? WHERE person_url=?""", (count[0], p[0],))
+	# 	conn.commit()
 
-	for t in cur.execute("""SELECT tour_url, tour_name FROM TOURS""").fetchall():
-		count = cur.execute("""SELECT COUNT(?) FROM EVENTS WHERE tour=?""", (t[1], t[1])).fetchone()
-		cur.execute("""UPDATE TOURS SET num_shows=? WHERE tour_url=?""", (count[0], t[0],))
-		conn.commit()
+	# for t in cur.execute("""SELECT tour_url, tour_name FROM TOURS""").fetchall():
+	# 	count = cur.execute("""SELECT COUNT(?) FROM EVENTS WHERE tour=?""", (t[1], t[1])).fetchone()
+	# 	cur.execute("""UPDATE TOURS SET num_shows=? WHERE tour_url=?""", (count[0], t[0],))
+	# 	conn.commit()
 
 	print("Counts Updated Successfully")
 
