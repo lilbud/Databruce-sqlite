@@ -16,16 +16,8 @@ start_time = datetime.datetime.now()
 r = requests.get(main_url + "list.htm").text
 soup = BeautifulSoup(r, "lxml")
 
-conn = sqlite3.connect(os.path.dirname(__file__) + "/_database/artworkdatabase.sqlite")
+conn = sqlite3.connect(os.path.dirname(__file__) + "/_database/database.sqlite")
 cur = conn.cursor()
-
-cur.execute("""CREATE TABLE IF NOT EXISTS ARTWORK (
-	artwork_id INTEGER primary key autoincrement,
-	artwork_url TEXT NOT NULL,
-	artwork_name TEXT NOT NULL,
-	date TEXT NOT NULL,
-	UNIQUE(artwork_url));"""
-)
 
 for l in soup.find_all('a', href=re.compile(".*.htm")):
 	if re.search("((\d{8})|(\d{4}-\d{2}-\d{2})) *.*htm", l.get('href')):

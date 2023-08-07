@@ -103,3 +103,12 @@ cur.execute("""CREATE TABLE IF NOT EXISTS ALBUMS (
 	song_name TEXT NOT NULL,
 	song_num INT NOT NULL,
 	UNIQUE(album_name, song_url));""")
+    
+#artwork table:
+cur.execute("""CREATE TABLE IF NOT EXISTS ARTWORK (
+	artwork_id INTEGER primary key autoincrement,
+	artwork_url TEXT NOT NULL,
+	artwork_name TEXT NOT NULL,
+	date TEXT NOT NULL,
+	UNIQUE(artwork_url));"""
+)
