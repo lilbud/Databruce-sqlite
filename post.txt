@@ -1,0 +1,23 @@
+Databruce Project:
+
+Link: https://github.com/lilbud/Databruce
+
+The repo above has more info on this project, but I'll explain it briefly below (or at least attempt to).
+
+Something I've been working on and off on for a few months now. This is an SQLite database containing info on Bruce's performing career, with the data acquired from Brucebase. This project is sort of based on an existing project called "spRingsteen" by obrienjoey. 
+
+Originally the purpose was to build this database for another project of mine called "Brucebot" (a Discord bot to get information like setlists). That started by just using plain web-scraping to get setlists and other info (like getting song stats), which had a few caveats, namely:
+
+- speed: while it wasn't painfully slow, it could take a bit to scrape the data. Setlists weren't too bad, but songs were quite difficult because it had to search a long page (1600 songs!) for the info. 
+
+- formatting: this is the big one when it came to switching to an actual database. This mainly comes down to how different pages are formatted. Usually its pretty standard but there might be a page with some oddities, like multiple sections for different sets (see 2011-01-15, which has 5 mini sets). Or some song names being bolded to indicate premiere/bustout, or even song sequences like Mona > She's the One, both of which required a rewrite to my code to get the song names properly. Also having to fix the capitalization since BB has all their song names in all CAPS.
+
+- limited functionality: another important one, as getting different types of data can be a bit difficult. Song searching was quite a pain because of having to correct the input to make sure a song was found, so stuff like "Incident" and "Sandy" would get the right song, as opposed to erroring out when trying to find a song literally titled "Sandy".
+
+For these reasons, I looked into building a database, which would fix the speed and formatting issues, and allow for more features I had in my head. I found obrienjoey's project, and was planning to use his database. But, it didn't have all the info I wanted (only having setlists, songs, tours, and concerts.) This amount of data is perfectly fine for its intended purpose, which is simple data analysis in R. I probably could have made it work, but my lack of knowledge in R would have limited what I could do with the project. Which is where this project came from. Instead I used the concept as a base, and wrote my own project in Python, which I'm more familiar with.
+
+Being a proper database, the data can be used and manipulated much easier than scraping. Also since its SQLite, it can be used offline as well, and the db is fairly small (about 20MB or so).
+
+Also included in the repo above is info on how to use the database and how to update it as well.
+
+I guess I'll end it here, if you read this far, thanks for your interest in my ramblings. And thanks to obrienjoey for his project which provided the inspiration, and thanks to Brucebase for the incredible resource that is their site.
