@@ -24,8 +24,8 @@ conn = sqlite3.connect(os.path.dirname(__file__) + "/_database/database.sqlite")
 cur = conn.cursor()
 
 for l in soup.find_all('a', href=re.compile(".*.htm")):
-    if re.search(r"((\d{8})|(\d{4}-\d{2}-\d{2})) *.*htm", l.get('href')):
-        if re.search(r"(\d{4}-\d{2}-\d{2})", l.text):
+    if re.search("((\d{8})|(\d{4}-\d{2}-\d{2})) *.*htm", l.get('href')):
+        if re.search("(\d{4}-\d{2}-\d{2})", l.text):
             DATE = re.search(r"(\d{4}-\d{2}-\d{2})", l.text).group(1)
 
         artwork_name = l.text.replace("(" + DATE + ")", "").strip()
