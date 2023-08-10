@@ -102,7 +102,7 @@ def full_update(start, end): #gets show info for all events in events table
 #full_update(2023, 2023)
 
 # #usually can just be run for the current year
-#full_update(current_year, current_year)
+full_update(current_year, current_year)
 
 setlistToEvents()
 update_counts()
