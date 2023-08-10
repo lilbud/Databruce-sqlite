@@ -5,14 +5,15 @@ Name: Helper Stuff
 File Purpose: Various functions and items to help in data collection
 """
 
-import re, datetime
+import re
+import datetime
 
 states = [ 'AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL', 'GA',
-		   'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME',
-		   'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM',
-		   'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX',
-		   'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY']
- 
+           'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME',
+           'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM',
+           'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX',
+           'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY']
+
 provinces = ['AB', 'BC', 'NB', 'ON', 'QC']
 
 albums = {"Greetings From Asbury Park, N.J.": [1973, "studio"],
@@ -60,45 +61,75 @@ albums = {"Greetings From Asbury Park, N.J.": [1973, "studio"],
 "The Legendary 1979 No Nukes Concerts": [2021, "live"]}
 
 def venue_name_corrector(venue_name):
-	# fixes a few venue names that are incorrect
-	# usually missing commas or spaces
-	match(venue_name):
-		case "Alvin Theatre New York City Ny":
-			return "Alvin Theatre, New York City, NY"
-		case "Gwinnett Civic Center Arena Duluth Ga":
-			return "Gwinnett Civic Center Arena, Duluth, GA"
-		case "John F. Kennedy Memorial Center For The Performing Arts,Washington, DC":
-			return "John F. Kennedy Memorial Center For The Performing Arts, Washington, DC"
-		case _:
-			return venue_name
-		
+    # fixes a few venue names that are incorrect
+    # usually missing commas or spaces
+    match(venue_name):
+        case "Alvin Theatre New York City Ny":
+            return "Alvin Theatre, New York City, NY"
+        case "Gwinnett Civic Center Arena Duluth Ga":
+            return "Gwinnett Civic Center Arena, Duluth, GA"
+        case "John F. Kennedy Memorial Center For The Performing Arts,Washington, DC":
+            return "John F. Kennedy Memorial Center For The Performing Arts, Washington, DC"
+        case _:
+            return venue_name
+
 def song_link_corrector(url):
-	#fixes a single link that doesn't match up to songs table
-	match(url):
-		case "/song:rainy-day-women#12%20&%2035":
-			return "/song:rainy-day-women"
-		case "/song:rainy-day-women#12 & 35":
-			return "/song:rainy-day-women"
-		case _:
-			return url
+    #fixes a single link that doesn't match up to songs table
+    match(url):
+        case "/song:rainy-day-women#12%20&%2035":
+            return "/song:rainy-day-women"
+        case "/song:rainy-day-women#12 & 35":
+            return "/song:rainy-day-women"
+        case _:
+            return url
 
 def name_fix(name):
-	# corrects the name of venues
-	# some venues have text like "The" and "New" in the middle of the name
-	# they should be at the beginning
-	# ex. "The Upstage, Asbury Park, NJ" vs "Upstage (The), Asbury Park, NJ"
+    # corrects the name of venues
+    # some venues have text like "The" and "New" in the middle of the name
+    # they should be at the beginning
+    # ex. "The Upstage, Asbury Park, NJ" vs "Upstage (The), Asbury Park, NJ"
 
-	for n in ['The', 'Le', 'De', 'New']:
-		if "(" + n + ")" in name:
-			try:
-				name = n + " " + re.sub(" *\(" + n + "\) *", "", name)
-			except:
-				name = n + " " + re.sub(" *\(" + n + "\),", ", ", name)
-	
-	return name
+    for n in ['The', 'Le', 'De', 'New']:
+        if "(" + n + ")" in name:
+            try:
+                name = n + " " + re.sub(" *\(" + n + "\) *", "", name)
+            except:
+                name = n + " " + re.sub(" *\(" + n + "\),", ", ", name)
+
+    return name
 
 def run_time(start_time):
-	end_time = datetime.datetime.now()
-	print("Start Time: " + str(start_time))
-	print("End Time: " + str(end_time))
-	print("Runtime: " + str(end_time - start_time).split(".")[0])
+    end_time = datetime.datetime.now()
+    print("Start Time: " + str(start_time))
+    print("End Time: " + str(end_time))
+    print("Runtime: " + str(end_time - start_time).split(".", maxsplit=1)[0])
+
+def show_name_split(show_name, url):
+    venues = []
+    city = state = country = show = ""
+    vn = show_name.split(", ")
+    name = vn[0]
+
+    if re.match("[A-Z]{2} \(.*\)", vn[-1]):
+        state = vn[-1][0:2]
+        show = vn[-1][3:].strip("()")
+    elif len(vn[-1]) == 2:
+        state = vn[-1]
+    else:
+        state = ""
+
+    if len(vn) == 4:
+        name = ", ".join(vn[0:1])
+
+    if len(vn) >= 3:
+        city = vn[-2].strip()
+
+    if state in states:
+        country = "USA"
+    elif state in provinces:
+        country = "Canada"
+    else:
+        country = vn[-1].strip()
+
+    venues.append([name, city, state, country, show, url])
+    return venues

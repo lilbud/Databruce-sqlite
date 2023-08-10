@@ -5,11 +5,14 @@ Name: Data Collection
 File Purpose: Functions to get various kinds of data from Brucebase
 """
 
-import re, requests, os, sqlite3, datetime
+import os
+import sqlite3
+import re
+import requests
 from titlecase import titlecase
 from bs4 import BeautifulSoup as bs4
 import pandas as pd
-from helper_stuff import *
+from helper_stuff import states, provinces, albums, song_link_corrector, name_fix, show_name_split
 
 main_url = "http://brucebase.wikidot.com/"
 event_types = "/(gig|rehearsal|nobruce):"
@@ -17,302 +20,308 @@ event_types = "/(gig|rehearsal|nobruce):"
 db_path = os.path.dirname(__file__) + "/_database/database.sqlite"
 
 if os.path.isfile("./_database/database.sqlite"):
-	conn = sqlite3.connect(db_path)
-	cur = conn.cursor()
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
 else:
-	print("Database not found, Run setup.py")
-	exit()
+    print("Database not found, Run setup.py")
+    exit()
 
 def get_bands():
-	bands = []
-	r = requests.get(main_url + "system:page-tags/tag/band#pages").text
-	soup = bs4(r, 'lxml')
+    """
+    Gets all the bands that bruce has either played or recorded with
+    """
 
-	for b in soup.find_all('a', href=re.compile("/relation:.*")):
-		if not re.search("-([1-2])$", b.get('href')):
-			band_name = b.text.strip()
-			if ", The" in b.text or " (The)" in b.text:
-				band_name = "The " + re.sub("(, | )(\(The\)|The)", "", b.text.strip())
-			
-			bands.append([b.get('href'), band_name, 0])
+    bands = []
+    r = requests.get(main_url + "system:page-tags/tag/band#pages", timeout=5).text
+    soup = bs4(r, 'lxml')
 
-	cur.executemany("""INSERT OR IGNORE INTO BANDS VALUES (NULL, ?, ?, ?)""", 
-		sorted(bands, key=lambda band: band[1].replace("The ", "")))
-	
-	conn.commit()
-	print("Got Bands")
+    for b in soup.find_all('a', href=re.compile("/relation:.*")):
+        if not re.search("-([1-2])$", b.get('href')):
+            band_name = b.text.strip()
+            if ", The" in b.text or " (The)" in b.text:
+                band_name = "The " + re.sub("(, | )(\(The\)|The)", "", b.text.strip())
+
+            bands.append([b.get('href'), band_name, 0])
+
+    cur.executemany("""INSERT OR IGNORE INTO BANDS VALUES (NULL, ?, ?, ?)""",
+        sorted(bands, key=lambda band: band[1].replace("The ", "")))
+
+    conn.commit()
+    print("Got Bands")
 
 def get_people():
-	people = []
-	r = requests.get(main_url + "system:page-tags/tag/person#pages").text
-	soup = bs4(r, 'lxml')
+    """
+    Gets a list of all the people who have been on stage
+    or have otherwise appeared with bruce
+    """
 
-	for p in soup.find_all('a', href=re.compile("/relation:.*")):
-		curr = p.text.split(", ")
-		curr.reverse()
+    people = []
+    r = requests.get(main_url + "system:page-tags/tag/person#pages", timeout=5).text
+    soup = bs4(r, 'lxml')
 
-		if "(Timepiece)" in curr[0]:
-			curr[0] = curr[0].replace(" (Timepiece)", "")
-			curr[1] = curr[1] + " (Timepiece)"
+    for p in soup.find_all('a', href=re.compile("/relation:.*")):
+        curr = p.text.split(", ")
+        curr.reverse()
 
-		people.append([p.get('href'), " ".join(curr), 0])
-			
-	cur.executemany("""INSERT OR IGNORE INTO PERSONS VALUES (NULL, ?, ?, ?)""", people)
-	conn.commit()
-	
-	print("Got People")
+        if "(Timepiece)" in curr[0]:
+            curr[0] = curr[0].replace(" (Timepiece)", "")
+            curr[1] = curr[1] + " (Timepiece)"
+
+        people.append([p.get('href'), " ".join(curr), 0])
+
+    cur.executemany("""INSERT OR IGNORE INTO PERSONS VALUES (NULL, ?, ?, ?)""", people)
+    conn.commit()
+
+    print("Got People")
 
 def get_songs():
-	url = requests.get(main_url + "system:page-tags/tag/song#pages").text
-	soup = bs4(url, "lxml")
-	songs = []
+    """Gets the list of songs from the site"""
 
-	for s in soup.find_all(href=re.compile("/song:.*")):
-		#song_url, song_name, album_name, num_plays
-		songs.append([s.get('href'), s.text.strip(), "", "", 0])
+    url = requests.get(main_url + "system:page-tags/tag/song#pages", timeout=5).text
+    soup = bs4(url, "lxml")
+    songs = []
 
-	cur.executemany("""INSERT OR IGNORE INTO SONGS VALUES (NULL, ?, ?, ?, ?, ?)""", songs)
-	conn.commit()
+    for s in soup.find_all(href=re.compile("/song:.*")):
+        #song_url, song_name, album_name, num_plays
+        songs.append([s.get('href'), s.text.strip(), "", "", 0])
 
-	print("Got Songs")
+    cur.executemany("""INSERT OR IGNORE INTO SONGS VALUES (NULL, ?, ?, ?, ?, ?)""", songs)
+    conn.commit()
+
+    print("Got Songs")
 
 def get_venues():
-	url = requests.get(main_url + "system:sitemap").text
-	soup = bs4(url, "lxml")
-	venues = []
+    """
+    Gets the list of venues from the site
+    using the sitemap is the only way to get ALL of the venues
+    as many venue pages aren't tagged as such
+    """
 
-	for v in soup.find_all(href=re.compile("/venue:.*")):
-		city = state = country = ""
-		name = name_fix(venue_name_corrector(v.text.strip()))
+    url = requests.get(main_url + "system:sitemap", timeout=5).text
+    soup = bs4(url, "lxml")
+    venues = []
 
-		venues.append([v.get('href'), name, 0]) #putting into a list because source page is out of order
+    for v in soup.find_all(href=re.compile("/venue:.*")):
+        city = state = country = ""
+        name = name_fix(venue_name_corrector(v.text.strip()))
 
-	cur.executemany("""INSERT OR IGNORE INTO VENUES VALUES (NULL, ?, ?, ?)""",
-		sorted(venues, key=lambda venue: venue[1].replace("The ", "")))
-	
-	conn.commit()
-	print("Got Venues")
+        venues.append([v.get('href'), name, 0]) #putting into a list because source page is out of order
+
+    cur.executemany("""INSERT OR IGNORE INTO VENUES VALUES (NULL, ?, ?, ?)""",
+        sorted(venues, key=lambda venue: venue[1].replace("The ", "")))
+
+    conn.commit()
+    print("Got Venues")
 
 def get_events_by_year(year):
-	shows = []
+    """
+    Gets all the events for a year that match the list of allowed event_types
+    which are: gig, rehearsal, nobruce
+    these 3 are the only ones that will have setlists, and really be of interest
+    """
 
-	url = requests.get(main_url + str(year)).text
-	soup = bs4(url, "lxml")
+    shows = []
 
-	for e in soup.find_all('a', href=re.compile(event_types + str(year))):
-		if e.find_parent().name == "strong":
-			event_url = e.get('href')
-			location_url = event_venue = event_city = event_state = event_country = show = tour = setlist = ""
-			event_date = e.text[0:10]
+    url = requests.get(main_url + str(year), timeout=5).text
+    soup = bs4(url, "lxml")
 
-			shows.append([event_date, event_url, location_url, event_venue, event_city, event_state, event_country, show, tour, setlist])
-			cur.execute("""UPDATE SETLISTS SET event_date=? WHERE event_url=?""", (event_date, event_url))
-			conn.commit()
-	
-	cur.executemany("""INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", shows)
-	
-	conn.commit()
-	print("got events for year: " + str(year))
+    for e in soup.find_all('a', href=re.compile(event_types + str(year))):
+        if e.find_parent().name == "strong":
+            event_url = e.get('href')
+            location_url = event_venue = event_city = event_state = event_country = show = tour = setlist = ""
+            event_date = e.text[0:10]
+
+            shows.append([event_date, event_url, location_url, event_venue, event_city, event_state, event_country, show, tour, setlist])
+            cur.execute("""UPDATE SETLISTS SET event_date=? WHERE event_url=?""", (event_date, event_url))
+            conn.commit()
+
+    cur.executemany("""INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", shows)
+
+    conn.commit()
+    print("got events for year: " + str(year))
 
 def get_onStage(tab, url):
-	onStage = []
-	relation_name = relation_type = ""
+    """Gets the list of musicians/people/bands on stage at a given event"""
 
-	for m in tab.find_all(href=re.compile("/relation:.*")):
-		# 0 - id, 1 - url, 2 - name (for both)
-		b = cur.execute("""SELECT * FROM BANDS WHERE band_url=?""", (m.get('href'), )).fetchone()
-		p = cur.execute("""SELECT * FROM PERSONS WHERE person_url=?""", (m.get('href'), )).fetchone()
+    onStage = []
+    relation_name = relation_type = ""
 
-		if b:
-			relation_name = b[2]
-			relation_type = "Band"
-		elif p:
-			relation_name = p[2]
-			relation_type = "Person"
+    for m in tab.find_all(href=re.compile("/relation:.*")):
+        # 0 - id, 1 - url, 2 - name (for both)
+        b = cur.execute(f"""SELECT band_name FROM BANDS WHERE band_url=\"{m.get('href')}\"""").fetchone()
+        p = cur.execute(f"""SELECT person_name FROM PERSONS WHERE person_url=\"{m.get('href')}\"""").fetchone()
 
-		onStage.append([url, m.get('href'), relation_name, relation_type])
+        if b:
+            relation_name = b[0]
+            relation_type = "Band"
+        elif p:
+            relation_name = p[0]
+            relation_type = "Person"
 
-	cur.executemany("""INSERT OR IGNORE INTO ON_STAGE VALUES (NULL, ?, ?, ?, ?)""", onStage)
-	conn.commit()
+        onStage.append([url, m.get('href'), relation_name, relation_type])
+
+    cur.executemany("""INSERT OR IGNORE INTO ON_STAGE VALUES (NULL, ?, ?, ?, ?)""", onStage)
+    conn.commit()
 
 def get_setlist_by_url(tab, url, date):
-	song_name = ""
-	set_type = "Show"
-	song_num = 1
-	t = tab
-	show = []
+    """Gets the Setlist for a provided event_url"""
 
-	if tab.find('td'):
-		t = tab.find('td')
+    song_name = ""
+    set_type = "Show"
+    song_num = 1
+    t = tab
+    show = []
 
-	for item in t:
-		song_num_in_set = 1
-		if item.name != None:
-			if "/rehearsal:" in url:
-				set_type = "Rehearsal"
-			elif "/nobruce:" in url:
-				set_type = "No Bruce"
-			else:
-				if item.name == 'p' and item.next_element.name == 'strong':
-					set_type = item.next_element.text
+    if tab.find('td'):
+        t = tab.find('td')
 
-			for s in item.find_all('li'):
-				song_url = ""
-				if s.find('a'):
-					temp = s.find_all('a', href=re.compile("/song:.*"))
-					for i in temp:
-						song_url = song_link_corrector(i.get('href'))
-						song_name = cur.execute("""SELECT song_name FROM SONGS WHERE song_url=?""", (song_url, )).fetchone()[0]
-						show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
-						song_num += 1
-						
-						if temp.index(i) != (len(temp) - 1):
-							song_num_in_set += 1
+    for item in t:
+        song_num_in_set = 1
+        if item.name is not None:
+            if "/rehearsal:" in url:
+                set_type = "Rehearsal"
+            elif "/nobruce:" in url:
+                set_type = "No Bruce"
+            else:
+                if item.name == 'p' and item.next_element.name == 'strong':
+                    set_type = item.next_element.text
 
-				elif s.next_element.name != 'sup':
-					if " - " in s.text:
-						temp = s.text.split(" - ")
-						for t in temp:
-							song_name = titlecase(t)
-							show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
-							song_num += 1
+            for s in item.find_all('li'):
+                song_url = ""
+                if s.find('a'):
+                    temp = s.find_all('a', href=re.compile("/song:.*"))
+                    for i in temp:
+                        song_url = song_link_corrector(i.get('href'))
+                        song_name = cur.execute("""SELECT song_name FROM SONGS WHERE song_url=?""", (song_url, )).fetchone()[0]
+                        show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
+                        song_num += 1
 
-							if temp.index(t) != (len(temp) - 1):
-								song_num_in_set += 1
+                        if temp.index(i) != (len(temp) - 1):
+                            song_num_in_set += 1
 
-					else:
-						song_name = titlecase(s.text)
-						show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
-						song_num += 1
-			
-				song_num_in_set += 1
+                elif s.next_element.name != 'sup':
+                    if " - " in s.text:
+                        temp = s.text.split(" - ")
+                        for t in temp:
+                            song_name = titlecase(t)
+                            show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
+                            song_num += 1
 
-	if show:
-		cur.executemany("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""", show)
-		#cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", ((", ".join(x[2] for x in show)), url))
-	else:
-		# cur.execute("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""",
-		# 	(url, "", "", set_type, 0, 0, "no set details known"))
-		cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", ("No set details known", url))
-	conn.commit()
+                            if temp.index(t) != (len(temp) - 1):
+                                song_num_in_set += 1
+
+                    else:
+                        song_name = titlecase(s.text)
+                        show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
+                        song_num += 1
+
+                song_num_in_set += 1
+
+    if show:
+        cur.executemany("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""", show)
+        #cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", ((", ".join(x[2] for x in show)), url))
+    else:
+        # cur.execute("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""",
+        # 	(url, "", "", set_type, 0, 0, "no set details known"))
+        cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", ("No set details known", url))
+    conn.commit()
 
 def get_show_info(url):
-	r = requests.get(main_url + url.strip("/")).text
-	soup = bs4(r, "lxml")
-	venue = soup.find(href=re.compile("/venue:.*"))
-	name = showNameSplit(soup.find(id="page-title").text.strip()[11:].strip(), url)
-	nav = soup.find("ul", {"class": "yui-nav"}).find_all('li')
-	date = cur.execute("""SELECT event_date FROM EVENTS WHERE event_url=?""", (url,)).fetchone()
+    """Gets show info for a provided URL"""
 
-	v = cur.execute("""SELECT venue_url FROM VENUES WHERE venue_url=?""", (venue.get('href'), )).fetchone()
+    r = requests.get(main_url + url.strip("/"), timeout=5).text
+    soup = bs4(r, "lxml")
+    venue = soup.find(href=re.compile("/venue:.*"))
+    name = show_name_split(soup.find(id="page-title").text.strip()[11:].strip(), url)
+    nav = soup.find("ul", {"class": "yui-nav"}).find_all('li')
+    date = cur.execute("""SELECT event_date FROM EVENTS WHERE event_url=?""", (url,)).fetchone()
 
-	if v:
-		# get proper name instead of URL: venue_name = ", ".join(v[2:-2])
-		cur.execute("""UPDATE EVENTS SET location_url=? WHERE event_url=?""", (v[0], url))
-		conn.commit()
-	
-	#cur.execute("""UPDATE EVENTS SET event_name=? WHERE event_url=?""", (name_fix(name), url))
-	cur.executemany("""UPDATE EVENTS SET event_venue=?, event_city=?, event_state=?, event_country=?, show=? WHERE event_url=?""", name)
-	conn.commit()
+    v = cur.execute("""SELECT venue_url FROM VENUES WHERE venue_url=?""", (venue.get('href'), )).fetchone()
 
-	for n in nav:
-		if n.text == "On Stage":
-			get_onStage(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url)
-		if n.text == "Setlist":
-			get_setlist_by_url(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url, date[0])
+    if v:
+        # get proper name instead of URL: venue_name = ", ".join(v[2:-2])
+        cur.execute("""UPDATE EVENTS SET location_url=? WHERE event_url=?""", (v[0], url))
+        conn.commit()
+
+    cur.executemany("""UPDATE EVENTS SET event_venue=?, event_city=?, event_state=?, event_country=?, show=? WHERE event_url=?""", name)
+    conn.commit()
+
+    for n in nav:
+        if n.text == "On Stage":
+            get_onStage(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url)
+        if n.text == "Setlist":
+            get_setlist_by_url(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url, date[0])
+
+get_show_info("/gig:2023-08-09-wrigley-field-chicago-il")
 
 def get_tours():
-	tour = []
-	df = pd.read_html(main_url + 'stats:tour-statistics', extract_links="all", skiprows=(0,1))
+    """Gets tour names from BB"""
 
-	for i in df[0][1]:
-		tour_name = i[0]
-		if i[1] == "/stats:shows-rvr16-tour":
-			tour_name = "The River Tour '16"
-		
-		tour.append([i[1], tour_name, 0])
+    tour = []
+    df = pd.read_html(main_url + 'stats:tour-statistics', extract_links="all", skiprows=(0,1))
 
-	cur.executemany("""INSERT OR IGNORE INTO TOURS VALUES (NULL, ?, ?, ?)""", tour)
-	conn.commit()
+    for i in df[0][1]:
+        tour_name = i[0]
+        if i[1] == "/stats:shows-rvr16-tour":
+            tour_name = "The River Tour '16"
+
+        tour.append([i[1], tour_name, 0])
+
+    cur.executemany("""INSERT OR IGNORE INTO TOURS VALUES (NULL, ?, ?, ?)""", tour)
+    conn.commit()
 
 def get_tour_events(url, name):
-	r = requests.get(main_url + url.strip("/")).text
-	soup = bs4(r, "lxml")
+    """Finds the tour that an event belongs to and updates that entry in EVENTS"""
 
-	for t in soup.find("div", {"class": "yui-content"}).find_all("li"):
-		if t.find('a', href=re.compile(event_types)):
-			cur.execute("""UPDATE EVENTS SET tour=? WHERE event_url=? AND tour=?""",
-				(name, t.find('a').get('href'), "",))
-			
-			conn.commit()
+    r = requests.get(main_url + url.strip("/"), timeout=5).text
+    soup = bs4(r, "lxml")
+
+    for t in soup.find("div", {"class": "yui-content"}).find_all("li"):
+        if t.find('a', href=re.compile(event_types)):
+            cur.execute("""UPDATE EVENTS SET tour=? WHERE event_url=? AND tour=?""",
+                (name, t.find('a').get('href'), "",))
+
+            conn.commit()
 
 def get_albums():
-	r = requests.get(main_url + "stats:song-count-by-album").text
-	soup = bs4(r, "lxml")
-	album_num = 0
-	album = []
+    """Gets albums and their songs, can be used to find full album shows"""
 
-	for s in soup.find_all(id=re.compile("wiki-tabview.*")):
-		nav = s.find("ul", {"class": "yui-nav"}).find_all('li')
+    r = requests.get(main_url + "stats:song-count-by-album", timeout=5).text
+    soup = bs4(r, "lxml")
+    album_num = 0
+    album = []
 
-		for n in nav:
-			count = 1
-			song_url = song_name = ""
-			
-			for a in s.find(id="wiki-tab-0-" + str(nav.index(n))).find_all('td'):
-				if a.find('a', href=re.compile("/song:.*")):
-					song_url = a.find('a').get('href')
-					song_name = a.find('a').text
+    for s in soup.find_all(id=re.compile("wiki-tabview.*")):
+        nav = s.find("ul", {"class": "yui-nav"}).find_all('li')
 
-					album.append([n.text, albums[n.text][1], albums[n.text][0], song_url, song_name, count])
-					count += 1
-			album_num += 1	
-			
-	cur.executemany("""INSERT OR IGNORE INTO ALBUMS VALUES (?, ?, ?, ?, ?, ?)""",
-		sorted(album, key=lambda album: album[2]))
-	conn.commit()
-	print("Got Albums")
+        for n in nav:
+            count = 1
+            song_url = song_name = ""
+
+            for a in s.find(id="wiki-tab-0-" + str(nav.index(n))).find_all('td'):
+                if a.find('a', href=re.compile("/song:.*")):
+                    song_url = a.find('a').get('href')
+                    song_name = a.find('a').text
+
+                    album.append([n.text, albums[n.text][1], albums[n.text][0], song_url, song_name, count])
+                    count += 1
+            album_num += 1
+
+    cur.executemany("""INSERT OR IGNORE INTO ALBUMS VALUES (?, ?, ?, ?, ?, ?)""",
+        sorted(album, key=lambda album: album[2]))
+    conn.commit()
+    print("Got Albums")
 
 # figured out afterwards that setlist matching would be much easier
-# if I could just match a comma list as opposed to my first attempt
-# which looked like the following: 
+# if I could just match a comma separated list as opposed to my first attempt
+# which looked like the following:
 # input two songs -> find all shows with those songs ->
 # return id of song1 setlist entry -> check if id+1 equals song 2
-def setlistToEvents():
-	eventList = cur.execute("""SELECT event_url FROM EVENTS""").fetchall()
-	for e in eventList:
-		s = cur.execute("""SELECT song_name FROM SETLISTS WHERE event_url=? AND set_type NOT IN ('Soundcheck','Rehearsal','Pre-show') ORDER BY song_num ASC""", (e[0],)).fetchall()
-		setlist = ", ".join(x[0] for x in s)
+def setlist_to_events():
+    eventList = cur.execute("""SELECT event_url FROM EVENTS""").fetchall()
+    for e in eventList:
+        s = cur.execute("""SELECT song_name FROM SETLISTS WHERE event_url=? AND set_type NOT IN ('Soundcheck','Rehearsal','Pre-show') ORDER BY song_num ASC""", (e[0],)).fetchall()
+        setlist = ", ".join(x[0] for x in s)
 
-		cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", (setlist, e[0]))
-		conn.commit()
-
-def showNameSplit(showName, url):
-	venues = []
-	city = state = country = show = ""
-	vn = showName.split(", ")
-	name = vn[0]
-
-	if re.match("[A-Z]{2} \(.*\)", vn[-1]):
-		state = vn[-1][0:2]
-		show = vn[-1][3:].strip("()")
-	elif len(vn[-1]) == 2:
-		state = vn[-1]
-	else:
-		state = ""
-
-	if len(vn) == 4:
-		name = ", ".join(vn[0:1])
-
-	if len(vn) >= 3:
-		city = vn[-2].strip()
-
-	if state in states:
-		country = "USA"
-	elif state in provinces:
-		country = "Canada"
-	else:
-		country = vn[-1].strip()
-
-	venues.append([name, city, state, country, show, url])
-	return venues
+        cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", (setlist, e[0]))
+        conn.commit()

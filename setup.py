@@ -5,7 +5,8 @@ Name: Setup
 File Purpose: Sets up directories and the main database
 """
 
-import os, sqlite3
+import os
+import sqlite3
 
 os.makedirs("_csv", exist_ok=True)
 os.makedirs("_database", exist_ok=True)
@@ -104,7 +105,7 @@ cur.execute("""CREATE TABLE IF NOT EXISTS ALBUMS (
 	song_name TEXT NOT NULL,
 	song_num INT NOT NULL,
 	UNIQUE(album_name, song_url));""")
-    
+
 #artwork table:
 cur.execute("""CREATE TABLE IF NOT EXISTS ARTWORK (
 	artwork_id INTEGER primary key autoincrement,
