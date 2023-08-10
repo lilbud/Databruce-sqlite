@@ -30,7 +30,7 @@ def update_counts():
 		conn.commit()
 
 	for v in cur.execute("""SELECT venue_url FROM VENUES""").fetchall():
-		count = cur.execute("""SELECT COUNT(?) FROM EVENTS WHERE event_location=?""", (v[0], v[0])).fetchone()
+		count = cur.execute("""SELECT COUNT(?) FROM EVENTS WHERE location_url=?""", (v[0], v[0])).fetchone()
 		cur.execute("""UPDATE VENUES SET num_performances=? WHERE venue_url=?""", (count[0], v[0],))
 		conn.commit()
 
@@ -104,7 +104,7 @@ def full_update(start, end): #gets show info for all events in events table
 # #usually can just be run for the current year
 #full_update(current_year, current_year)
 
-#setlistToEvents()
+setlistToEvents()
 update_counts()
 run_time(start_time)
 

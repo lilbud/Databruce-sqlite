@@ -18,8 +18,12 @@ cur.execute("""CREATE TABLE IF NOT EXISTS EVENTS (
 	event_id INTEGER primary key autoincrement,
 	event_date TEXT NOT NULL,
 	event_url TEXT NOT NULL,
-	event_name TEXT NOT NULL,
-	event_location TEXT NOT NULL,
+	location_url TEXT NOT NULL,
+	event_venue TEXT NOT NULL,
+	event_city TEXT NOT NULL,
+	event_state TEXT NOT NULL,
+	event_country TEXT NOT NULL,
+	show TEXT NOT NULL,
 	tour TEXT NOT NULL,
 	setlist TEXT NOT NULL,
 	UNIQUE(event_url));""")
@@ -31,9 +35,6 @@ cur.execute("""CREATE TABLE IF NOT EXISTS VENUES (
 	venue_id INTEGER primary key autoincrement,
 	venue_url TEXT NOT NULL,
 	venue_name TEXT NOT NULL,
-	venue_city TEXT NOT NULL,
-	venue_state TEXT NOT NULL,
-	venue_country TEXT NOT NULL,
 	num_performances INT NOT NULL,
 	UNIQUE(venue_url));""")
 

@@ -84,29 +84,10 @@ def get_venues():
 	for v in soup.find_all(href=re.compile("/venue:.*")):
 		city = state = country = ""
 		name = name_fix(venue_name_corrector(v.text.strip()))
-	
-		vn = name.split(", ")
-		name = vn[0]
 
-		if len(vn) == 4:
-			name = ", ".join(vn[0:2])
+		venues.append([v.get('href'), name, 0]) #putting into a list because source page is out of order
 
-		if len(vn) >= 3:
-			city = vn[-2].strip()
-
-		# checks if state/province or country
-		if len(vn[-1]) == 2:
-			state = vn[-1].strip()
-			if state in states:
-				country = "USA"
-			elif state in provinces:
-				country = "Canada"
-		else:
-			country = vn[-1].strip()
-
-		venues.append([v.get('href'), name, city, state, country, 0]) #putting into a list because source page is out of order
-
-	cur.executemany("""INSERT OR IGNORE INTO VENUES VALUES (NULL, ?, ?, ?, ?, ?, ?)""",
+	cur.executemany("""INSERT OR IGNORE INTO VENUES VALUES (NULL, ?, ?, ?)""",
 		sorted(venues, key=lambda venue: venue[1].replace("The ", "")))
 	
 	conn.commit()
@@ -121,14 +102,14 @@ def get_events_by_year(year):
 	for e in soup.find_all('a', href=re.compile(event_types + str(year))):
 		if e.find_parent().name == "strong":
 			event_url = e.get('href')
-			event_location = event_type = show = tour = event_name = setlist = ""
+			location_url = event_venue = event_city = event_state = event_country = show = tour = setlist = ""
 			event_date = e.text[0:10]
 
-			shows.append([event_date, event_url, event_name, event_location, tour, setlist])
+			shows.append([event_date, event_url, location_url, event_venue, event_city, event_state, event_country, show, tour, setlist])
 			cur.execute("""UPDATE SETLISTS SET event_date=? WHERE event_url=?""", (event_date, event_url))
 			conn.commit()
 	
-	cur.executemany("""INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?, ?)""", shows)
+	cur.executemany("""INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", shows)
 	
 	conn.commit()
 	print("got events for year: " + str(year))
@@ -154,7 +135,7 @@ def get_onStage(tab, url):
 	cur.executemany("""INSERT OR IGNORE INTO ON_STAGE VALUES (NULL, ?, ?, ?, ?)""", onStage)
 	conn.commit()
 
-def get_setlist_by_url(tab, url):
+def get_setlist_by_url(tab, url, date):
 	song_name = ""
 	set_type = "Show"
 	song_num = 1
@@ -182,7 +163,7 @@ def get_setlist_by_url(tab, url):
 					for i in temp:
 						song_url = song_link_corrector(i.get('href'))
 						song_name = cur.execute("""SELECT song_name FROM SONGS WHERE song_url=?""", (song_url, )).fetchone()[0]
-						show.append([url, song_url, song_name, set_type, song_num_in_set, song_num])
+						show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
 						song_num += 1
 						
 						if temp.index(i) != (len(temp) - 1):
@@ -193,7 +174,7 @@ def get_setlist_by_url(tab, url):
 						temp = s.text.split(" - ")
 						for t in temp:
 							song_name = titlecase(t)
-							show.append([url, song_url, song_name, set_type, song_num_in_set, song_num])
+							show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
 							song_num += 1
 
 							if temp.index(t) != (len(temp) - 1):
@@ -201,13 +182,13 @@ def get_setlist_by_url(tab, url):
 
 					else:
 						song_name = titlecase(s.text)
-						show.append([url, song_url, song_name, set_type, song_num_in_set, song_num])
+						show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
 						song_num += 1
 			
 				song_num_in_set += 1
 
 	if show:
-		cur.executemany("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?)""", show)
+		cur.executemany("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""", show)
 		#cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", ((", ".join(x[2] for x in show)), url))
 	else:
 		# cur.execute("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""",
@@ -219,24 +200,26 @@ def get_show_info(url):
 	r = requests.get(main_url + url.strip("/")).text
 	soup = bs4(r, "lxml")
 	venue = soup.find(href=re.compile("/venue:.*"))
-	name = soup.find(id="page-title").text.strip()[11:].strip()
+	name = showNameSplit(soup.find(id="page-title").text.strip()[11:].strip(), url)
 	nav = soup.find("ul", {"class": "yui-nav"}).find_all('li')
+	date = cur.execute("""SELECT event_date FROM EVENTS WHERE event_url=?""", (url,)).fetchone()
 
 	v = cur.execute("""SELECT venue_url FROM VENUES WHERE venue_url=?""", (venue.get('href'), )).fetchone()
 
 	if v:
 		# get proper name instead of URL: venue_name = ", ".join(v[2:-2])
-		cur.execute("""UPDATE EVENTS SET event_location=? WHERE event_url=?""", (v[0], url))
+		cur.execute("""UPDATE EVENTS SET location_url=? WHERE event_url=?""", (v[0], url))
 		conn.commit()
 	
-	cur.execute("""UPDATE EVENTS SET event_name=? WHERE event_url=?""", (name_fix(name), url))
+	#cur.execute("""UPDATE EVENTS SET event_name=? WHERE event_url=?""", (name_fix(name), url))
+	cur.executemany("""UPDATE EVENTS SET event_venue=?, event_city=?, event_state=?, event_country=?, show=? WHERE event_url=?""", name)
 	conn.commit()
 
 	for n in nav:
 		if n.text == "On Stage":
 			get_onStage(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url)
 		if n.text == "Setlist":
-			get_setlist_by_url(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url)
+			get_setlist_by_url(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url, date[0])
 
 def get_tours():
 	tour = []
@@ -303,3 +286,31 @@ def setlistToEvents():
 
 		cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", (setlist, e[0]))
 		conn.commit()
+
+def showNameSplit(showName, url):
+	venues = []
+	city = state = country = show = ""
+	vn = showName.split(", ")
+	name = vn[0]
+
+	if re.match("[A-Z]{2} \(.*\)", vn[-1]):
+		state = vn[-1][0:2]
+		show = vn[-1][3:].strip("()")
+	else:
+		state = vn[-1]
+
+	if len(vn) == 4:
+		name = ", ".join(vn[0:1])
+
+	if len(vn) >= 3:
+		city = vn[-2].strip()
+
+	if state in states:
+		country = "USA"
+	elif state in provinces:
+		country = "Canada"
+	else:
+		country = vn[-1].strip()
+
+	venues.append([name, city, state, country, show, url])
+	return venues
