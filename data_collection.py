@@ -296,8 +296,10 @@ def showNameSplit(showName, url):
 	if re.match("[A-Z]{2} \(.*\)", vn[-1]):
 		state = vn[-1][0:2]
 		show = vn[-1][3:].strip("()")
-	else:
+	elif len(vn[-1]) == 2:
 		state = vn[-1]
+	else:
+		state = ""
 
 	if len(vn) == 4:
 		name = ", ".join(vn[0:1])
