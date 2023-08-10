@@ -78,7 +78,7 @@ def setlist_matching(seq):
         sequence.append(s[0])
 
     song_list = ", ".join(sequence).replace("'", "''")
-    setlists = cur.execute(f"""SELECT event_date, event_venue, event_city, event_state, event_country, show, event_url from EVENTS WHERE setlist LIKE '%{song_list}%'""").fetchall()
+    setlists = cur.execute(f"""SELECT event_date, event_venue, event_city, event_state, event_country, show from EVENTS WHERE setlist LIKE '%{song_list}%'""").fetchall()
 
     header = str(len(setlists)) + " Shows Where This Sequence Took Place (first 5 shown): " + ", ".join(sequence)
     print("-"*len(header))
@@ -90,6 +90,70 @@ def setlist_matching(seq):
     
     print("-"*len(header))
 
+def city_find(city):
+    output = ""
+    city_events = cur.execute(f"""SELECT event_date, event_venue, event_city, event_state, event_country, show FROM EVENTS WHERE LOWER(event_city) LIKE '%{city.lower()}%' ORDER BY event_id""").fetchall()
+    
+    if city_events:
+        first = city_events[0][0] + " - " + ", ".join(list(filter(None, city_events[0][1:])))
+        last = city_events[-1][0] + " - " + ", ".join(list(filter(None, city_events[-1][1:])))
+
+        output = f"{len(city_events)} Shows Have Happened in {city_events[0][2]}"
+
+        print("\n" + "-"*len(output))
+        print(f"Results for City: {city_events[0][2]}")
+        print(f"\tNumber of Shows: {len(city_events)}")
+        print(f"\tFirst Show: {first}")
+        print(f"\tMost Recent Show: {last}")
+
+        print("-"*len(output))
+    else:
+        print("\n" + "-"*21)
+        print("ERROR: City Not Found")
+        print("-"*21)
+
+def state_find(state):
+    state_events = cur.execute(f"""SELECT event_date, event_venue, event_city, event_state, event_country, show FROM EVENTS WHERE LOWER(event_state) = {state.lower()} ORDER BY event_id""").fetchall()
+    
+    if state_events:
+        first = state_events[0][0] + " - " + ", ".join(list(filter(None, state_events[0][1:])))
+        last = state_events[-1][0] + " - " + ", ".join(list(filter(None, state_events[-1][1:])))
+
+        output = f"{len(state_events)} Shows Have Happened in {state_events[0][2]}"
+
+        print("\n" + "-"*len(output))
+        print(f"Results for State: {state_events[0][3]}")
+        print(f"\tNumber of Shows: {len(state_events)}")
+        print(f"\tFirst Show: {first}")
+        print(f"\tMost Recent Show: {last}")
+
+        print("-"*len(output))
+    else:
+        print("\n" + "-"*21)
+        print("ERROR: State Not Found")
+        print("-"*21)
+
+def country_find(country):
+    country_events = cur.execute(f"""SELECT event_date, event_venue, event_city, event_state, event_country, show FROM EVENTS WHERE LOWER(event_country) LIKE '%{country.lower()}%' AND setlist != '' ORDER BY event_id""").fetchall()
+    
+    if country_events:
+        first = country_events[0][0] + " - " + ", ".join(list(filter(None, country_events[0][1:])))
+        last = country_events[-1][0] + " - " + ", ".join(list(filter(None, country_events[-1][1:])))
+
+        output = f"{len(country_events)} Shows Have Happened in {country_events[0][2]}"
+
+        print("\n" + "-"*len(output))
+        print(f"Results for Country: {country_events[0][4]}")
+        print(f"\tNumber of Shows: {len(country_events)}")
+        print(f"\tFirst Show: {first}")
+        print(f"\tMost Recent Show: {last}")
+
+        print("-"*len(output))
+    else:
+        print("\n" + "-"*21)
+        print("ERROR: Country Not Found")
+        print("-"*21)
+
 def menu():
     cmd = ""
     print("Databruce Menu")
@@ -97,7 +161,14 @@ def menu():
     print("(Note: the best I can manage with no frontend skills)")
     
     while cmd != "exit":
-        print("\nOptions:\n\t[!sl or !setlist YYYY-MM-DD] Setlist Finder (Find Setlists By Date)\n\t[!song SONG NAME] Song Finder (Find Songs by Name\n\t[!otd or !onthisday MM-DD] On This Day (Find Events from this Day)\n\t[!match song1, song2...] Setlist Matching (Find Shows Where a Specific Sequence Occurred)")
+        print("\nOptions:")
+        print("\t[!sl or !setlist YYYY-MM-DD] Setlist Finder (Find Setlists By Date)")
+        print("\t[!song SONG_NAME] Song Finder (Find Songs by Name")
+        print("\t[!otd or !onthisday MM-DD] On This Day (Find Events from this Day)")
+        print("\t[!match song1, song2...] Setlist Matching (Find Shows Where a Specific Sequence Occurred)")
+        print("\t[!city CITY_NAME] Find shows that happened in a specific City")
+        print("\t[!state STATE ABB.] Find shows that happened in a specific US State or Canadian Province (2 Letter Abbreviation)")
+        print("\t[!country COUNTRY_NAME] Find shows that happened in a specific Country")
 
         cmd = input("\nEnter Command: ")
 
@@ -109,6 +180,16 @@ def menu():
             on_this_day(re.sub("!(onthisday|otd) *", "", cmd))
         elif re.search("!match", cmd):
             setlist_matching(re.sub("!match ", "", cmd).replace("'", "''"))
+        elif re.search("!city", cmd):
+            city_find(re.sub("!city ", "", cmd).replace("'", "''"))
+        elif re.search("!state", cmd):
+            state = re.sub("!state ", "", cmd)
+            if len(state) == 2:
+                state_find(state)
+            else:
+                print("Incorrect Input")
+        elif re.search("!country", cmd):
+            country_find(re.sub("!country ", "", cmd).replace("'", "''"))
         else:
             break
 

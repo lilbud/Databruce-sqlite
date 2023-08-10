@@ -12,7 +12,7 @@ import requests
 from titlecase import titlecase
 from bs4 import BeautifulSoup as bs4
 import pandas as pd
-from helper_stuff import states, provinces, albums, song_link_corrector, name_fix, show_name_split
+from helper_stuff import albums, song_link_corrector, name_fix, show_name_split
 
 main_url = "http://brucebase.wikidot.com/"
 event_types = "/(gig|rehearsal|nobruce):"
@@ -102,9 +102,7 @@ def get_venues():
     venues = []
 
     for v in soup.find_all(href=re.compile("/venue:.*")):
-        city = state = country = ""
         name = name_fix(venue_name_corrector(v.text.strip()))
-
         venues.append([v.get('href'), name, 0]) #putting into a list because source page is out of order
 
     cur.executemany("""INSERT OR IGNORE INTO VENUES VALUES (NULL, ?, ?, ?)""",
@@ -318,8 +316,7 @@ def get_albums():
 # input two songs -> find all shows with those songs ->
 # return id of song1 setlist entry -> check if id+1 equals song 2
 def setlist_to_events():
-    eventList = cur.execute("""SELECT event_url FROM EVENTS""").fetchall()
-    for e in eventList:
+    for e in cur.execute("""SELECT event_url FROM EVENTS""").fetchall():
         s = cur.execute("""SELECT song_name FROM SETLISTS WHERE event_url=? AND set_type NOT IN ('Soundcheck','Rehearsal','Pre-show') ORDER BY song_num ASC""", (e[0],)).fetchall()
         setlist = ", ".join(x[0] for x in s)
 
