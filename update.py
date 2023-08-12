@@ -18,17 +18,21 @@ start_time = datetime.datetime.now()
 
 def update_counts():
     """update various play/performance counts"""
-
+    f = l = ""
     for s in cur.execute("""SELECT song_url, song_name FROM SONGS""").fetchall():
+        f = l = ''
         count = cur.execute(f"""SELECT COUNT(\"{s[0]}\") FROM SETLISTS WHERE song_url = \"{s[0]}\" AND set_type NOT IN ('Rehearsal', 'Soundcheck')""").fetchone()[0]
 
-        f = cur.execute(f"""SELECT event_date FROM EVENTS WHERE setlist LIKE '%{s[1].replace("'", "''")}%' ORDER BY event_date ASC""").fetchone()
-        l = cur.execute(f"""SELECT event_date FROM EVENTS WHERE setlist LIKE '%{s[1].replace("'", "''")}%' ORDER BY event_date DESC""").fetchone()
+        if count > 0:
+            f = cur.execute(f"""SELECT event_date FROM EVENTS WHERE setlist LIKE '%{s[1].replace("'", "''")}%' ORDER BY event_date ASC""").fetchone()
+            l = cur.execute(f"""SELECT event_date FROM EVENTS WHERE setlist LIKE '%{s[1].replace("'", "''")}%' ORDER BY event_date DESC""").fetchone()
 
-        if f and l:
-            cur.execute(f"""UPDATE SONGS SET num_plays={count}, first_played=\"{f[0]}\", last_played=\"{l[0]}\" WHERE song_url=\"{s[0]}\"""")
+            if f and l:
+                cur.execute(f"""UPDATE SONGS SET num_plays={count}, first_played=\"{f[0]}\", last_played=\"{l[0]}\" WHERE song_url=\"{s[0]}\"""")
+            else:
+                cur.execute(f"""UPDATE SONGS SET num_plays={count} WHERE song_url=\"{s[0]}\"""")
         else:
-            cur.execute(f"""UPDATE SONGS SET num_plays={count} WHERE song_url=\"{s[0]}\"""")
+            cur.execute(f"""UPDATE SONGS SET num_plays='0' WHERE song_url=\"{s[0]}\"""")
 
         conn.commit()
 

@@ -25,7 +25,12 @@ def on_this_day(date):
 def song_finder(song):
     #0,  1,    2,     3,     4,     5
     #id, url, name, first, last, num_plays
-    s = cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '%{song.replace("'", "''")}%'""").fetchone()
+    header = s = ""
+
+    if cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '{song}'""").fetchone():
+        s = cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '{song}'""").fetchone()
+    elif cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '%{song}%'""").fetchone():
+        s = cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '%{song}%'""").fetchone()
 
     if s:
         f = cur.execute(f"""SELECT event_venue, event_city, event_state, event_country, show FROM EVENTS WHERE event_date = \"{s[3]}\"""").fetchone()
@@ -44,7 +49,7 @@ def song_finder(song):
         print(header)
         print(f"Song Link: {main_url}{s[1].strip('/')}")
         print(f"Num Times Played: {s[5]}")
-        print(f"First Played: {s[3]} - {f_location}" + s[3])
+        print(f"First Played: {s[3]} - {f_location}")
         print(f"Last Played: {s[4]} - {l_location}")
         print(f"Number of Times as Show Opener: {opener[0]}")
         print(f"Number of Times as Show Closer: {closer[0]}" + str(closer[0]))
@@ -183,7 +188,7 @@ def menu():
         if re.search("!(setlist|sl)", cmd):
             setlist_finder(re.sub("!(setlist|sl) ", "", cmd))
         elif re.search("!song", cmd):
-            song_finder(re.sub("!song ", "", cmd))
+            song_finder(re.sub("!song ", "", cmd).replace("'", "''"))
         elif re.search("!(onthisday|otd)", cmd):
             on_this_day(re.sub("!(onthisday|otd) *", "", cmd))
         elif re.search("!match", cmd):
