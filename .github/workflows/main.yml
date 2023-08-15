@@ -16,7 +16,7 @@ jobs:
           python -m pip install -r requirements.txt
       - name: run database update
         run: |
-          python -m update.py
+          python update.py
 
   # # label of the container job
   # postgres-job:
