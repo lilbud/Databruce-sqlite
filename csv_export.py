@@ -15,7 +15,7 @@ conn = sqlite3.connect(os.path.dirname(__file__) + "/_database/database.sqlite")
 cur = conn.cursor()
 
 def csv_export():
-    """Exports all Tables to CSV files"""
+    """Exports all Tables to CSV Files"""
 
     for t in cur.execute("""SELECT name FROM sqlite_master WHERE type='table';"""):
         if "sequence" not in t[0]:
