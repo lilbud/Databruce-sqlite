@@ -71,7 +71,7 @@ jobs:
           apt-get install --yes postgresql-client
       
       - name: run PostgreSQL
-        run: sudo systemctl start postgresql.service
+        run: systemctl start postgresql.service
       
       - name: Install PGLoader
         run: apt-get install --yes pgloader
