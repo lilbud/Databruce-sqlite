@@ -88,7 +88,7 @@ jobs:
         run: heroku container:login
 
       - name: push DB changes to Heroku and reboot
-      - run: |
+        run: |
           heroku pg:reset --confirm brucebot-discord --app brucebot-discord
           heroku pg:push postgres_db DATABASE_URL --app brucebot-discord
           heroku ps:restart --app brucebot-discord
