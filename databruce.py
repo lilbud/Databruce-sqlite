@@ -27,10 +27,8 @@ def song_finder(song):
     #id, url, name, first, last, num_plays
     header = s = ""
 
-    if cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '{song}'""").fetchone():
-        s = cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '{song}'""").fetchone()
-    elif cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '%{song}%'""").fetchone():
-        s = cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '%{song}%'""").fetchone()
+    if cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '{song}' OR song_name LIKE '%{song}%'""").fetchone():
+        s = cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '{song}' OR song_name LIKE '%{song}%'""").fetchone()
 
     if s:
         f = cur.execute(f"""SELECT event_venue, event_city, event_state, event_country, show FROM EVENTS WHERE event_date = \"{s[3]}\"""").fetchone()
@@ -167,16 +165,28 @@ def country_find(country):
         print("ERROR: Country Not Found")
         print("-"*21)
 
+def song_and_year(song, year):
+    #id, url, name, first, last, num_plays
+    if cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '{song}' OR song_name LIKE '%{song}%'""").fetchone():
+        s = cur.execute(f"""SELECT * FROM SONGS WHERE song_name LIKE '{song}' OR song_name LIKE '%{song}%'""").fetchone()
+
+    if s:
+        count = cur.execute(f"""SELECT COUNT(*) FROM EVENTS WHERE setlist LIKE '%{song}%' AND event_date LIKE '{year}%'""").fetchone()
+
+        if count:
+            print(f"Song Name: {s[2]}")
+            print(f"Number of Times Played in {year}: {count[0]}")
+
 def menu():
     cmd = ""
     print("Databruce Menu")
     print("A (kinda) frontend to interact with the Databruce db")
     print("(Note: the best I can manage with no frontend skills)")
-    
+
     while cmd != "exit":
         print("\nOptions:")
         print("\t[!sl or !setlist YYYY-MM-DD] Setlist Finder (Find Setlists By Date)")
-        print("\t[!song SONG_NAME] Song Finder (Find Songs by Name")
+        print("\t[!song SONG_NAME, YEAR (optional)] Song Finder (Find Songs by Name")
         print("\t[!otd or !onthisday MM-DD] On This Day (Find Events from this Day)")
         print("\t[!match song1, song2...] Setlist Matching (Find Shows Where a Specific Sequence Occurred)")
         print("\t[!city CITY_NAME] Find shows that happened in a specific City")
@@ -185,25 +195,35 @@ def menu():
 
         cmd = input("\nEnter Command: ")
 
-        if re.search("!(setlist|sl)", cmd):
-            setlist_finder(re.sub("!(setlist|sl) ", "", cmd))
-        elif re.search("!song", cmd):
-            song_finder(re.sub("!song ", "", cmd).replace("'", "''"))
-        elif re.search("!(onthisday|otd)", cmd):
-            on_this_day(re.sub("!(onthisday|otd) *", "", cmd))
-        elif re.search("!match", cmd):
-            setlist_matching(re.sub("!match ", "", cmd).replace("'", "''"))
-        elif re.search("!city", cmd):
-            city_find(re.sub("!city ", "", cmd).replace("'", "''"))
-        elif re.search("!state", cmd):
-            state = re.sub("!state ", "", cmd)
-            if len(state) == 2:
-                state_find(state)
+        cmd = re.split(", ", cmd)
+        if len(cmd) == 3:
+            cmd = [", ".join(cmd[0:1]), cmd[2]]
+        elif len(cmd) == 4:
+            cmd = [", ".join(cmd[0:2]), cmd[3]]
+
+        if len(cmd) == 1:
+            if re.search("!(setlist|sl)", cmd[0]):
+                setlist_finder(re.sub("!(setlist|sl) ", "", cmd[0]))
+            elif re.search("!song", cmd[0]):
+                song_finder(re.sub("!song ", "", cmd[0]).replace("'", "''"))
+            elif re.search("!(onthisday|otd)", cmd[0]):
+                on_this_day(re.sub("!(onthisday|otd) *", "", cmd[0]))
+            elif re.search("!match", cmd[0]):
+                setlist_matching(re.sub("!match ", "", cmd[0]).replace("'", "''"))
+            elif re.search("!city", cmd[0]):
+                city_find(re.sub("!city ", "", cmd[0]).replace("'", "''"))
+            elif re.search("!state", cmd):
+                state = re.sub("!state ", "", cmd[0])
+                if len(state) == 2:
+                    state_find(state)
+                else:
+                    print("Incorrect Input")
+            elif re.search("!country", cmd[0]):
+                country_find(re.sub("!country ", "", cmd[0]).replace("'", "''"))
             else:
-                print("Incorrect Input")
-        elif re.search("!country", cmd):
-            country_find(re.sub("!country ", "", cmd).replace("'", "''"))
-        else:
-            break
+                break
+        if len(cmd) == 2:
+            if re.search("!song ", cmd[0]):
+                song_and_year(re.sub("!song ", "", cmd[0]), cmd[1])
 
 menu()
