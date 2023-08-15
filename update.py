@@ -88,8 +88,8 @@ def full_update(start, end):
     for i in range(start, end+1):
         print(i)
 
-        for u in cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '%{str(i)}%'""").fetchall():
-            setcheck = cur.execute(f"""SELECT EXISTS(SELECT 1 FROM SETLISTS WHERE event_url LIKE \"'%{u[0]}%'\" LIMIT 1)""").fetchone()
+        for u in cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(i)}%'""").fetchall():
+            setcheck = cur.execute(f"""SELECT EXISTS(SELECT 1 FROM SETLISTS WHERE event_url LIKE '%{u[0]}%' LIMIT 1)""").fetchone()
 
             if setcheck[0] == 0:
                 get_show_info(u[0])
@@ -108,9 +108,9 @@ def full_update(start, end):
 #full_update(2023, 2023)
 
 # #usually can just be run for the current year
-#full_update(current_year, current_year)
+full_update(current_year, current_year)
 
-#setlist_to_events()
+setlist_to_events()
 update_counts()
 #run_time(start_time)
 
