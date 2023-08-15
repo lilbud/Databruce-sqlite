@@ -5,7 +5,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
       - name: Set up Python 3.x
         uses: actions/setup-python@v4
         with:
@@ -14,12 +13,23 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
-      # - name: run database update
-      #   run: |
-      #     python update.py
+      
+      - name: run database update
+      - uses: actions/checkout@v3
+        run: python update.py
+      
       - name: run csv_export
+      - uses: actions/checkout@v3
+        run: python csv_export.py
+      
+      - name: Commit and push
         run: |
-          python csv_export.py
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add -A  # or git add -A to add all files
+          git commit -m "Updated CSV Files"  # change this message if you want
+          git push origin main
+
 
   # # label of the container job
   # postgres-job:
