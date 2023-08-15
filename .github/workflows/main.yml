@@ -23,6 +23,7 @@ jobs:
         run: python csv_export.py
       
       - name: Commit and push
+      - uses: actions/checkout@v3
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
