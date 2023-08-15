@@ -96,7 +96,6 @@ jobs:
         env: 
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
         run: |
-          rm /usr/local/var/postgres/postmaster.pid
           sudo service postgresql start
           heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
           heroku pg:push postgres_db DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
