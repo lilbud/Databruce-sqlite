@@ -6,7 +6,6 @@ File Purpose: Updates the Database file, uses the functions in Data_Collection
 """
 
 import time
-import winsound
 import datetime
 from data_collection import get_bands, get_people, get_songs, get_venues, get_tours, setlist_to_events
 from data_collection import get_albums, get_events_by_year, get_tour_events, get_show_info
@@ -114,4 +113,4 @@ setlist_to_events()
 update_counts()
 #run_time(start_time)
 
-winsound.Beep(1500, 250)
+#winsound.Beep(1500, 250)
