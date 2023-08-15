@@ -96,6 +96,7 @@ jobs:
         env: 
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
         run: |
+          psql "sslmode=allow host=${{ secrets.POSTGRES_HOST }} dbname=postgres_db"
           heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
           heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
           heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
