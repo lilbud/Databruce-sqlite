@@ -48,12 +48,13 @@ jobs:
         env:
           # optional (defaults to `postgres`)
           POSTGRES_DB: postgres_db
+          POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
           # required
-          POSTGRES_PASSWORD: postgres_password
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
           # optional (defaults to `5432`)
           POSTGRES_PORT: 5432
           # optional (defaults to `postgres`)
-          POSTGRES_USER: postgres_user
+          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
         ports:
           # maps tcp port 5432 on service container to the host
           - 5432:5432
@@ -79,7 +80,7 @@ jobs:
       - name: update postgresql db
         run: 
           pgloader _database/database.sqlite
-          postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@localhost:5432/postgres_db
+          postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
       
       - name: Login to Heroku Container registry
         env: 
