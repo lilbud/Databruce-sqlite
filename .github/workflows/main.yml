@@ -81,6 +81,9 @@ jobs:
         run: 
           pgloader _database/database.sqlite
           postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
+
+      - name: Install Heroku Cli
+        run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
       
       - name: Login to Heroku Container registry
         env: 
