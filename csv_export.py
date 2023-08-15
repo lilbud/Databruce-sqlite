@@ -18,8 +18,7 @@ def csv_export():
 
     for t in cur.execute("""SELECT name FROM sqlite_master WHERE type='table';"""):
         if "sequence" not in t[0]:
-            pd.read_sql_query(
-                "SELECT * FROM " + t[0], conn).to_csv('/_csv/' + t[0].lower() + '.csv', index=False)
+            pd.read_sql_query("SELECT * FROM " + t[0], conn).to_csv('_csv/' + t[0].lower() + '.csv', index=False)
             
             print(f"{t[0]} table exported to {t[0]}.csv")
 
