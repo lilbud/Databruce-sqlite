@@ -78,7 +78,7 @@ jobs:
       
       - name: update postgresql db
         run: 
-          pgloader _database/database.sqlite postgresql:///dpostgres_db
+          pgloader _database/database.sqlite postgresql:///postgres_db
       
       - name: Login to Heroku Container registry
         env: 
