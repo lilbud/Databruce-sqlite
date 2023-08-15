@@ -29,47 +29,66 @@ jobs:
           git commit -m "Updated CSV Files"  # change this message if you want
           git push origin main
 
+  # label of the container job
+  postgres-job:
+    # containers must run in Linux based operating systems
+    runs-on: ubuntu-latest
+    # Docker Hub image that `postgres-job` executes in
+    container: node:latest
 
-  # # label of the container job
-  # postgres-job:
-  #   # containers must run in Linux based operating systems
-  #   runs-on: ubuntu-latest
-  #   # Docker Hub image that `postgres-job` executes in
-  #   container: node:latest
+    # service containers to run with `postgres-job`
+    services:
+      # label used to access the service container
+      postgres:
+        # Docker Hub image
+        image: postgres:latest
+        # service environment variables
+        # `POSTGRES_HOST` is `postgres`
+        env:
+          # optional (defaults to `postgres`)
+          POSTGRES_DB: postgres_db
+          # required
+          POSTGRES_PASSWORD: postgres_password
+          # optional (defaults to `5432`)
+          POSTGRES_PORT: 5432
+          # optional (defaults to `postgres`)
+          POSTGRES_USER: postgres_user
+        ports:
+          # maps tcp port 5432 on service container to the host
+          - 5432:5432
+        # set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
 
-  #   # service containers to run with `postgres-job`
-  #   services:
-  #     # label used to access the service container
-  #     postgres:
-  #       # Docker Hub image
-  #       image: postgres:latest
-  #       # service environment variables
-  #       # `POSTGRES_HOST` is `postgres`
-  #       env:
-  #         # optional (defaults to `postgres`)
-  #         POSTGRES_DB: postgres_db
-  #         # required
-  #         POSTGRES_PASSWORD: postgres_password
-  #         # optional (defaults to `5432`)
-  #         POSTGRES_PORT: 5432
-  #         # optional (defaults to `postgres`)
-  #         POSTGRES_USER: postgres_user
-  #       ports:
-  #         # maps tcp port 5432 on service container to the host
-  #         - 5432:5432
-  #       # set health checks to wait until postgres has started
-  #       options: >-
-  #         --health-cmd pg_isready
-  #         --health-interval 10s
-  #         --health-timeout 5s
-  #         --health-retries 5
-
-  #   steps:
-  #     - name: Install PostgreSQL client
-  #       run: |
-  #         apt-get update
-  #         apt-get install --yes postgresql-client
+    steps:
+      - name: Install PostgreSQL client
+        run: |
+          apt-get update
+          apt-get install --yes postgresql-client
       
-  #     - name: Install PGLoader
-  #       run: |
-  #         apt-get install --yes pgloader
+      - name: run PostgreSQL
+        run: sudo systemctl start postgresql.service
+      
+      - name: Install PGLoader
+        run: apt-get install --yes pgloader
+      
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      
+      - name: update postgresql db
+        run: 
+          pgloader _database/database.sqlite postgresql:///dpostgres_db
+      
+      - name: Login to Heroku Container registry
+        env: 
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: heroku container:login
+
+      - name: push DB changes to Heroku and reboot
+      - run: |
+          heroku pg:reset --confirm brucebot-discord --app brucebot-discord
+          heroku pg:push postgres_db DATABASE_URL --app brucebot-discord
+          heroku ps:restart --app brucebot-discord
