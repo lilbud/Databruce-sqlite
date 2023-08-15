@@ -31,6 +31,7 @@ jobs:
 
   # label of the container job
   postgres-job:
+    needs: updatedb
     # containers must run in Linux based operating systems
     runs-on: ubuntu-latest
     # Docker Hub image that `postgres-job` executes in
