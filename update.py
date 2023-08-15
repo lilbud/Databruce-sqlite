@@ -93,12 +93,12 @@ def full_update(start, end):
             if setcheck[0] == 0:
                 get_show_info(u[0])
                 print(u[0])
-                time.sleep(1)
-                delay = 5
-            else:
-                delay = 0
+                time.sleep(0.5)
+                # delay = 5
+            # else:
+                # delay = 0
 
-        if delay > 0:
+        if start != end:
             print("Sleeping for: " + str(delay) + " seconds")
             time.sleep(delay)
             cur.execute("""vacuum;""")

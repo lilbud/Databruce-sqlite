@@ -20,7 +20,7 @@ def csv_export():
         if "sequence" not in t[0]:
             pd.read_sql_query(
                 "SELECT * FROM " + t[0], conn).to_csv('_csv/' + t[0].lower() + '.csv', index=False)
-
-    print("exported to csv")
+            
+            print(f"{t[0]} table exported to {t[0]}.csv")
 
 csv_export()

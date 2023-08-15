@@ -17,6 +17,9 @@ jobs:
       - name: run database update
         run: |
           python update.py
+      - name: run csv_export
+        run: |
+          python csv_export.py
 
   # # label of the container job
   # postgres-job:
