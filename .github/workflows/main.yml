@@ -85,13 +85,13 @@ jobs:
       - name: Install Heroku Cli
         run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
       
-      - name: Login to Heroku 
+      - name: Login to Heroku Container Registry
         env: 
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-        run: heroku login
+        run: heroku container:login
 
       - name: push DB changes to Heroku and reboot
         run: |
-          heroku pg:reset --confirm brucebot-discord --app brucebot-discord
-          heroku pg:push postgres_db DATABASE_URL --app brucebot-discord
-          heroku ps:restart --app brucebot-discord
+          heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
+          heroku pg:push postgres_db DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
+          heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
