@@ -88,7 +88,9 @@ jobs:
       - name: Login to Heroku Container Registry
         env: 
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-        run: heroku container:login
+        run: |
+          heroku auth:login
+          heroku container:login
 
       - name: push DB changes to Heroku and reboot
         run: |
