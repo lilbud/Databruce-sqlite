@@ -251,6 +251,8 @@ def get_show_info(url):
                 get_onStage(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url)
             if n.text == "Setlist":
                 get_setlist_by_url(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url, date[0])
+    else:
+        print(f"Show Page Not Found For: {url}")
 
 def get_tours():
     """Gets tour names from BB"""
