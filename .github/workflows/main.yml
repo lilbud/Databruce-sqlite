@@ -23,13 +23,19 @@ jobs:
       
       - name: run csv_export
         run: python csv_export.py
+
+      - name: Check if there are any changes
+        id: verify_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
       
       - name: Commit and push
+        if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add -A  # or git add -A to add all files
-          git commit -m "Updated CSV Files"  # change this message if you want
+          git commit -m "Updated Database and CSV Files $(date)"  # change this message if you want
           git push origin main
 
   # label of the container job
