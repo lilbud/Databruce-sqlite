@@ -115,7 +115,7 @@ def get_events_by_year(year):
     """
     Gets all the events for a year that match the list of allowed event_types
     which are: gig, rehearsal, nobruce
-    these 3 are the only ones that will have setlists, and really be of interest
+    these are the only events with setlists
     """
 
     shows = []
@@ -239,7 +239,6 @@ def get_show_info(url):
         v = cur.execute("""SELECT venue_url FROM VENUES WHERE venue_url=?""", (venue.get('href'), )).fetchone()
 
         if v:
-            # get proper name instead of URL: venue_name = ", ".join(v[2:-2])
             cur.execute("""UPDATE EVENTS SET location_url=? WHERE event_url=?""", (v[0], url))
             conn.commit()
 
@@ -273,7 +272,7 @@ def get_tours():
 def get_tour_events(url, name):
     """Finds the tour that an event belongs to and updates that entry in EVENTS"""
 
-    r = requests.get(main_url + url.strip("/"), timeout=5).text
+    r = requests.get(main_url + url.strip("/"), timeout=10).text
     soup = bs4(r, "lxml")
 
     for t in soup.find("div", {"class": "yui-content"}).find_all("li"):
