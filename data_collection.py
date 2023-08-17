@@ -227,30 +227,30 @@ def get_setlist_by_url(tab, url, date):
 def get_show_info(url):
     """Gets show info for a provided URL"""
 
-    r = requests.get(main_url + url.strip("/"), timeout=5).text
-    soup = bs4(r, "lxml")
-    venue = soup.find(href=re.compile("/venue:.*"))
-    name = show_name_split(soup.find(id="page-title").text.strip()[11:].strip(), url)
-    nav = soup.find("ul", {"class": "yui-nav"}).find_all('li')
-    date = cur.execute("""SELECT event_date FROM EVENTS WHERE event_url=?""", (url,)).fetchone()
+    r = requests.get(main_url + url.strip("/"), timeout=5)
 
-    v = cur.execute("""SELECT venue_url FROM VENUES WHERE venue_url=?""", (venue.get('href'), )).fetchone()
+    if r.status_code == 200:
+        soup = bs4(r.text, "lxml")
+        venue = soup.find(href=re.compile("/venue:.*"))
+        name = show_name_split(soup.find(id="page-title").text.strip()[11:].strip(), url)
+        nav = soup.find("ul", {"class": "yui-nav"}).find_all('li')
+        date = cur.execute("""SELECT event_date FROM EVENTS WHERE event_url=?""", (url,)).fetchone()
 
-    if v:
-        # get proper name instead of URL: venue_name = ", ".join(v[2:-2])
-        cur.execute("""UPDATE EVENTS SET location_url=? WHERE event_url=?""", (v[0], url))
+        v = cur.execute("""SELECT venue_url FROM VENUES WHERE venue_url=?""", (venue.get('href'), )).fetchone()
+
+        if v:
+            # get proper name instead of URL: venue_name = ", ".join(v[2:-2])
+            cur.execute("""UPDATE EVENTS SET location_url=? WHERE event_url=?""", (v[0], url))
+            conn.commit()
+
+        cur.executemany("""UPDATE EVENTS SET event_venue=?, event_city=?, event_state=?, event_country=?, show=? WHERE event_url=?""", name)
         conn.commit()
 
-    cur.executemany("""UPDATE EVENTS SET event_venue=?, event_city=?, event_state=?, event_country=?, show=? WHERE event_url=?""", name)
-    conn.commit()
-
-    for n in nav:
-        if n.text == "On Stage":
-            get_onStage(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url)
-        if n.text == "Setlist":
-            get_setlist_by_url(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url, date[0])
-
-get_show_info("/gig:2023-08-09-wrigley-field-chicago-il")
+        for n in nav:
+            if n.text == "On Stage":
+                get_onStage(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url)
+            if n.text == "Setlist":
+                get_setlist_by_url(soup.find(id="wiki-tab-0-" + str(nav.index(n))), url, date[0])
 
 def get_tours():
     """Gets tour names from BB"""
