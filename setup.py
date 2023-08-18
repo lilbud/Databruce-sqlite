@@ -99,7 +99,7 @@ cur.execute("""CREATE TABLE IF NOT EXISTS TOURS (
 #albums
 cur.execute("""CREATE TABLE IF NOT EXISTS ALBUMS (
 	album_name TEXT NOT NULL,
-    album_type TEXT NOT NULL,
+	album_type TEXT NOT NULL,
 	album_year INT NOT NULL,
 	song_url TEXT NOT NULL,
 	song_name TEXT NOT NULL,
