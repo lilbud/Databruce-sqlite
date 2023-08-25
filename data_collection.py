@@ -32,7 +32,7 @@ def get_bands():
 	"""
 
 	bands = []
-	r = requests.get(f"{main_url}system:page-tags/tag/band#pages", timeout=5).text
+	r = requests.get(f"{main_url}system:page-tags/tag/band#pages", timeout=10).text
 	soup = bs4(r, 'lxml')
 
 	for b in soup.find_all('a', href=re.compile("/relation:.*")):
@@ -56,7 +56,7 @@ def get_people():
 	"""
 
 	people = []
-	r = requests.get(f"{main_url}system:page-tags/tag/person#pages", timeout=5).text
+	r = requests.get(f"{main_url}system:page-tags/tag/person#pages", timeout=10).text
 	soup = bs4(r, 'lxml')
 
 	for p in soup.find_all('a', href=re.compile("/relation:.*")):
@@ -80,7 +80,7 @@ def get_people():
 def get_songs():
 	"""Gets the list of songs from the site"""
 
-	url = requests.get(f"{main_url}system:page-tags/tag/song#pages", timeout=5).text
+	url = requests.get(f"{main_url}system:page-tags/tag/song#pages", timeout=10).text
 	soup = bs4(url, "lxml")
 	songs = []
 
@@ -122,7 +122,7 @@ def get_events_by_year(year):
 	"""
 
 	shows = []
-	url = requests.get(f"{main_url}{str(year)}", timeout=5).text
+	url = requests.get(f"{main_url}{str(year)}", timeout=10).text
 	soup = bs4(url, "lxml")
 
 	for e in soup.find_all('a', href=re.compile(f"{event_types}{str(year)}")):
@@ -220,7 +220,7 @@ def get_setlist_by_url(tab, url, date):
 
 def get_show_info(url):
 	"""Gets show info for a provided URL"""
-	r = requests.get(f"{main_url}{url.strip('/')}", timeout=5)
+	r = requests.get(f"{main_url}{url.strip('/')}")
 
 	if r.status_code == 200:
 		soup = bs4(r.text, "lxml")
@@ -278,7 +278,7 @@ def get_tour_events(url, name):
 def get_albums():
 	"""Gets albums and their songs, can be used to find full album shows"""
 
-	r = requests.get(f"{main_url}stats:song-count-by-album", timeout=5).text
+	r = requests.get(f"{main_url}stats:song-count-by-album", timeout=10).text
 	soup = bs4(r, "lxml")
 	album_num = 0
 	album = []
@@ -324,7 +324,7 @@ def jungleland_artwork():
 	artwork_list = []
 	event_date = ""
 	
-	r = requests.get("http://www.jungleland.it/html/list.htm", timeout=5).text
+	r = requests.get("http://www.jungleland.it/html/list.htm", timeout=10).text
 	soup = bs4(r, "lxml")
 
 	for l in soup.find_all('a', href=re.compile(".*.htm")):
