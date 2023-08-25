@@ -23,7 +23,6 @@ def on_this_day(date):
 		print(f"Event Link: {main_url}{i[1].strip('/')}\n")
 
 def song_finder(song):
-	#0,  1,    2,     3,     4,     5
 	#id, url, name, first, last, num_plays
 	header = s = ""
 
