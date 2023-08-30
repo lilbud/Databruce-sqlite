@@ -101,16 +101,14 @@ def full_update(start, end):
 			time.sleep(delay)
 			cur.execute("""vacuum;""")
 
-#basic_update()
-#full_update(2023, 2023)
+basic_update()
 
-# #usually can just be run for the current year
-# full_update(current_year, current_year)
+#usually can just be run for the current year
+full_update(current_year, current_year)
 
-# setlist_to_events()
-# jungleland_artwork()
-# update_counts()
-get_albums()
+setlist_to_events()
+jungleland_artwork()
+update_counts()
 run_time(start_time)
 
 #winsound.Beep(1500, 250)
