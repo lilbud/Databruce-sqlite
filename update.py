@@ -101,8 +101,7 @@ def full_update(start, end):
 			time.sleep(delay)
 			cur.execute("""vacuum;""")
 
-basic_update()
-
+#basic_update()
 #usually can just be run for the current year
 full_update(current_year, current_year)
 
