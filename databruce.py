@@ -37,7 +37,7 @@ def song_finder(song):
 		l_location = ", ".join(filter(None, l))
 
 		opener = cur.execute(f"""SELECT COUNT(song_url) FROM SETLISTS WHERE song_url = \"{s[1]}\" AND song_num=1""").fetchone()
-		closer = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE \"'%{song.replace("'", "''")}%'\"""").fetchone()
+		closer = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '%, {song.replace("'", "''")}'""").fetchone()
 		total = cur.execute("""SELECT COUNT(*) FROM EVENTS""").fetchone()
 		frequency = f"{round((s[5] / total[0] * 100), 2)}%"
 		header = f"Song Name: {s[2]}"
@@ -49,7 +49,7 @@ def song_finder(song):
 		print(f"First Played: {s[3]} - {f_location}")
 		print(f"Last Played: {s[4]} - {l_location}")
 		print(f"Number of Times as Show Opener: {opener[0]}")
-		print(f"Number of Times as Show Closer: {closer[0]}" + str(closer[0]))
+		print(f"Number of Times as Show Closer: {closer[0]}")
 		print(f"Frequency: {frequency}")
 		print("-"*len(header))
 
