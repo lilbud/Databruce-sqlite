@@ -17,44 +17,46 @@ start_time = datetime.datetime.now()
 
 def update_counts():
 	"""update various play/performance counts"""
-	for s in cur.execute("""SELECT song_url, song_name FROM SONGS""").fetchall():
-		f = l = ''
-		count = cur.execute(f"""SELECT COUNT(\"{s[0]}\") FROM SETLISTS WHERE song_url = \"{s[0]}\" AND set_type NOT IN ('Rehearsal', 'Soundcheck')""").fetchone()[0]
+	for s in cur.execute("""SELECT song_url FROM SONGS""").fetchall():
+		count = cur.execute(f"""SELECT COUNT(\"{s[0]}\"), MIN(event_date), MAX(event_date) FROM SETLISTS WHERE song_url = \"{s[0]}\" AND set_type NOT IN ('Rehearsal', 'Soundcheck')""").fetchone()
 
-		if count > 0:
-			f = cur.execute(f"""SELECT event_date FROM SETLISTS WHERE song_url LIKE '{s[0]}' AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY event_date ASC""").fetchone()
-			l = cur.execute(f"""SELECT event_date FROM SETLISTS WHERE song_url LIKE '{s[0]}' AND set_type NOT IN ('Rehearsal', 'Soundcheck') ORDER BY event_date DESC""").fetchone()
-
-			if f and l:
-				cur.execute(f"""UPDATE SONGS SET num_plays={count}, first_played=\"{f[0]}\", last_played=\"{l[0]}\" WHERE song_url=\"{s[0]}\"""")
-			else:
-				cur.execute(f"""UPDATE SONGS SET num_plays={count} WHERE song_url=\"{s[0]}\"""")
+		if count[0] > 0:
+			cur.execute(f"""UPDATE SONGS SET num_plays={count[0]}, first_played=\"{count[1]}\", last_played=\"{count[2]}\" WHERE song_url=\"{s[0]}\"""")
 		else:
 			cur.execute(f"""UPDATE SONGS SET num_plays='0' WHERE song_url=\"{s[0]}\"""")
 
 		conn.commit()
+
+	print("Song Count Updated")
 
 	for v in cur.execute("""SELECT venue_url FROM VENUES""").fetchall():
 		count = cur.execute(f"""SELECT COUNT(\"{v[0]}\") FROM EVENTS WHERE location_url=\"{v[0]}\"""").fetchone()
 		cur.execute(f"""UPDATE VENUES SET num_performances={count[0]} WHERE venue_url=\"{v[0]}\"""")
 		conn.commit()
 
+	print("Venue Count Updated")
+
 	for b in cur.execute("""SELECT band_url FROM BANDS""").fetchall():
 		count = cur.execute(f"""SELECT COUNT(\"{b[0]}\") FROM ON_STAGE WHERE relation_url=\"{b[0]}\"""").fetchone()
 		cur.execute(f"""UPDATE BANDS SET num_performances={count[0]} WHERE band_url=\"{b[0]}\"""")
 		conn.commit()
+
+	print("Band Count Updated")
 
 	for p in cur.execute("""SELECT person_url FROM PERSONS""").fetchall():
 		count = cur.execute(f"""SELECT COUNT(\"{p[0]}\") FROM ON_STAGE WHERE relation_url=\"{p[0]}\"""").fetchone()
 		cur.execute(f"""UPDATE PERSONS SET num_appearances={count[0]} WHERE person_url=\"{p[0]}\"""")
 		conn.commit()
 
+	print("Person Count Updated")
+
 	for t in cur.execute("""SELECT tour_url, tour_name FROM TOURS""").fetchall():
 		count = cur.execute(f"""SELECT COUNT(\"{t[1]}\") FROM EVENTS WHERE tour=\"{t[1]}\"""").fetchone()
 		cur.execute(f"""UPDATE TOURS SET num_shows={count[0]} WHERE tour_url=\"{t[0]}\"""")
 		conn.commit()
 
-	print("Counts Updated Successfully")
+	print("Tour Event Count Updated")
+	
 
 def basic_update():
 	"""builds the database, gets the basic amount of information"""
@@ -87,7 +89,7 @@ def full_update(start, end):
 	for i in range(start, end+1):
 		print(i)
 
-		for u in cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(i)}%'""").fetchall():
+		for u in cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(i)}%' AND date(event_date) < date('now', '+1 days')""").fetchall():
 			setcheck = cur.execute(f"""SELECT EXISTS(SELECT 1 FROM SETLISTS WHERE event_url LIKE '%{u[0]}%' LIMIT 1)""").fetchone()
 
 			if setcheck[0] == 0:
@@ -106,7 +108,7 @@ def full_update(start, end):
 full_update(current_year, current_year)
 
 setlist_to_events()
-jungleland_artwork()
+#jungleland_artwork()
 update_counts()
 run_time(start_time)
 
