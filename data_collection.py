@@ -278,7 +278,7 @@ def get_tour_events(url, name):
 def get_albums():
 	"""Gets albums and their songs, can be used to find full album shows"""
 
-	r = requests.get(f"{main_url}stats:song-count-by-album", timeout=10).text
+	r = requests.get(f"{main_url}stats:song-count-by-album").text
 	soup = bs4(r, "lxml")
 	album_num = 0
 	album = []
