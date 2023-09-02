@@ -1,6 +1,6 @@
 name: update database and push
 on:
-  #push:
+  push:
   schedule:
     - cron: '0 3 * * *'
 jobs:
