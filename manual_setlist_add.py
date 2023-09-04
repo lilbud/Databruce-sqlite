@@ -29,7 +29,7 @@ cur.executemany("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?
 conn.commit()
 
 from data_collection import setlist_to_events
-setlist_to_events()
+#setlist_to_events()
 
 for o in onstage_file.read().splitlines():
     b = cur.execute(f"""SELECT band_name FROM BANDS WHERE band_url LIKE '{o}'""").fetchone()
@@ -44,4 +44,5 @@ cur.executemany("""INSERT OR IGNORE INTO ON_STAGE VALUES (NULL, ?, ?, ?, ?)""", 
 conn.commit()
 
 from update import update_counts
-update_counts()
+cur.execute("vacuum;")
+#update_counts()
