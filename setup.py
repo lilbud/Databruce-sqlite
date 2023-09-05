@@ -94,6 +94,7 @@ cur.execute("""CREATE TABLE IF NOT EXISTS TOURS (
 	tour_url TEXT NOT NULL,
 	tour_name TEXT NOT NULL,
 	num_shows INT NOT NULL,
+	num_songs INT NOT NULL,
 	unique(tour_url));""")
 
 #albums

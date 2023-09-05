@@ -51,8 +51,12 @@ def update_counts():
 	print("Person Count Updated")
 
 	for t in cur.execute("""SELECT tour_url, tour_name FROM TOURS""").fetchall():
-		count = cur.execute(f"""SELECT COUNT(\"{t[1]}\") FROM EVENTS WHERE tour=\"{t[1]}\"""").fetchone()
-		cur.execute(f"""UPDATE TOURS SET num_shows={count[0]} WHERE tour_url=\"{t[0]}\"""")
+		count = cur.execute(f"""SELECT COUNT(\"{t[1]}\") FROM EVENTS WHERE tour=\"{t[1]}\" AND event_url LIKE '/gig:%'""").fetchone()
+
+		id_sql = "', '".join(str(x[0].replace("'", "''")) for x in cur.execute(f"""SELECT event_date FROM EVENTS WHERE tour='{t[1].replace("'", "''")}' AND event_url LIKE '/gig:%'""").fetchall())
+		song_count = cur.execute(f"""SELECT COUNT(DISTINCT(song_name)) FROM SETLISTS WHERE event_date IN ('{id_sql}')""").fetchone()[0]
+
+		cur.execute(f"""UPDATE TOURS SET num_shows={count[0]}, num_songs={song_count} WHERE tour_url=\"{t[0]}\"""")
 		conn.commit()
 
 	print("Tour Event Count Updated")
@@ -105,9 +109,9 @@ def full_update(start, end):
 
 #basic_update()
 #usually can just be run for the current year
-full_update(current_year, current_year)
+#full_update(current_year, current_year)
 
-setlist_to_events()
+#setlist_to_events()
 #jungleland_artwork()
 update_counts()
 run_time(start_time)
