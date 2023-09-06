@@ -11,6 +11,7 @@ from data_collection import get_bands, get_people, get_songs, get_venues, get_to
 from data_collection import get_albums, get_events_by_year, get_tour_events, get_show_info, jungleland_artwork
 from data_collection import conn, cur
 from helper_stuff import run_time
+from csv_export import csv_export
 
 current_year = int(datetime.datetime.now().date().strftime("%Y"))
 start_time = datetime.datetime.now()
@@ -109,11 +110,12 @@ def full_update(start, end):
 
 #basic_update()
 #usually can just be run for the current year
-#full_update(current_year, current_year)
+full_update(current_year, current_year)
 
-#setlist_to_events()
+setlist_to_events()
 #jungleland_artwork()
 update_counts()
+csv_export()
 run_time(start_time)
 
 #winsound.Beep(1500, 250)
