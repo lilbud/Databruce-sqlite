@@ -176,6 +176,29 @@ def song_and_year(song, year):
 			print(f"Song Name: {s[2]}")
 			print(f"Number of Times Played in {year}: {count[0]}")
 
+def tour_stats(tour):
+	#id, url, name, num_shows, num_songs
+
+	if len(" ".join(tour)) > 1:
+		stats = cur.execute(f"""SELECT * FROM TOURS WHERE tour_name LIKE '%{tour}%'""").fetchall()[0]
+
+		if stats:
+			first_last = cur.execute(f"""SELECT MIN(event_date), MAX(event_date) FROM EVENTS WHERE tour LIKE '{stats[2].replace("'", "''")}' AND event_url LIKE '/gig:%'""").fetchall()[0]
+			
+			first_link = cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(first_last[0])}'""").fetchone()[0]
+			last_link = cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(first_last[1])}'""").fetchone()[0]
+
+			#first show, last show, num shows, num songs
+			print(f"Number of Shows: {stats[3]}")
+			print(f"First Show: [{first_last[0]}]({main_url}{first_link[1:]})")
+			print(f"Last Show: [{first_last[1]}]({main_url}{last_link[1:]})")
+			print(f"Number of Songs: {stats[4]}")
+
+		else:
+			print("tour stats not found")
+	else:
+		print("tour not found")
+
 def menu():
 	cmd = ""
 	print("Databruce Menu")
@@ -211,6 +234,8 @@ def menu():
 				setlist_matching(re.sub("!match ", "", cmd[0]).replace("'", "''"))
 			elif re.search("!city", cmd[0]):
 				city_find(re.sub("!city ", "", cmd[0]).replace("'", "''"))
+			elif re.search("!tour", cmd[0]):
+				tour_stats(re.sub("!tour ", "", cmd[0]).replace("'", "''"))
 			elif re.search("!state", cmd):
 				state = re.sub("!state ", "", cmd[0])
 				if len(state) == 2:
