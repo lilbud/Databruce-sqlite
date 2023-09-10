@@ -61,6 +61,6 @@ def album_shows(album, year):
             for s in i[2]:
                 f.write(f"\t{s}\n")
 
-for a in albums_full:
-    album_shows(a, albums[a][0])
-#album_shows("Darkness On The Edge Of Town", 1978)
+# for a in albums_full:
+#     album_shows(a, albums[a][0])
+album_shows("Born In The U.S.A.", 1984)
