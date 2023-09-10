@@ -1,4 +1,5 @@
 import sqlite3, os, re
+from helper_stuff import *
 
 conn = sqlite3.connect(os.path.dirname(__file__) + "./_database/database.sqlite")
 cur = conn.cursor()
@@ -10,7 +11,10 @@ albums_not_full = ["Nebraska", "Tunnel Of Love", "Human Touch", "Lucky Town", "T
 "The Rising", "Devils & Dust", "We Shall Overcome", "Magic", "Working On A Dream", "Wrecking Ball",
 "High Hopes", "American Beauty EP", "Western Stars", "Letter To You", "Only The Strong Survive"]
 
-def album_shows(album):
+albums_full = ["Greetings From Asbury Park, N.J.", "The Wild, The Innocent & The E Street Shuffle",
+"Born To Run", "Darkness On The Edge Of Town", "The River"]
+
+def album_shows(album, year):
     songs_list = []
     n_songs = []
     songs = []
@@ -25,6 +29,8 @@ def album_shows(album):
 
     id_sql = "', '".join(str(x.replace("'", "''")) for x in songs_list)
 
+    # uncomment first line and comment second to filter by year of albums release
+    # for show in cur.execute(f"""SELECT DISTINCT(event_date) FROM SETLISTS WHERE song_name IN ('{id_sql}') AND event_url LIKE '%gig%' AND set_type NOT LIKE '%Soundcheck%' AND set_type NOT LIKE '%Rehearsal%' AND event_date LIKE '{year}%'""").fetchall():
     for show in cur.execute(f"""SELECT DISTINCT(event_date) FROM SETLISTS WHERE song_name IN ('{id_sql}') AND event_url LIKE '%gig%' AND set_type NOT LIKE '%Soundcheck%' AND set_type NOT LIKE '%Rehearsal%'""").fetchall():
         count = 0
         songs = []
@@ -55,6 +61,6 @@ def album_shows(album):
             for s in i[2]:
                 f.write(f"\t{s}\n")
 
-# for a in albums_not_full:
-#     album_shows(a)
-album_shows("American Beauty EP")
+for a in albums_full:
+    album_shows(a, albums[a][0])
+#album_shows("Darkness On The Edge Of Town", 1978)
