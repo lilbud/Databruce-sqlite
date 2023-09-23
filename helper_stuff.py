@@ -108,9 +108,9 @@ def show_name_split(show_name, url):
 	venues = []
 	city = state = country = show = ""
 	vn = show_name.split(", ")
-	name = vn[0]
+	name = name_fix(vn[0])
 
-	if re.match("[A-Z]{2} \(.*\)", vn[-1]):
+	if re.match("[A-Z]{2} \(.*\)", vn[-1]): # looks for where the show name has an identifier in it like (Early)/(Late)
 		state = vn[-1][0:2]
 		show = vn[-1][3:].strip("()")
 	elif len(vn[-1]) == 2:
@@ -130,6 +130,9 @@ def show_name_split(show_name, url):
 		country = "Canada"
 	else:
 		country = vn[-1].strip()
+		if re.findall("\(.*\)", country):
+			show_type = re.findall("\(.*\)", country)
+			show = show_type[0].strip("()")
 
 	venues.append([name, city, state, country, show, url])
 	return venues

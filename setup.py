@@ -60,16 +60,16 @@ cur.execute("""CREATE TABLE IF NOT EXISTS SETLISTS (
 	set_type TEXT NOT NULL,
 	song_num_in_set INT NOT NULL,
 	song_num INT NOT NULL,
-	UNIQUE(date, event_url, song_url, song_name, set_type, song_num_in_set, song_num));""")
+	segue INT NOT NULL,
+	UNIQUE(event_date, event_url, song_url, song_name, set_type, song_num_in_set, song_num));""")
 
 #on_stage
 cur.execute("""CREATE TABLE IF NOT EXISTS ON_STAGE (
 	id INTEGER primary key autoincrement,
 	event_url TEXT NOT NULL,
 	relation_url TEXT NOT NULL,
-	relation_name TEXT NOT NULL,
 	relation_type TEXT NOT NULL,
-	UNIQUE(event_url, relation_name));""")
+	UNIQUE(event_url, relation_url));""")
 
 #bands
 #performances - count events table

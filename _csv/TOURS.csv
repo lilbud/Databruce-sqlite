@@ -1,5 +1,5 @@
 tour_id,tour_url,tour_name,num_shows,num_songs
-1,/stats:shows-23int-tour,2023 International Tour,88,76
+1,/stats:shows-23int-tour,2023 International Tour,80,76
 2,/stats:shows-sob-tour,Springsteen On Broadway,268,22
 3,/stats:shows-sumr17-tour,Summer '17 Tour,14,94
 4,/stats:shows-book-tour,Book Promotion Tour,0,0
@@ -21,9 +21,9 @@ tour_id,tour_url,tour_name,num_shows,num_songs
 20,/stats:shows-rvr-tour,The River Tour,138,93
 21,/stats:shows-doteot-tour,Darkness On The Edge Of Town Tour,110,93
 22,/stats:shows-lwst-tour,The Lawsuit Tour,54,34
-23,/stats:shows-cs-tour,Chicken Scratch Tour,35,30
-24,/stats:shows-btr-tour,Born To Run Tour,81,57
-25,/stats:shows-wiess-tour,"The Wild, The Innocent & The E Street Shuffle Tour",199,60
-26,/stats:shows-gfap-tour,Greetings From Asbury Park Tour,166,53
-27,/stats:shows-early-years,Early Years,342,246
-28,/stats:shows-none-tour,Non-tour Shows,649,827
+23,/stats:shows-cs-tour,Chicken Scratch Tour,35,29
+24,/stats:shows-btr-tour,Born To Run Tour,81,56
+25,/stats:shows-wiess-tour,"The Wild, The Innocent & The E Street Shuffle Tour",199,59
+26,/stats:shows-gfap-tour,Greetings From Asbury Park Tour,166,52
+27,/stats:shows-early-years,Early Years,342,245
+28,/stats:shows-none-tour,Non-tour Shows,649,821

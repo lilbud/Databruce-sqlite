@@ -94,14 +94,15 @@ def full_update(start, end):
 	for i in range(start, end+1):
 		print(i)
 
-		for u in cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(i)}%' AND date(event_date) < date('now', '+1 days')""").fetchall():
-			setcheck = cur.execute(f"""SELECT EXISTS(SELECT 1 FROM SETLISTS WHERE event_url LIKE '%{u[0]}%' LIMIT 1)""").fetchone()
+		# for u in cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(i)}%' AND date(event_date) < date('now', '+1 days')""").fetchall():
+		for u in cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(i)}%'""").fetchall():
+			#setcheck = cur.execute(f"""SELECT EXISTS(SELECT 1 FROM SETLISTS WHERE event_url LIKE '%{u[0]}%' LIMIT 1)""").fetchone()
 
-			if setcheck[0] == 0:
-				get_show_info(u[0])
-				print(u[0])
-				time.sleep(0.5)
-				delay = 3
+			#if setcheck[0] == 0:
+			get_show_info(u[0])
+			print(u[0])
+			time.sleep(0.5)
+			delay = 2
 
 		if start != end:
 			print(f"Sleeping for {delay} seconds")
@@ -110,10 +111,10 @@ def full_update(start, end):
 
 #basic_update()
 #usually can just be run for the current year
-full_update(current_year, current_year)
+#full_update(current_year, current_year)
 
 setlist_to_events()
-#jungleland_artwork()
+# jungleland_artwork()
 update_counts()
 csv_export()
 run_time(start_time)

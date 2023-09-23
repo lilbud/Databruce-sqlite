@@ -1,7 +1,7 @@
 song_id,song_url,song_name,first_played,last_played,num_plays
 1,/song:1945,1945,,,0
 2,/song:30-days-out,30 Days Out,,,0
-3,/song:4th-of-july-asbury-park-sandy,"4th Of July, Asbury Park (Sandy)",1973-04-01,2019-11-16,275
+3,/song:4th-of-july-asbury-park-sandy,"4th Of July, Asbury Park (Sandy)",1973-04-01,2019-11-16,278
 4,/song:500-miles,500 Miles,1965-10-00,1965-10-00,1
 5,/song:57-channels-and-nothin-on,57 Channels (And Nothin' On),1990-11-16,1993-06-26,108
 6,/song:634-5789-soulsville-u-s-a,"634-5789 (Soulsville, U.S.A.)",1973-02-14,2019-11-16,63
@@ -12,7 +12,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 11,/song:across-the-border,Across The Border,1995-11-22,2021-05-13,146
 12,/song:across-the-borderline,Across The Borderline,1988-04-27,2012-11-19,11
 13,/song:action-in-the-streets,Action In The Streets,1977-02-07,2011-07-17,24
-14,/song:adam-raised-a-cain,Adam Raised A Cain,1978-05-23,2017-02-09,306
+14,/song:adam-raised-a-cain,Adam Raised A Cain,1978-05-23,2017-02-09,305
 15,/song:addicted-to-romance,Addicted To Romance,,,0
 16,/song:a-fine-fine-boy-girl,A Fine Fine Boy (Girl),1976-10-25,2009-10-29,7
 17,/song:a-good-life,A Good Life,2006-12-02,2011-11-04,2
@@ -45,11 +45,11 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 44,/song:all-that-heaven-will-allow,All That Heaven Will Allow,1988-02-25,2013-04-29,82
 45,/song:all-the-way-home,All The Way Home,1992-07-30,2006-10-25,28
 46,/song:alone,Alone,1968-05-00,1968-05-00,1
-47,/song:a-love-so-fine,A Love So Fine,1974-10-04,1975-09-14,32
+47,/song:a-love-so-fine,A Love So Fine,1974-10-04,1975-09-14,33
 48,/song:always-a-friend,Always A Friend,2008-04-14,2012-03-14,4
 49,/song:a-matter-of-trust,A Matter Of Trust,2008-10-16,2008-10-16,1
 50,/song:amazing-grace,Amazing Grace,,,0
-51,/song:amen,Amen,1994-03-01,1994-03-01,1
+51,/song:amen,Amen,1994-03-01,1994-03-01,0
 52,/song:america,America,1985-02-23,1985-02-23,1
 53,/song:american-babylon,American Babylon,1995-07-22,1998-03-02,8
 54,/song:american-beauty,American Beauty,,,0
@@ -298,7 +298,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 297,/song:dirty-water,Dirty Water,1984-04-08,2023-03-20,9
 298,/song:disgusted,Disgusted,2006-11-10,2006-11-10,1
 299,/song:disorder-in-the-house,Disorder In The House,,,0
-300,/song:does-this-bus-stop-at-82nd-street,Does This Bus Stop At 82nd Street?,1972-08-10,2017-01-22,156
+300,/song:does-this-bus-stop-at-82nd-street,Does This Bus Stop At 82nd Street?,1972-08-10,2017-01-22,157
 301,/song:do-i-love-you-indeed-i-do,Do I Love You (Indeed I Do),2022-11-14,2022-11-14,1
 302,/song:do-it-again,Do It Again,,,0
 303,/song:do-it-with-a-feeling,Do It With A Feeling,1971-07-22,1971-10-23,2
@@ -387,7 +387,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 386,/song:foxy-lady,Foxy Lady,1968-09-00,1968-09-00,1
 387,/song:frankie,Frankie,1976-03-26,2016-07-20,25
 388,/song:frankie-fell-in-love,Frankie Fell In Love,2014-01-18,2015-07-18,10
-389,/song:freddie-s-dead,Freddie's Dead,1994-03-01,1994-03-01,1
+389,/song:freddie-s-dead,Freddie's Dead,1994-03-01,1994-03-01,0
 390,/song:freedom-cadence,Freedom Cadence,,,0
 391,/song:freehold,Freehold,1996-11-08,2003-02-20,21
 392,/song:free-money,Free Money,1976-11-26,1976-11-26,1
@@ -451,7 +451,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 450,/song:great-balls-of-fire,Great Balls Of Fire,1990-10-29,2022-11-05,7
 451,/song:green-onions,Green Onions,2009-11-20,2012-09-02,3
 452,/song:green-river,Green River,1993-01-12,2014-05-03,8
-453,/song:growin-up,Growin' Up,1972-05-02,2021-09-04,619
+453,/song:growin-up,Growin' Up,1972-05-02,2021-09-04,620
 454,/song:guess-things-happen-that-way,Guess Things Happen That Way,,,0
 455,/song:guitar-man,Guitar Man,1995-04-12,1995-04-12,1
 456,/song:guitar-town,Guitar Town,1998-02-06,1998-02-06,1
@@ -459,7 +459,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 458,/song:gunslinger,Gunslinger,1971-10-23,1971-10-23,1
 459,/song:gypsy-biker,Gypsy Biker,2007-10-02,2009-05-05,74
 460,/song:gypsy-rider,Gypsy Rider,1971-07-22,1971-07-22,1
-461,/song:gypsy-woman,Gypsy Woman,1994-03-01,1994-03-01,1
+461,/song:gypsy-woman,Gypsy Woman,1994-03-01,1994-03-01,0
 462,/song:hail-hail-rock-n-roll,Hail Hail Rock 'N' Roll,2003-11-01,2003-11-01,1
 463,/song:hail-to-the-chief,Hail To The Chief,,,0
 464,/song:hang-on-sloopy,Hang On Sloopy,1984-01-14,2009-08-23,4
@@ -476,7 +476,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 475,/song:have-love-will-travel,Have Love Will Travel,1988-04-23,1988-06-29,21
 476,/song:have-yourself-a-merry-little-christmas,Have Yourself A Merry Little Christmas,2001-12-08,2001-12-08,1
 477,/song:having-a-party,Having A Party,1975-10-18,2019-08-07,36
-478,/song:heartbreak-hotel,Heartbreak Hotel,1977-12-02,1982-06-13,24
+478,/song:heartbreak-hotel,Heartbreak Hotel,1977-12-02,1982-06-13,25
 479,/song:heart-full-of-soul,Heart Full Of Soul,,,0
 480,/song:hearts-of-stone,Hearts Of Stone,1988-11-26,2015-01-17,9
 481,/song:heat-wave,Heat Wave,1973-01-31,2014-02-12,5
@@ -613,7 +613,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 612,/song:i-m-turning-into-elvis,I'm Turning Into Elvis,1995-04-05,1996-11-19,5
 613,/song:i-m-your-detail-man,I'm Your Detail Man,1995-05-00,1995-05-00,1
 614,/song:in-a-gadda-da-vida,In-A-Gadda-Da-Vida,1969-02-23,1969-02-23,1
-615,/song:incident-on-57th-street,Incident On 57th Street,1974-01-29,2017-01-22,150
+615,/song:incident-on-57th-street,Incident On 57th Street,1974-01-29,2017-01-22,152
 616,/song:independence-day,Independence Day,1978-07-07,2016-08-23,247
 617,/song:in-dreams,In Dreams,1987-09-30,2013-07-20,2
 618,/song:in-kansas,In Kansas,,,0
@@ -637,11 +637,11 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 636,/song:i-thank-you,I Thank You,2003-12-05,2008-05-04,5
 637,/song:it-s-all-over-now,It's All Over Now,1983-11-06,2008-08-24,6
 638,/song:it-s-all-over-now-baby-blue,"It's All Over Now, Baby Blue",1971-10-23,1972-02-25,3
-639,/song:it-s-all-right,It's All Right,1971-07-22,1994-03-01,10
+639,/song:it-s-all-right,It's All Right,1971-07-22,1993-06-24,9
 640,/song:it-s-a-shame,It's A Shame,,,0
 641,/song:it-s-been-a-long-time,It's Been A Long Time,1991-09-26,2017-09-21,19
 642,/song:it-s-gonna-work-out-fine,It's Gonna Work Out Fine,1975-08-16,1990-04-14,16
-643,/song:it-s-hard-to-be-a-saint-in-the-city,It's Hard To Be A Saint In The City,1972-02-14,2023-04-03,196
+643,/song:it-s-hard-to-be-a-saint-in-the-city,It's Hard To Be A Saint In The City,1972-02-14,2023-04-03,198
 644,/song:it-s-my-life-2,It's My Life (Bon Jovi),2003-12-07,2003-12-07,1
 645,/song:it-s-my-life,It's My Life (The Animals),1975-12-12,1978-10-01,91
 646,/song:it-s-not-unusual,It's Not Unusual,,,0
@@ -701,7 +701,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 700,/song:joy-to-the-world,Joy To The World (Traditional),2016-12-14,2016-12-14,1
 701,/song:jump,Jump,2014-04-06,2014-05-18,2
 702,/song:jumpin-jack-flash,Jumpin' Jack Flash,1971-09-01,1995-07-09,4
-703,/song:jungleland,Jungleland,1974-07-12,2023-09-03,637
+703,/song:jungleland,Jungleland,1974-07-12,2023-09-03,640
 704,/song:junior-s-bar,Junior's Bar,2014-05-23,2014-05-23,1
 705,/song:just-another-lonely-mile,Just Another Lonely Mile,,,0
 706,/song:just-like-a-woman,Just Like A Woman,,,0
@@ -716,7 +716,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 715,/song:kingdom-of-days,Kingdom Of Days,2009-04-01,2014-05-22,34
 716,/song:king-of-pain,King Of Pain,,,0
 717,/song:king-tut,King Tut,,,0
-718,/song:kitty-s-back,Kitty's Back,1973-07-20,2023-09-03,260
+718,/song:kitty-s-back,Kitty's Back,1973-07-20,2023-09-03,262
 719,/song:knockin-on-heaven-s-door,Knockin' On Heaven's Door,1992-11-22,2015-02-06,3
 720,/song:knock-on-wood,Knock On Wood,1976-04-29,2012-08-15,5
 721,/song:kt-88,KT-88,1969-09-20,1970-08-14,5
@@ -753,7 +753,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 752,/song:let-s-talk-about-us,Let's Talk About Us,1982-09-18,1982-09-18,1
 753,/song:let-s-twist-again,Let's Twist Again,,,0
 754,/song:letter-to-you,Letter To You,2020-12-21,2023-09-03,65
-755,/song:let-the-four-winds-blow,Let The Four Winds Blow,1974-01-06,1997-08-28,14
+755,/song:let-the-four-winds-blow,Let The Four Winds Blow,1974-01-06,1997-08-28,15
 756,/song:let-the-good-times-roll,Let The Good Times Roll,,,0
 757,/song:life-itself,Life Itself,,,0
 758,/song:lift-me-up,Lift Me Up,2005-07-31,2005-07-31,1
@@ -792,7 +792,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 791,/song:lookin-for-a-love,Lookin' For A Love,,,0
 792,/song:looking-for-elvis,Looking For Elvis,,,0
 793,/song:look-into-my-window,Look Into My Window,1967-09-30,1967-09-30,1
-794,/song:look-into-your-heart,Look Into Your Heart,1994-03-01,1994-03-01,1
+794,/song:look-into-your-heart,Look Into Your Heart,1994-03-01,1994-03-01,0
 795,/song:look-through-any-window,Look Through Any Window,,,0
 796,/song:look-towards-the-land,Look Towards The Land,1971-05-15,1971-10-23,2
 797,/song:loose-change,Loose Change,,,0
@@ -845,7 +845,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 844,/song:maybellene,Maybellene,1973-04-28,1973-04-28,1
 845,/song:may-i,May I,2014-04-12,2014-04-12,1
 846,/song:mean-woman-blues,Mean Woman Blues,1987-09-30,1987-09-30,1
-847,/song:meeting-across-the-river,Meeting Across The River,1975-09-26,2016-03-28,70
+847,/song:meeting-across-the-river,Meeting Across The River,1975-09-26,2016-03-28,71
 848,/song:meeting-in-the-town-tonight,Meeting In The Town Tonight,,,0
 849,/song:meet-me-at-the-end-of-the-world,Meet Me At The End Of The World,2020-01-18,2020-01-18,1
 850,/song:meet-me-in-the-city,Meet Me In The City,2015-12-19,2016-07-28,41
@@ -917,7 +917,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 916,/song:never-be-enough-time,Never Be Enough Time,1994-08-20,2020-01-18,32
 917,/song:never-on-sunday,Never On Sunday,1965-10-00,1965-10-00,1
 918,/song:new-orleans,New Orleans,1976-05-13,1989-08-16,5
-919,/song:new-york-city-serenade,New York City Serenade,1973-07-18,2017-02-16,105
+919,/song:new-york-city-serenade,New York City Serenade,1973-07-18,2017-02-16,107
 920,/song:new-york-comeback,New York Comeback,,,0
 921,/song:new-york-morning-love,New York Morning Love,1968-05-00,1968-05-00,1
 922,/song:new-york-new-york,"New York, New York",1988-05-16,1995-11-19,3
@@ -940,7 +940,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 939,/song:nothing-s-too-good-for-my-baby,Nothing's Too Good For My Baby,,,0
 940,/song:not-too-young-to-get-married,Not Too Young To Get Married,,,0
 941,/song:o-come-all-ye-faithful,"O Come, All Ye Faithful",2001-12-07,2001-12-07,1
-942,/song:oh-boy,"Oh, Boy!",1978-07-29,1996-03-17,4
+942,/song:oh-boy,"Oh, Boy!",1978-07-29,1996-03-17,3
 943,/song:oh-mama,Oh Mama,1970-11-27,1971-01-23,4
 944,/song:oh-no-no-no,Oh No No No,,,0
 945,/song:oh-pretty-woman,"Oh, Pretty Woman",1987-01-21,2015-08-01,9
@@ -993,7 +993,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 992,/song:pay-me-my-money-down,Pay Me My Money Down,2006-04-30,2023-05-15,98
 993,/song:peaceful-easy-feeling,Peaceful Easy Feeling,1973-10-06,1973-10-06,1
 994,/song:peg-o-my-heart,Peg O' My Heart,2011-03-18,2011-03-18,1
-995,/song:people-get-ready,People Get Ready,1991-01-16,2023-06-24,290
+995,/song:people-get-ready,People Get Ready,1991-01-16,2023-06-24,289
 996,/song:people-have-the-power,People Have The Power,2004-10-01,2018-04-23,8
 997,/song:peppermint-twist,Peppermint Twist,2002-11-02,2002-11-02,1
 998,/song:perfect-world,Perfect World,,,0
@@ -1049,7 +1049,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 1048,/song:raise-your-hand,Raise Your Hand,1976-03-28,2014-05-17,219
 1049,/song:ramblin-gamblin-man,Ramblin' Gamblin' Man,1992-08-18,2009-11-13,5
 1050,/song:ramrod,Ramrod,1978-12-28,2023-05-27,493
-1051,/song:rave-on,Rave On,1978-07-07,1984-09-07,17
+1051,/song:rave-on,Rave On,1978-07-07,1984-09-07,18
 1052,/song:ready-teddy,Ready Teddy,1978-11-16,1991-01-20,10
 1053,/song:real-man,Real Man,1992-06-17,1992-07-25,12
 1054,/song:real-world,Real World,1990-11-16,2013-07-18,81
@@ -1095,7 +1095,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 1094,/song:rocky-mountain-way,Rocky Mountain Way,1990-02-12,1990-02-12,1
 1095,/song:roll-of-the-dice,Roll Of The Dice,1992-06-15,2017-02-16,118
 1096,/song:roll-over-beethoven,Roll Over Beethoven,1971-05-14,2017-04-21,8
-1097,/song:rosalita-come-out-tonight,Rosalita (Come Out Tonight),1973-01-04,2023-09-03,853
+1097,/song:rosalita-come-out-tonight,Rosalita (Come Out Tonight),1973-01-04,2023-09-03,858
 1098,/song:rose,Rose,2000-12-17,2000-12-18,2
 1099,/song:rose-tattoo,Rose Tattoo,2020-05-29,2020-05-29,1
 1100,/song:roulette,Roulette,1988-02-25,2016-07-05,57
@@ -1161,7 +1161,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 1160,/song:she-s-got-the-lord,She's Got The Lord,1971-07-22,1971-07-22,1
 1161,/song:she-s-leaving,She's Leaving,1971-12-03,1971-12-03,1
 1162,/song:she-s-sure-the-girl-i-love,She's Sure The Girl I Love,1976-08-01,1976-08-01,1
-1163,/song:she-s-the-one,She's The One,1974-10-04,2023-09-03,692
+1163,/song:she-s-the-one,She's The One,1974-10-04,2023-09-03,693
 1164,/song:shine-silently,Shine Silently,2000-12-17,2003-12-08,10
 1165,/song:shotgun,Shotgun,,,0
 1166,/song:shout,Shout,1982-07-17,2017-02-25,130
@@ -1217,7 +1217,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 1216,/song:spare-parts,Spare Parts,1988-02-25,2005-11-21,131
 1217,/song:spider-fingers,Spider Fingers,2001-12-07,2001-12-08,2
 1218,/song:spill-the-wine,Spill The Wine,2014-02-23,2014-02-23,1
-1219,/song:spirit-in-the-night,Spirit In The Night,1973-01-31,2023-09-03,582
+1219,/song:spirit-in-the-night,Spirit In The Night,1973-01-31,2023-09-03,586
 1220,/song:spoonful,Spoonful,1968-09-00,1968-09-00,1
 1221,/song:stagger-lee,Stagger Lee,,,0
 1222,/song:stand-by-me,Stand By Me,1985-01-17,2017-04-21,20
@@ -1352,7 +1352,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 1351,/song:the-power-of-prayer,The Power Of Prayer,,,0
 1352,/song:the-price-you-pay,The Price You Pay,1980-10-31,2016-07-28,77
 1353,/song:the-promise,The Promise,1976-08-03,2016-06-25,72
-1354,/song:the-promised-land,The Promised Land,1978-05-23,2023-09-03,1460
+1354,/song:the-promised-land,The Promised Land,1978-05-23,2023-09-03,1461
 1355,/song:there-goes-my-miracle,There Goes My Miracle,2019-04-00,2019-04-00,1
 1356,/song:there-will-never-be-any-other-for-me-but-you,There Will Never Be Any Other For Me But You,1996-09-19,1997-05-10,33
 1357,/song:the-rising,The Rising,2002-08-01,2023-09-03,950
@@ -1393,7 +1393,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 1392,/song:this-time-baby-s-gone-for-good,This Time Baby's Gone For Good,1998-01-31,2003-12-07,3
 1393,/song:this-time-it-s-for-real,This Time It's For Real,1977-05-12,2006-05-02,16
 1394,/song:thundercrack,Thundercrack,1972-10-29,2016-09-07,65
-1395,/song:thunder-road,Thunder Road,1975-07-20,2023-09-03,1502
+1395,/song:thunder-road,Thunder Road,1975-07-20,2023-09-03,1500
 1396,/song:tiger-rose,Tiger Rose,2001-10-18,2001-10-19,2
 1397,/song:till-there-was-you,Till There Was You,1965-10-00,1965-10-00,1
 1398,/song:til-we-outnumber-em,'Til We Outnumber 'Em,,,0
@@ -1435,7 +1435,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 1434,/song:twenty-five-miles,Twenty-Five Miles,,,0
 1435,/song:twenty-flight-rock,Twenty Flight Rock,1982-07-23,1982-07-23,1
 1436,/song:twenty-more-miles,Twenty More Miles,1970-04-18,1970-08-14,4
-1437,/song:twist-and-shout,Twist And Shout,1965-00-00,2023-07-25,431
+1437,/song:twist-and-shout,Twist And Shout,1965-00-00,2023-07-25,432
 1438,/song:twistin-the-night-away,Twistin' The Night Away,1974-10-05,2004-04-25,5
 1439,/song:twist-twist-senora,"Twist, Twist, Senora",1976-10-22,1976-10-22,1
 1440,/song:two-faces,Two Faces,1987-10-31,2005-10-09,61
@@ -1548,7 +1548,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays
 1547,/song:with-every-wish,With Every Wish,1992-06-15,1992-07-23,6
 1548,/song:without-love,Without Love,1977-05-12,1977-05-13,3
 1549,/song:without-you,Without You,,,0
-1550,/song:woman-s-got-soul,Woman's Got Soul,1994-03-01,1994-03-01,1
+1550,/song:woman-s-got-soul,Woman's Got Soul,1994-03-01,1994-03-01,0
 1551,/song:wonderful-world,Wonderful World,2002-04-13,2003-04-30,3
 1552,/song:won-t-get-fooled-again,Won't Get Fooled Again,1990-01-17,2015-05-28,2
 1553,/song:wooly-bully,Wooly Bully,1982-09-19,2009-05-08,13

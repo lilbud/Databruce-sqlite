@@ -59,6 +59,7 @@ def song_finder(song):
 		print("-"*len(header))
 
 def setlist_finder(date):
+	setlist = []
 	if cur.execute(f"""SELECT * FROM EVENTS WHERE event_date = \"{date}\"""").fetchall():
 		for r in cur.execute(f"""SELECT * FROM EVENTS WHERE event_date LIKE \"{date}\"""").fetchall():
 			#id, date, event_url, location_url, venue, city, state, country, show, tour, setlist
@@ -71,9 +72,15 @@ def setlist_finder(date):
 
 			for s in cur.execute(f"""SELECT DISTINCT(set_type) FROM SETLISTS WHERE event_url = \"{r[2]}\" ORDER BY setlist_song_id ASC""").fetchall():
 				print(f"\n{s[0]}:")
-				setlist = cur.execute(f"""SELECT song_name FROM SETLISTS WHERE event_url = \"{r[2]}\" AND set_type = \"{s[0]}\" ORDER BY song_num ASC""")
-				print(", ".join([x[0] for x in setlist.fetchall()]))
-
+				# setlist = cur.execute(f"""SELECT song_name, segue FROM SETLISTS WHERE event_url = \"{r[2]}\" AND set_type = \"{s[0]}\" ORDER BY song_num ASC""")
+				# print(", ".join([x[0] for x in setlist.fetchall()]))
+				for song in cur.execute(f"""SELECT song_name, segue FROM SETLISTS WHERE event_url = \"{r[2]}\" AND set_type = \"{s[0]}\" ORDER BY song_num ASC"""):
+					if song[1]:
+						setlist.append(f"{song[0]} >")
+					else:
+						setlist.append(song[0])
+		
+		print((", ".join(setlist)).replace(">,", ">"))
 		print("-"*len(header))
 
 	else:

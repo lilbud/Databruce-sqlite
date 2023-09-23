@@ -147,15 +147,15 @@ def get_onStage(tab, url):
 
 	for m in tab.find_all(href=re.compile("/relation:.*")):
 		# 0 - id, 1 - url, 2 - name (for both)
-		b = cur.execute(f"""SELECT band_name FROM BANDS WHERE band_url LIKE '{m.get('href')}'""").fetchone()
-		p = cur.execute(f"""SELECT person_name FROM PERSONS WHERE person_url LIKE '{m.get('href')}'""").fetchone()
+		b = cur.execute(f"""SELECT band_url FROM BANDS WHERE band_url LIKE '{m.get('href')}'""").fetchone()
+		p = cur.execute(f"""SELECT person_url FROM PERSONS WHERE person_url LIKE '{m.get('href')}'""").fetchone()
 
 		if b:
-			onStage.append([url, m.get('href'), b[0], "Band"])
+			onStage.append([url, m.get('href'), "Band"])
 		elif p:
-			onStage.append([url, m.get('href'), p[0], "Person"])
+			onStage.append([url, m.get('href'), "Person"])
 
-	cur.executemany("""INSERT OR IGNORE INTO ON_STAGE VALUES (NULL, ?, ?, ?, ?)""", onStage)
+	cur.executemany("""INSERT OR IGNORE INTO ON_STAGE VALUES (NULL, ?, ?, ?)""", onStage)
 	conn.commit()
 
 def get_setlist_by_url(tab, url, date):
@@ -183,40 +183,62 @@ def get_setlist_by_url(tab, url, date):
 
 			for s in item.find_all('li'):
 				song_url = ""
-				if s.find('a'):
-					temp = s.find_all('a', href=re.compile("/song:.*"))
-					for i in temp:
-						song_url = song_link_corrector(i.get('href'))
-						song_name = cur.execute(f"""SELECT song_name FROM SONGS WHERE song_url LIKE '{song_url}'""").fetchone()[0]
-						show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
-						song_num += 1
 
-						if temp.index(i) != (len(temp) - 1):
-							song_num_in_set += 1
+				if s.next_element.name != 'sup':
+					if s.find_all(): # gets links
+						temp = s.find_all('a', href=re.compile("/song:.*"))
 
-				elif s.next_element.name != 'sup':
-					if " - " in s.text:
-						temp = s.text.split(" - ")
-						for t in temp:
-							song_name = titlecase(t.strip())
-							show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
+						if len(temp) > 1: #segues
+							for i in temp:
+								segue = 0
+
+								if temp.index(i) != (len(temp) - 1):
+									segue = 1
+
+								song_url = song_link_corrector(i.get('href'))
+								song_name = cur.execute(f"""SELECT song_name FROM SONGS WHERE song_url LIKE '{song_url}'""").fetchone()[0]
+								show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num, segue])
+								song_num += 1
+
+								if temp.index(i) != (len(temp) - 1):
+									song_num_in_set += 1
+							
+						else: #no segue, single song with link
+							song_url = song_link_corrector(s.find('a').get('href'))
+							song_name = cur.execute(f"""SELECT song_name FROM SONGS WHERE song_url LIKE '{song_url}'""").fetchone()[0]
+							show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num, 0])
 							song_num += 1
+							
+					else: #no links
+						if " - " in s.text: #segues in text
+							temp = s.text.split(" - ")
+							for i in temp:
+								segue = 0
+								song_name = titlecase(i)
+								
+								if temp.index(i) != (len(temp) - 1):
+									segue = 1
 
-							if temp.index(t) != (len(temp) - 1):
-								song_num_in_set += 1
+								show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num, segue])
+								song_num += 1
 
-					else:
-						song_name = titlecase(s.text)
-						show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num])
-						song_num += 1
+								if temp.index(i) != (len(temp) - 1):
+									song_num_in_set += 1
 
-				song_num_in_set += 1
+						else: #no segue
+							song_name = titlecase(s.text)
+							show.append([date, url, song_url, song_name, set_type, song_num_in_set, song_num, 0])
+							song_num += 1
+					
+					song_num_in_set += 1
 
 	if show:
-		cur.executemany("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)""", show)
+		cur.executemany("""INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?)""", show)
+		conn.commit()
 	else:
 		cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", ("No set details known", url))
-	conn.commit()
+		conn.commit()
+
 
 def get_show_info(url):
 	"""Gets show info for a provided URL"""

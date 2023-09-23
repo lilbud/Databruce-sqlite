@@ -790,7 +790,7 @@ venue_id,venue_url,venue_name,num_performances
 789,/venue:meadows-amphitheatre-irvine-ca,"Irvine Meadows Amphitheatre, Irvine, CA",1
 790,/venue:izod-center-east-rutherford-nj,"Izod Center, East Rutherford, NJ",4
 791,/venue:j-benson-cartage-centre-ottawa-on,"J. Benson Cartage Centre, Ottawa, ON",0
-792,/venue:jma-wireless-dome-syracuse-ny,"JMA Wireless Dome, Syracuse, NY",1
+792,/venue:jma-wireless-dome-syracuse-ny,"JMA Wireless Dome, Syracuse, NY",0
 793,/venue:jabberwocky-club-syracuse-ny,"Jabberwocky Club, Syracuse, NY",0
 794,/venue:jack-kent-cooke-stadium-landover-md,"Jack Kent Cooke Stadium, Landover, MD",0
 795,/venue:jack-s-sugar-shack-hollywood-ca,"Jack's Sugar Shack, Hollywood, CA",1
@@ -971,7 +971,7 @@ venue_id,venue_url,venue_name,num_performances
 970,/venue:mts-centre-winnipeg-mb,"MTS Centre, Winnipeg, MB",0
 971,/venue:mtv-studios-camden-town-england,"MTV Studios, Camden Town, England",1
 972,/venue:mtv-studios-new-york-city-ny,"MTV Studios, New York City, NY",1
-973,/venue:mvp-arena-albany-ny,"MVP Arena, Albany, NY",1
+973,/venue:mvp-arena-albany-ny,"MVP Arena, Albany, NY",0
 974,/venue:macmorland-center-chester-pa,"MacMorland Center, Chester, PA",1
 975,/venue:macauley-s-theatre-louisville-ky,"Macauley's Theatre, Louisville, KY",1
 976,/venue:madison-square-garden-new-york-city-ny,"Madison Square Garden, New York City, NY",52
@@ -1084,7 +1084,7 @@ venue_id,venue_url,venue_name,num_performances
 1083,/venue:civic-center-mobile-al,"Mobile Civic Center, Mobile, AL",0
 1084,/venue:municipal-auditorium-mobile-al,"Mobile Municipal Auditorium, Mobile, AL",1
 1085,/venue:moda-center-portland-or,"Moda Center, Portland, OR",2
-1086,/venue:mohegan-sun-arena-uncasville-ct,"Mohegan Sun Arena, Uncasville, CT",3
+1086,/venue:mohegan-sun-arena-uncasville-ct,"Mohegan Sun Arena, Uncasville, CT",2
 1087,/venue:molson-centre-montreal-qc,"Molson Centre, Montreal, QC",0
 1088,/venue:monmouth-arts-center-red-bank-nj,"Monmouth Arts Center, Red Bank, NJ",14
 1089,/venue:monmouth-college-west-long-branch-nj,"Monmouth College, West Long Branch, NJ",6
@@ -1153,8 +1153,8 @@ venue_id,venue_url,venue_name,num_performances
 1152,/venue:national-sports-stadium-harare-zimbabwe,"National Sports Stadium, Harare, Zimbabwe",1
 1153,/venue:national-sports-stadium-london-england,"National Sports Stadium, London, England",2
 1154,/venue:national-stadium-dublin-ireland,"National Stadium, Dublin, Ireland",1
-1155,/venue:nationals-park-washington-dc,"Nationals Park, Washington, DC",3
-1156,/venue:nationwide-arena-columbus-oh,"Nationwide Arena, Columbus, OH",3
+1155,/venue:nationals-park-washington-dc,"Nationals Park, Washington, DC",2
+1156,/venue:nationwide-arena-columbus-oh,"Nationwide Arena, Columbus, OH",2
 1157,/venue:neil-simon-theatre-new-york-city-ny,"Neil Simon Theatre, New York City, NY",0
 1158,/venue:network-associates-coliseum-oakland-ca,"Network Associates Coliseum, Oakland, CA",0
 1159,/venue:bingley-hall-stafford-england,"New Bingley Hall, Stafford, England",1
@@ -1246,7 +1246,7 @@ venue_id,venue_url,venue_name,num_performances
 1245,/venue:opera-berlioz-montpellier-france,"Opéra Berlioz, Montpellier, France",1
 1246,/venue:oracle-arena-oakland-ca,"Oracle Arena, Oakland, CA",4
 1247,/venue:orange-bowl-miami-fl,"Orange Bowl, Miami, FL",2
-1248,/venue:oriole-park-at-camden-yards-baltimore-md,"Oriole Park At Camden Yards, Baltimore, MD",1
+1248,/venue:oriole-park-at-camden-yards-baltimore-md,"Oriole Park At Camden Yards, Baltimore, MD",0
 1249,/venue:orion-live-club-rome-italy,"Orion Live Club, Rome, Italy",1
 1250,/venue:arena-orlando-fl,"Orlando Arena, Orlando, FL",2
 1251,/venue:orpheum-theatre-boston-ma,"Orpheum Theatre, Boston, MA",3
@@ -1259,7 +1259,7 @@ venue_id,venue_url,venue_name,num_performances
 1258,/venue:pnc-arena-raleigh-nc,"PNC Arena, Raleigh, NC",1
 1259,/venue:pnc-bank-arts-center-holmdel-nj,"PNC Bank Arts Center, Holmdel, NJ",5
 1260,/venue:pnc-park-pittsburgh-pa,"PNC Park, Pittsburgh, PA",1
-1261,/venue:ppg-paints-arena-pittsburgh-pa,"PPG Paints Arena, Pittsburgh, PA",2
+1261,/venue:ppg-paints-arena-pittsburgh-pa,"PPG Paints Arena, Pittsburgh, PA",0
 1262,/venue:pabellon-deportivo-santander-spain,"Pabellón Deportivo, Santander, Spain",1
 1263,/venue:pacific-bell-park-san-francisco-ca,"Pacific Bell Park, San Francisco, CA",1
 1264,/venue:pacific-coliseum-vancouver-bc,"Pacific Coliseum, Vancouver, BC",3
