@@ -159,7 +159,7 @@ venue_id,venue_url,venue_name,num_performances
 158,/venue:beard-eaves-memorial-coliseum-auburn-al,"Beard-Eaves-Memorial Coliseum, Auburn, AL",0
 159,/venue:bears-stadium-denver-co,"Bears Stadium, Denver, CO",0
 160,/venue:bela-vista-park-lisbon-portugal,"Bela Vista Park, Lisbon, Portugal",3
-161,/venue:bell-centre-montreal-qc,"Bell Centre, Montreal, QC",3
+161,/venue:bell-centre-montreal-qc,"Bell Centre, Montreal, QC",2
 162,/venue:bell-lightbox-toronto-on,"Bell Lightbox, Toronto, ON",0
 163,/venue:bell-mts-place-winnipeg-mb,"Bell MTS Place, Winnipeg, MB",0
 164,/venue:bellco-theatre-denver-co,"Bellco Theatre, Denver, CO",0
@@ -270,9 +270,9 @@ venue_id,venue_url,venue_name,num_performances
 269,/venue:camp-arrowhead-marlboro-nj,"Camp Arrowhead, Marlboro, NJ",2
 270,/venue:camp-nou-barcelona-spain,"Camp Nou, Barcelona, Spain",6
 271,/venue:campus-center-meadville-pa,"Campus Center, Meadville, PA",1
-272,/venue:canada-life-centre-winnipeg-mb,"Canada Life Centre, Winnipeg, MB",1
+272,/venue:canada-life-centre-winnipeg-mb,"Canada Life Centre, Winnipeg, MB",0
 273,/venue:canadian-airlines-saddledome-calgary-ab,"Canadian Airlines Saddledome, Calgary, AB",0
-274,/venue:canadian-tire-centre-ottawa-on,"Canadian Tire Centre, Ottawa, ON",1
+274,/venue:canadian-tire-centre-ottawa-on,"Canadian Tire Centre, Ottawa, ON",0
 275,/venue:canal-studios-paris-france,"Canal+ Studios, Paris, France",2
 276,/venue:capital-centre-largo-md,"Capital Centre, Largo, MD",15
 277,/venue:capital-one-arena-washington-dc,"Capital One Arena, Washington, DC",1
@@ -319,7 +319,7 @@ venue_id,venue_url,venue_name,num_performances
 318,/venue:charlie-s-place-cambridge-ma,"Charlie's Place, Cambridge, MA",8
 319,/venue:bobcats-arena-charlotte-nc,"Charlotte Bobcats Arena, Charlotte, NC",1
 320,/venue:coliseum-charlotte-nc,"Charlotte Coliseum, Charlotte, NC",7
-321,/venue:chase-center-san-francisco-ca,"Chase Center, San Francisco, CA",2
+321,/venue:chase-center-san-francisco-ca,"Chase Center, San Francisco, CA",0
 322,/venue:checkerdome-st-louis-mo,"Checkerdome, St. Louis, MO",1
 323,/venue:cheers-long-branch-nj,"Cheers, Long Branch, NJ",7
 324,/venue:chelsea-piers-new-york-city-ny,"Chelsea Piers, New York City, NY",2
@@ -589,7 +589,7 @@ venue_id,venue_url,venue_name,num_performances
 588,/venue:floyd-l-maines-veterans-memorial-arena-binghamton-ny,"Floyd L. Maines Veterans Memorial Arena, Binghamton, NY",0
 589,/venue:flydsa-arena-sheffield-england,"FlyDSA Arena, Sheffield, England",0
 590,/venue:fogerty-residence-beverly-hills-ca,"Fogerty Residence, Beverly Hills, CA",1
-591,/venue:footprint-center-phoenix-az,"Footprint Center, Phoenix, AZ",1
+591,/venue:footprint-center-phoenix-az,"Footprint Center, Phoenix, AZ",0
 592,/venue:ford-amphitheatre-tampa-fl,"Ford Amphitheatre, Tampa, FL",1
 593,/venue:ford-center-oklahoma-city-ok,"Ford Center, Oklahoma City, OK",0
 594,/venue:forest-national-brussels-belgium,"Forest National, Brussels, Belgium",2
@@ -862,7 +862,7 @@ venue_id,venue_url,venue_name,num_performances
 861,/venue:keybank-center-buffalo-ny,"KeyBank Center, Buffalo, NY",1
 862,/venue:keystone-hall-kutztown-pa,"Keystone Hall, Kutztown, PA",3
 863,/venue:keystone-palo-alto-ca,"The Keystone, Palo Alto, CA",1
-864,/venue:kia-forum-inglewood-ca,"Kia Forum, Inglewood, CA",2
+864,/venue:kia-forum-inglewood-ca,"Kia Forum, Inglewood, CA",0
 865,/venue:kiel-auditorium-st-louis-mo,"Kiel Auditorium, St. Louis, MO",1
 866,/venue:kiel-center-st-louis-mo,"Kiel Center, St. Louis, MO",1
 867,/venue:kiel-opera-house-st-louis-mo,"Kiel Opera House, St. Louis, MO",3
@@ -1330,7 +1330,7 @@ venue_id,venue_url,venue_name,num_performances
 1329,/venue:paul-s-mall-boston-ma,"Paul's Mall, Boston, MA",14
 1330,/venue:pavello-olimpic-de-badalona-barcelona-spain,"Pavelló Olímpic De Badalona, Barcelona, Spain",2
 1331,/venue:peabody-opera-house-st-louis-mo,"Peabody Opera House, St. Louis, MO",0
-1332,/venue:pechanga-arena-san-diego-ca,"Pechanga Arena San Diego, San Diego, CA",1
+1332,/venue:pechanga-arena-san-diego-ca,"Pechanga Arena San Diego, San Diego, CA",0
 1333,/venue:pengrowth-saddledome-calgary-ab,"Pengrowth Saddledome, Calgary, AB",1
 1334,/venue:state-university-university-park-pa,"Penn State University, University Park, PA",0
 1335,/venue:pennsylvania-decade-pittsburgh-pa,"Pennsylvania Decade, Pittsburgh, PA",1
@@ -1470,9 +1470,9 @@ venue_id,venue_url,venue_name,num_performances
 1469,/venue:rocket-mortgage-fieldhouse-cleveland-oh,"Rocket Mortgage Fieldhouse, Cleveland, OH",1
 1470,/venue:rockitz-music-club-richmond-va,"Rockitz Music Club, Richmond, VA",0
 1471,/venue:rod-laver-arena-melbourne-australia,"Rod Laver Arena, Melbourne, Australia",3
-1472,/venue:rogers-arena-vancouver-bc,"Rogers Arena, Vancouver, BC",2
+1472,/venue:rogers-arena-vancouver-bc,"Rogers Arena, Vancouver, BC",1
 1473,/venue:rogers-centre-toronto-on,"Rogers Centre, Toronto, ON",1
-1474,/venue:rogers-place-edmonton-ab,"Rogers Place, Edmonton, AB",1
+1474,/venue:rogers-place-edmonton-ab,"Rogers Place, Edmonton, AB",0
 1475,/venue:rona-centre-ottawa-on,"Rona Centre, Ottawa, ON",0
 1476,/venue:rose-center-new-york-city-ny,"Rose Center For Earth And Space, New York City, NY",0
 1477,/venue:rose-garden-portland-or,"Rose Garden, Portland, OR",4
@@ -1558,9 +1558,9 @@ venue_id,venue_url,venue_name,num_performances
 1557,/venue:schenley-park-pittsburgh-pa,"Schenley Park, Pittsburgh, PA",0
 1558,/venue:school-rumson-nj,"School, Rumson, NJ",0
 1559,/venue:schottenstein-center-columbus-oh,"Schottenstein Center, Columbus, OH",1
-1560,/venue:scotiabank-arena-toronto-on,"Scotiabank Arena, Toronto, ON",2
+1560,/venue:scotiabank-arena-toronto-on,"Scotiabank Arena, Toronto, ON",0
 1561,/venue:scotiabank-place-ottawa-on,"Scotiabank Place, Ottawa, ON",2
-1562,/venue:scotiabank-saddledome-calgary-ab,"Scotiabank Saddledome, Calgary, AB",1
+1562,/venue:scotiabank-saddledome-calgary-ab,"Scotiabank Saddledome, Calgary, AB",0
 1563,/venue:scott-amphitheater-swarthmore-pa,"Scott Amphitheater, Swarthmore, PA",1
 1564,/venue:scottrade-center-st-louis-mo,"Scottrade Center, St. Louis, MO",2
 1565,/venue:scullville-studios-egg-harbor-township-nj,"Scullville Studios, Egg Harbor Township, NJ",0
