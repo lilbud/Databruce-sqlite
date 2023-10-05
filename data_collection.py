@@ -12,7 +12,7 @@ import requests
 from titlecase import titlecase
 from bs4 import BeautifulSoup as bs4
 import pandas as pd
-from helper_stuff import albums, song_link_corrector, name_fix, show_name_split
+from helper_stuff import albums, song_link_corrector, name_fix, show_name_split, venue_name_corrector
 
 main_url = "http://brucebase.wikidot.com/"
 event_types = "/(gig|rehearsal|nobruce):"
@@ -41,9 +41,9 @@ def get_bands():
 			if ", The" in b.text or " (The)" in b.text:
 				band_name = "The " + re.sub("(, | )(\(The\)|The)", "", b.text.strip())
 
-			bands.append([b.get('href'), band_name, 0])
+			bands.append([b.get('href'), band_name, 0, "band"])
 
-	cur.executemany("""INSERT OR IGNORE INTO BANDS VALUES (NULL, ?, ?, ?)""",
+	cur.executemany("""INSERT OR IGNORE INTO RELATIONS VALUES (NULL, ?, ?, ?, ?)""",
 		sorted(bands, key=lambda band: band[1].replace("The ", "")))
 
 	conn.commit()
@@ -70,9 +70,9 @@ def get_people():
 		if re.search("\(timepiece\)", curr[0], re.IGNORECASE):
 			name = f"{curr[0].replace(' (Timepiece)', '')} {curr[1]} (Timepiece)"
 
-		people.append([p.get('href'), name, 0])
+		people.append([p.get('href'), name, 0, "person"])
 
-	cur.executemany("""INSERT OR IGNORE INTO PERSONS VALUES (NULL, ?, ?, ?)""", people)
+	cur.executemany("""INSERT OR IGNORE INTO RELATIONS VALUES (NULL, ?, ?, ?, ?)""", people)
 	conn.commit()
 
 	print("Got People")
@@ -106,13 +106,16 @@ def get_venues():
 
 	for v in soup.find_all(href=re.compile("/venue:.*")):
 		name = name_fix(venue_name_corrector(v.text.strip()))
-		venues.append([v.get('href').strip(), name, 0]) #putting into a list because source page is out of order
+		venue_name = show_name_split(name, v.get('href'))[0]
+		venues.append([v.get('href').strip(), venue_name[0], venue_name[1], venue_name[2], venue_name[3], 0]) #putting into a list because source page is out of order
 
-	cur.executemany("""INSERT OR IGNORE INTO VENUES VALUES (NULL, ?, ?, ?)""",
+	cur.executemany("""INSERT OR IGNORE INTO VENUES VALUES (NULL, ?, ?, ?, ?, ?, ?)""",
 		sorted(venues, key=lambda venue: venue[1].replace("The ", "")))
 
 	conn.commit()
 	print("Got Venues")
+
+get_venues()
 
 def get_events_by_year(year):
 	"""
@@ -128,14 +131,14 @@ def get_events_by_year(year):
 	for e in soup.find_all('a', href=re.compile(f"{event_types}{str(year)}")):
 		if e.find_parent().name == "strong":
 			event_url = e.get('href')
-			location_url = event_venue = event_city = event_state = event_country = show = tour = setlist = ""
+			location_url = show = tour = setlist = ""
 			event_date = e.text[0:10]
 
-			shows.append([event_date, event_url, location_url, event_venue, event_city, event_state, event_country, show, tour, setlist])
+			shows.append([event_date, event_url, location_url, show, tour, setlist])
 			cur.execute("""UPDATE SETLISTS SET event_date=? WHERE event_url=?""", (event_date, event_url))
 			conn.commit()
 
-	cur.executemany("""INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", shows)
+	cur.executemany("""INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?, ?)""", shows)
 	conn.commit()
 
 	print("got events for year: " + str(year))
@@ -146,14 +149,13 @@ def get_onStage(tab, url):
 	onStage = []
 
 	for m in tab.find_all(href=re.compile("/relation:.*")):
-		# 0 - id, 1 - url, 2 - name (for both)
-		b = cur.execute(f"""SELECT band_url FROM BANDS WHERE band_url LIKE '{m.get('href')}'""").fetchone()
-		p = cur.execute(f"""SELECT person_url FROM PERSONS WHERE person_url LIKE '{m.get('href')}'""").fetchone()
+		r = cur.execute(f"""SELECT relation_url, relation_type FROM RELATIONS WHERE relation_url LIKE '{m.get('href')}'""").fetchone()
 
-		if b:
-			onStage.append([url, m.get('href'), "Band"])
-		elif p:
-			onStage.append([url, m.get('href'), "Person"])
+		if r[1] == 'band':
+			onStage.append([url, r[0], "Band"])
+		elif r[1] == 'person':
+			onStage.append([url, r[0], "Person"])
+
 
 	cur.executemany("""INSERT OR IGNORE INTO ON_STAGE VALUES (NULL, ?, ?, ?)""", onStage)
 	conn.commit()
@@ -247,7 +249,6 @@ def get_show_info(url):
 	if r.status_code == 200:
 		soup = bs4(r.text, "lxml")
 		venue = soup.find(href=re.compile("/venue:.*"))
-		name = show_name_split(soup.find(id="page-title").text.strip()[11:].strip(), url)
 		nav = soup.find("ul", {"class": "yui-nav"}).find_all('li')
 		date = cur.execute(f"""SELECT event_date FROM EVENTS WHERE event_url LIKE '{url}'""").fetchone()
 
@@ -256,9 +257,6 @@ def get_show_info(url):
 		if v:
 			cur.execute("""UPDATE EVENTS SET location_url=? WHERE event_url=?""", (v[0], url))
 			conn.commit()
-
-		cur.executemany("""UPDATE EVENTS SET event_venue=?, event_city=?, event_state=?, event_country=?, show=? WHERE event_url=?""", name)
-		conn.commit()
 
 		for n in nav:
 			if n.text == "On Stage":

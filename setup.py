@@ -20,10 +20,6 @@ cur.execute("""CREATE TABLE IF NOT EXISTS EVENTS (
 	event_date TEXT NOT NULL,
 	event_url TEXT NOT NULL,
 	location_url TEXT NOT NULL,
-	event_venue TEXT NOT NULL,
-	event_city TEXT NOT NULL,
-	event_state TEXT NOT NULL,
-	event_country TEXT NOT NULL,
 	show TEXT NOT NULL,
 	tour TEXT NOT NULL,
 	setlist TEXT NOT NULL,
@@ -36,6 +32,9 @@ cur.execute("""CREATE TABLE IF NOT EXISTS VENUES (
 	venue_id INTEGER primary key autoincrement,
 	venue_url TEXT NOT NULL,
 	venue_name TEXT NOT NULL,
+	venue_city TEXT NOT NULL,
+	venue_state TEXT NOT NULL,
+	venue_country TEXT NOT NULL,
 	num_performances INT NOT NULL,
 	UNIQUE(venue_url));""")
 
@@ -53,7 +52,6 @@ cur.execute("""CREATE TABLE IF NOT EXISTS SONGS (
 #Setlists
 cur.execute("""CREATE TABLE IF NOT EXISTS SETLISTS (
 	setlist_song_id INTEGER primary key autoincrement,
-	event_date TEXT NOT NULL,
 	event_url TEXT NOT NULL,
 	song_url TEXT NOT NULL,
 	song_name TEXT NOT NULL,
@@ -71,22 +69,14 @@ cur.execute("""CREATE TABLE IF NOT EXISTS ON_STAGE (
 	relation_type TEXT NOT NULL,
 	UNIQUE(event_url, relation_url));""")
 
-#bands
-#performances - count events table
-cur.execute("""CREATE TABLE IF NOT EXISTS BANDS (
-	band_id INTEGER primary key autoincrement,
-	band_url TEXT NOT NULL,
-	band_name TEXT NOT NULL,
-	num_performances INT NOT NULL,
-	UNIQUE(band_url));""")
-
-#persons
-cur.execute("""CREATE TABLE IF NOT EXISTS PERSONS (
-	person_id INTEGER primary key autoincrement,
-	person_url TEXT NOT NULL,
-	person_name TEXT NOT NULL,
-	num_appearances TEXT NOT NULL,
-	UNIQUE(person_url));""")
+#relations:
+cur.execute("""CREATE TABLE IF NOT EXISTS RELATIONS (
+	relation_id INTEGER primary key autoincrement,
+	relation_url TEXT NOT NULL,
+	relation_name TEXT NOT NULL,
+	appearances TEXT NOT NULL,
+	relation_type TEXT NOT NULL,
+	UNIQUE(relation_url));""")
 
 #tours
 cur.execute("""CREATE TABLE IF NOT EXISTS TOURS (

@@ -1,4 +1,5 @@
 id,event_url,relation_url,relation_type
+0,gig:1971-01-22-upstage-asbury-park-nj,/relation:steel-mill,Band
 1,/rehearsal:1965-00-00-private-residence-freehold-nj,/relation:the-rogues,Band
 2,/rehearsal:1965-00-00-private-residence-freehold-nj,/relation:craig-caprioni,Person
 3,/rehearsal:1965-00-00-private-residence-freehold-nj,/relation:jay-gibson,Person
@@ -33497,11 +33498,3 @@ id,event_url,relation_url,relation_type
 53211,/gig:2023-09-03-metlife-stadium-east-rutherford-nj,/relation:curtis-king,Person
 53212,/gig:2023-09-03-metlife-stadium-east-rutherford-nj,/relation:lisa-lowell,Person
 53213,/gig:2023-09-03-metlife-stadium-east-rutherford-nj,/relation:michelle-moore,Person
-53214,gig:1971-01-22-upstage-asbury-park-nj,/relation:steel-mill,Band
-53215,gig:1971-01-22-upstage-asbury-park-nj,/relation:bruce-springsteen,Person
-53216,gig:1971-01-22-upstage-asbury-park-nj,/relation:danny-federici,Person
-53217,gig:1971-01-22-upstage-asbury-park-nj,/relation:vini-lopez,Person
-53218,gig:1971-01-22-upstage-asbury-park-nj,/relation:robbin-thompson,Person
-53219,gig:1971-01-22-upstage-asbury-park-nj,/relation:steven-van-zandt,Person
-62661,/gig:1977-09-04-stone-pony-asbury-park-nj,/relation:carlo-novi,Person
-62662,/gig:1977-09-04-stone-pony-asbury-park-nj,/relation:tony-pallagrosi,Person

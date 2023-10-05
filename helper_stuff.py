@@ -91,10 +91,7 @@ def name_fix(name):
 
 	for n in ['The', 'Le', 'De', 'New']:
 		if f"({n})" in name:
-			try:
-				name = f"{n} " + re.sub(f" *\({n}\) *", "", name)
-			except:
-				name = f"{n} " + re.sub(f" *\({n}\),", ", ", name)
+			name = f"{n} " + re.sub(f" *\({n}\),* *", "", name)
 
 	return name
 

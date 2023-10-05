@@ -1,0 +1,5 @@
+find longest set by tour
+SELECT event_url, MAX(song_num_in_set) FROM SETLISTS WHERE event_url IN (SELECT event_url FROM EVENTS WHERE tour = 'Magic Tour' AND event_date LIKE '%2007%' AND event_url LIKE '%gig%') GROUP BY event_url ORDER BY song_num_in_set DESC;
+
+find shows with setlist
+SELECT event_date, event_venue, event_city, event_state, event_country FROM EVENTS WHERE setlist LIKE '%Thundercrack%' AND setlist LIKE '%Kitty%'

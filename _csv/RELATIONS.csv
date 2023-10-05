@@ -1,0 +1,2574 @@
+relation_id,relation_url,relation_name,appearances,relation_type
+1,/relation:the-1992-93-world-tour-band,The 1992-93 World Tour Band,118,band
+2,/relation:alabama-shakes,Alabama Shakes,1,band
+3,/relation:the-alliance-singers,The Alliance Singers,11,band
+4,/relation:the-allstars,The Allstars,1,band
+5,/relation:arcade-fire,Arcade Fire,1,band
+6,/relation:artists-united-against-apartheid,Artists United Against Apartheid,0,band
+7,/relation:the-asbury-jukes,The Asbury Jukes,17,band
+8,/relation:atlantic-city-expressway,Atlantic City Expressway,1,band
+9,/relation:the-australian-urban-orchestra,The Australian Urban Orchestra,7,band
+10,/relation:the-avatar-strings,The Avatar Strings,0,band
+11,/relation:the-bacon-brothers,The Bacon Brothers,1,band
+12,/relation:the-badboys,The Badboys,1,band
+13,/relation:the-bank-street-blues-band,The Bank Street Blues Band,2,band
+14,/relation:the-beach-boys,The Beach Boys,1,band
+15,/relation:beaver-brown,Beaver Brown,12,band
+16,/relation:the-beaver-brown-band,The Beaver Brown Band,0,band
+17,/relation:the-big-bad-bobby-williams-band,The Big Bad Bobby Williams Band,4,band
+18,/relation:billy-rancher-the-unreal-gods,Billy Rancher & The Unreal Gods,0,band
+19,/relation:the-blackberry-booze-band,The Blackberry Booze Band,5,band
+20,/relation:the-blasters,The Blasters,1,band
+21,/relation:bleachers,Bleachers,2,band
+22,/relation:bob-seger-the-silver-bullet-band,Bob Seger & The Silver Bullet Band,0,band
+23,/relation:bobby-bandiera-band,The Bobby Bandiera Band,31,band
+24,/relation:boccigalupe-the-badboys,Boccigalupe & The Badboys,4,band
+25,/relation:bon-iver,Bon Iver,0,band
+26,/relation:bon-jovi,Bon Jovi,6,band
+27,/relation:booker-t-the-m-g-s,Booker T & The M.G.'s,1,band
+28,/relation:brian-kirk-the-jirks,Brian Kirk & The Jirks,1,band
+29,/relation:bright-eyes,Bright Eyes,4,band
+30,/relation:bruce-springsteen-the-1992-93-world-tour-band,Bruce Springsteen & The 1992-93 World Tour Band,0,band
+31,/relation:bruce-springsteen-the-e-street-band,Bruce Springsteen & The E Street Band,0,band
+32,/relation:bruce-springsteen-the-other-band,Bruce Springsteen & The Other Band,0,band
+33,/relation:bruce-springsteen-the-seeger-sessions-band,Bruce Springsteen & The Seeger Sessions Band,0,band
+34,/relation:bruce-springsteen-the-sessions-band,Bruce Springsteen & The Sessions Band,0,band
+35,/relation:the-bruce-springsteen-band,The Bruce Springsteen Band,82,band
+36,/relation:the-byrds,The Byrds,1,band
+37,/relation:bystander,Bystander,1,band
+38,/relation:cbs-orchestra,The CBS Orchestra,4,band
+39,/relation:csn,CSN,0,band
+40,/relation:csny,CSNY,0,band
+41,/relation:the-castiles,The Castiles,118,band
+42,/relation:cats-on-a-smooth-surface,Cats On A Smooth Surface,33,band
+43,/relation:the-chambers-brothers,The Chambers Brothers,1,band
+44,/relation:the-cherubs,The Cherubs,1,band
+45,/relation:the-chicks,The Chicks,0,band
+46,/relation:child,Child,47,band
+47,/relation:clarence-clemons-the-red-bank-rockers,Clarence Clemons & The Red Bank Rockers,2,band
+48,/relation:clarence-clemons-temple-of-soul,Clarence Clemons & Temple Of Soul,0,band
+49,/relation:clarence-clemons-the-temple-of-soul,Clarence Clemons & The Temple Of Soul,0,band
+50,/relation:the-coasters,The Coasters,1,band
+51,/relation:coldplay,Coldplay,1,band
+52,/relation:the-composure,The Composure,2,band
+53,/relation:cooper-and-koo-strings,Cooper + Koo Strings,1,band
+54,/relation:crazy-horse,Crazy Horse,2,band
+55,/relation:crosby-stills-nash,"Crosby, Stills & Nash",0,band
+56,/relation:crosby-stills-nash-young,"Crosby, Stills, Nash & Young",1,band
+57,/relation:the-david-johansen-group,The David Johansen Group,1,band
+58,/relation:david-sancious-tone,David Sancious & Tone,0,band
+59,/relation:the-del-fuegos,The Del Fuegos,1,band
+60,/relation:the-delevantes,The Delevantes,1,band
+61,/relation:the-diamonds,The Diamonds,3,band
+62,/relation:the-dictators,The Dictators,0,band
+63,/relation:the-disciples-of-soul,The Disciples Of Soul,5,band
+64,/relation:dixie-chicks,Dixie Chicks,2,band
+65,/relation:dr-zoom-the-sonic-boom,Dr. Zoom & The Sonic Boom,2,band
+66,/relation:the-drifters,The Drifters,1,band
+67,/relation:dropkick-murphys,Dropkick Murphys,3,band
+68,/relation:the-dukes,The Dukes,1,band
+69,/relation:the-e-street-band,The E Street Band,1964,band
+70,/relation:the-e-street-choir,The E Street Choir,355,band
+71,/relation:the-e-street-horns,The E Street Horns,266,band
+72,/relation:earth,Earth,22,band
+73,/relation:the-eddie-testa-band,The Eddie Testa Band,1,band
+74,/relation:elvis-costello-the-imposters,Elvis Costello & The Imposters,1,band
+75,/relation:the-epidemics,The Epidemics,1,band
+76,/relation:eurythmics,Eurythmics,2,band
+77,/relation:the-exciters,The Exciters,1,band
+78,/relation:exit-105,Exit 105,1,band
+79,/relation:the-fabulous-greaseband,The Fabulous Greaseband,3,band
+80,/relation:the-fairlanes,The Fairlanes,1,band
+81,/relation:the-fanatics,The Fanatics,2,band
+82,/relation:the-fat-boys,The Fat Boys,0,band
+83,/relation:elysian-fields,"Fields, Elysian",1,band
+84,/relation:flo-and-eddie,Flo and Eddie,7,band
+85,/relation:the-four-seasons,The Four Seasons,1,band
+86,/relation:four-tops,Four Tops,1,band
+87,/relation:the-friendly-enemies,The Friendly Enemies,3,band
+88,/relation:the-frontstreet-runners,The Frontstreet Runners,5,band
+89,/relation:funky-dusty-the-soul-broom,Funky Dusty & The Soul Broom,1,band
+90,/relation:the-furious-five,The Furious Five,0,band
+91,/relation:the-gaslight-anthem,The Gaslight Anthem,3,band
+92,/relation:the-gigolos,The Gigolos,0,band
+93,/relation:the-godsons-of-soul,The Godsons Of Soul,0,band
+94,/relation:the-gotham-playboys,The Gotham Playboys,4,band
+95,/relation:graham-parker-the-rumour,Graham Parker & The Rumour,0,band
+96,/relation:grandmaster-flash-the-furious-five,Grandmaster Flash & The Furious Five,1,band
+97,/relation:hall-oates,Hall & Oates,2,band
+98,/relation:the-heartbreakers,The Heartbreakers,0,band
+99,/relation:heavy-trucking,Heavy Trucking,1,band
+100,/relation:hetty-schneider-band,Hetty Schneider Band,1,band
+101,/relation:hootie-the-blowfish,Hootie & The Blowfish,1,band
+102,/relation:the-horns-of-love,The Horns Of Love,70,band
+103,/relation:house-of-blues-band,House Of Blues Band,0,band
+104,/relation:the-houserockers,The Houserockers,0,band
+105,/relation:huey-lewis-the-news,Huey Lewis & The News,0,band
+106,/relation:the-iguanas,The Iguanas,1,band
+107,/relation:the-imposters,The Imposters,0,band
+108,/relation:the-impressions,The Impressions,1,band
+109,/relation:indigo-girls,Indigo Girls,1,band
+110,/relation:iron-city-houserockers,Iron City Houserockers,2,band
+111,/relation:j-t-bowen-the-sensational-soul-cruisers,J.T. Bowen & The Sensational Soul Cruisers,1,band
+112,/relation:the-jacksons,The Jacksons,0,band
+113,/relation:jeff-lubin-band,Jeff Lubin Band,1,band
+114,/relation:jersey-artists-for-mankind,Jersey Artists For Mankind,0,band
+115,/relation:jersey-artists-for-mankind-choir,Jersey Artists For Mankind Choir,0,band
+116,/relation:jimmy-the-gigolos,Jimmy & The Gigolos,1,band
+117,/relation:jimmy-the-mustangs,Jimmy & The Mustangs,1,band
+118,/relation:the-jirks,The Jirks,0,band
+119,/relation:jobonanno-the-godsons-of-soul,JoBonanno & The Godsons Of Soul,3,band
+120,/relation:joe-d-urso-stone-caravan,Joe D'Urso & Stone Caravan,0,band
+121,/relation:joe-grushecky-the-houserockers,Joe Grushecky & The Houserockers,31,band
+122,/relation:joe-grushecky-the-iron-city-rockers,Joe Grushecky & The Iron City Rockers,0,band
+123,/relation:joe-grushecky-no-spring-chickens,Joe Grushecky & No Spring Chickens,1,band
+124,/relation:john-cafferty-the-beaver-brown-band,John Cafferty & The Beaver Brown Band,0,band
+125,/relation:john-eddie-the-frontstreet-runners,John Eddie & The Frontstreet Runners,0,band
+126,/relation:the-joyce-garrett-singers,The Joyce Garrett Singers,6,band
+127,/relation:the-joyful-noyze,The Joyful Noyze,2,band
+128,/relation:the-jukes,The Jukes,0,band
+129,/relation:jurassic-5,Jurassic 5,1,band
+130,/relation:killer-joe,Killer Joe,1,band
+131,/relation:the-killers,The Killers,1,band
+132,/relation:the-kinks,The Kinks,1,band
+133,/relation:the-knack,The Knack,1,band
+134,/relation:ladysmith-black-mambazo,Ladysmith Black Mambazo,2,band
+135,/relation:the-latin-rascals,The Latin Rascals,0,band
+136,/relation:little-steven-the-disciples-of-soul,Little Steven & The Disciples Of Soul,4,band
+137,/relation:lord-gunner-group,Lord Gunner Group,1,band
+138,/relation:lost-highway-band,Lost Highway Band,1,band
+139,/relation:the-low-anthem,The Low Anthem,1,band
+140,/relation:the-m-g-s,The M.G.'s,0,band
+141,/relation:the-magic-string-section,The Magic String Section,0,band
+142,/relation:malopoets,Malopoets,0,band
+143,/relation:malurt,Malurt,1,band
+144,/relation:mama-tried,Mama Tried,1,band
+145,/relation:marah,Marah,4,band
+146,/relation:the-mates,The Mates,1,band
+147,/relation:the-max-weinberg-7,The Max Weinberg 7,16,band
+148,/relation:the-max-weinberg-big-band,The Max Weinberg Big Band,2,band
+149,/relation:the-miami-horns,The Miami Horns,76,band
+150,/relation:midnight-thunder,Midnight Thunder,1,band
+151,/relation:the-midtown-men,The Midtown Men,1,band
+152,/relation:the-mighty-hornets,The Mighty Hornets,1,band
+153,/relation:mile-high-band,Mile High Band,1,band
+154,/relation:mr-reality,Mr. Reality,1,band
+155,/relation:mumford-sons,Mumford & Sons,2,band
+156,/relation:the-mustangs,The Mustangs,0,band
+157,/relation:nyc-hit-squad,NYC Hit Squad,1,band
+158,/relation:nashville-string-machine,Nashville String Machine,0,band
+159,/relation:the-national,The National,1,band
+160,/relation:native-american-indian-cultural-alliance,Native American Indian Cultural Alliance,1,band
+161,/relation:neil-young-crazy-horse,Neil Young & Crazy Horse,1,band
+162,/relation:new-orleans-blues-department,New Orleans Blues Department,1,band
+163,/relation:new-york-city-labor-chorus,New York City Labor Chorus,1,band
+164,/relation:new-york-string-section,New York String Section,0,band
+165,/relation:the-news,The News,1,band
+166,/relation:no-spring-chickens,No Spring Chickens,0,band
+167,/relation:norman-seldin-the-joyful-noyze,Norman Seldin & The Joyful Noyze,0,band
+168,/relation:north-street-music-strings,North Street Music strings,3,band
+169,/relation:odin,Odin,1,band
+170,/relation:the-old-dog-band,The Old Dog Band,1,band
+171,/relation:roma-sinfonietta-orchestra,Orchestra Roma Sinfonietta,3,band
+172,/relation:orchestra-of-st-luke-s,Orchestra of St. Luke's,1,band
+173,/relation:the-other-band,The Other Band,0,band
+174,/relation:the-outcry,The Outcry,1,band
+175,/relation:panther-club-band,Panther Club Band,1,band
+176,/relation:the-parkington-sisters,The Parkington Sisters,1,band
+177,/relation:pegasus,Pegasus,1,band
+178,/relation:peter-hartung-the-remakes,Peter Hartung & The Remakes,1,band
+179,/relation:phish,Phish,1,band
+180,/relation:the-pointer-sisters,The Pointer Sisters,0,band
+181,/relation:preservation-hall-jazz-band,Preservation Hall Jazz Band,1,band
+182,/relation:the-pretenders,The Pretenders,1,band
+183,/relation:prince-the-revolution,Prince & The Revolution,0,band
+184,/relation:psychotic-blues-band,Psychotic Blues Band,1,band
+185,/relation:r-e-m,R.E.M.,6,band
+186,/relation:ramones,Ramones,0,band
+187,/relation:the-rascals,The Rascals,1,band
+188,/relation:the-red-bank-rockers,The Red Bank Rockers,8,band
+189,/relation:the-red-hot-mammas,The Red Hot Mammas,4,band
+190,/relation:the-remakes,The Remakes,0,band
+191,/relation:the-revolution,The Revolution,1,band
+192,/relation:the-rivertown-kids,The Rivertown Kids,0,band
+193,/relation:the-rock-bottom-remainders,The Rock Bottom Remainders,1,band
+194,/relation:the-rogues,The Rogues,6,band
+195,/relation:the-rolling-stones,The Rolling Stones,3,band
+196,/relation:the-roots,The Roots,4,band
+197,/relation:the-rumour,The Rumour,0,band
+198,/relation:run-d-m-c,Run-D.M.C.,0,band
+199,/relation:the-sacred-hearts,The Sacred Hearts,1,band
+200,/relation:sechaba-cultural-singers,Sechaba Cultural Singers,0,band
+201,/relation:the-sensational-soul-cruisers,The Sensational Soul Cruisers,0,band
+202,/relation:the-sessions-band,The Sessions Band,78,band
+203,/relation:the-sessions-band-studio,The Sessions Band - Studio,0,band
+204,/relation:the-sessions-band-tour,The Sessions Band - Tour,0,band
+205,/relation:the-shakes,The Shakes,1,band
+206,/relation:the-shirleys,The Shirleys,0,band
+207,/relation:the-shots,The Shots,1,band
+208,/relation:the-silver-bullet-band,The Silver Bullet Band,1,band
+209,/relation:simon-garfunkel,Simon & Garfunkel,1,band
+210,/relation:social-distortion,Social Distortion,1,band
+211,/relation:solar-circus,Solar Circus,1,band
+212,/relation:the-sonic-people,The Sonic People,3,band
+213,/relation:soul-asylum,Soul Asylum,1,band
+214,/relation:south-community-choir-of-asbury-park,South Community Choir of Asbury Park,2,band
+215,/relation:southside-johnny-the-asbury-jukes,Southside Johnny & The Asbury Jukes,5,band
+216,/relation:stand-and-deliver,Stand And Deliver,1,band
+217,/relation:the-staple-singers,The Staple Singers,1,band
+218,/relation:steel-mill,Steel Mill,60,band
+219,/relation:steel-mill-retro,Steel Mill Retro,0,band
+220,/relation:steve-earle-the-dukes,Steve Earle & The Dukes,1,band
+221,/relation:stone-caravan,Stone Caravan,0,band
+222,/relation:stone-hill-strings,Stone Hill Strings,0,band
+223,/relation:stray-cats,Stray Cats,1,band
+224,/relation:suicide,Suicide,0,band
+225,/relation:the-sundance-blues-band,The Sundance Blues Band,21,band
+226,/relation:the-swingin-medallions,The Swingin' Medallions,1,band
+227,/relation:tcb-band,TCB Band,1,band
+228,/relation:the-tangiers-blues-band,The Tangiers Blues Band,2,band
+229,/relation:temple-of-soul,Temple Of Soul,2,band
+230,/relation:the-temptations,The Temptations,1,band
+231,/relation:the-terrorists-of-love,The Terrorists Of Love,1,band
+232,/relation:tim-mcloone-the-shirleys,Tim McLoone & The Shirleys,3,band
+233,/relation:timepiece,Timepiece,2,band
+234,/relation:tom-petty-the-heartbreakers,Tom Petty & The Heartbreakers,2,band
+235,/relation:tone,Tone,1,band
+236,/relation:tony-toni-tone,Tony! Toni! Toné!,1,band
+237,/relation:the-trews,The Trews,1,band
+238,/relation:the-tunnel-of-love-horns,The Tunnel Of Love Horns,0,band
+239,/relation:u2,U2,6,band
+240,/relation:usa-for-africa,USA For Africa,0,band
+241,/relation:unione-musicisti-di-roma,Unione Musicisti Di Roma,0,band
+242,/relation:the-unreal-gods,The Unreal Gods,1,band
+243,/relation:via-afrika,Via Afrika,0,band
+244,/relation:victorious-gospel-choir,Victorious Gospel Choir,3,band
+245,/relation:the-wallflowers,The Wallflowers,2,band
+246,/relation:the-waters,The Waters,0,band
+247,/relation:the-who,The Who,2,band
+248,/relation:the-world-s-most-dangerous-band,The World's Most Dangerous Band,7,band
+249,/relation:x-men,X-Men,1,band
+250,/relation:zz-top,ZZ Top,1,band
+251,/relation:zac-brown-band,Zac Brown Band,2,band
+252,/relation:the-zoomettes,The Zoomettes,2,band
+253,/relation:mindi-abair,Mindi Abair,1,person
+254,/relation:nadia-ackerman,Nadia Ackerman,4,person
+255,/relation:alex-acuna,Alex Acuña,1,person
+256,/relation:bryan-adams,Bryan Adams,1,person
+257,/relation:jocie-adams,Jocie Adams,1,person
+258,/relation:ryan-adams,Ryan Adams,0,person
+259,/relation:william-adams,William Adams,0,person
+260,/relation:nicky-addeo,Nicky Addeo,2,person
+261,/relation:tawatha-agee,Tawatha Agee,2,person
+262,/relation:mark-agnor,Mark Agnor,1,person
+263,/relation:tony-aiello,Tony Aiello,1,person
+264,/relation:akil,Akil,1,person
+265,/relation:mitch-albom,Mitch Albom,1,person
+266,/relation:alex-alexander,Alex Alexander,3,person
+267,/relation:danny-alexander,Danny Alexander,0,person
+268,/relation:glenn-alexander,Glenn Alexander,3,person
+269,/relation:mark-alexander,Mark Alexander,2,person
+270,/relation:bob-alfano,Bob Alfano,99,person
+271,/relation:zack-alford,Zack Alford,120,person
+272,/relation:jim-allen,Jim Allen,1,person
+273,/relation:kris-allen,Kris Allen,1,person
+274,/relation:tito-allen,Tito Allen,1,person
+275,/relation:tori-allen,Tori Allen,1,person
+276,/relation:dawne-allynne,Dawne Allynne,2,person
+277,/relation:johnny-almond,Johnny Almond,1,person
+278,/relation:anthony-almonte,Anthony Almonte,81,person
+279,/relation:phil-alvin,Phil Alvin,1,person
+280,/relation:waleed-aly,Waleed Aly,0,person
+281,/relation:anthony-amato,Anthony Amato,0,person
+282,/relation:robby-ameen,Robby Ameen,1,person
+283,/relation:ron-amodea,Ron Amodea,1,person
+284,/relation:dennis-amoruso,Dennis Amoruso,3,person
+285,/relation:david-amram,David Amram,1,person
+286,/relation:trey-anastasio,Trey Anastasio,1,person
+287,/relation:eric-andersen,Eric Andersen,1,person
+288,/relation:ray-andersen,Ray Andersen,16,person
+289,/relation:brint-anderson,Brint Anderson,1,person
+290,/relation:chris-anderson,Chris Anderson,8,person
+291,/relation:laura-anderson,Laura Anderson,1,person
+292,/relation:laurie-anderson,Laurie Anderson,1,person
+293,/relation:rusty-anderson,Rusty Anderson,4,person
+294,/relation:wayne-andre,Wayne Andre,0,person
+295,/relation:tiffeny-andrews,Tiffeny Andrews,11,person
+296,/relation:brice-andrus,Brice Andrus,0,person
+297,/relation:jerry-angel,Jerry Angel,1,person
+298,/relation:ron-aniello,Ron Aniello,3,person
+299,/relation:rico-antonelli,Rico Antonelli,1,person
+300,/relation:jack-antonoff,Jack Antonoff,2,person
+301,/relation:michael-antrim,Michael Antrim,1,person
+302,/relation:michael-antunes,Michael Antunes,12,person
+303,/relation:louie-appel,Louie Appel,1,person
+304,/relation:mike-appel,Mike Appel,0,person
+305,/relation:rachael-aquilina,Rachael Aquilina,3,person
+306,/relation:michael-eugene-archer,Michael Eugene Archer,0,person
+307,/relation:steve-argy,Steve Argy,2,person
+308,/relation:india-arie,India Arie,1,person
+309,/relation:rich-armstrong,Rich Armstrong,1,person
+310,/relation:kenny-aronoff,Kenny Aronoff,7,person
+311,/relation:joseph-arthur,Joseph Arthur,1,person
+312,/relation:nicole-atkins,Nicole Atkins,2,person
+313,/relation:zem-audu,Zem Audu,2,person
+314,/relation:berton-averre,Berton Averre,1,person
+315,/relation:mick-avory,Mick Avory,1,person
+316,/relation:jim-axelrod,Jim Axelrod,1,person
+317,/relation:dan-aykroyd,Dan Aykroyd,1,person
+318,/relation:bill-ayres,Bill Ayres,0,person
+319,/relation:kevin-bacon,Kevin Bacon,1,person
+320,/relation:michael-bacon,Michael Bacon,1,person
+321,/relation:robert-bacon,Robert Bacon,0,person
+322,/relation:johnny-badanjek,Johnny Badanjek,0,person
+323,/relation:mick-bader,Mick Bader,2,person
+324,/relation:badly-drawn-boy,Badly Drawn Boy,1,person
+325,/relation:manolo-badrena,Manolo Badrena,0,person
+326,/relation:joan-baez,Joan Baez,6,person
+327,/relation:claudio-baglioni,Claudio Baglioni,1,person
+328,/relation:anthony-bagliore,Anthony Bagliore,1,person
+329,/relation:john-bailey,John Bailey,2,person
+330,/relation:anita-baker,Anita Baker,1,person
+331,/relation:lavern-baker,LaVern Baker,1,person
+332,/relation:tina-b,Tina Baker,0,person
+333,/relation:hank-ballard,Hank Ballard,1,person
+334,/relation:zoe-ball,Zoe Ball,0,person
+335,/relation:afrika-bambaataa,Afrika Bambaataa,0,person
+336,/relation:maurycy-banaszek,Maurycy Banaszek,1,person
+337,/relation:bobby-bandiera,Bobby Bandiera,87,person
+338,/relation:lester-bangs,Lester Bangs,1,person
+339,/relation:clarence-banks,Clarence Banks,1,person
+340,/relation:alden-banta,Alden Banta,0,person
+341,/relation:sam-bardfeld,Sam Bardfeld,91,person
+342,/relation:steve-barlotta,Steve Barlotta,3,person
+343,/relation:jimmy-barnes,Jimmy Barnes,2,person
+344,/relation:john-barnes,John Barnes,0,person
+345,/relation:katreese-barnes,Katreese Barnes,1,person
+346,/relation:art-baron,Art Baron,79,person
+347,/relation:alexander-barr,Alexander Barr,2,person
+348,/relation:michael-des-barres,Michael Des Barres,1,person
+349,/relation:ray-barretto,Ray Barretto,0,person
+350,/relation:roseanne-barr,Roseanne Barr,1,person
+351,/relation:dave-barry,Dave Barry,1,person
+352,/relation:chuck-bartels,Chuck Bartels,0,person
+353,/relation:shirley-bassey,Shirley Bassey,1,person
+354,/relation:jt-bates,JT Bates,0,person
+355,/relation:mike-batlan,Mike Batlan,0,person
+356,/relation:stiv-bators,Stiv Bators,0,person
+357,/relation:randy-baumann,Randy Baumann,0,person
+358,/relation:bucky-baxter,Bucky Baxter,2,person
+359,/relation:nancy-lee-baxter,Nancy Lee Baxter,1,person
+360,/relation:vanessa-bayer,Vanessa Bayer,1,person
+361,/relation:john-bazz,John Bazz,1,person
+362,/relation:david-beal,David Beal,2,person
+363,/relation:michael-bearden,Michael Bearden,2,person
+364,/relation:frank-beard,Frank Beard,1,person
+365,/relation:ed-beauchamp,Ed Beauchamp,0,person
+366,/relation:jean-beauvoir,Jean Beauvoir,1,person
+367,/relation:beck,Beck,1,person
+368,/relation:steve-becker,Steve Becker,2,person
+369,/relation:jeff-beck,Jeff Beck,1,person
+370,/relation:harry-belafonte,Harry Belafonte,0,person
+371,/relation:joe-bellia,Joe Bellia,10,person
+372,/relation:martin-belmont,Martin Belmont,0,person
+373,/relation:pat-benatar,Pat Benatar,0,person
+374,/relation:tom-bender,Tom Bender,3,person
+375,/relation:bob-benjamin,Bob Benjamin,12,person
+376,/relation:scott-bennert,Scott Bennert,0,person
+377,/relation:beck-bennett,Beck Bennett,1,person
+378,/relation:eliza-bennett,Eliza Bennett,2,person
+379,/relation:errol-bennett,Errol Bennett,1,person
+380,/relation:scott-bennett,Scott Bennett,1,person
+381,/relation:tony-bennett,Tony Bennett,1,person
+382,/relation:george-benson,George Benson,1,person
+383,/relation:renaldo-benson,Renaldo Benson,1,person
+384,/relation:jerome-benton,Jerome Benton,1,person
+385,/relation:al-berger,Al Berger,17,person
+386,/relation:patrik-berger,Patrik Berger,0,person
+387,/relation:joey-berkley,Joey Berkley,1,person
+388,/relation:matt-berninger,Matt Berninger,1,person
+389,/relation:david-bernz,David Bernz,0,person
+390,/relation:chuck-berry,Chuck Berry,3,person
+391,/relation:john-berry,John Berry,3,person
+392,/relation:guy-berryman,Guy Berryman,1,person
+393,/relation:steve-berson,Steve Berson,0,person
+394,/relation:donnie-bertelson,Donnie Bertelson,0,person
+395,/relation:ravi-best,Ravi Best,5,person
+396,/relation:dickey-betts,Dickey Betts,1,person
+397,/relation:owen-biddle,Owen Biddle,1,person
+398,/relation:dave-bielanko,Dave Bielanko,7,person
+399,/relation:serge-bielanko,Serge Bielanko,5,person
+400,/relation:timm-biery,Timm Biery,1,person
+401,/relation:big-sean,Big Sean,1,person
+402,/relation:big-youth,Big Youth,0,person
+403,/relation:natalya-bing,Natalya Bing,1,person
+404,/relation:john-binkley,John Binkley,54,person
+405,/relation:curt-bisquera,Curt Bishera,1,person
+406,/relation:roy-bittan,Roy Bittan,1775,person
+407,/relation:ryan-bittan,Ryan Bittan,1,person
+408,/relation:aloe-blacc,Aloe Blacc,1,person
+409,/relation:seneca-black,Seneca Black,2,person
+410,/relation:black-thought,Black Thought,4,person
+411,/relation:richard-blackwell,Richard Blackwell,16,person
+412,/relation:brady-blade,Brady Blade,1,person
+413,/relation:margaret-blades,Margaret Blades,3,person
+414,/relation:ruben-blades,Rubén Blades,2,person
+415,/relation:sophie-blair,Sophie Blair,0,person
+416,/relation:rose-blanshei,Rose Blanshei,2,person
+417,/relation:jake-blanton,Jake Blanton,1,person
+418,/relation:mary-j-blige,Mary J. Blige,1,person
+419,/relation:steve-bliley,Steve Bliley,1,person
+420,/relation:oren-bloedow,Oren Bloedow,1,person
+421,/relation:matt-blostein,Matt Blostein,1,person
+422,/relation:roy-blount,Roy Blount Jr.,1,person
+423,/relation:kurtis-blow,Kurtis Blow,0,person
+424,/relation:david-blue,David Blue,1,person
+425,/relation:james-blunt,James Blunt,0,person
+426,/relation:joe-blunt,Joe Blunt,1,person
+427,/relation:michael-blyth,Michael Blyth,0,person
+428,/relation:gene-boccia,Gene Boccia,3,person
+429,/relation:michael-boddicker,Michael Boddicker,0,person
+430,/relation:moeketsi-bodibe,Moeketsi Bodibe,0,person
+431,/relation:andrew-bodnar,Andrew Bodnar,0,person
+432,/relation:tom-boesch,Tom Boesch,1,person
+433,/relation:nelson-bogart,Nelson Bogart,1,person
+434,/relation:michael-bolton,Michael Bolton,1,person
+435,/relation:joe-bonadio,Joe Bonadio,0,person
+436,/relation:bonny-bonaparte,Bonny Bonaparte,1,person
+437,/relation:mark-bonder,Mark Bonder,1,person
+438,/relation:gary-u-s-bonds,Gary U.S. Bonds,20,person
+439,/relation:bertrand-bonello,Bertrand Bonello,0,person
+440,/relation:jimi-bones,Jimi Bones,1,person
+441,/relation:jimmie-bones,Jimmie Bones,0,person
+442,/relation:jon-bon-jovi,Jon Bon Jovi,23,person
+443,/relation:bono,Bono,10,person
+444,/relation:karla-bonoff,Karla Bonoff,1,person
+445,/relation:duke-bootee,Duke Bootee,0,person
+446,/relation:jessika-borg,Jessika Borg,1,person
+447,/relation:michael-boscarino,Michael Boscarino,2,person
+448,/relation:chris-botti,Chris Botti,1,person
+449,/relation:lisa-bouchelle,Lisa Bouchelle,4,person
+450,/relation:mike-bovenzi,Mike Bovenzi,14,person
+451,/relation:j-t-bowen,J.T. Bowen,12,person
+452,/relation:david-bowie,David Bowie,0,person
+453,/relation:coy-bowles,Coy Bowles,2,person
+454,/relation:edith-bowman,Edith Bowman,0,person
+455,/relation:bob-boyd,Bob Boyd,5,person
+456,/relation:everett-bradley,Everett Bradley,195,person
+457,/relation:billy-bragg,Billy Bragg,2,person
+458,/relation:nelson-bragg,Nelson Bragg,2,person
+459,/relation:lachlan-bramble,Lachlan Bramble,1,person
+460,/relation:paul-branin,Paul Branin,1,person
+461,/relation:mark-braud,Mark Braud,1,person
+462,/relation:tony-braunagel,Tony Braunagel,1,person
+463,/relation:zoe-brecher,Zoë Brecher,2,person
+464,/relation:michael-brecker,Michael Brecker,1,person
+465,/relation:randy-brecker,Randy Brecker,1,person
+466,/relation:gary-breit,Gary Breit,1,person
+467,/relation:tim-brennan,Tim Brennan,3,person
+468,/relation:mike-brenner,Mike Brenner,2,person
+469,/relation:don-brewer,Don Brewer,1,person
+470,/relation:ben-bridwell,Ben Bridwell,1,person
+471,/relation:david-brigati,David Brigati,1,person
+472,/relation:eddie-brigati,Eddie Brigati,1,person
+473,/relation:jon-brion,Jon Brion,0,person
+474,/relation:bob-britt,Bob Britt,1,person
+475,/relation:eddie-britt,Eddie Britt,2,person
+476,/relation:phil-brontz,Phil Brontz,1,person
+477,/relation:greg-brooks,Greg Brooks,1,person
+478,/relation:harvey-brooks,Harvey Brooks,5,person
+479,/relation:billy-brown,Billy Brown,1,person
+480,/relation:bobby-brown,Bobby Brown,1,person
+481,/relation:buck-brown,Buck Brown,1,person
+482,/relation:clyde-brown,Clyde Brown,1,person
+483,/relation:delmar-brown,Delmar Brown,6,person
+484,/relation:ed-brown,Ed Brown,1,person
+485,/relation:jackson-browne,Jackson Browne,26,person
+486,/relation:marc-browne,Marc Browne,1,person
+487,/relation:gordon-brown,Gordon Brown,6,person
+488,/relation:james-brown,James Brown,1,person
+489,/relation:james-michael-brown,James Michael Brown,1,person
+490,/relation:jim-brown,Jim Brown,1,person
+491,/relation:jocelyn-brown,Jocelyn Brown,0,person
+492,/relation:lilly-brown,Lilly Brown,3,person
+493,/relation:mark-brown,Mark Brown,1,person
+494,/relation:zac-brown,Zac Brown,5,person
+495,/relation:amy-broza,Amy Broza,3,person
+496,/relation:frank-bruno,Frank Bruno,85,person
+497,/relation:frank-bruno-sr,Frank Bruno Sr.,0,person
+498,/relation:justin-bruns,Justin Bruns,0,person
+499,/relation:david-bryan,David Bryan,12,person
+500,/relation:mark-bryan,Mark Bryan,2,person
+501,/relation:paul-bryan,Paul Bryan,1,person
+502,/relation:aidy-bryant,Aidy Bryant,1,person
+503,/relation:clayton-bryant,Clayton Bryant,3,person
+504,/relation:damon-bryson,Damon Bryson,1,person
+505,/relation:adam-brzostoski,Adam Brzostoski,0,person
+506,/relation:ben-buchwald,Ben Buchwald,3,person
+507,/relation:lindsey-buckingham,Lindsey Buckingham,0,person
+508,/relation:jonny-buckland,Jonny Buckland,1,person
+509,/relation:nadia-buck,Nadia Buck,3,person
+510,/relation:peter-buck,Peter Buck,6,person
+511,/relation:kevin-buell,Kevin Buell,0,person
+512,/relation:al-bunetta,Al Bunetta,0,person
+513,/relation:eric-burdon,Eric Burdon,2,person
+514,/relation:bob-burger,Bob Burger,11,person
+515,/relation:sonny-burgess,Sonny Burgess,2,person
+516,/relation:chuck-burgi,Chuck Burgi,3,person
+517,/relation:caleb-burhans,Caleb Burhans,1,person
+518,/relation:michael-burke,Michael Burke,22,person
+519,/relation:billy-burnette,Billy Burnette,1,person
+520,/relation:t-bone-burnett,T Bone Burnett,2,person
+521,/relation:malcolm-burn,Malcolm Burn,0,person
+522,/relation:orville-burrell,Orville Burrell,0,person
+523,/relation:glen-burtnik,Glen Burtnik,11,person
+524,/relation:andy-burton,Andy Burton,6,person
+525,/relation:bj-burton,BJ Burton,0,person
+526,/relation:james-burton,James Burton,1,person
+527,/relation:paul-burton,Paul Burton,2,person
+528,/relation:david-busey,David Busey,1,person
+529,/relation:gary-busey,Gary Busey,3,person
+530,/relation:arnold-buss,Arnold Buss,1,person
+531,/relation:ben-butler,Ben Butler,1,person
+532,/relation:jerry-butler,Jerry Butler,1,person
+533,/relation:rosemary-butler,Rosemary Butler,3,person
+534,/relation:william-butler,William Butler,1,person
+535,/relation:win-butler,Win Butler,2,person
+536,/relation:paul-butterfield,Paul Butterfield,1,person
+537,/relation:bobby-buttons,Bobby Buttons,0,person
+538,/relation:mark-byerly,Mark Byerly,1,person
+539,/relation:debra-byrd,Debra Byrd,0,person
+540,/relation:ricky-byrd,Ricky Byrd,1,person
+541,/relation:tommy-byrnes,Tommy Byrnes,4,person
+542,/relation:joe-cabral,Joe Cabral,1,person
+543,/relation:albert-cabrera,Albert Cabrera,0,person
+544,/relation:john-cafferty,John Cafferty,12,person
+545,/relation:rob-caggiano,Rob Caggiano,0,person
+546,/relation:uri-caine,Uri Caine,1,person
+547,/relation:jorge-calderon,Jorge Calderón,0,person
+548,/relation:john-cale,John Cale,1,person
+549,/relation:charles-calello,Charles Calello,0,person
+550,/relation:mario-calire,Mario Calire,2,person
+551,/relation:bob-campanell,Bob Campanell,1,person
+552,/relation:chris-campbell,Chris Campbell,1,person
+553,/relation:fred-campbell,Fred Campbell,1,person
+554,/relation:jeff-campbell,Jeff Campbell,6,person
+555,/relation:larry-campbell,Larry Campbell,3,person
+556,/relation:mike-campbell,Mike Campbell,1,person
+557,/relation:sterling-campbell,Sterling Campbell,1,person
+558,/relation:bobby-campo,Bobby Campo,1,person
+559,/relation:erica-canales,Erica Canales,1,person
+560,/relation:john-candy,John Candy,1,person
+561,/relation:laura-cantrell,Laura Cantrell,1,person
+562,/relation:craig-caprioni,Craig Caprioni,6,person
+563,/relation:kate-capshaw,Kate Capshaw,1,person
+564,/relation:tim-carbone,Tim Carbone,0,person
+565,/relation:gerald-carboy,Gerald Carboy,2,person
+566,/relation:corinda-carford,Corinda Carford,11,person
+567,/relation:kim-carnes,Kim Carnes,0,person
+568,/relation:mary-chapin-carpenter,Mary Chapin Carpenter,1,person
+569,/relation:barbara-carr,Barbara Carr,0,person
+570,/relation:rex-carr-white,Rex Carr-White,3,person
+571,/relation:clifford-carter,Clifford Carter,7,person
+572,/relation:ernest-carter,Ernest Carter,88,person
+573,/relation:ron-carter,Ron Carter,0,person
+574,/relation:steven-carter,Steven Carter,1,person
+575,/relation:frank-caruso,Frank Caruso,0,person
+576,/relation:john-cascella,John Cascella,1,person
+577,/relation:ken-casey,Ken Casey,6,person
+578,/relation:fred-cash,Fred Cash,1,person
+579,/relation:rosanne-cash,Rosanne Cash,2,person
+580,/relation:michelle-casillas,Michelle Casillas,1,person
+581,/relation:lenny-castro,Lenny Castro,0,person
+582,/relation:elaine-caswell,Elaine Caswell,1,person
+583,/relation:sara-caswell,Sara Caswell,6,person
+584,/relation:antoine-de-caunes,Antoine de Caunes,0,person
+585,/relation:felix-cavaliere,Felix Cavaliere,3,person
+586,/relation:gary-cavico,Gary Cavico,1,person
+587,/relation:phil-ceccola,Phil Ceccola,0,person
+588,/relation:tony-cedras,Tony Cedras,1,person
+589,/relation:jim-celestino,Jim Celestino,2,person
+590,/relation:francisco-centeno,Francisco Centeno,1,person
+591,/relation:zakk-cervini,Zakk Cervini,0,person
+592,/relation:chali-2na,Chali 2na,1,person
+593,/relation:matt-chamberlain,Matt Chamberlain,0,person
+594,/relation:lester-chambers,Lester Chambers,1,person
+595,/relation:martin-chambers,Martin Chambers,1,person
+596,/relation:will-champion,Will Champion,1,person
+597,/relation:bob-chaney,Bob Chaney,0,person
+598,/relation:amy-chang,Amy Chang,0,person
+599,/relation:jen-chapin,Jen Chapin,2,person
+600,/relation:tom-chapin,Tom Chapin,2,person
+601,/relation:blondie-chaplin,Blondie Chaplin,1,person
+602,/relation:tracy-chapman,Tracy Chapman,23,person
+603,/relation:david-charles,David Charles,2,person
+604,/relation:jennifer-charles,Jennifer Charles,1,person
+605,/relation:ray-charles,Ray Charles,0,person
+606,/relation:chevy-chase,Chevy Chase,1,person
+607,/relation:sue-chase,Sue Chase,1,person
+608,/relation:regine-chassagne,Régine Chassagne,2,person
+609,/relation:mark-chatfield,Mark Chatfield,1,person
+610,/relation:jeremy-chatzky,Jeremy Chatzky,86,person
+611,/relation:michael-che,Michael Che,1,person
+612,/relation:harvey-cherlin,Harvey Cherlin,12,person
+613,/relation:kenny-chesney,Kenny Chesney,1,person
+614,/relation:alan-chez,Alan Chez,7,person
+615,/relation:desmond-child,Desmond Child,0,person
+616,/relation:billy-chinnock,Billy Chinnock,1,person
+617,/relation:bob-chirmside,Bob Chirmside,0,person
+618,/relation:janey-choi,Janey Choi,5,person
+619,/relation:yena-choi,Yena Choi,7,person
+620,/relation:lydia-miller-choorapuzha,Lydia Miller Choorapuzha,1,person
+621,/relation:claudia-chopek,Claudia Chopek,1,person
+622,/relation:bobby-chouinard,Bobby Chouinard,2,person
+623,/relation:steve-chrismar,Steve Chrismar,1,person
+624,/relation:jay-christy,Jay Christy,0,person
+625,/relation:john-chudoba,John Chudoba,3,person
+626,/relation:eric-church,Eric Church,2,person
+627,/relation:thomas-haden-church,Thomas Haden Church,1,person
+628,/relation:bill-churchville,Bill Churchville,1,person
+629,/relation:gia-ciambotti,Gia Ciambotti,110,person
+630,/relation:john-ciambotti,John Ciambotti,0,person
+631,/relation:madonna-louise-ciccone,Madonna Louise Ciccone,0,person
+632,/relation:andy-cichon,Andy Cichon,3,person
+633,/relation:mino-cinelu,Mino Cinélu,7,person
+634,/relation:crispin-cioe,Crispin Cioe,1,person
+635,/relation:mario-cipollina,Mario Cipollina,1,person
+636,/relation:dan-cipriano,Dan Cipriano,0,person
+637,/relation:eric-clapton,Eric Clapton,1,person
+638,/relation:dane-clark,Dane Clark,0,person
+639,/relation:michael-clarke,Michael Clarke,1,person
+640,/relation:steve-clarke,Steve Clarke,3,person
+641,/relation:gene-clark,Gene Clark,1,person
+642,/relation:jeannie-clark,Jeannie Clark,5,person
+643,/relation:gary-clark-jr,Gary Clark Jr.,1,person
+644,/relation:rhys-clark,Rhys Clark,1,person
+645,/relation:robin-clark,Robin Clark,6,person
+646,/relation:susannah-clark,Susannah Clark,1,person
+647,/relation:adam-clayton,Adam Clayton,6,person
+648,/relation:sam-clayton,Sam Clayton,1,person
+649,/relation:bob-clearmountain,Bob Clearmountain,0,person
+650,/relation:caitlin-cleary,Caitlin Cleary,6,person
+651,/relation:john-clemente,John Clemente,0,person
+652,/relation:tania-maxwell-clements,Tania Maxwell Clements,0,person
+653,/relation:christopher-clemons,Christopher Clemons,1,person
+654,/relation:clarence-clemons,Clarence Clemons,1641,person
+655,/relation:jack-clemons,Jack Clemons,1,person
+656,/relation:jake-clemons,Jake Clemons,369,person
+657,/relation:jarod-clemons,Jarod Clemons,4,person
+658,/relation:jimmy-cliff,Jimmy Cliff,3,person
+659,/relation:mark-clifford,Mark Clifford,4,person
+660,/relation:danny-clinch,Danny Clinch,9,person
+661,/relation:george-clinton,George Clinton,0,person
+662,/relation:brent-clore,Brent Clore,1,person
+663,/relation:rob-clores,Rob Clores,1,person
+664,/relation:rusty-cloud,Rusty Cloud,11,person
+665,/relation:solomon-cobbs,Solomon Cobbs,0,person
+666,/relation:tom-cochrane,Tom Cochrane,1,person
+667,/relation:bruce-cockburn,Bruce Cockburn,1,person
+668,/relation:zac-cockrell,Zac Cockrell,1,person
+669,/relation:jeff-cohen,Jeff Cohen,1,person
+670,/relation:jerry-cohen,Jerry Cohen,4,person
+671,/relation:tom-cohen,Tom Cohen,1,person
+672,/relation:vinnie-colaiuta,Vinnie Colaiuta,1,person
+673,/relation:stephen-colbert,Stephen Colbert,1,person
+674,/relation:john-colby,John Colby,2,person
+675,/relation:lisa-coleman,Lisa Coleman,1,person
+676,/relation:ornette-coleman,Ornette Coleman,0,person
+677,/relation:ronald-coleman,Ronald Coleman,1,person
+678,/relation:johnny-colla,Johnny Colla,1,person
+679,/relation:j-v-collier,J.V. Collier,1,person
+680,/relation:dennis-collins,Dennis Collins,2,person
+681,/relation:felicia-collins,Felicia Collins,7,person
+682,/relation:ricky-collins,Ricky Collins,0,person
+683,/relation:shawn-colvin,Shawn Colvin,1,person
+684,/relation:rene-coman,Rene Coman,1,person
+685,/relation:commander-cody,Commander Cody,1,person
+686,/relation:jennifer-condos,Jennifer Condos,0,person
+687,/relation:maureen-conlon-gutierrez,Maureen Conlon Gutierrez,1,person
+688,/relation:kevin-connair,Kevin Connair,2,person
+689,/relation:robbie-connolly,Robbie Connolly,1,person
+690,/relation:john-conte,John Conte,3,person
+691,/relation:luis-conte,Luis Conte,0,person
+692,/relation:robert-conti,Robert Conti,1,person
+693,/relation:ry-cooder,Ry Cooder,0,person
+694,/relation:clay-cook,Clay Cook,2,person
+695,/relation:phil-cook,Phil Cook,0,person
+696,/relation:neal-coomer,Neal Coomer,3,person
+697,/relation:anson-cooper,Anson Cooper,0,person
+698,/relation:kitty-cooper,Kitty Cooper,0,person
+699,/relation:sally-cooper,Sally Cooper,7,person
+700,/relation:tom-corbett,Tom Corbett,0,person
+701,/relation:john-corey,John Corey,1,person
+702,/relation:audie-cornish,Audie Cornish,0,person
+703,/relation:gene-cornish,Gene Cornish,1,person
+704,/relation:laura-cortese,Laura Cortese,1,person
+705,/relation:bill-cosby,Bill Cosby,1,person
+706,/relation:paulinho-da-costa,Paulinho Da Costa,3,person
+707,/relation:bob-costas,Bob Costas,0,person
+708,/relation:elvis-costello,Elvis Costello,8,person
+709,/relation:bobby-cotoia,Bobby Cotoia,12,person
+710,/relation:massimo-cotto,Massimo Cotto,0,person
+711,/relation:courteney-cox,Courteney Cox,0,person
+712,/relation:larry-cragg,Larry Cragg,1,person
+713,/relation:frank-craig,Frank Craig,2,person
+714,/relation:larry-crane,Larry Crane,1,person
+715,/relation:robert-cray,Robert Cray,1,person
+716,/relation:laura-creamer,Laura Creamer,1,person
+717,/relation:niki-cremmen,Niki Cremmen,0,person
+718,/relation:marshall-crenshaw,Marshall Crenshaw,3,person
+719,/relation:robert-crenshaw,Robert Crenshaw,1,person
+720,/relation:jim-cretecos,Jim Cretecos,1,person
+721,/relation:keith-cronin,Keith Cronin,2,person
+722,/relation:richard-crooks,Richard Crooks,0,person
+723,/relation:steve-cropper,Steve Cropper,2,person
+724,/relation:david-crosby,David Crosby,3,person
+725,/relation:jason-crosby,Jason Crosby,1,person
+726,/relation:norm-crosby,Norm Crosby,1,person
+727,/relation:billy-cross,Billy Cross,0,person
+728,/relation:lukas-crouse,Lukas Crouse,0,person
+729,/relation:sheryl-crow,Sheryl Crow,1,person
+730,/relation:stephan-crump,Stephan Crump,1,person
+731,/relation:derek-cruz,Derek Cruz,2,person
+732,/relation:james-cruz,James Cruz,1,person
+733,/relation:mario-cruz,Mario Cruz,72,person
+734,/relation:mickey-curry,Mickey Curry,1,person
+735,/relation:rick-cyr,Rick Cyr,2,person
+736,/relation:jack-daley,Jack Daley,10,person
+737,/relation:sean-dalton,Sean Dalton,1,person
+738,/relation:roger-daltrey,Roger Daltrey,2,person
+739,/relation:anthony-d-amato,Anthony D'Amato,6,person
+740,/relation:michael-d-amico,Michael D'Amico,1,person
+741,/relation:vic-damone,Vic Damone,1,person
+742,/relation:dino-danelli,Dino Danelli,1,person
+743,/relation:d-angelo,D'Angelo,1,person
+744,/relation:bobby-daniel,Bobby Daniel,2,person
+745,/relation:vincent-daniele,Vincent Daniele,7,person
+746,/relation:barry-danielian,Barry Danielian,268,person
+747,/relation:francine-daniels,Francine Daniels,4,person
+748,/relation:rick-danko,Rick Danko,1,person
+749,/relation:mark-dann,Mark Dann,0,person
+750,/relation:tony-danza,Tony Danza,1,person
+751,/relation:terence-trent-d-arby,Terence Trent D'Arby,1,person
+752,/relation:francesca-dardani,Francesca Dardani,2,person
+753,/relation:ron-darling,Ron Darling,1,person
+754,/relation:jeff-darosa,Jeff DaRosa,3,person
+755,/relation:karen-darvin,Karen Darvin,0,person
+756,/relation:jay-dee-daugherty,Jay Dee Daugherty,5,person
+757,/relation:john-david,John David,2,person
+758,/relation:pete-davidson,Pete Davidson,1,person
+759,/relation:dave-davies,Dave Davies,1,person
+760,/relation:ray-davies,Ray Davies,1,person
+761,/relation:clive-davis,Clive Davis,0,person
+762,/relation:giles-davis,Giles Davis,1,person
+763,/relation:guy-davis,Guy Davis,1,person
+764,/relation:mike-davis,Mike Davis,2,person
+765,/relation:miles-davis,Miles Davis,0,person
+766,/relation:monica-davis,Monica Davis,1,person
+767,/relation:richard-davis,Richard Davis,2,person
+768,/relation:susie-davis,Susie Davis,1,person
+769,/relation:andra-day,Andra Day,1,person
+770,/relation:michael-dease,Michael Dease,1,person
+771,/relation:jon-deas,Jon Deas,1,person
+772,/relation:bill-deasy,Bill Deasy,1,person
+773,/relation:prince-markie-dee,Prince Markie Dee,0,person
+774,/relation:ruby-dee,Ruby Dee,1,person
+775,/relation:fred-defeo,Fred DeFeo,2,person
+776,/relation:mos-def,Mos Def,1,person
+777,/relation:doug-dehays,Doug DeHays,2,person
+778,/relation:mieke-delanghe,Mieke Delanghe,0,person
+779,/relation:bob-delevante,Bob Delevante,1,person
+780,/relation:mike-delevante,Mike Delevante,1,person
+781,/relation:mike-delguidice,Mike DelGuidice,1,person
+782,/relation:joe-delia,Joe Delia,3,person
+783,/relation:diane-delin,Diane Delin,1,person
+784,/relation:jeff-delongchamp,Jeff Delongchamp,1,person
+785,/relation:joseph-demaio,Joseph DeMaio,0,person
+786,/relation:joe-deninzon,Joe Deninzon,3,person
+787,/relation:robert-de-niro,Robert De Niro,0,person
+788,/relation:carol-dennis,Carol Dennis,110,person
+789,/relation:greg-deppe,Greg Deppe,1,person
+790,/relation:bill-derby,Bill Derby,1,person
+791,/relation:carl-d-errico,Carl D'Errico,1,person
+792,/relation:didi-d-errico,Didi D'Errico,1,person
+793,/relation:doug-derryberry,Doug Derryberry,1,person
+794,/relation:craig-derry,Craig Derry,0,person
+795,/relation:rick-desarno,Rick DeSarno,2,person
+796,/relation:aaron-dessner,Aaron Dessner,1,person
+797,/relation:bryce-dessner,Bryce Dessner,1,person
+798,/relation:bryan-devendorf,Bryan Devendorf,1,person
+799,/relation:scott-devendorf,Scott Devendorf,1,person
+800,/relation:sara-devine,Sara Devine,4,person
+801,/relation:danny-devito,Danny DeVito,6,person
+802,/relation:tommy-devito,Tommy DeVito,1,person
+803,/relation:liberty-devitto,Liberty DeVitto,1,person
+804,/relation:joel-diamond,Joel Diamond,0,person
+805,/relation:neil-diamond,Neil Diamond,1,person
+806,/relation:tomas-diaz,Tomas Diaz,2,person
+807,/relation:bo-diddley,Bo Diddley,1,person
+808,/relation:ani-difranco,Ani DiFranco,2,person
+809,/relation:dennis-diken,Dennis Diken,3,person
+810,/relation:don-dilego,Don DiLego,1,person
+811,/relation:jimmy-dillon,Jimmy Dillon,2,person
+812,/relation:dion-dimucci,Dion DiMucci,10,person
+813,/relation:barbara-dinkins,Barbara Dinkins,13,person
+814,/relation:mark-diomede,Mark Diomede,1,person
+815,/relation:david-dipietro,David DiPietro,0,person
+816,/relation:dj-cheese,DJ Cheese,0,person
+817,/relation:mfanafuthi-dlamini,Mfanafuthi Dlamini,1,person
+818,/relation:d-m-c,D.M.C.,2,person
+819,/relation:rory-dodd,Rory Dodd,0,person
+820,/relation:craig-doerge,Craig Doerge,2,person
+821,/relation:robert-donnelly,Robert Donnelly,1,person
+822,/relation:tom-donovan,Tom Donovan,1,person
+823,/relation:mando-dorame,Mando Dorame,0,person
+824,/relation:neil-dorfsman,Neil Dorfsman,0,person
+825,/relation:lee-dorsey,Lee Dorsey,2,person
+826,/relation:bryan-douglas,Bryan Douglas,1,person
+827,/relation:kirk-douglas,Kirk Douglas,4,person
+828,/relation:felicia-douglass,Felicia Douglass,2,person
+829,/relation:raina-douris,Raina Douris,0,person
+830,/relation:will-downing,Will Downing,0,person
+831,/relation:charley-drayton,Charley Drayton,4,person
+832,/relation:rachel-drehmann,Rachel Drehmann,1,person
+833,/relation:casey-driessen,Casey Driessen,1,person
+834,/relation:dr-john,Dr. John,4,person
+835,/relation:jabulani-dubazana,Jabulani Dubazana,1,person
+836,/relation:zola-dube,Zola Dube,0,person
+837,/relation:peter-duchin,Peter Duchin,1,person
+838,/relation:kevin-dukes,Kevin Dukes,1,person
+839,/relation:danny-duncan,Danny Duncan,0,person
+840,/relation:steve-duncan,Steve Duncan,1,person
+841,/relation:donald-dunn,Donald Dunn,1,person
+842,/relation:joe-d-urso,Joe D'Urso,11,person
+843,/relation:annie-brody-dutka,Annie Brody Dutka,0,person
+844,/relation:ted-dwane,Ted Dwane,2,person
+845,/relation:david-dye,David Dye,0,person
+846,/relation:ada-dyer,Ada Dyer,77,person
+847,/relation:bob-dylan,Bob Dylan,6,person
+848,/relation:jakob-dylan,Jakob Dylan,2,person
+849,/relation:obie-dziedzic,Obie Dziedzic,0,person
+850,/relation:larry-eagle,Larry Eagle,85,person
+851,/relation:steve-earle,Steve Earle,4,person
+852,/relation:peter-ecklund,Peter Ecklund,1,person
+853,/relation:john-eddie,John Eddie,15,person
+854,/relation:the-edge,The Edge,7,person
+855,/relation:kenneth-edmonds,Kenneth Edmonds,1,person
+856,/relation:dave-edmunds,Dave Edmunds,3,person
+857,/relation:dennis-edwards,Dennis Edwards,1,person
+858,/relation:damian-einstein,Damain Einstein,0,person
+859,/relation:steve-eitelberg,Steve Eitelberg,1,person
+860,/relation:mark-eitzel,Mark Eitzel,1,person
+861,/relation:gerard-ekdom,Gerard Ekdom,0,person
+862,/relation:peter-elkas,Peter Elkas,3,person
+863,/relation:stro-elliot,Stro Elliot,1,person
+864,/relation:jack-elliott,Jack Elliott,3,person
+865,/relation:monti-louis-ellison,Monti Louis Ellison,0,person
+866,/relation:frank-elmo,Frank Elmo,2,person
+867,/relation:elsa-jensen,Elsa Jensen,0,person
+868,/relation:desiree-elsevier,Désirée Elsevier,0,person
+869,/relation:joe-ely,Joe Ely,16,person
+870,/relation:toby-emmerich,Toby Emmerich,0,person
+871,/relation:paul-ende,Paul Ende,3,person
+872,/relation:bertram-engel,Bertram Engel,1,person
+873,/relation:rich-engler,Rich Engler,0,person
+874,/relation:john-entwistle,John Entwistle,2,person
+875,/relation:howie-epstein,Howie Epstein,1,person
+876,/relation:alejandro-escovedo,Alejandro Escovedo,5,person
+877,/relation:juan-escovedo,Juan Escovedo,1,person
+878,/relation:sheila-e,Sheila E.,1,person
+879,/relation:jon-estrin,Jon Estrin,1,person
+880,/relation:melissa-etheridge,Melissa Etheridge,5,person
+881,/relation:larry-etkin,Larry Etkin,1,person
+882,/relation:david-howell-evans,David Howell Evans,0,person
+883,/relation:don-evans,Don Evans,1,person
+884,/relation:matt-everitt,Matt Everitt,0,person
+885,/relation:tabitha-fair,Tabitha Fair,5,person
+886,/relation:abdul-fakir,Abdul Fakir,1,person
+887,/relation:michael-falch,Michael Falch,1,person
+888,/relation:brian-fallon,Brian Fallon,6,person
+889,/relation:jimmy-fallon,Jimmy Fallon,5,person
+890,/relation:davey-faragher,Davey Faragher,1,person
+891,/relation:kim-farinacci,Kim Farinacci,1,person
+892,/relation:danielle-farina,Danielle Farina,0,person
+893,/relation:pavel-farkas,Pavel Farkas,1,person
+894,/relation:pete-farndon,Pete Farndon,1,person
+895,/relation:danny-federici,Danny Federici,1558,person
+896,/relation:harley-federici,Harley Federici,1,person
+897,/relation:jason-federici,Jason Federici,3,person
+898,/relation:madison-federici,Madison Federici,2,person
+899,/relation:bobby-feigenbaum,Bobby Feigenbaum,18,person
+900,/relation:dean-felber,Dean Felber,2,person
+901,/relation:kenji-fenton,Kenji Fenton,2,person
+902,/relation:fernando-gonzalez-gonzalez,Fernando González González,0,person
+903,/relation:julian-ferraretto,Julian Ferraretto,1,person
+904,/relation:nick-ferraro,Nick Ferraro,1,person
+905,/relation:bob-ferrel,Bob Ferrel,1,person
+906,/relation:steve-ferrone,Steve Ferrone,0,person
+907,/relation:tina-fey,Tina Fey,1,person
+908,/relation:doug-fieger,Doug Fieger,1,person
+909,/relation:anton-fig,Anton Fig,11,person
+910,/relation:sammy-figueroa,Sammy Figueroa,1,person
+911,/relation:harry-filkin,Harry Filkin,19,person
+912,/relation:carlos-finaly,Carlos Finaly,0,person
+913,/relation:matt-fink,Matt Fink,1,person
+914,/relation:craig-finn,Craig Finn,1,person
+915,/relation:mike-finnigan,Mike Finnigan,0,person
+916,/relation:joseph-firecrow,Joseph Firecrow,1,person
+917,/relation:carl-fischer,Carl Fischer,2,person
+918,/relation:lisa-fischer,Lisa Fischer,12,person
+919,/relation:steve-fishell,Steve Fishell,0,person
+920,/relation:randi-fishenfeld,Randi Fishenfeld,2,person
+921,/relation:michael-fisher,Michael Fisher,0,person
+922,/relation:norm-fisher,Norm Fisher,1,person
+923,/relation:sharonmarie-fisher,Sharonmarie Fisher,1,person
+924,/relation:garry-fish,Garry Fish,1,person
+925,/relation:jon-fishman,Jon Fishman,1,person
+926,/relation:alan-fitzgerald,Alan Fitzgerald,2,person
+927,/relation:bela-fleck,Bela Fleck,1,person
+928,/relation:edward-g-fletcher,Edward G. Fletcher,0,person
+929,/relation:jere-flint,Jere Flint,0,person
+930,/relation:brandon-flowers,Brandon Flowers,2,person
+931,/relation:eddie-floyd,Eddie Floyd,1,person
+932,/relation:curt-fluhr,Curt Fluhr,97,person
+933,/relation:keith-fluitt,Keith Fluitt,0,person
+934,/relation:marty-fogel,Marty Fogel,0,person
+935,/relation:john-fogerty,John Fogerty,22,person
+936,/relation:shane-fogerty,Shane Fogerty,1,person
+937,/relation:tom-fogerty,Tom Fogerty,1,person
+938,/relation:tyler-fogerty,Tyler Fogerty,1,person
+939,/relation:heath-fogg,Heath Fogg,1,person
+940,/relation:ken-follett,Ken Follett,1,person
+941,/relation:d-j-fontana,D.J. Fontana,2,person
+942,/relation:shane-fontayne,Shane Fontayne,123,person
+943,/relation:sherree-ford-brown,Sherree Ford Brown,0,person
+944,/relation:elijah-ford,Elijah Ford,1,person
+945,/relation:scout-ford,Scout Ford,1,person
+946,/relation:zucchero-fornaciari,Zucchero Fornaciari,2,person
+947,/relation:lee-forshner,Lee Forshner,1,person
+948,/relation:brent-fortson,Brent Fortson,1,person
+949,/relation:jeffrey-foskett,Jeffrey Foskett,1,person
+950,/relation:ron-foster,Ron Foster,1,person
+951,/relation:bernard-fowler,Bernard Fowler,2,person
+952,/relation:danny-fox,Danny Fox,2,person
+953,/relation:michael-j-fox,Michael J. Fox,1,person
+954,/relation:jamie-foxx,Jamie Foxx,1,person
+955,/relation:lee-foy,Lee Foy,1,person
+956,/relation:william-frampton,William Frampton,1,person
+957,/relation:stewart-francke,Stewart Francke,0,person
+958,/relation:bill-frank,Bill Frank,1,person
+959,/relation:al-franken,Al Franken,0,person
+960,/relation:melvin-franklin,Melvin Franklin,1,person
+961,/relation:michael-franti,Michael Franti,1,person
+962,/relation:dennis-franz,Dennis Franz,1,person
+963,/relation:george-frayne,George Frayne,0,person
+964,/relation:freebo,Freebo,1,person
+965,/relation:karen-freer,Karen Freer,0,person
+966,/relation:josh-freese,Josh Freese,0,person
+967,/relation:karl-frey,Karl Frey,0,person
+968,/relation:daniel-friedberg,Daniel Friedberg,0,person
+969,/relation:ross-friedman,Ross Friedman,0,person
+970,/relation:craig-frost,Craig Frost,1,person
+971,/relation:chris-fryar,Chris Fryar,2,person
+972,/relation:glenn-fukunaga,Glenn Fukunaga,3,person
+973,/relation:bob-funk,Bob Funk,1,person
+974,/relation:charlie-gabriel,Charlie Gabriel,1,person
+975,/relation:peter-gabriel,Peter Gabriel,21,person
+976,/relation:pete-gagen,Pete Gagen,16,person
+977,/relation:danny-gallagher,Danny Gallagher,5,person
+978,/relation:adam-garbinski,Adam Garbinski,2,person
+979,/relation:charly-garcia,Charly García,1,person
+980,/relation:manolo-garcia,Manolo García,1,person
+981,/relation:carl-gardner,Carl Gardner,1,person
+982,/relation:earl-gardner,Earl Gardner,2,person
+983,/relation:art-garfunkel,Art Garfunkel,1,person
+984,/relation:paul-garisto,Paul Garisto,0,person
+985,/relation:tony-garnier,Tony Garnier,4,person
+986,/relation:cara-garofalo,Cara Garofalo,1,person
+987,/relation:peter-garrett,Peter Garrett,0,person
+988,/relation:siedah-garrett,Siedah Garrett,0,person
+989,/relation:doug-garrison,Doug Garrison,1,person
+990,/relation:jeff-garrison,Jeff Garrison,3,person
+991,/relation:bruce-gary,Bruce Gary,1,person
+992,/relation:bob-gaudio,Bob Gaudio,1,person
+993,/relation:gloria-gaynor,Gloria Gaynor,1,person
+994,/relation:clark-gayton,Clark Gayton,262,person
+995,/relation:rick-gazda,Rick Gazda,21,person
+996,/relation:jon-e-gee,Jon E. Gee,0,person
+997,/relation:mickey-gee,Mickey Gee,2,person
+998,/relation:buffalo-bill-gelber,Bill Gelber,1,person
+999,/relation:bob-geldof,Bob Geldof,3,person
+1000,/relation:chris-george,Chris George,0,person
+1001,/relation:lisa-germano,Lisa Germano,1,person
+1002,/relation:gina-gershon,Gina Gershon,1,person
+1003,/relation:tiokasin-ghosthorse,Tiokasin Ghosthorse,1,person
+1004,/relation:billy-gibbons,Billy Gibbons,1,person
+1005,/relation:bill-gibson,Bill Gibson,1,person
+1006,/relation:debbie-gibson,Debbie Gibson,1,person
+1007,/relation:jay-gibson,Jay Gibson,6,person
+1008,/relation:sharlotte-gibson,Sharlotte Gibson,0,person
+1009,/relation:rhiannon-giddens,Rhiannon Giddens,1,person
+1010,/relation:leon-gieco,León Gieco,1,person
+1011,/relation:woody-giessmann,Woody Giessmann,1,person
+1012,/relation:mo-gilligan,Mo Gilligan,0,person
+1013,/relation:jimmie-dale-gilmore,Jimmie Dale Gilmore,1,person
+1014,/relation:kevin-gilmore,Kevin Gilmore,1,person
+1015,/relation:allen-ginsberg,Allen Ginsberg,1,person
+1016,/relation:charles-giordano,Charles Giordano,631,person
+1017,/relation:dante-givens,Dante Givens,0,person
+1018,/relation:malcolm-gladwell,Malcolm Gladwell,0,person
+1019,/relation:bob-glaub,Bob Glaub,7,person
+1020,/relation:peter-glazer,Peter Glazer,1,person
+1021,/relation:danny-gochnour,Danny Gochnour,15,person
+1022,/relation:andrew-gold,Andrew Gold,1,person
+1023,/relation:whoopi-goldberg,Whoopi Goldberg,1,person
+1024,/relation:mark-goldenberg,Mark Goldenberg,2,person
+1025,/relation:lotti-golden,Lotti Golden,0,person
+1026,/relation:gary-gold,Gary Gold,5,person
+1027,/relation:loren-gold,Loren Gold,1,person
+1028,/relation:kathi-goldmark,Kathi Kamen Goldmark,1,person
+1029,/relation:justin-goldner,Justin Goldner,1,person
+1030,/relation:lynn-goldsmith,Lynn Goldsmith,0,person
+1031,/relation:gil-goldstein,Gil Goldstein,3,person
+1032,/relation:richie-goldstein,Richie Goldstein,8,person
+1033,/relation:mac-gollehon,Mac Gollehon,0,person
+1034,/relation:anders-goman,Anders Goman,1,person
+1035,/relation:gigi-gonaway,Gigi Gonaway,1,person
+1036,/relation:sam-gooden,Sam Gooden,1,person
+1037,/relation:tuba-gooding,Tuba Gooding Jr.,3,person
+1038,/relation:jon-gordon,Jon Gordon,2,person
+1039,/relation:mike-gordon,Mike Gordon,1,person
+1040,/relation:robbie-gordon,Robbie Gordon,0,person
+1041,/relation:robert-gordon,Robert Gordon,4,person
+1042,/relation:eydie-gorme,Eydie Gormé,1,person
+1043,/relation:sid-gottlieb,Sid Gottlieb,1,person
+1044,/relation:damon-gough,Damon Gough,0,person
+1045,/relation:steve-goulding,Steve Goulding,0,person
+1046,/relation:maggie-gould,Maggie Gould,1,person
+1047,/relation:bill-graham,Bill Graham,1,person
+1048,/relation:john-graham,John Graham,22,person
+1049,/relation:gary-gramolini,Gary Gramolini,12,person
+1050,/relation:joel-gramolini,Joel Gramolini,1,person
+1051,/relation:hermie-granati,Hermie Granati,2,person
+1052,/relation:grandmaster-flash,Grandmaster Flash,1,person
+1053,/relation:richard-grando,Richard Grando,1,person
+1054,/relation:garry-grant,Garry Grant,5,person
+1055,/relation:diana-grasselli,Diana Grasselli,0,person
+1056,/relation:kamal-gray,Kamal Gray,3,person
+1057,/relation:al-green,Al Green,1,person
+1058,/relation:mike-greenblatt,Mike Greenblatt,0,person
+1059,/relation:dick-green,Dick Green,1,person
+1060,/relation:richard-greene,Richard Greene,0,person
+1061,/relation:ellie-greenwich,Ellie Greenwich,0,person
+1062,/relation:bruce-greenwood,Bruce Greenwood,2,person
+1063,/relation:haywood-gregory,Haywood Gregory,1,person
+1064,/relation:probyn-gregory,Probyn Gregory,2,person
+1065,/relation:mike-gribbroek,Mike Gribbroek,3,person
+1066,/relation:gary-griffin,Gary Griffin,1,person
+1067,/relation:vittorio-grigolo,Vittorio Grigolo,1,person
+1068,/relation:david-grissom,David Grissom,0,person
+1069,/relation:matt-groening,Matt Groening,1,person
+1070,/relation:dave-grohl,Dave Grohl,4,person
+1071,/relation:john-gros,John Gros,1,person
+1072,/relation:frank-gross,Frank Gross,0,person
+1073,/relation:torsten-gross,Torsten Groß,0,person
+1074,/relation:joe-grushecky,Joe Grushecky,54,person
+1075,/relation:johnny-grushecky,Johnny Grushecky,28,person
+1076,/relation:lee-ann-grushecky,Lee Ann Grushecky,4,person
+1077,/relation:dino-guerrero,Dino Guerrero,1,person
+1078,/relation:cornell-gunter,Cornell Gunter,1,person
+1079,/relation:arlo-guthrie,Arlo Guthrie,3,person
+1080,/relation:nora-guthrie,Nora Guthrie,1,person
+1081,/relation:billy-guy,Billy Guy,1,person
+1082,/relation:dave-guy,Dave Guy,1,person
+1083,/relation:jimmy-haddox,Jimmy Haddox,1,person
+1084,/relation:joe-hagstrom,Joe Hagstrom,9,person
+1085,/relation:omar-hakim,Omar Hakim,0,person
+1086,/relation:bobbye-hall,Bobbye Hall,1,person
+1087,/relation:brad-hall,Brad Hall,1,person
+1088,/relation:daryl-hall,Daryl Hall,2,person
+1089,/relation:david-hamburger,David Hamburger,0,person
+1090,/relation:chuck-hamilton,Chuck Hamilton,1,person
+1091,/relation:phil-hamilton,Phil Hamilton,1,person
+1092,/relation:reggie-hamilton,Reggie Hamilton,0,person
+1093,/relation:joyce-hammann,Joyce Hammann,9,person
+1094,/relation:bob-hammerstone,Bob Hammerstone,0,person
+1095,/relation:john-hammond,John Hammond,0,person
+1096,/relation:paul-hammond,Paul Hammond,1,person
+1097,/relation:herbie-hancock,Herbie Hancock,5,person
+1098,/relation:ron-haney,Ron Haney,1,person
+1099,/relation:tom-hanks,Tom Hanks,0,person
+1100,/relation:daryl-hannah,Daryl Hannah,1,person
+1101,/relation:joy-hannan,Joy Hannan,0,person
+1102,/relation:glen-hansard,Glen Hansard,1,person
+1103,/relation:beck-hansen,Beck Hansen,0,person
+1104,/relation:jim-hanson,Jim Hanson,1,person
+1105,/relation:brent-harding,Brent Harding,2,person
+1106,/relation:john-wesley-harding,John Wesley Harding,2,person
+1107,/relation:glen-hardin,Glen Hardin,1,person
+1108,/relation:richard-hardwick,Richard Hardwick,0,person
+1109,/relation:jack-hardy,Jack Hardy,1,person
+1110,/relation:steve-hargrave,Steve Hargrave,0,person
+1111,/relation:ben-harper,Ben Harper,3,person
+1112,/relation:ellen-harper,Ellen Harper,1,person
+1113,/relation:adrian-harpham,Adrian Harpham,0,person
+1114,/relation:woody-harrelson,Woody Harrelson,1,person
+1115,/relation:don-harris,Don Harris,1,person
+1116,/relation:emmylou-harris,Emmylou Harris,5,person
+1117,/relation:jesse-harris,Jesse Harris,1,person
+1118,/relation:mikie-harris,Mikie Harris,0,person
+1119,/relation:george-harrison,George Harrison,1,person
+1120,/relation:stan-harrison,Stan Harrison,17,person
+1121,/relation:debbie-harry,Debbie Harry,4,person
+1122,/relation:mikey-freedom-hart,Mikey Freedom Hart,2,person
+1123,/relation:peter-hartung,Peter Hartung,1,person
+1124,/relation:don-harvey,Don Harvey,1,person
+1125,/relation:elias-haslanger,Elias Haslanger,1,person
+1126,/relation:peter-hatch,Peter Hatch,1,person
+1127,/relation:bobby-hatfield,Bobby Hatfield,0,person
+1128,/relation:juliana-hatfield,Juliana Hatfield,1,person
+1129,/relation:celia-hatton,Celia Hatton,1,person
+1130,/relation:kerry-hauptli,Kerry Hauptli,1,person
+1131,/relation:richie-havens,Richie Havens,1,person
+1132,/relation:george-hawkins,George Hawkins Jr.,1,person
+1133,/relation:chris-hayes,Chris Hayes,1,person
+1134,/relation:david-hayes,David Hayes,2,person
+1135,/relation:bart-haynes,Bart Haynes,12,person
+1136,/relation:jeff-haynes,Jeff Haynes,0,person
+1137,/relation:warren-haynes,Warren Haynes,1,person
+1138,/relation:doug-haywood,Doug Haywood,4,person
+1139,/relation:dave-hazlett,Dave Hazlett,2,person
+1140,/relation:jack-healey,Jack Healey,1,person
+1141,/relation:scott-healy,Scott Healy,13,person
+1142,/relation:christian-hebel,Christian Hebel,2,person
+1143,/relation:arno-hecht,Arno Hecht,1,person
+1144,/relation:billy-hector,Billy Hector,2,person
+1145,/relation:ula-hedwig,Ula Hedwig,3,person
+1146,/relation:don-heffington,Don Heffington,1,person
+1147,/relation:eric-heiberg,Eric Heiberg,1,person
+1148,/relation:aaron-heick,Aaron Heick,3,person
+1149,/relation:stuart-heinrich,Stuart Heinrich,0,person
+1150,/relation:jeff-heisholt,Jeff Heisholt,1,person
+1151,/relation:kristi-helberg,Kristi Helberg,0,person
+1152,/relation:fred-hellerman,Fred Hellerman,1,person
+1153,/relation:levon-helm,Levon Helm,2,person
+1154,/relation:kirk-henderson,Kirk Henderson,2,person
+1155,/relation:ian-hendrickson-smith,Ian Hendrickson-Smith,1,person
+1156,/relation:nona-hendryx,Nona Hendryx,0,person
+1157,/relation:don-henley,Don Henley,7,person
+1158,/relation:wil-hercek,Wil Hercek,1,person
+1159,/relation:dave-herman,Dave Herman,1,person
+1160,/relation:melissa-stewart-hernandez,Melissa Stewart Hernández,1,person
+1161,/relation:oscar-hernandez,Oscar Hernández,1,person
+1162,/relation:bernie-herr,Bernie Herr,16,person
+1163,/relation:paul-david-hewson,Paul David Hewson,0,person
+1164,/relation:henry-hey,Henry Hey,3,person
+1165,/relation:david-hidalgo-jr,David Hidalgo Jr.,1,person
+1166,/relation:francesca-hiew,Francesca Hiew,3,person
+1167,/relation:robert-higgins,Robert Higgins,6,person
+1168,/relation:dusty-hill,Dusty Hill,1,person
+1169,/relation:faith-hill,Faith Hill,1,person
+1170,/relation:brenda-hilliard,Brenda Hilliard,0,person
+1171,/relation:jeff-hill,Jeff Hill,1,person
+1172,/relation:lauryn-hill,Lauryn Hill,1,person
+1173,/relation:chris-hillman,Chris Hillman,1,person
+1174,/relation:grainger-hines,Grainger Hines,1,person
+1175,/relation:jim-hines,Jim Hines,1,person
+1176,/relation:billy-hinsche,Billy Hinsche,1,person
+1177,/relation:hobo,Hobo,1,person
+1178,/relation:rod-hodges,Rod Hodges,1,person
+1179,/relation:christian-hoff,Christian Hoff,1,person
+1180,/relation:art-hoffer,Art Hoffer,1,person
+1181,/relation:matt-hogan,Matt Hogan,4,person
+1182,/relation:jason-hohn,Jason Hohn,1,person
+1183,/relation:robin-holcomb,Robin Holcomb,1,person
+1184,/relation:j-j-holiday,J.J. Holiday,1,person
+1185,/relation:hal-hollander,Hal Hollander,2,person
+1186,/relation:tim-holland,Tim Holland,0,person
+1187,/relation:bill-holloman,Bill Holloman,1,person
+1188,/relation:dee-holmes,Dee Holmes,20,person
+1189,/relation:layonne-holmes,Layonne Holmes,5,person
+1190,/relation:david-holt,David Holt,1,person
+1191,/relation:gina-holton,Gina Holton,1,person
+1192,/relation:james-honeyman-scott,James Honeyman-Scott,1,person
+1193,/relation:patterson-hood,Patterson Hood,1,person
+1194,/relation:john-lee-hooker,John Lee Hooker,1,person
+1195,/relation:joe-hooven,Joe Hooven,2,person
+1196,/relation:john-driskell-hopkins,John Driskell Hopkins,2,person
+1197,/relation:nicky-hopkins,Nicky Hopkins,0,person
+1198,/relation:sean-hopper,Sean Hopper,1,person
+1199,/relation:caroline-hopson,Caroline Hopson,2,person
+1200,/relation:ed-horne,Ed Horne,1,person
+1201,/relation:jim-horn,Jim Horn,3,person
+1202,/relation:bruce-hornsby,Bruce Hornsby,9,person
+1203,/relation:benny-horowitz,Benny Horowitz,3,person
+1204,/relation:eddie-horst,Eddie Horst,0,person
+1205,/relation:paul-horton,Paul Horton,1,person
+1206,/relation:doyle-hough,Doyle Hough,1,person
+1207,/relation:angela-howard,Angela Howard,0,person
+1208,/relation:brittany-howard,Brittany Howard,1,person
+1209,/relation:kate-hudson,Kate Hudson,1,person
+1210,/relation:dann-huff,Dann Huff,0,person
+1211,/relation:chris-hughes,Chris Hughes,0,person
+1212,/relation:katherine-hughes,Katherine Hughes,1,person
+1213,/relation:the-human-beat-box,The Human Beat Box,0,person
+1214,/relation:john-hummel,John Hummel,0,person
+1215,/relation:zakir-hussain,Zakir Hussain,1,person
+1216,/relation:derek-huston,Derek Huston,1,person
+1217,/relation:hutch-hutchinson,Hutch Hutchinson,0,person
+1218,/relation:sean-hutchinson,Sean Hutchinson,2,person
+1219,/relation:steve-hyde,Steve Hyde,1,person
+1220,/relation:danny-hyland,Danny Hyland,2,person
+1221,/relation:chrissie-hynde,Chrissie Hynde,2,person
+1222,/relation:ed-hynes,Ed Hynes,1,person
+1223,/relation:jim-hynes,Jim Hynes,3,person
+1224,/relation:joyce-hyser,Joyce Hyser,0,person
+1225,/relation:billy-idol,Billy Idol,1,person
+1226,/relation:don-ienner,Don Ienner,1,person
+1227,/relation:ed-iglewski,Ed Iglewski,0,person
+1228,/relation:james-ingram,James Ingram,0,person
+1229,/relation:james-intveld,James Intveld,3,person
+1230,/relation:jimmy-iovine,Jimmy Iovine,0,person
+1231,/relation:donnie-iris,Donnie Iris,1,person
+1232,/relation:ralph-irizarry,Ralph Irizarry,1,person
+1233,/relation:jack-irwin,Jack Irwin,0,person
+1234,/relation:chris-isaak,Chris Isaak,1,person
+1235,/relation:mark-isham,Mark Isham,0,person
+1236,/relation:john-isley,John Isley,2,person
+1237,/relation:sheela-iyengar,Sheela Iyengar,0,person
+1238,/relation:chuck-jackson,Chuck Jackson,1,person
+1239,/relation:jackie-jackson,Jackie Jackson,0,person
+1240,/relation:john-jackson,John Jackson,2,person
+1241,/relation:la-toya-jackson,La Toya Jackson,0,person
+1242,/relation:marlon-jackson,Marlon Jackson,0,person
+1243,/relation:michael-jackson,Michael Jackson,0,person
+1244,/relation:randy-jackson,Randy Jackson,0,person
+1245,/relation:randall-jackson,Randy Jackson,0,person
+1246,/relation:ricky-ray-jackson,Ricky Ray Jackson,1,person
+1247,/relation:ruth-jackson,Ruth Jackson,0,person
+1248,/relation:theo-jackson,Theo Jackson,3,person
+1249,/relation:tito-jackson,Tito Jackson,0,person
+1250,/relation:wayne-jackson,Wayne Jackson,1,person
+1251,/relation:katie-jacoby,Katie Jacoby,2,person
+1252,/relation:chojo-jacques,Chojo Jacques,1,person
+1253,/relation:ben-jaffe,Ben Jaffe,2,person
+1254,/relation:rami-jaffee,Rami Jaffee,2,person
+1255,/relation:mick-jagger,Mick Jagger,4,person
+1256,/relation:jim-james,Jim James,1,person
+1257,/relation:john-james,John James,3,person
+1258,/relation:jam-master-jay,Jam Master Jay,0,person
+1259,/relation:andrew-janss,Andrew Janss,1,person
+1260,/relation:luis-jardim,Luís Jardim,0,person
+1261,/relation:al-jardine,Al Jardine,2,person
+1262,/relation:matt-jardine,Matt Jardine,1,person
+1263,/relation:al-jarreau,Al Jarreau,0,person
+1264,/relation:doug-jay,Doug Jay,1,person
+1265,/relation:jay-z,Jay-Z,0,person
+1266,/relation:patrick-jee,Patrick Jee,0,person
+1267,/relation:garland-jeffreys,Garland Jeffreys,19,person
+1268,/relation:chris-jenkins,Chris Jenkins,0,person
+1269,/relation:waylon-jennings,Waylon Jennings,0,person
+1270,/relation:bob-jensen,Bob Jensen,1,person
+1271,/relation:clarice-jensen,Clarice Jensen,0,person
+1272,/relation:dasol-jeong,Dasol Jeong,0,person
+1273,/relation:erika-jerry,Erika Jerry,3,person
+1274,/relation:joan-jett,Joan Jett,3,person
+1275,/relation:jobonanno,JoBonanno,5,person
+1276,/relation:michael-jochum,Michael Jochum,1,person
+1277,/relation:billy-joel,Billy Joel,11,person
+1278,/relation:david-johansen,David Johansen,1,person
+1279,/relation:jorgen-johansson,Jörgen Johansson,1,person
+1280,/relation:elton-john,Elton John,4,person
+1281,/relation:ethan-johns,Ethan Johns,0,person
+1282,/relation:michael-johns,Michael Johns,1,person
+1283,/relation:bashiri-johnson,Bashiri Johnson,5,person
+1284,/relation:bill-johnson,"""Boss"" Bill Johnson",0,person
+1285,/relation:carolyn-johnson,Carolyn Johnson,1,person
+1286,/relation:daryl-johnson,Daryl Johnson,0,person
+1287,/relation:j-j-johnson,JJ Johnson,1,person
+1288,/relation:earvin-johnson,Earvin Johnson Jr.,0,person
+1289,/relation:linton-kwesi-johnson,Linton Kwesi Johnson,0,person
+1290,/relation:louis-johnson,Louis Johnson,0,person
+1291,/relation:magic-johnson,Magic Johnson,1,person
+1292,/relation:bernice-johnson-reagon,Bernice Johnson-Reagon,1,person
+1293,/relation:steve-johnson,Steve Johnson,1,person
+1294,/relation:ken-johnston,Ken Johnston,1,person
+1295,/relation:nick-jonas,Nick Jonas,1,person
+1296,/relation:booker-t-jones,Booker T. Jones,1,person
+1297,/relation:caroline-jones,Caroline Jones,1,person
+1298,/relation:darryl-jones,Darryl Jones,3,person
+1299,/relation:grace-jones,Grace Jones,1,person
+1300,/relation:leslie-jones,Leslie Jones,1,person
+1301,/relation:michael-jones,Michael Jones,0,person
+1302,/relation:mick-jones,Mick Jones,2,person
+1303,/relation:polo-jones,Polo Jones,1,person
+1304,/relation:quincy-jones,Quincy Jones,0,person
+1305,/relation:remember-jones,Remember Jones,1,person
+1306,/relation:rickie-lee-jones,Rickie Lee Jones,4,person
+1307,/relation:stephon-jones,Stephon Jones,1,person
+1308,/relation:tania-jones,Tania Jones,4,person
+1309,/relation:will-jones,Will J. Jones,1,person
+1310,/relation:chris-jordan,Chris Jordan,0,person
+1311,/relation:stanley-jordan,Stanley Jordan,0,person
+1312,/relation:steve-jordan,Steve Jordan,7,person
+1313,/relation:john-jorgenson,John Jorgenson,0,person
+1314,/relation:colin-jost,Colin Jost,1,person
+1315,/relation:juanes,Juanes,2,person
+1316,/relation:charlie-judge,Charlie Judge,0,person
+1317,/relation:david-kahne,David Kahne,0,person
+1318,/relation:david-kalish,David Kalish,1,person
+1319,/relation:carol-kalvonjian,Carol Kalvonjian,1,person
+1320,/relation:vivek-kamath,Vivek Kamath,0,person
+1321,/relation:jo-anna-kameron,Jo'Anna Kameron,0,person
+1322,/relation:keith-kaminski,Keith Kaminski,1,person
+1323,/relation:tony-kanal,Tony Kanal,1,person
+1324,/relation:peter-john-kane,Peter John Kane,1,person
+1325,/relation:bruce-kapler,Bruce Kapler,7,person
+1326,/relation:fats-kaplin,Fats Kaplin,0,person
+1327,/relation:pat-karwin,Pat Karwin,1,person
+1328,/relation:kashif,Kashif,0,person
+1329,/relation:manu-katche,Manu Katché,1,person
+1330,/relation:shmuel-katz,Shmuel Katz,0,person
+1331,/relation:zev-katz,Zev Katz,2,person
+1332,/relation:kevin-kavanaugh,Kevin Kavanaugh,35,person
+1333,/relation:lenny-kaye,Lenny Kaye,6,person
+1334,/relation:warren-kaye,Warren Kaye,1,person
+1335,/relation:howard-kaylan,Howard Kaylan,7,person
+1336,/relation:jeff-kazee,Jeff Kazee,7,person
+1337,/relation:keb-mo,Keb' Mo',1,person
+1338,/relation:keef-cowboy,Keef Cowboy,1,person
+1339,/relation:mark-kelley,Mark Kelley,3,person
+1340,/relation:paul-kelley,Paul Kelley,1,person
+1341,/relation:andy-kelly,Andy Kelly,1,person
+1342,/relation:matt-kelly,Matt Kelly,3,person
+1343,/relation:tori-kelly,Tori Kelly,1,person
+1344,/relation:wells-kelly,Wells Kelly,3,person
+1345,/relation:jim-keltner,Jim Keltner,3,person
+1346,/relation:scott-kempner,Scott Kempner,1,person
+1347,/relation:eddie-kendricks,Eddie Kendricks,0,person
+1348,/relation:cleopatra-kennedy,Cleopatra Kennedy,110,person
+1349,/relation:jodie-kennedy,Jodie Kennedy,0,person
+1350,/relation:kern-kennedy,Kern Kennedy,2,person
+1351,/relation:ray-kennedy,Ray Kennedy,0,person
+1352,/relation:sonny-kenn,Sonny Kenn,3,person
+1353,/relation:jeff-kent,Jeff Kent,0,person
+1354,/relation:hal-keshner,Hal Keshner,1,person
+1355,/relation:dave-keuning,Dave Keuning,1,person
+1356,/relation:david-keyes,David Keyes,1,person
+1357,/relation:bobby-keys,Bobby Keys,2,person
+1358,/relation:asif-ali-khan,Asif Ali Khan,0,person
+1359,/relation:chaka-khan,Chaka Khan,2,person
+1360,/relation:tapelo-khomo,Tapelo Khomo,0,person
+1361,/relation:the-kidd-creole,The Kidd Creole,1,person
+1362,/relation:kid-leo,Kid Leo,0,person
+1363,/relation:jeff-kievit,Jeff Kievit,1,person
+1364,/relation:greg-kihn,Greg Kihn,1,person
+1365,/relation:robbie-kilgore,Robbie Kilgore,0,person
+1366,/relation:john-kilik,John Kilik,0,person
+1367,/relation:taran-killam,Taran Killam,1,person
+1368,/relation:lisa-kim,Lisa Kim,0,person
+1369,/relation:jimmy-kimmel,Jimmy Kimmel,0,person
+1370,/relation:jeff-kinder,Jeff Kinder,1,person
+1371,/relation:king,King,2,person
+1372,/relation:b-b-king,B.B. King,3,person
+1373,/relation:ben-e-king,Ben E. King,4,person
+1374,/relation:bobby-king,Bobby King,116,person
+1375,/relation:carole-king,Carole King,2,person
+1376,/relation:gayle-king,Gayle King,0,person
+1377,/relation:hana-king,Hana King,2,person
+1378,/relation:curtis-king,Curtis King Jr.,439,person
+1379,/relation:stephen-king,Stephen King,1,person
+1380,/relation:troye-kinnett,Troye Kinnett,0,person
+1381,/relation:kevn-kinney,Kevn Kinney,1,person
+1382,/relation:brian-kirk,Brian Kirk,1,person
+1383,/relation:kenny-kirkland,Kenny Kirkland,6,person
+1384,/relation:jerry-klause,Jerry Klause,0,person
+1385,/relation:ruth-klein-cook,Ruth Klein-Cook,3,person
+1386,/relation:ezra-klinger,Ezra Klinger,1,person
+1387,/relation:f-knuckles,F. Knuckles,3,person
+1388,/relation:randy-kohrs,Randy Kohrs,1,person
+1389,/relation:jon-kois,Jon Kois,0,person
+1390,/relation:matthew-koma,Matthew Koma,0,person
+1391,/relation:airlie-koo,Airlie Koo,8,person
+1392,/relation:kevin-kopack,Kevin Kopack,1,person
+1393,/relation:danny-kortchmar,Danny Kortchmar,3,person
+1394,/relation:hoda-kotb,Hoda Kotb,0,person
+1395,/relation:ed-kowalczyk,Ed Kowalczyk,1,person
+1396,/relation:ivan-kral,Ivan Král,4,person
+1397,/relation:joel-krauss,Joel Krauss,3,person
+1398,/relation:pascal-kravetz,Pascal Kravetz,1,person
+1399,/relation:ray-kriessler,Ray Kriessler,3,person
+1400,/relation:rhani-krija,Rhani Krija,1,person
+1401,/relation:kris-kristofferson,Kris Kristofferson,1,person
+1402,/relation:charae-krueger,Charae Krueger,0,person
+1403,/relation:kathryn-krugell,Kathryn Krugell,2,person
+1404,/relation:bakithi-kumalo,Bakithi Kumalo,1,person
+1405,/relation:john-kumnick,John Kumnick,1,person
+1406,/relation:ronald-kunene,Ronald Kunene,0,person
+1407,/relation:russ-kunkel,Russ Kunkel,4,person
+1408,/relation:tom-labella,Tom LaBella,4,person
+1409,/relation:abe-laboriel,Abe Laboriel Jr.,4,person
+1410,/relation:lady-gaga,Lady Gaga,2,person
+1411,/relation:jimmy-lafave,Jimmy LaFave,2,person
+1412,/relation:louis-lahav,Louis Lahav,0,person
+1413,/relation:suki-lahav,Suki Lahav,38,person
+1414,/relation:david-landau,David Landau,10,person
+1415,/relation:jon-landau,Jon Landau,24,person
+1416,/relation:lloyd-landesman,Lloyd Landesman,3,person
+1417,/relation:rob-lange,Rob Lange,1,person
+1418,/relation:k-d-lang,k.d. lang,2,person
+1419,/relation:ron-lankone,Ron Lankone,5,person
+1420,/relation:mike-lanning,Mike Lanning,1,person
+1421,/relation:daniel-lanois,Daniel Lanois,1,person
+1422,/relation:benjamin-lanz,Benjamin Lanz,0,person
+1423,/relation:c-lanzbom,C Lanzbom,0,person
+1424,/relation:rick-lapointe,Rick Lapointe,1,person
+1425,/relation:steve-large,Steve Large,2,person
+1426,/relation:lance-larson,Lance Larson,2,person
+1427,/relation:tommy-lasorda,Tommy Lasorda,1,person
+1428,/relation:joe-lastie,Joe Lastie Jr.,1,person
+1429,/relation:suzan-lastovica,Suzan Lastovica,1,person
+1430,/relation:foldes-laszlo,Földes László,0,person
+1431,/relation:daniel-laufer,Daniel Laufer,0,person
+1432,/relation:cyndi-lauper,Cyndi Lauper,0,person
+1433,/relation:daniel-lavoie,Daniel Lavoie,1,person
+1434,/relation:antonio-lawrence,Antonio Lawrence,11,person
+1435,/relation:chris-lawrence,Chris Lawrence,1,person
+1436,/relation:erik-lawrence,Erik Lawrence,1,person
+1437,/relation:nicole-lawrence,Nicole Lawrence,1,person
+1438,/relation:steve-lawrence,Steve Lawrence,1,person
+1439,/relation:jo-lawry,Jo Lawry,4,person
+1440,/relation:brad-leali,Brad Leali,1,person
+1441,/relation:sandro-leal-santiesteban,Sandro Leal-Santiesteban,1,person
+1442,/relation:merritt-lear,Merritt Lear,0,person
+1443,/relation:chuck-leavell,Chuck Leavell,3,person
+1444,/relation:julie-lebiedzinski,Julie Lebiedzinksi,1,person
+1445,/relation:keith-leblanc,Keith LeBlanc,0,person
+1446,/relation:rob-lebret,Rob Lebret,0,person
+1447,/relation:albert-lee,Albert Lee,0,person
+1448,/relation:eric-leeds,Eric Leeds,1,person
+1449,/relation:frankie-lee,Frankie Lee,2,person
+1450,/relation:hyunju-lee,Hyunju Lee,0,person
+1451,/relation:songa-lee,Songa Lee,0,person
+1452,/relation:will-lee,Will Lee,12,person
+1453,/relation:john-leffler,John Leffler,0,person
+1454,/relation:john-legend,John Legend,3,person
+1455,/relation:jerry-leiber,Jerry Leiber,1,person
+1456,/relation:mark-leimbach,Mark Leimbach,0,person
+1457,/relation:greg-leisz,Greg Leisz,3,person
+1458,/relation:al-leiter,Al Leiter,1,person
+1459,/relation:larry-lemaster,Larry Lemaster,0,person
+1460,/relation:julian-lennon,Julian Lennon,1,person
+1461,/relation:sean-lennon,Sean Lennon,1,person
+1462,/relation:annie-lennox,Annie Lennox,2,person
+1463,/relation:jay-leno,Jay Leno,0,person
+1464,/relation:alice-leon,Alice Leon,0,person
+1465,/relation:darrell-leonard,Darrell Leonard,1,person
+1466,/relation:zsuzsa-leon,Zsuzsa Leon,1,person
+1467,/relation:veikko-lepisto,Veikko Lepisto,0,person
+1468,/relation:larry-lee-lerma,Larry Lee Lerma,1,person
+1469,/relation:ben-lester,Ben Lester,0,person
+1470,/relation:jimmy-lester,Jimmy Lester,1,person
+1471,/relation:david-letterman,David Letterman,0,person
+1472,/relation:john-leventhal,John Leventhal,2,person
+1473,/relation:alex-levine,Alex Levine,3,person
+1474,/relation:dan-levine,Dan Levine,5,person
+1475,/relation:jeff-levine,Jeff Levine,7,person
+1476,/relation:lowell-levinger,Lowell Levinger,7,person
+1477,/relation:peter-levin,Peter Levin,2,person
+1478,/relation:mauricio-lewak,Mauricio Lewak,4,person
+1479,/relation:huey-lewis,Huey Lewis,1,person
+1480,/relation:jenny-lewis,Jenny Lewis,0,person
+1481,/relation:jerry-lee-lewis,Jerry Lee Lewis,2,person
+1482,/relation:j-t-lewis,J.T. Lewis,6,person
+1483,/relation:roger-lewis,Roger Lewis,2,person
+1484,/relation:dirck-van-lieu,Dirck van Lieu,1,person
+1485,/relation:bill-lilley,Bill Lilley,1,person
+1486,/relation:elizabeth-lim-dutton,Elizabeth Lim-Dutton,1,person
+1487,/relation:david-lindley,David Lindley,2,person
+1488,/relation:buzzy-linhart,Buzzy Linhart,1,person
+1489,/relation:greg-liszt,Greg Liszt,78,person
+1490,/relation:henrik-littauer,Henrik Littauer,1,person
+1491,/relation:little-richard,Little Richard,3,person
+1492,/relation:little-steven,Little Steven,8,person
+1493,/relation:billy-livesay,Billy Livesay,2,person
+1494,/relation:liz,Liz,1,person
+1495,/relation:bob-lizik,Bob Lizik,2,person
+1496,/relation:tom-lloyd,Tom Lloyd,1,person
+1497,/relation:nils-lofgren,Nils Lofgren,1178,person
+1498,/relation:tom-lofgren,Tom Lofgren,1,person
+1499,/relation:kenny-loggins,Kenny Loggins,0,person
+1500,/relation:justin-lomery,Justin Lomery,0,person
+1501,/relation:buzz-london,Buzz London,1,person
+1502,/relation:don-london,Don London,1,person
+1503,/relation:lonesome-bob,Lonesome Bob,0,person
+1504,/relation:larry-long,Larry Long,1,person
+1505,/relation:fifi-longo,Fifi Longo,5,person
+1506,/relation:michael-longoria,Michael Longoria,1,person
+1507,/relation:david-longworth,David Longworth,2,person
+1508,/relation:freddie-lonzo,Freddie Lonzo,1,person
+1509,/relation:kelly-looney,Kelly Looney,1,person
+1510,/relation:vini-lopez,Vini Lopez,476,person
+1511,/relation:andrew-love,Andrew Love,1,person
+1512,/relation:darlene-love,Darlene Love,5,person
+1513,/relation:jah-love,Jah Love,3,person
+1514,/relation:kenny-lovelace,Kenny Lovelace,0,person
+1515,/relation:ken-lovelett,Ken Lovelett,0,person
+1516,/relation:susan-lovell,Susan Lovell,1,person
+1517,/relation:mike-love,Mike Love,1,person
+1518,/relation:ben-lovett,Ben Lovett,2,person
+1519,/relation:lyle-lovett,Lyle Lovett,1,person
+1520,/relation:lisa-lowell,Lisa Lowell,173,person
+1521,/relation:zane-lowe,Zane Lowe,0,person
+1522,/relation:diane-lozito,Diane Lozito,0,person
+1523,/relation:jeff-lubin,Jeff Lubin,1,person
+1524,/relation:gary-lucas,Gary Lucas,1,person
+1525,/relation:bob-ludwig,Bob Ludwig,0,person
+1526,/relation:steve-lukather,Steve Lukather,0,person
+1527,/relation:kuan-cheng-lu,Kuan Cheng Lu,0,person
+1528,/relation:douglas-lunn,Douglas Lunn,0,person
+1529,/relation:vinny-luongo,Vinny Luongo,1,person
+1530,/relation:patrick-lupo,Patrick Lupo,12,person
+1531,/relation:john-luraschi,John Luraschi,3,person
+1532,/relation:laura-lutzke,Laura Lutzke,1,person
+1533,/relation:james-lynch,James Lynch,2,person
+1534,/relation:stan-lynch,Stan Lynch,1,person
+1535,/relation:dana-lyn,Dana Lyn,3,person
+1536,/relation:barry-lynn,Barry Lynn,2,person
+1537,/relation:jeff-lynne,Jeff Lynne,2,person
+1538,/relation:john-lyon,John Lyon,0,person
+1539,/relation:graham-maby,Graham Maby,1,person
+1540,/relation:colin-macdonald,Colin MacDonald,1,person
+1541,/relation:john-angus-macdonald,John-Angus MacDonald,1,person
+1542,/relation:steve-mackey,Steve Mackey,0,person
+1543,/relation:ronnie-mack,Ronnie Mack,1,person
+1544,/relation:sandy-mack,Sandy Mack,2,person
+1545,/relation:james-maddock,James Maddock,3,person
+1546,/relation:madonna,Madonna,1,person
+1547,/relation:clint-maedgen,Clint Maedgen,1,person
+1548,/relation:jimmy-maelen,Jimmy Maelen,0,person
+1549,/relation:john-magnusson,John Magnusson,1,person
+1550,/relation:terry-magovern,Terry Magovern,0,person
+1551,/relation:martie-maguire,Martie Maguire,2,person
+1552,/relation:taj-mahal,Taj Mahal,1,person
+1553,/relation:mike-mahoney,Mike Mahoney,1,person
+1554,/relation:jamie-mahon,Jamie Mahon,0,person
+1555,/relation:lloyd-maines,Lloyd Maines,0,person
+1556,/relation:natalie-maines,Natalie Maines,3,person
+1557,/relation:jesse-malin,Jesse Malin,11,person
+1558,/relation:gary-mallaber,Gary Mallaber,1,person
+1559,/relation:bob-malone,Bob Malone,1,person
+1560,/relation:tom-malone,Tom Malone,9,person
+1561,/relation:patti-maloney,Patti Maloney,0,person
+1562,/relation:moses-manaka,Moses Manaka,0,person
+1563,/relation:mike-mancini,Mike Mancini,5,person
+1564,/relation:steve-mandel,Steve Mandel,0,person
+1565,/relation:tommy-mandel,Tommy Mandel,0,person
+1566,/relation:jay-dee-maness,Jay Dee Maness,0,person
+1567,/relation:matt-mangano,Matt Mangano,2,person
+1568,/relation:barry-manilow,Barry Manilow,0,person
+1569,/relation:mike-mani,Mike Mani,1,person
+1570,/relation:ed-manion,Ed Manion,481,person
+1571,/relation:richard-manitoba,Richard Manitoba,0,person
+1572,/relation:ben-mankiewicz,Ben Mankiewicz,0,person
+1573,/relation:vinnie-manniello,Vinnie Manniello,106,person
+1574,/relation:connie-manser,Connie Manser,5,person
+1575,/relation:harry-manx,Harry Manx,1,person
+1576,/relation:rebecca-manzoni,Rebecca Manzoni,0,person
+1577,/relation:karla-manzur,Karla Manzur,1,person
+1578,/relation:marc-7,Marc 7,1,person
+1579,/relation:lou-marini,Lou Marini,1,person
+1580,/relation:abner-mariri,Abner Mariri,0,person
+1581,/relation:michael-mark,Michael Mark,1,person
+1582,/relation:david-marks,David Marks,1,person
+1583,/relation:marc-maron,Marc Maron,0,person
+1584,/relation:rick-marotta,Rick Marotta,2,person
+1585,/relation:branford-marsalis,Branford Marsalis,12,person
+1586,/relation:paul-marshall,Paul Marshall,1,person
+1587,/relation:winston-marshall,Winston Marshall,2,person
+1588,/relation:dave-marsh,Dave Marsh,2,person
+1589,/relation:mario-marsillo,Mario Marsillo,2,person
+1590,/relation:ingo-marte,Ingo Marte,1,person
+1591,/relation:chris-martin,Chris Martin,1,person
+1592,/relation:pedrito-martinez,Pedrito Martinez,0,person
+1593,/relation:frank-martin,Frank Martin,3,person
+1594,/relation:jimmy-de-martini,Jimmy De Martini,2,person
+1595,/relation:joe-martin,Joe Martin,1,person
+1596,/relation:ricky-martin,Ricky Martin,2,person
+1597,/relation:frank-marziotti,Frank Marziotti,21,person
+1598,/relation:vernon-masayesva,Vernon Masayesva,1,person
+1599,/relation:carolyne-mas,Carolyne Mas,1,person
+1600,/relation:anthony-mason,Anthony Mason,0,person
+1601,/relation:molly-mason,Molly Mason,1,person
+1602,/relation:nick-massi,Nick Massi,1,person
+1603,/relation:chris-masterson,Chris Masterson,1,person
+1604,/relation:kenny-mathaba,Kenny Mathaba,0,person
+1605,/relation:rob-mathes,Rob Mathes,4,person
+1606,/relation:stuart-mathis,Stuart Mathis,0,person
+1607,/relation:dave-matthews,Dave Matthews,2,person
+1608,/relation:jerry-matthews,Jerry Matthews,1,person
+1609,/relation:wade-matthews,Wade Matthews,1,person
+1610,/relation:don-mattingly,Don Mattingly,1,person
+1611,/relation:joanna-maurer,Joanna Maurer,1,person
+1612,/relation:pete-maurer,Pete Maurer,1,person
+1613,/relation:ben-mauro,Ben Mauro,1,person
+1614,/relation:stuart-maxfield,Stuart Maxfield,0,person
+1615,/relation:anna-maxwell-martin,Anna Maxwell Maxwell,0,person
+1616,/relation:curtis-mayfield,Curtis Mayfield,1,person
+1617,/relation:scott-mayo,Scott Mayo,1,person
+1618,/relation:simon-mayo,Simon Mayo,0,person
+1619,/relation:abednego-mazibuko,Abednego Mazibuko,2,person
+1620,/relation:albert-mazibuko,Albert Mazibuko,2,person
+1621,/relation:mike-mcadam,Mike McAdam,0,person
+1622,/relation:lachlan-mcbane,Lachlan McBane,0,person
+1623,/relation:christian-mcbride,Christian McBride,1,person
+1624,/relation:michael-mccabe,Michael McCabe,0,person
+1625,/relation:val-mccallum,Val McCallum,3,person
+1626,/relation:paul-mccartney,Paul McCartney,7,person
+1627,/relation:matthew-mccaughan,Matthew McCaughan,0,person
+1628,/relation:scott-mccaughey,Scott McCaughey,6,person
+1629,/relation:matthew-mcconaughey,Matthew McConaughey,0,person
+1630,/relation:page-mcconnell,Page McConnell,1,person
+1631,/relation:kevin-mccormick,Kevin McCormick,2,person
+1632,/relation:del-mccoury,Del McCoury,1,person
+1633,/relation:jeremy-mccoy,Jeremy McCoy,0,person
+1634,/relation:hugh-mccracken,Hugh McCracken,0,person
+1635,/relation:alfreda-mccrary,Alfreda McCrary,1,person
+1636,/relation:ann-mccrary,Ann McCrary,1,person
+1637,/relation:regina-mccrary,Regina McCrary,1,person
+1638,/relation:maureen-mccrink,Maureen McCrink,3,person
+1639,/relation:ron-mccrory,Ron McCrory,1,person
+1640,/relation:darryl-mcdaniels,Darryl McDaniels,0,person
+1641,/relation:maureen-mcdermott,Maureen McDermott,1,person
+1642,/relation:clarence-mcdonald,Clarence McDonald,1,person
+1643,/relation:dolette-mcdonald,Dolette McDonald,6,person
+1644,/relation:hugh-mcdonald,Hugh McDonald,11,person
+1645,/relation:joe-mcdonald,Joe McDonald,1,person
+1646,/relation:matthew-mcdonald,Matthew McDonald,2,person
+1647,/relation:james-mcdonnell,James McDonnell,0,person
+1648,/relation:john-mcelrath,John McElrath,1,person
+1649,/relation:john-mcenroe,John McEnroe,1,person
+1650,/relation:bobby-mcferrin,Bobby McFerrin,1,person
+1651,/relation:anna-mcgarrigle,Anna McGarrigle,1,person
+1652,/relation:kate-mcgarrigle,Kate McGarrigle,1,person
+1653,/relation:sid-mcginnis,Sid McGinnis,10,person
+1654,/relation:tim-mcgraw,Tim McGraw,1,person
+1655,/relation:roger-mcguinn,Roger McGuinn,5,person
+1656,/relation:jimmy-mcguire,Jimmy McGuire,6,person
+1657,/relation:kevin-mckendree,Kevin McKendree,1,person
+1658,/relation:serena-mckinney-goransson,Serena McKinney Göransson,0,person
+1659,/relation:kate-mckinnon,Kate McKinnon,1,person
+1660,/relation:ian-mclagan,Ian McLagan,0,person
+1661,/relation:davis-mclarty,Davis McLarty,1,person
+1662,/relation:tim-mcloone,Tim McLoone,8,person
+1663,/relation:melissa-mcmillan,Melissa McMillan,1,person
+1664,/relation:jerry-mcpherson,Jerry McPherson,0,person
+1665,/relation:geoffrey-mdletshe,Geoffrey Mdletshe,1,person
+1666,/relation:tom-meares,Tom Meares,6,person
+1667,/relation:john-meisner,John Meisner,0,person
+1668,/relation:stefanos-melas,Stefanos Melas,2,person
+1669,/relation:molly-meldrum,Molly Meldrum,0,person
+1670,/relation:ozzie-melendez,Ozzie Melendez,76,person
+1671,/relation:john-mellencamp,John Mellencamp,6,person
+1672,/relation:melle-mel,Melle Mel,1,person
+1673,/relation:wendy-melvoin,Wendy Melvoin,1,person
+1674,/relation:paul-menotiades,Paul Menotiades,2,person
+1675,/relation:idina-menzel,Idina Menzel,1,person
+1676,/relation:chucho-merchan,Chucho Merchán,0,person
+1677,/relation:rich-mercurio,Rich Mercurio,4,person
+1678,/relation:mike-merenda,Mike Merenda,1,person
+1679,/relation:mike-merritt,Mike Merritt,15,person
+1680,/relation:carlo-mertens,Carlo Mertens,0,person
+1681,/relation:paul-mertens,Paul Mertens,2,person
+1682,/relation:charlie-messing,Charlie Messing,0,person
+1683,/relation:paul-metsa,Paul Metsa,1,person
+1684,/relation:george-meyer,George Meyer,0,person
+1685,/relation:barbara-jean-meyers,Barbara Jean Meyers,0,person
+1686,/relation:seth-meyers,Seth Meyers,0,person
+1687,/relation:miami-steve,Miami Steve,0,person
+1688,/relation:mike-micara,Mike Micara,1,person
+1689,/relation:john-micco,John Micco,16,person
+1690,/relation:lorne-michaels,Lorne Michaels,1,person
+1691,/relation:bette-midler,Bette Midler,2,person
+1692,/relation:miguel,Miguel,1,person
+1693,/relation:luis-miguel,Luis Miguel,1,person
+1694,/relation:ben-knox-miller,Ben Knox Miller,1,person
+1695,/relation:bill-miller,Bill Miller,1,person
+1696,/relation:buddy-miller,Buddy Miller,2,person
+1697,/relation:dominic-miller,Dominic Miller,1,person
+1698,/relation:john-miller,John Miller,1,person
+1699,/relation:sienna-miller,Sienna Miller,0,person
+1700,/relation:alethea-mills,Alethea Mills,2,person
+1701,/relation:mike-mills,Mike Mills,6,person
+1702,/relation:taylor-mills,Taylor Mills,1,person
+1703,/relation:seth-milly,Seth Milly,2,person
+1704,/relation:cornelius-mims,Cornelius Mims,0,person
+1705,/relation:leslie-ming,Leslie Ming,2,person
+1706,/relation:eddie-minnifield,Eddie Minnifield,1,person
+1707,/relation:rickey-minor,Rickey Minor,1,person
+1708,/relation:brian-mitchell,Brian Mitchell,0,person
+1709,/relation:charles-mitchell,Charles Mitchell,1,person
+1710,/relation:joni-mitchell,Joni Mitchell,1,person
+1711,/relation:cindy-mizelle,Cindy Mizelle,362,person
+1712,/relation:mike-mogis,Mike Mogis,4,person
+1713,/relation:pat-mokoka,Pat Mokoka,0,person
+1714,/relation:ralph-molina,Ralph Molina,3,person
+1715,/relation:jim-monaghan,Jim Monaghan,0,person
+1716,/relation:rickie-monie,Rickie Monie,1,person
+1717,/relation:michael-monroe,Michael Monroe,0,person
+1718,/relation:rose-montana,Rose Montana,0,person
+1719,/relation:kyle-mooney,Kyle Mooney,1,person
+1720,/relation:antoinette-moore,Antoinette Moore,11,person
+1721,/relation:clay-moore,Clay Moore,1,person
+1722,/relation:devin-moore,Devin Moore,0,person
+1723,/relation:johnny-moore,Johnny Moore,1,person
+1724,/relation:kenny-moore,Kenny Moore,0,person
+1725,/relation:kevin-moore,Kevin Moore,0,person
+1726,/relation:michelle-moore,Michelle Moore,269,person
+1727,/relation:jesse-moorer,Jesse Moorer,11,person
+1728,/relation:sam-moore,Sam Moore,8,person
+1729,/relation:scarlett-lee-moore,Scarlett Lee Moore,1,person
+1730,/relation:rob-moose,Rob Moose,1,person
+1731,/relation:joe-morales,Joe Morales,1,person
+1732,/relation:tony-moran,Tony Moran,0,person
+1733,/relation:jimmy-morehaus,Jimmy Morehaus,1,person
+1734,/relation:tom-morello,Tom Morello,68,person
+1735,/relation:caroline-morgan,Caroline Morgan,1,person
+1736,/relation:marc-moriva,Marc Moriva,2,person
+1737,/relation:tony-morra,Tony Morra,0,person
+1738,/relation:c-j-morris,C.J. Morris,1,person
+1739,/relation:eddie-morris,Eddie Morris,0,person
+1740,/relation:joe-morris,Joe Morris,1,person
+1741,/relation:wendell-morrison,Wendell Morrison,0,person
+1742,/relation:peter-mors,Peter Mors,1,person
+1743,/relation:debra-mose,Debra Mose,1,person
+1744,/relation:motlole-moseki,Motlole Moseki,0,person
+1745,/relation:jason-mowery,Jason Mowery,0,person
+1746,/relation:bobby-moynihan,Bobby Moynihan,1,person
+1747,/relation:russel-mthembu,Russel Mthembu,2,person
+1748,/relation:isaac-mtshali,Isaac Mtshali,1,person
+1749,/relation:bob-muckin,Bob Muckin,2,person
+1750,/relation:karl-mueller,Karl Mueller,1,person
+1751,/relation:jamie-muhoberac,Jamie Muhoberac,0,person
+1752,/relation:larry-mullen,Larry Mullen Jr.,6,person
+1753,/relation:marc-muller,Marc Muller,1,person
+1754,/relation:kevin-mulligan,Kevin Mulligan,0,person
+1755,/relation:mark-mullins,Mark Mullins,1,person
+1756,/relation:marcus-mumford,Marcus Mumford,2,person
+1757,/relation:hector-munoz,Hector Muñoz,1,person
+1758,/relation:steve-munson,Steve Munson,1,person
+1759,/relation:steph-munter,Steph Munter,3,person
+1760,/relation:cory-muro,Cory Muro,2,person
+1761,/relation:dan-murphy,Dan Murphy,1,person
+1762,/relation:elliott-murphy,Elliott Murphy,17,person
+1763,/relation:gaspard-murphy,Gaspard Murphy,3,person
+1764,/relation:mark-murphy,Mark Murphy,3,person
+1765,/relation:shaun-murphy,Shaun Murphy,1,person
+1766,/relation:bobby-murray,Bobby Murray,0,person
+1767,/relation:joe-murray,Joe Murray,1,person
+1768,/relation:charlie-musselwhite,Charlie Musselwhite,1,person
+1769,/relation:toby-myers,Toby Myers,1,person
+1770,/relation:mendiswa-mzamne,Mendiswa Mzamne,0,person
+1771,/relation:mweli-mzizi,Mweli Mzizi,0,person
+1772,/relation:jimmy-nail,Jimmy Nail,1,person
+1773,/relation:nakia,Nakia,0,person
+1774,/relation:joe-nappy,Joe Nappy,1,person
+1775,/relation:art-nardini,Art Nardini,31,person
+1776,/relation:norman-nardini,Norman Nardini,2,person
+1777,/relation:milton-nascimento,Milton Nascimento,1,person
+1778,/relation:graham-nash,Graham Nash,4,person
+1779,/relation:robin-nash,Robin Nash,5,person
+1780,/relation:bucky-naughton,Bucky Naughton,1,person
+1781,/relation:meshell-ndegeocello,Meshell Ndegeocello,1,person
+1782,/relation:youssou-n-dour,Youssou N'Dour,21,person
+1783,/relation:kevin-nealon,Kevin Nealon,1,person
+1784,/relation:richard-neer,Richard Neer,0,person
+1785,/relation:b-j-nelson,B.J. Nelson,0,person
+1786,/relation:paul-nelson,Paul Nelson,2,person
+1787,/relation:prince-rogers-nelson,Prince Rogers Nelson,0,person
+1788,/relation:willie-nelson,Willie Nelson,0,person
+1789,/relation:bill-nershi,Bill Nershi,1,person
+1790,/relation:mike-ness,Mike Ness,4,person
+1791,/relation:jennifer-nettles,Jennifer Nettles,1,person
+1792,/relation:jason-neukom,Jason Neukom,1,person
+1793,/relation:ed-neumeister,Ed Neumeister,2,person
+1794,/relation:bob-neuwirth,Bob Neuwirth,1,person
+1795,/relation:joe-nevelo,Joe Nevelo,3,person
+1796,/relation:benjamin-newberry,Benjamin Newberry,0,person
+1797,/relation:andy-newmark,Andy Newmark,0,person
+1798,/relation:jonny-ng,Jonny Ng,2,person
+1799,/relation:kindiza-ngubeni,Kindiza Ngubeni,0,person
+1800,/relation:nicky,Nicky,1,person
+1801,/relation:wolfgang-niedecken,Wolfgang Niedecken,7,person
+1802,/relation:dia-nielsen,Dia Nielsen,1,person
+1803,/relation:steve-nieve,Steve Nieve,1,person
+1804,/relation:prescott-niles,Prescott Niles,1,person
+1805,/relation:willie-nile,Willie Nile,17,person
+1806,/relation:trevor-noah,Trevor Noah,0,person
+1807,/relation:smokey-noble,Smokey Noble,1,person
+1808,/relation:matt-nolen,Matt Nolen,1,person
+1809,/relation:dezzie-norman,Dezzie Norman,3,person
+1810,/relation:jessye-norman,Jessye Norman,1,person
+1811,/relation:joe-norosavage,Joe Norosavage,0,person
+1812,/relation:clif-norrell,Clif Norrell,0,person
+1813,/relation:ed-norton,Ed Norton,0,person
+1814,/relation:graham-norton,Graham Norton,0,person
+1815,/relation:carlo-novi,Carlo Novi,23,person
+1816,/relation:tnemba-ntinga,Tnemba Ntinga,0,person
+1817,/relation:dave-nunez,Dave Nunez,0,person
+1818,/relation:john-oates,John Oates,2,person
+1819,/relation:barack-obama,Barack Obama,1,person
+1820,/relation:michelle-obama,Michelle Obama,2,person
+1821,/relation:conor-oberst,Conor Oberst,5,person
+1822,/relation:brendan-o-brien,Brendan O'Brien,3,person
+1823,/relation:conan-o-brien,Conan O'Brien,2,person
+1824,/relation:lucas-o-brien,Lucas O'Brien,3,person
+1825,/relation:phil-ochs,Phil Ochs,1,person
+1826,/relation:brendan-o-connor,Brendan O'Connor,0,person
+1827,/relation:mark-o-connor,Mark O'Connor,1,person
+1828,/relation:bridget-o-donnell,Bridget O'Donnell,2,person
+1829,/relation:john-oeser,John Oeser,2,person
+1830,/relation:christine-ohlman,Christine Ohlman,1,person
+1831,/relation:sonny-okosun,Sonny Okosun,0,person
+1832,/relation:dermot-o-leary,Dermot O'Leary,0,person
+1833,/relation:wayne-oliver,Wayne Oliver,0,person
+1834,/relation:athena-o-lochlainn,Athena O'Lochlainn,1,person
+1835,/relation:gunnar-olsen,Gunnar Olsen,1,person
+1836,/relation:michael-omartian,Michael Omartian,0,person
+1837,/relation:lauren-onkey,Lauren Onkey,0,person
+1838,/relation:yoko-ono,Yoko Ono,1,person
+1839,/relation:roy-orbison,Roy Orbison,2,person
+1840,/relation:matt-o-ree,Matt O'Ree,1,person
+1841,/relation:john-o-reilly,John O'Reilly,1,person
+1842,/relation:dennis-orlock,Dennis Orlock,54,person
+1843,/relation:suzanne-ornstein,Suzanne Ornstein,0,person
+1844,/relation:denny-orr,Denny Orr,1,person
+1845,/relation:arturo-ortiz,Arturo Ortiz,1,person
+1846,/relation:geoffrey-oryema,Geoffrey Oryema,1,person
+1847,/relation:jeffrey-osborne,Jeffrey Osborne,0,person
+1848,/relation:tyler-osborne,Tyler Osborne,1,person
+1849,/relation:jorge-otero,Jorge Otero,1,person
+1850,/relation:peter-overton,Peter Overton,0,person
+1851,/relation:reggie-pace,Reggie Pace,0,person
+1852,/relation:tom-pacheco,Tom Pacheco,1,person
+1853,/relation:frank-pagano,Frank Pagano,2,person
+1854,/relation:frank-pagano-2,Frank Pagano (Timepiece),1,person
+1855,/relation:david-paich,David Paich,0,person
+1856,/relation:pino-palladino,Pino Palladino,1,person
+1857,/relation:tony-pallagrosi,Tony Pallagrosi,23,person
+1858,/relation:ed-de-palma,Ed de Palma,54,person
+1859,/relation:chazz-palminteri,Chazz Palminteri,1,person
+1860,/relation:thom-panunzio,Thom Panunzio,0,person
+1861,/relation:steve-paraczky,Steve Paraczky,54,person
+1862,/relation:mark-parenteau,Mark Parenteau,0,person
+1863,/relation:brian-pareschi,Brian Pareschi,2,person
+1864,/relation:rob-parissi,Rob Parissi,0,person
+1865,/relation:graham-parker,Graham Parker,1,person
+1866,/relation:ariel-parkington,Ariel Parkington,1,person
+1867,/relation:lydia-parkington,Lydia Parkington,1,person
+1868,/relation:nora-parkington,Nora Parkington,1,person
+1869,/relation:rose-parkington,Rose Parkington,1,person
+1870,/relation:sarah-parkington,Sarah Parkington,1,person
+1871,/relation:su-hyun-park,Su Hyun Park,0,person
+1872,/relation:phil-parlapiano,Phil Parlapiano,0,person
+1873,/relation:vincent-pastore,Vincent Pastore,3,person
+1874,/relation:les-paul,Les Paul,1,person
+1875,/relation:neal-pawley,Neal Pawley,4,person
+1876,/relation:bill-payne,Bill Payne,2,person
+1877,/relation:barbara-payton,Barbara Payton,1,person
+1878,/relation:lawrence-payton,Lawrence Payton,1,person
+1879,/relation:walter-payton,Walter Payton,1,person
+1880,/relation:ridley-pearson,Ridley Pearson,1,person
+1881,/relation:gregory-peck,Gregory Peck,1,person
+1882,/relation:jamie-peck,Jamie Peck,1,person
+1883,/relation:joe-pelesky,Joe Pelesky,29,person
+1884,/relation:shawn-pelton,Shawn Pelton,4,person
+1885,/relation:brad-pemberton,Brad Pemberton,1,person
+1886,/relation:janice-pendarvis,Janice Pendarvis,1,person
+1887,/relation:leon-pendarvis,Leon Pendarvis,3,person
+1888,/relation:mark-pender,Mark Pender,145,person
+1889,/relation:richard-penniman,Richard Penniman,0,person
+1890,/relation:lester-pennyfeather,Lester Pennyfeather,1,person
+1891,/relation:kenny-pentifallo,Kenny Pentifallo,18,person
+1892,/relation:will-percy,Will Percy,0,person
+1893,/relation:carl-perkins,Carl Perkins,1,person
+1894,/relation:emma-perkins,Emma Perkins,1,person
+1895,/relation:ian-perkins,Ian Perkins,1,person
+1896,/relation:jaquita-perkins,Jaquita Perkins,2,person
+1897,/relation:jimmy-perkins,Jimmy Perkins,1,person
+1898,/relation:spike-perkins,Spike Perkins,1,person
+1899,/relation:hunter-perrin,Hunter Perrin,0,person
+1900,/relation:tony-perruso,Tony Perruso,1,person
+1901,/relation:hart-perry,Hart Perry,0,person
+1902,/relation:steve-perry,Steve Perry,0,person
+1903,/relation:dave-petersen,Dave Petersen,2,person
+1904,/relation:ross-petersen,Ross Petersen,0,person
+1905,/relation:mike-peters,Mike Peters,1,person
+1906,/relation:joe-petillo,Joe Petillo,1,person
+1907,/relation:doug-pettibone,Doug Pettibone,1,person
+1908,/relation:paul-pettitt,Paul Pettitt,2,person
+1909,/relation:tom-petty,Tom Petty,4,person
+1910,/relation:ragnhildur-petursdottir,Ragnhildur Petursdottir,1,person
+1911,/relation:slim-jim-phantom,Slim Jim Phantom,1,person
+1912,/relation:jay-pharoah,Jay Pharoah,1,person
+1913,/relation:greg-phillinganes,Greg Phillinganes,0,person
+1914,/relation:chris-phillips,Chris Phillips,0,person
+1915,/relation:julianne-phillips,Julianne Phillips,0,person
+1916,/relation:ray-phiri,Ray Phiri,1,person
+1917,/relation:phonte,Phonte,0,person
+1918,/relation:inos-phungula,Inos Phungula,1,person
+1919,/relation:lenny-pickett,Lenny Pickett,2,person
+1920,/relation:wilson-pickett,Wilson Pickett,1,person
+1921,/relation:tim-pierce,Tim Pierce,0,person
+1922,/relation:ed-piersanti,Ed Piersanti,2,person
+1923,/relation:charles-pillow,Charles Pillow,0,person
+1924,/relation:pink,Pink,1,person
+1925,/relation:robert-pinsky,Robert Pinsky,1,person
+1926,/relation:dave-pirner,Dave Pirner,2,person
+1927,/relation:johnny-pisano,Johnny Pisano,6,person
+1928,/relation:joe-piscopo,Joe Piscopo,1,person
+1929,/relation:john-pittas,John Pittas,1,person
+1930,/relation:annaliesa-place,Annaliesa Place,1,person
+1931,/relation:ray-planet,Ray Planet,16,person
+1932,/relation:chuck-plotkin,Chuck Plotkin,0,person
+1933,/relation:serge-plume,Serge Plume,0,person
+1934,/relation:amy-poehler,Amy Poehler,1,person
+1935,/relation:anita-pointer,Anita Pointer,0,person
+1936,/relation:june-pointer,June Pointer,0,person
+1937,/relation:ruth-pointer,Ruth Pointer,0,person
+1938,/relation:emily-popham,Emily Popham,0,person
+1939,/relation:paul-popkin,Paul Popkin,108,person
+1940,/relation:john-popper,John Popper,1,person
+1941,/relation:jeff-porcaro,Jeff Porcaro,0,person
+1942,/relation:steve-porcaro,Steve Porcaro,0,person
+1943,/relation:donnie-powell,Donnie Powell,6,person
+1944,/relation:thom-powers,Thom Powers,0,person
+1945,/relation:tom-power,Tom Power,0,person
+1946,/relation:james-poyser,James Poyser,4,person
+1947,/relation:mark-prentice,Mark Prentice,1,person
+1948,/relation:billy-preston,Billy Preston,1,person
+1949,/relation:david-price,David Price,0,person
+1950,/relation:holly-price,Holly Cara Price,0,person
+1951,/relation:prince,Prince,1,person
+1952,/relation:john-prine,John Prine,1,person
+1953,/relation:steve-pryor,Steve Pryor,1,person
+1954,/relation:jeff-prystowsky,Jeff Prystowsky,1,person
+1955,/relation:carlitos-del-puerto,Carlitos Del Puerto,4,person
+1956,/relation:christopher-pulgram,Christopher Pulgram,0,person
+1957,/relation:david-pulkingham,David Pulkingham,3,person
+1958,/relation:michael-purington,Michael Purington,1,person
+1959,/relation:william-pu,William Pu,0,person
+1960,/relation:pete-quaife,Pete Quaife,1,person
+1961,/relation:price-quenin,Price Quenin,1,person
+1962,/relation:questlove,Questlove,3,person
+1963,/relation:robin-quivers,Robin Quivers,0,person
+1964,/relation:barney-rachabane,Barney Rachabane,1,person
+1965,/relation:mark-radcliffe,Mark Radcliffe,0,person
+1966,/relation:rahiem,Rahiem,1,person
+1967,/relation:bonnie-raitt,Bonnie Raitt,11,person
+1968,/relation:curt-ramm,Curt Ramm,360,person
+1969,/relation:joey-ramone,Joey Ramone,1,person
+1970,/relation:tyler-ramsey,Tyler Ramsey,1,person
+1971,/relation:billy-rancher,Billy Rancher,1,person
+1972,/relation:anthony-rankin,Anthony Rankin,0,person
+1973,/relation:kenny-rankin,Kenny Rankin,1,person
+1974,/relation:ned-rankin,Ned Rankin,1,person
+1975,/relation:mickey-raphael,Mickey Raphael,0,person
+1976,/relation:kaveh-rastegar,Kaveh Rastegar,1,person
+1977,/relation:genya-ravan,Genya Ravan,0,person
+1978,/relation:stephen-rava,Stephen Rava,0,person
+1979,/relation:amy-ray,Amy Ray,1,person
+1980,/relation:brian-ray,Brian Ray,4,person
+1981,/relation:danny-ray,Danny Ray,1,person
+1982,/relation:bobby-read,Bobby Read,1,person
+1983,/relation:barry-rebo,Barry Rebo,0,person
+1984,/relation:alto-reed,Alto Reed,1,person
+1985,/relation:lou-reed,Lou Reed,2,person
+1986,/relation:martha-reeves,Martha Reeves,1,person
+1987,/relation:daniel-reichard,Daniel Reichard,1,person
+1988,/relation:brenda-reid,Brenda Reid,1,person
+1989,/relation:vernon-reid,Vernon Reid,3,person
+1990,/relation:bryan-reilly,Bryan Reilly,0,person
+1991,/relation:marc-reisman,Marc Reisman,3,person
+1992,/relation:david-remnick,David Remnick,0,person
+1993,/relation:kyle-resnick,Kyle Resnick,0,person
+1994,/relation:carl-restivo,Carl Restivo,0,person
+1995,/relation:rev-run,Rev. Run,0,person
+1996,/relation:daniel-de-los-reyes,Daniel de los Reyes,2,person
+1997,/relation:lisa-reynolds,Lisa Reynolds,2,person
+1998,/relation:todd-reynolds,Todd Reynolds,7,person
+1999,/relation:nakia-reynoso,Nakia Reynoso,0,person
+2000,/relation:kevin-rheault,Kevin Rheault,1,person
+2001,/relation:david-rhodes,David Rhodes,1,person
+2002,/relation:marc-ribler,Marc Ribler,7,person
+2003,/relation:marc-ribot,Marc Ribot,1,person
+2004,/relation:caterino-riccardi,Caterino Riccardi,1,person
+2005,/relation:keith-richards,Keith Richards,4,person
+2006,/relation:nicki-richards,Nicki Richards,1,person
+2007,/relation:steve-richards,Steve Richards,0,person
+2008,/relation:lionel-richie,Lionel Richie,0,person
+2009,/relation:greg-richling,Greg Richling,2,person
+2010,/relation:don-rickles,Don Rickles,1,person
+2011,/relation:andre-de-ridder,André de Ridder,0,person
+2012,/relation:mike-riddleberger,Mike Riddleberger,2,person
+2013,/relation:bill-rieflin,Bill Rieflin,6,person
+2014,/relation:gary-rieger,Gary Rieger,1,person
+2015,/relation:tim-ries,Tim Ries,2,person
+2016,/relation:marty-rifkin,Marty Rifkin,81,person
+2017,/relation:steve-riggs,Steve Riggs,1,person
+2018,/relation:timothy-christian-riley,Timothy Christian Riley,1,person
+2019,/relation:robert-rinehart,Robert Rinehart,0,person
+2020,/relation:jimmy-rip,Jimmy Rip,0,person
+2021,/relation:josh-ritter,Josh Ritter,1,person
+2022,/relation:michel-rivard,Michel Rivard,1,person
+2023,/relation:mark-rivera,Mark Rivera,4,person
+2024,/relation:robert-b-rivkin,Robert B. Rivkin,0,person
+2025,/relation:miles-robbins,Miles Robbins,1,person
+2026,/relation:tim-robbins,Tim Robbins,2,person
+2027,/relation:robert-downey-jr,Robert Downey Jr.,3,person
+2028,/relation:chino-roberts,Chino Roberts,3,person
+2029,/relation:michael-robertson,Michael Robertson,1,person
+2030,/relation:robbie-robertson,Robbie Robertson,2,person
+2031,/relation:velpo-robertson,Velpo Robertson,1,person
+2032,/relation:paul-roberts,Paul Roberts,3,person
+2033,/relation:albertine-robinson,Albertine Robinson,0,person
+2034,/relation:darren-robinson,Darren Robinson,0,person
+2035,/relation:john-robinson,John Robinson,0,person
+2036,/relation:smokey-robinson,Smokey Robinson,2,person
+2037,/relation:emily-robison,Emily Robison,2,person
+2038,/relation:lee-rocker,Lee Rocker,1,person
+2039,/relation:kool-rock-ski,Kool Rock-Ski,0,person
+2040,/relation:john-rodgers,John Rodgers,3,person
+2041,/relation:nile-rodgers,Nile Rodgers,2,person
+2042,/relation:mj-rodriguez,MJ Rodriguez,2,person
+2043,/relation:tao-rodriguez-seeger,Tao Rodriguez-Seeger,3,person
+2044,/relation:angel-rogers,Angel Rogers,110,person
+2045,/relation:kenny-rogers,Kenny Rogers,0,person
+2046,/relation:nicholas-rolfe,Nicholas Rolfe,3,person
+2047,/relation:matt-rollings,Matt Rollings,0,person
+2048,/relation:mark-romatz,Mark Romatz,0,person
+2049,/relation:joe-romersa,Joe Romersa,0,person
+2050,/relation:linda-ronstadt,Linda Ronstadt,1,person
+2051,/relation:herb-rooney,Herb Rooney,1,person
+2052,/relation:alex-rosamilia,Alex Rosamilia,3,person
+2053,/relation:axl-rose,Axl Rose,1,person
+2054,/relation:charlie-rose,Charlie Rose,1,person
+2055,/relation:mike-rose,Mike Rose,1,person
+2056,/relation:richie-rosenberg,Richie Rosenberg,159,person
+2057,/relation:dave-rosenthal,Dave Rosenthal,3,person
+2058,/relation:vinnie-roslin,Vinnie Roslin,68,person
+2059,/relation:diana-ross,Diana Ross,1,person
+2060,/relation:jeffrey-ross,Jeffrey Ross,0,person
+2061,/relation:jimbo-ross,Jimbo Ross,1,person
+2062,/relation:arlen-roth,Arlen Roth,1,person
+2063,/relation:jim-rotolo,Jim Rotolo,0,person
+2064,/relation:mickey-rourke,Mickey Rourke,0,person
+2065,/relation:michele-rowe,Michele Rowe,0,person
+2066,/relation:khris-royal,Khris Royal,1,person
+2067,/relation:david-rozenblatt,David Rozenblatt,1,person
+2068,/relation:rick-rubin,Rick Rubin,0,person
+2069,/relation:darius-rucker,Darius Rucker,1,person
+2070,/relation:paul-rudd,Paul Rudd,0,person
+2071,/relation:jon-rudnitsky,Jon Rudnitsky,1,person
+2072,/relation:maya-rudolph,Maya Rudolph,1,person
+2073,/relation:david-ruffin,David Ruffin,1,person
+2074,/relation:george-ruiz,George Ruiz,1,person
+2075,/relation:billy-rush,Billy Rush,15,person
+2076,/relation:catherine-russell,Catherine Russell,4,person
+2077,/relation:kevin-russell,Kevin Russell,1,person
+2078,/relation:john-rutherford,John Rutherford,1,person
+2079,/relation:frank-de-ruyter,Frank de Ruyter,0,person
+2080,/relation:billy-ryan,Billy Ryan,7,person
+2081,/relation:charlotte-ryan,Charlotte Ryan,0,person
+2082,/relation:tim-ryan,Tim Ryan,0,person
+2083,/relation:mitch-ryder,Mitch Ryder,2,person
+2084,/relation:sein-ryu,Sein Ryu,0,person
+2085,/relation:raphael-saadiq,Raphael Saadiq,1,person
+2086,/relation:ted-sablay,Ted Sablay,1,person
+2087,/relation:rahni-sadler,Rahni Sadler,0,person
+2088,/relation:james-saez,James Sáez,0,person
+2089,/relation:wally-safford,Wally Safford,1,person
+2090,/relation:danny-sage,Danny Sage,1,person
+2091,/relation:shane-sager,Shane Sager,2,person
+2092,/relation:darian-sahanaja,Darian Sahanaja,1,person
+2093,/relation:kashif-saleem,Kashif Saleem,0,person
+2094,/relation:emily-saliers,Emily Saliers,1,person
+2095,/relation:richie-sambora,Richie Sambora,9,person
+2096,/relation:frank-sampedro,Frank Sampedro,3,person
+2097,/relation:danielle-sample,Danielle Sample,1,person
+2098,/relation:david-sanborn,David Sanborn,6,person
+2099,/relation:david-sancious,David Sancious,319,person
+2100,/relation:tommy-sands,Tommy Sands,1,person
+2101,/relation:robert-santelli,Robert Santelli,1,person
+2102,/relation:david-santos,David Santos,1,person
+2103,/relation:maxanne-sartori,Maxanne Sartori,0,person
+2104,/relation:indofunk-satish,Indofunk Satish,1,person
+2105,/relation:matt-savage,Matt Savage,1,person
+2106,/relation:boz-scaggs,Boz Scaggs,3,person
+2107,/relation:rich-scannella,Rich Scannella,1,person
+2108,/relation:jack-scarangella,Jack Scarangella,7,person
+2109,/relation:jane-scarpantoni,Jane Scarpantoni,5,person
+2110,/relation:john-scarpulla,John Scarpulla,1,person
+2111,/relation:jared-scharff,Jared Scharff,3,person
+2112,/relation:jerry-scheff,Jerry Scheff,3,person
+2113,/relation:johnny-lee-schell,Johnny Lee Schell,1,person
+2114,/relation:peter-scherer,Peter Scherer,5,person
+2115,/relation:richard-scher,Richard Scher,0,person
+2116,/relation:timothy-schmit,Timothy Schmit,2,person
+2117,/relation:ted-schoenherr,Ted Schoenherr,1,person
+2118,/relation:lucille-schoettle,Lucille Schoettle,1,person
+2119,/relation:zohar-schondorf,Zohar Schondorf,1,person
+2120,/relation:stephen-schraeger,Stephen Schraeger,1,person
+2121,/relation:randy-schrager,Randy Schrager,2,person
+2122,/relation:ralph-schuckett,Ralph Schuckett,0,person
+2123,/relation:peter-schulle,Peter Schulle,26,person
+2124,/relation:adam-schumann,Adam Schumann,0,person
+2125,/relation:brinsley-schwarz,Brinsley Schwarz,0,person
+2126,/relation:ed-sciaky,Ed Sciaky,0,person
+2127,/relation:mike-scialfa,Mike Scialfa,5,person
+2128,/relation:patricia-scialfa,Patricia Scialfa,1,person
+2129,/relation:patti-scialfa,Patti Scialfa,1129,person
+2130,/relation:chris-scianni,Chris Scianni,2,person
+2131,/relation:scorpio,Scorpio,1,person
+2132,/relation:martin-scorsese,Martin Scorsese,1,person
+2133,/relation:b-j-scott,B.J. Scott,0,person
+2134,/relation:gil-scott-heron,Gil Scott-Heron,0,person
+2135,/relation:jill-scott,Jill Scott,1,person
+2136,/relation:jimmy-scott,Jimmy Scott,0,person
+2137,/relation:keith-scott,Keith Scott,1,person
+2138,/relation:toby-scott,Toby Scott,0,person
+2139,/relation:chris-searles,Chris Searles,1,person
+2140,/relation:peggy-seeger,Peggy Seeger,1,person
+2141,/relation:pete-seeger,Pete Seeger,4,person
+2142,/relation:toshi-seeger,Toshi Seeger,1,person
+2143,/relation:mick-seeley,Mick Seeley,2,person
+2144,/relation:pat-sefolosha,Pat Sefolosha,0,person
+2145,/relation:bob-seger,Bob Seger,3,person
+2146,/relation:tom-seguso,Tom Seguso,3,person
+2147,/relation:norman-seldin,Norman Seldin,2,person
+2148,/relation:dave-sellar,Dave Sellar,2,person
+2149,/relation:tom-selleck,Tom Selleck,1,person
+2150,/relation:john-selolwane,John Selolwane,1,person
+2151,/relation:joel-selvin,Joel Selvin,1,person
+2152,/relation:hal-selzer,Hal Selzer,0,person
+2153,/relation:brian-setzer,Brian Setzer,1,person
+2154,/relation:ben-shabalala,Ben Shabalala,1,person
+2155,/relation:headman-shabalala,Headman Shabalala,1,person
+2156,/relation:jockey-shabalala,Jockey Shabalala,1,person
+2157,/relation:joseph-shabalala,Joseph Shabalala,2,person
+2158,/relation:msizi-shabalala,Msizi Shabalala,1,person
+2159,/relation:sibongiseni-shabalala,Sibongiseni Shabalala,1,person
+2160,/relation:thamsanqa-shabalala,Thamsanqa Shabalala,1,person
+2161,/relation:thulani-shabalala,Thulani Shabalala,1,person
+2162,/relation:gary-shaffer,Gary Shaffer,0,person
+2163,/relation:paul-shaffer,Paul Shaffer,12,person
+2164,/relation:shaggy,Shaggy,2,person
+2165,/relation:david-lee-shamlian,David Lee Shamlian,4,person
+2166,/relation:tony-shanahan,Tony Shanahan,2,person
+2167,/relation:l-shankar,L. Shankar,4,person
+2168,/relation:john-shanks,John Shanks,1,person
+2169,/relation:sophie-shao,Sophie Shao,0,person
+2170,/relation:ed-sheeran,Ed Sheeran,1,person
+2171,/relation:george-shelby,George Shelby,1,person
+2172,/relation:stanley-sheldon,Stanley Sheldon,2,person
+2173,/relation:dan-shelly,Dan Shelly,0,person
+2174,/relation:joanne-shenandoah,Joanne Shenandoah,1,person
+2175,/relation:andy-shernoff,Andy Shernoff,1,person
+2176,/relation:eryn-shewell,Eryn Shewell,0,person
+2177,/relation:steve-shews,Steve Shews,8,person
+2178,/relation:ellen-shipley,Ellen Shipley,1,person
+2179,/relation:michelle-shocked,Michelle Shocked,1,person
+2180,/relation:steve-shook,Steve Shook,1,person
+2181,/relation:deena-shoshkes,Deena Shoshkes,0,person
+2182,/relation:olga-shpitko,Olga Shpitko,0,person
+2183,/relation:john-siegler,John Siegler,0,person
+2184,/relation:george-signore,George Signore,0,person
+2185,/relation:kenny-jo-silva,Kenny Jo Silva,12,person
+2186,/relation:jacob-silver,Jacob Silver,1,person
+2187,/relation:nonhlanhla-simelane,Nonhlanhla Simelane,0,person
+2188,/relation:frank-simes,Frank Simes,1,person
+2189,/relation:joffo-simmons,Joffo Simmons,31,person
+2190,/relation:joseph-ward-simmons,Joseph Ward Simmons,0,person
+2191,/relation:cat-simon,Cat Simon,0,person
+2192,/relation:paul-simon,Paul Simon,8,person
+2193,/relation:tommy-sims,Tommy Sims,124,person
+2194,/relation:frank-sinatra,Frank Sinatra,1,person
+2195,/relation:fredrik-skavlan,Fredrik Skavlan,0,person
+2196,/relation:leland-sklar,Leland Sklar,1,person
+2197,/relation:michael-sklar,Michael Sklar,1,person
+2198,/relation:bruce-slogan,Bruce Slogan,1,person
+2199,/relation:alan-smith,Alan Smith,1,person
+2200,/relation:bob-smith,Bob Smith,1,person
+2201,/relation:christine-smith,Christine Smith,2,person
+2202,/relation:dante-terrell-smith,Dante Terrell Smith,0,person
+2203,/relation:evan-smith,Evan Smith,2,person
+2204,/relation:g-e-smith,G.E. Smith,1,person
+2205,/relation:jackson-smith,Jackson Smith,1,person
+2206,/relation:jerome-smith,Jerome Smith,0,person
+2207,/relation:jesse-smith,Jesse Smith,1,person
+2208,/relation:fran-smith,Fran Smith Jr.,10,person
+2209,/relation:patti-smith,Patti Smith,9,person
+2210,/relation:tony-smith,Tony Smith,1,person
+2211,/relation:walter-smith,Walter Smith,0,person
+2212,/relation:patty-smyth,Patty Smyth,1,person
+2213,/relation:wesley-snipes,Wesley Snipes,1,person
+2214,/relation:phoebe-snow,Phoebe Snow,4,person
+2215,/relation:gil-snyder,Gil Snyder,2,person
+2216,/relation:richard-sohl,Richard Sohl,4,person
+2217,/relation:steven-soles,Steven Soles,1,person
+2218,/relation:jim-sonefeld,Jim Sonefeld,2,person
+2219,/relation:tom-sontag,Tom Sontag,1,person
+2220,/relation:bob-sorce,Bob Sorce,0,person
+2221,/relation:ken-sorenson,Ken Sorenson,0,person
+2222,/relation:bruce-sosibo,Bruce Sosibo,0,person
+2223,/relation:hilario-soto,Hilario Soto,0,person
+2224,/relation:soup,Soup,1,person
+2225,/relation:j-d-souther,J.D. Souther,3,person
+2226,/relation:southside-johnny,Southside Johnny,110,person
+2227,/relation:ronnie-spector,Ronnie Spector,9,person
+2228,/relation:chris-spedding,Chris Spedding,2,person
+2229,/relation:j-robert-spencer,J. Robert Spencer,1,person
+2230,/relation:mike-spengler,Mike Spengler,76,person
+2231,/relation:caroll-spinney,Caroll Spinney,1,person
+2232,/relation:bob-spitz,Bob Spitz,0,person
+2233,/relation:adele-springsteen,Adele Springsteen,7,person
+2234,/relation:bruce-springsteen,Bruce Springsteen,3637,person
+2235,/relation:douglas-springsteen,Douglas Springsteen,0,person
+2236,/relation:evan-springsteen,Evan Springsteen,5,person
+2237,/relation:jessica-springsteen,Jessica Springsteen,2,person
+2238,/relation:pamela-springsteen,Pamela Springsteen,1,person
+2239,/relation:sam-springsteen,Sam Springsteen,1,person
+2240,/relation:virginia-springsteen,Virginia Springsteen,1,person
+2241,/relation:wesley-stace,Wesley Stace,0,person
+2242,/relation:jim-e-stack,Jim-E Stack,0,person
+2243,/relation:john-stamos,John Stamos,1,person
+2244,/relation:jane-stanley,Jane Stanley,2,person
+2245,/relation:jason-stanley,Jason Stanley,2,person
+2246,/relation:joey-stann,Joey Stann,18,person
+2247,/relation:cleotha-staples,Cleotha Staples,1,person
+2248,/relation:mavis-staples,Mavis Staples,2,person
+2249,/relation:pervis-staples,Pervis Staples,1,person
+2250,/relation:roebuck-staples,Roebuck Staples,1,person
+2251,/relation:yvonne-staples,Yvonne Staples,1,person
+2252,/relation:zak-starkey,Zak Starkey,1,person
+2253,/relation:lance-hyland-stark,Lance Hyland Stark,0,person
+2254,/relation:edwin-starr,Edwin Starr,3,person
+2255,/relation:ringo-starr,Ringo Starr,2,person
+2256,/relation:laiya-st-clair,Laiya St. Clair,0,person
+2257,/relation:rusty-steele,Rusty Steele,1,person
+2258,/relation:stan-steele,Stan Steele,1,person
+2259,/relation:doug-stegmeyer,Doug Stegmeyer,1,person
+2260,/relation:alan-stepansky,Alan Stepansky,1,person
+2261,/relation:andrew-sterman,Andrew Sterman,0,person
+2262,/relation:howard-stern,Howard Stern,0,person
+2263,/relation:leelanee-sterrett,Leelanee Sterrett,0,person
+2264,/relation:t-m-stevens,T.M. Stevens,2,person
+2265,/relation:charles-stewart,Charles Stewart,0,person
+2266,/relation:chavonne-stewart,Chavonne Stewart,1,person
+2267,/relation:curtis-stewart,Curtis Stewart,3,person
+2268,/relation:dave-stewart,Dave Stewart,3,person
+2269,/relation:jon-stewart,Jon Stewart,2,person
+2270,/relation:maeretha-stewart,Maeretha Stewart,0,person
+2271,/relation:mark-stewart,Mark Stewart,5,person
+2272,/relation:stephen-stills,Stephen Stills,3,person
+2273,/relation:sting,Sting,34,person
+2274,/relation:michael-stipe,Michael Stipe,7,person
+2275,/relation:mike-stoller,Mike Stoller,1,person
+2276,/relation:brian-stoltz,Brian Stoltz,1,person
+2277,/relation:dan-stone,Dan Stone,0,person
+2278,/relation:rob-stoner,Rob Stoner,1,person
+2279,/relation:donald-strand,Donald Strand,0,person
+2280,/relation:syd-straw,Syd Straw,1,person
+2281,/relation:ken-stringfellow,Ken Stringfellow,6,person
+2282,/relation:michael-strollo,Michael Strollo,2,person
+2283,/relation:cecily-strong,Cecily Strong,1,person
+2284,/relation:george-stroumboulopoulos,George Stroumboulopoulos,0,person
+2285,/relation:marc-stuart,Marc Stuart,0,person
+2286,/relation:levi-stubbs,Levi Stubbs,1,person
+2287,/relation:miriam-sturm,Miriam Sturm,2,person
+2288,/relation:trudie-styler,Trudie Styler,5,person
+2289,/relation:joe-sublett,Joe Sublett,1,person
+2290,/relation:michael-suchorsky,Michael Suchorsky,0,person
+2291,/relation:donna-summer,Donna Summer,0,person
+2292,/relation:gordon-sumner,Gordon Sumner,0,person
+2293,/relation:joe-sumner,Joe Sumner,3,person
+2294,/relation:emma-sutton,Emma Sutton,1,person
+2295,/relation:arthur-suydam,Arthur Suydam,3,person
+2296,/relation:joe-sweeney,Joe Sweeney,5,person
+2297,/relation:mazz-swift,Mazz Swift,7,person
+2298,/relation:taylor-swift,Taylor Swift,0,person
+2299,/relation:carole-sylvan,Carole Sylvan,0,person
+2300,/relation:jack-syperek,Jack Syperek,1,person
+2301,/relation:stan-szelest,Stan Szelest,1,person
+2302,/relation:lee-szymborski,Lee Szymborski,1,person
+2303,/relation:hiroko-taguchi,Hiroko Taguchi,1,person
+2304,/relation:billy-talbot,Billy Talbot,3,person
+2305,/relation:vinnie-talerico,Vinnie Talerico,0,person
+2306,/relation:crystal-taliefero,Crystal Taliefero,113,person
+2307,/relation:garry-tallent,Garry Tallent,2110,person
+2308,/relation:olivia-tallent,Olivia Tallent,2,person
+2309,/relation:sherl-tallent,Sherl Tallent,2,person
+2310,/relation:amy-tan,Amy Tan,1,person
+2311,/relation:humberto-tan,Humberto Tan,0,person
+2312,/relation:rob-tanico,Rob Tanico,5,person
+2313,/relation:ben-tanner,Ben Tanner,1,person
+2314,/relation:stan-tartas,Stan Tartas,1,person
+2315,/relation:b-e-taylor,B.E. Taylor,1,person
+2316,/relation:james-taylor,James Taylor,8,person
+2317,/relation:jesse-taylor,Jesse Taylor,1,person
+2318,/relation:anya-taylor-joy,Anya Taylor-Joy,0,person
+2319,/relation:ken-taylor,Ken Taylor,1,person
+2320,/relation:mel-taylor,Mel Taylor,0,person
+2321,/relation:mick-taylor,Mick Taylor,1,person
+2322,/relation:otis-taylor,Otis Taylor,1,person
+2323,/relation:roger-taylor,Roger Taylor,3,person
+2324,/relation:stanley-taylor,Stanley Taylor,3,person
+2325,/relation:ritchie-teeter,Ritchie Teeter,0,person
+2326,/relation:david-tellerman,David Tellerman,1,person
+2327,/relation:albee-tellone,Albee Tellone,14,person
+2328,/relation:benmont-tench,Benmont Tench,4,person
+2329,/relation:bryn-terfel,Bryn Terfel,1,person
+2330,/relation:eddie-testa,Eddie Testa,1,person
+2331,/relation:teye,Teye,2,person
+2332,/relation:lee-thanos,Lee Thanos,1,person
+2333,/relation:george-theiss,George Theiss,119,person
+2334,/relation:bobby-thomas,Bobby Thomas,1,person
+2335,/relation:irma-thomas,Irma Thomas,1,person
+2336,/relation:j-t-thomas,J.T. Thomas,1,person
+2337,/relation:pete-thomas,Pete Thomas,2,person
+2338,/relation:vaneese-thomas,Vaneese Thomas,3,person
+2339,/relation:kenan-thompson,Kenan Thompson,1,person
+2340,/relation:marc-anthony-thompson,Marc Anthony Thompson,80,person
+2341,/relation:michael-thompson,Michael Thompson,0,person
+2342,/relation:robbin-thompson,Robbin Thompson,23,person
+2343,/relation:teddy-thompson,Teddy Thompson,1,person
+2344,/relation:al-thornton,Al Thornton,0,person
+2345,/relation:billy-bob-thornton,Billy Bob Thornton,0,person
+2346,/relation:fonzi-thornton,Fonzi Thornton,2,person
+2347,/relation:pat-thrall,Pat Thrall,2,person
+2348,/relation:margo-thunderbird,Margo Thunderbird,1,person
+2349,/relation:scott-thurston,Scott Thurston,2,person
+2350,/relation:scott-tibbs,Scott Tibbs,0,person
+2351,/relation:mark-tiernan,Mark Tiernan,1,person
+2352,/relation:vinnie-tieto,Vinnie Tieto,5,person
+2353,/relation:collin-tilton,Collin Tilton,5,person
+2354,/relation:tom-timko,Tom Timko,1,person
+2355,/relation:rosy-timms,Rosy Timms,1,person
+2356,/relation:tim-tindall,Tim Tindall,1,person
+2357,/relation:tony-tino,Tony Tino,2,person
+2358,/relation:laurie-tobias,Laurie Tobias,2,person
+2359,/relation:mike-todd,Mike Todd,1,person
+2360,/relation:bill-toms,Bill Toms,16,person
+2361,/relation:pat-toner,Pat Toner,2,person
+2362,/relation:ron-tooley,Ron Tooley,7,person
+2363,/relation:mark-tornillo,Mark Tornillo,0,person
+2364,/relation:al-torrente,Al Torrente,1,person
+2365,/relation:tico-torres,Tico Torres,6,person
+2366,/relation:pete-townshend,Pete Townshend,4,person
+2367,/relation:simon-townshend,Simon Townshend,1,person
+2368,/relation:annabelle-traves,Annabelle Traves,2,person
+2369,/relation:chandler-travis,Chandler Travis,1,person
+2370,/relation:tony-trischka,Tony Trischka,1,person
+2371,/relation:tariq-luqmaan-trotter,Tariq Luqmaan Trotter,0,person
+2372,/relation:eric-troyer,Eric Troyer,0,person
+2373,/relation:sam-tshabalala,Sam Tshabalala,0,person
+2374,/relation:tshepo-tsotetsi,Tshepo Tsotetsi,0,person
+2375,/relation:premik-russell-tubbs,Premik Russell Tubbs,3,person
+2376,/relation:ryan-tubridy,Ryan Tubridy,0,person
+2377,/relation:mary-turner,Mary Turner,0,person
+2378,/relation:tina-turner,Tina Turner,1,person
+2379,/relation:ron-tutt,Ron Tutt,1,person
+2380,/relation:steven-tyler,Steven Tyler,2,person
+2381,/relation:soozie-tyrell,Soozie Tyrell,842,person
+2382,/relation:jay-ungar,Jay Ungar,1,person
+2383,/relation:ruth-ungar,Ruth Ungar,1,person
+2384,/relation:michael-utley,Michael Utley,1,person
+2385,/relation:ryudo-uzaki,Ryudo Uzaki,1,person
+2386,/relation:joe-vadala,Joe Vadala,1,person
+2387,/relation:peter-valentine,Peter Valentine,1,person
+2388,/relation:cillian-vallely,Cillian Vallely,0,person
+2389,/relation:miriam-valle,Miriam Valle,0,person
+2390,/relation:bobby-valli,Bobby Valli,1,person
+2391,/relation:frankie-valli,Frankie Valli,1,person
+2392,/relation:ronnie-vannucci-jr,Ronnie Vannucci Jr.,1,person
+2393,/relation:maureen-van-zandt-2,Maureen Van Zandt,0,person
+2394,/relation:steve-van-zandt,Steven Van Zandt,0,person
+2395,/relation:steven-van-zandt,Steven Van Zandt,1502,person
+2396,/relation:juan-vasquez,Juan Vásquez,0,person
+2397,/relation:ben-vaughn,Ben Vaughn,0,person
+2398,/relation:eddie-vedder,Eddie Vedder,8,person
+2399,/relation:rene-veldsman,René Veldsman,0,person
+2400,/relation:justin-vernon,Justin Vernon,0,person
+2401,/relation:nathan-vickery,Nathan Vickery,0,person
+2402,/relation:maria-vidal,Maria Vidal,0,person
+2403,/relation:luis-villalobos,Luis Villalobos,0,person
+2404,/relation:mike-vinas,Mike Viñas,1,person
+2405,/relation:vikku-vinayakram,Vikku Vinayakram,1,person
+2406,/relation:teresa-vinci,Teresa Vinci,3,person
+2407,/relation:tex-vinyard,"Gordon ""Tex"" Vinyard",0,person
+2408,/relation:marion-vinyard,Marion Vinyard,0,person
+2409,/relation:mike-visceglia,Mike Visceglia,0,person
+2410,/relation:peter-viskinde,Peter Viskinde,1,person
+2411,/relation:rick-vito,Rick Vito,3,person
+2412,/relation:jerry-vivino,Jerry Vivino,23,person
+2413,/relation:jimmy-vivino,Jimmy Vivino,19,person
+2414,/relation:michael-vogelmann,Michael Vogelmann,5,person
+2415,/relation:diego-voglino,Diego Voglino,2,person
+2416,/relation:mark-volman,Mark Volman,7,person
+2417,/relation:john-waasdorp,John Waasdorp,3,person
+2418,/relation:waddy-wachtel,Waddy Wachtel,3,person
+2419,/relation:jim-wacker,Jim Wacker,0,person
+2420,/relation:matt-wade,Matt Wade,0,person
+2421,/relation:jessie-wagner,Jessie Wagner,5,person
+2422,/relation:kenn-wagner,Kenn Wagner,0,person
+2423,/relation:robert-wagner,Robert Wagner,1,person
+2424,/relation:martha-wainwright,Martha Wainwright,2,person
+2425,/relation:rufus-wainwright,Rufus Wainwright,2,person
+2426,/relation:tom-waits,Tom Waits,4,person
+2427,/relation:nate-walcott,Nate Walcott,4,person
+2428,/relation:narada-michael-walden,Narada Michael Walden,4,person
+2429,/relation:lillian-walker,Lillian Walker,1,person
+2430,/relation:steve-walker,Steve Walker,0,person
+2431,/relation:scruffy-wallace,Scruffy Wallace,1,person
+2432,/relation:danny-walsh,Danny Walsh,0,person
+2433,/relation:joe-walsh,Joe Walsh,3,person
+2434,/relation:nick-walusko,Nick Walusko,2,person
+2435,/relation:mike-wanchic,Mike Wanchic,1,person
+2436,/relation:m-ward,M. Ward,1,person
+2437,/relation:michael-ward,Michael Ward,2,person
+2438,/relation:jennifer-warnes,Jennifer Warnes,1,person
+2439,/relation:adrienne-warren,Adrienne Warren,2,person
+2440,/relation:patrick-warren,Patrick Warren,0,person
+2441,/relation:charlie-warwick,Charlie Warwick,3,person
+2442,/relation:dionne-warwick,Dionne Warwick,0,person
+2443,/relation:don-was,Don Was,4,person
+2444,/relation:abigail-washburn,Abigail Washburn,1,person
+2445,/relation:jenn-wasner,Jenn Wasner,0,person
+2446,/relation:julia-waters,Julia Waters,0,person
+2447,/relation:luther-waters,Luther Waters,0,person
+2448,/relation:maxine-waters,Maxine Waters,0,person
+2449,/relation:oren-waters,Oren Waters,0,person
+2450,/relation:geraint-watkins,Geraint Watkins,2,person
+2451,/relation:winston-watson,Winston Watson,2,person
+2452,/relation:butch-watt,Butch Watt,1,person
+2453,/relation:charlie-watts,Charlie Watts,2,person
+2454,/relation:ernie-watts,Ernie Watts,0,person
+2455,/relation:miko-weaver,Miko Weaver,1,person
+2456,/relation:anna-webber,Anna Webber,1,person
+2457,/relation:jon-weber,Jon Weber,1,person
+2458,/relation:willie-weeks,Willie Weeks,6,person
+2459,/relation:jim-weider,Jim Weider,1,person
+2460,/relation:ali-weinberg,Ali Weinberg,13,person
+2461,/relation:becky-weinberg,Becky Weinberg,0,person
+2462,/relation:jay-weinberg,Jay Weinberg,36,person
+2463,/relation:max-weinberg,Max Weinberg,1678,person
+2464,/relation:paul-weisenstein,Paul Weisenstein,1,person
+2465,/relation:eric-weissberg,Eric Weissberg,1,person
+2466,/relation:florence-welch,Florence Welch,0,person
+2467,/relation:orlando-wells,Orlando Wells,3,person
+2468,/relation:susan-welty,Susan Welty,0,person
+2469,/relation:jann-wenner,Jann Wenner,0,person
+2470,/relation:bob-werner,Bob Werner,0,person
+2471,/relation:craig-werner,Craig Werner,1,person
+2472,/relation:carl-west,"Carl ""Tinker"" West",7,person
+2473,/relation:floyd-westerman,Floyd Westerman,0,person
+2474,/relation:jill-west,Jill West,1,person
+2475,/relation:denny-weston,Denny Weston,1,person
+2476,/relation:joyce-westphal,Joyce Westphal,1,person
+2477,/relation:audrey-wheeler,Audrey Wheeler,0,person
+2478,/relation:harold-wheeler,Harold Wheeler,0,person
+2479,/relation:paul-whistler,Paul Whistler,2,person
+2480,/relation:danny-white,Danny White,4,person
+2481,/relation:tom-whitehorse,Tom Whitehorse,1,person
+2482,/relation:brenda-white-king,Brenda White-King,0,person
+2483,/relation:pascale-whiting,Pascale Whiting,3,person
+2484,/relation:eleanor-whitmore,Eleanor Whitmore,1,person
+2485,/relation:paul-wickens,Paul Wickens,4,person
+2486,/relation:jonny-wickersham,Jonny Wickersham,2,person
+2487,/relation:d-wayne-wiggins,D'wayne Wiggins,1,person
+2488,/relation:teije-wijnterp,Teije Wijnterp,0,person
+2489,/relation:madison-wilde,Madison Wilde,0,person
+2490,/relation:terrence-wildeman,Terrence Wildeman,2,person
+2491,/relation:will-i-am,Will.i.am,1,person
+2492,/relation:bernie-williams,Bernie Williams,2,person
+2493,/relation:bobby-williams,Bobby Williams,15,person
+2494,/relation:brian-williams,Brian Williams,1,person
+2495,/relation:carol-williams,Carol Williams,0,person
+2496,/relation:dan-williams,Dana Williams,0,person
+2497,/relation:dar-williams,Dar Williams,1,person
+2498,/relation:james-williams,James Williams,1,person
+2499,/relation:jane-williams,Jane Williams,1,person
+2500,/relation:keller-williams,Keller Williams,1,person
+2501,/relation:ken-williams,Ken Williams,0,person
+2502,/relation:lucinda-williams,Lucinda Williams,1,person
+2503,/relation:otis-williams,Otis Williams,1,person
+2504,/relation:pharrell-williams,Pharrell Williams,1,person
+2505,/relation:robin-williams,Robin Williams,1,person
+2506,/relation:romeo-williams,Romeo Williams,0,person
+2507,/relation:susannah-williams,Susannah Williams,3,person
+2508,/relation:teresa-williams,Teresa Williams,1,person
+2509,/relation:tony-williams,Tony Williams,0,person
+2510,/relation:will-williams,Will Williams,1,person
+2511,/relation:bruce-willis,Bruce Willis,1,person
+2512,/relation:brian-wilson,Brian Wilson,4,person
+2513,/relation:carl-wilson,Carl Wilson,1,person
+2514,/relation:diane-wilson,Diane Wilson,0,person
+2515,/relation:mary-wilson,Mary Wilson,1,person
+2516,/relation:rita-wilson,Rita Wilson,0,person
+2517,/relation:christine-wiltshire,Christine Wiltshire,0,person
+2518,/relation:doug-wimbish,Doug Wimbish,0,person
+2519,/relation:damon-wimbley,Damon Wimbley,0,person
+2520,/relation:mark-winchester,Mark Winchester,1,person
+2521,/relation:jai-winding,Jai Winding,1,person
+2522,/relation:steve-winkler,Steve Winkler,1,person
+2523,/relation:steve-winwood,Steve Winwood,1,person
+2524,/relation:rick-witkowski,Rick Witkowski,5,person
+2525,/relation:thomas-witte,Thomas Witte,0,person
+2526,/relation:hank-woji,Hank Woji,3,person
+2527,/relation:peter-wolf,Peter Wolf,15,person
+2528,/relation:bobby-womack,Bobby Womack,1,person
+2529,/relation:stevie-wonder,Stevie Wonder,2,person
+2530,/relation:dave-woodford,Dave Woodford,0,person
+2531,/relation:jimmie-wood,Jimmie Wood,2,person
+2532,/relation:peter-wood,Peter Wood,0,person
+2533,/relation:ronnie-wood,Ronnie Wood,3,person
+2534,/relation:tracy-wormworth,Tracy Wormworth,6,person
+2535,/relation:bernie-worrell,Bernie Worrell,0,person
+2536,/relation:kurt-wortman,Kurt Wortman,0,person
+2537,/relation:link-wray,Link Wray,3,person
+2538,/relation:brandon-wright,Brandon Wright,2,person
+2539,/relation:elicia-wright,Elicia Wright,0,person
+2540,/relation:lorre-wyatt,Lorre Wyatt,0,person
+2541,/relation:howie-wyeth,Howie Wyeth,1,person
+2542,/relation:reese-wynans,Reese Wynans,0,person
+2543,/relation:surrenity-xyz,Surrenity XYZ,1,person
+2544,/relation:sami-yaffa,Sami Yaffa,0,person
+2545,/relation:yahzarah,Yahzarah,3,person
+2546,/relation:imelda-yalcin,Imelda Yalcin,2,person
+2547,/relation:sharon-yamada,Sharon Yamada,0,person
+2548,/relation:zoe-yanakis,Zoë Yanakis,0,person
+2549,/relation:jeff-yang,Jeff Yang,1,person
+2550,/relation:helen-yee,Helen Yee,0,person
+2551,/relation:johnny-t-yerington,Johnny T. Yerington,0,person
+2552,/relation:jungsun-yoo,Jungsun Yoo,0,person
+2553,/relation:andy-york,Andy York,2,person
+2554,/relation:pete-yorn,Pete Yorn,1,person
+2555,/relation:jeff-young,Jeff Young,4,person
+2556,/relation:kirsty-young,Kirsty Young,0,person
+2557,/relation:neil-young,Neil Young,8,person
+2558,/relation:pegi-young,Pegi Young,1,person
+2559,/relation:rebecca-young,Rebecca Young,0,person
+2560,/relation:don-yowell,Don Yowell,0,person
+2561,/relation:sasheer-zamata,Sasheer Zamata,1,person
+2562,/relation:ingo-zamperoni,Ingo Zamperoni,0,person
+2563,/relation:maureen-van-zandt,Maureen Van Zandt,1,person
+2564,/relation:dan-zanes,Dan Zanes,2,person
+2565,/relation:warren-zanes,Warren Zanes,1,person
+2566,/relation:king-zapata,King Zapata,1,person
+2567,/relation:bobby-z,Bobby Z,1,person
+2568,/relation:robin-zeh,Robin Zeh,2,person
+2569,/relation:jordan-zevon,Jordan Zevon,0,person
+2570,/relation:warren-zevon,Warren Zevon,2,person
+2571,/relation:thom-zimny,Thom Zimny,0,person
+2572,/relation:edie-zirilli,Edie Zirilli,1,person
+2573,/relation:david-zurawski,David Zurawski,1,person
