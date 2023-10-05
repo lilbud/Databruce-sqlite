@@ -115,8 +115,6 @@ def get_venues():
 	conn.commit()
 	print("Got Venues")
 
-get_venues()
-
 def get_events_by_year(year):
 	"""
 	Gets all the events for a year that match the list of allowed event_types

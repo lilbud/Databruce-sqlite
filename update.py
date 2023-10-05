@@ -20,11 +20,13 @@ def update_counts():
 	"""update various play/performance counts"""
 	for s in cur.execute("""SELECT song_url FROM SONGS""").fetchall():
 		count = cur.execute(f"""SELECT COUNT(\"{s[0]}\"), MIN(event_url), MAX(event_url) FROM SETLISTS WHERE song_url = \"{s[0]}\" AND set_type NOT IN ('Rehearsal', 'Soundcheck')""").fetchone()
+		total = cur.execute("""SELECT COUNT(event_id) FROM EVENTS WHERE event_url LIKE '/gig:%'""").fetchone()
 
 		if count[0] > 0:
 			first_played = re.findall("\d{4}-\d{2}-\d{2}", count[1])
 			last_played = re.findall("\d{4}-\d{2}-\d{2}", count[2])
-			cur.execute(f"""UPDATE SONGS SET num_plays={count[0]}, first_played=\"{first_played[0]}\", last_played=\"{last_played[0]}\" WHERE song_url=\"{s[0]}\"""")
+			frequency = f"{round(((count[0] / total[0]) * 100), 2)}"
+			cur.execute(f"""UPDATE SONGS SET num_plays={count[0]}, first_played=\"{first_played[0]}\", last_played=\"{last_played[0]}\", frequency='{frequency}' WHERE song_url=\"{s[0]}\"""")
 		else:
 			cur.execute(f"""UPDATE SONGS SET num_plays='0' WHERE song_url=\"{s[0]}\"""")
 
@@ -47,12 +49,12 @@ def update_counts():
 	print("band and person count updated")
 
 	for t in cur.execute("""SELECT tour_url, tour_name FROM TOURS""").fetchall():
-		count = cur.execute(f"""SELECT COUNT(\"{t[1]}\") FROM EVENTS WHERE tour=\"{t[1]}\" AND event_url LIKE '/gig:%'""").fetchone()
+		count = cur.execute(f"""SELECT COUNT(\"{t[1]}\"), MIN(event_date), MAX(event_date) FROM EVENTS WHERE tour=\"{t[1]}\" AND event_url LIKE '/gig:%'""").fetchone()
 
 		# id_sql = "', '".join(str(x[0].replace("'", "''")) for x in cur.execute(f"""SELECT event_date FROM EVENTS WHERE tour='{t[1].replace("'", "''")}' AND event_url LIKE '/gig:%'""").fetchall())
 		song_count = cur.execute(f"""SELECT COUNT(DISTINCT(song_name)) FROM SETLISTS WHERE event_url IN (SELECT event_url FROM EVENTS WHERE tour='{t[1].replace("'", "''")}' AND event_url LIKE '/gig:%')""").fetchone()[0]
 
-		cur.execute(f"""UPDATE TOURS SET num_shows={count[0]}, num_songs={song_count} WHERE tour_url=\"{t[0]}\"""")
+		cur.execute(f"""UPDATE TOURS SET num_shows={count[0]}, first_show='{str(count[1])}', last_show='{str(count[2])}', num_songs={song_count} WHERE tour_url=\"{t[0]}\"""")
 		conn.commit()
 
 	print("Tour Event Count Updated")

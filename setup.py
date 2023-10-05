@@ -6,7 +6,7 @@ File Purpose: Sets up directories and the main database
 """
 
 import os
-import sqlite3
+import sqlite3, re
 
 os.makedirs("_csv", exist_ok=True)
 os.makedirs("_database", exist_ok=True)
