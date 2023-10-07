@@ -357,3 +357,52 @@ def jungleland_artwork():
 	cur.executemany("""INSERT OR IGNORE INTO ARTWORK VALUES (NULL, ?, ?, ?)""", artwork_list)
 	conn.commit()
 	print("Artwork Table Updated")
+
+def get_bootlegs():
+	"""gets list of circulating bootlegs"""
+
+	links = []
+	events = cur.execute("""SELECT event_url FROM EVENTS ORDER BY event_id DESC""").fetchall()
+	for i in range(1,9):
+		print(f"{main_url}stats:circulating-audio-list/p/{i}")
+		r = requests.get(f"{main_url}stats:circulating-audio-list/p/{i}")
+		soup = bs4(r.text, 'lxml')
+		content = soup.find('div', {'class': 'yui-content'})
+		for li in content.find_all('li'):
+			links.append(li.find('a').get('href'))
+
+		for e in events:
+			if e[0] in links:
+				cur.execute(f"""UPDATE EVENTS SET bootleg='1' WHERE event_url='{e[0]}'""")
+			else:
+				cur.execute(f"""UPDATE EVENTS SET bootleg='0' WHERE event_url='{e[0]}'""")
+			conn.commit()
+	
+		time.sleep(0.5)
+
+	print("got bootlegs")
+
+def get_official_live():
+	"""gets list of officially released full shows"""
+
+	links = []
+	events = cur.execute("""SELECT event_url FROM EVENTS ORDER BY event_id DESC""").fetchall()
+	for i in range(1,3):
+		print(f"{main_url}stats:official-live-downloads-list/p/{i}")
+		r = requests.get(f"{main_url}stats:official-live-downloads-list/p/{i}")
+		soup = bs4(r.text, 'lxml')
+		content = soup.find('div', id='page-content')
+
+		for li in content.find_all('li'):
+			links.append(li.find('a').get('href'))
+		
+		for e in events:
+			if e[0] in links:
+				cur.execute(f"""UPDATE EVENTS SET livedl='1' WHERE event_url='{e[0]}'""")
+			else:
+				cur.execute(f"""UPDATE EVENTS SET livedl='0' WHERE event_url='{e[0]}'""")
+			conn.commit()
+
+		time.sleep(0.5)
+	
+	print("got official live downloads")

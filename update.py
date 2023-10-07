@@ -6,27 +6,31 @@ File Purpose: Updates the Database file, uses the functions in Data_Collection
 """
 
 import time
-import datetime, re
-from data_collection import get_bands, get_people, get_songs, get_venues, get_tours, setlist_to_events
+import datetime, re, requests
+from bs4 import BeautifulSoup as bs4
+from data_collection import get_bands, get_people, get_songs, get_venues, get_tours, setlist_to_events, get_bootlegs, get_official_live
 from data_collection import get_albums, get_events_by_year, get_tour_events, get_show_info, jungleland_artwork
 from data_collection import conn, cur
 from helper_stuff import run_time
 from csv_export import csv_export
 
+main_url = "http://brucebase.wikidot.com/"
 current_year = int(datetime.datetime.now().date().strftime("%Y"))
 start_time = datetime.datetime.now()
 
 def update_counts():
 	"""update various play/performance counts"""
-	for s in cur.execute("""SELECT song_url FROM SONGS""").fetchall():
-		count = cur.execute(f"""SELECT COUNT(\"{s[0]}\"), MIN(event_url), MAX(event_url) FROM SETLISTS WHERE song_url = \"{s[0]}\" AND set_type NOT IN ('Rehearsal', 'Soundcheck')""").fetchone()
+	for s in cur.execute("""SELECT song_url, song_name FROM SONGS""").fetchall():
+		count = cur.execute(f"""SELECT COUNT(\"{s[0]}\"), MIN(event_url), MAX(event_url) FROM SETLISTS WHERE song_url = \"{s[0]}\" AND set_type NOT LIKE '%Rehearsal%' AND set_type NOT LIKE '%Soundcheck%'""").fetchone()
 		total = cur.execute("""SELECT COUNT(event_id) FROM EVENTS WHERE event_url LIKE '/gig:%'""").fetchone()
 
 		if count[0] > 0:
 			first_played = re.findall("\d{4}-\d{2}-\d{2}", count[1])
 			last_played = re.findall("\d{4}-\d{2}-\d{2}", count[2])
+			opener = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '{s[1].replace("'", "''")}, %'""").fetchone()
+			closer = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '%, {s[1].replace("'", "''")}'""").fetchone()
 			frequency = f"{round(((count[0] / total[0]) * 100), 2)}"
-			cur.execute(f"""UPDATE SONGS SET num_plays={count[0]}, first_played=\"{first_played[0]}\", last_played=\"{last_played[0]}\", frequency='{frequency}' WHERE song_url=\"{s[0]}\"""")
+			cur.execute(f"""UPDATE SONGS SET num_plays='{count[0]}', first_played='{first_played[0]}', last_played='{last_played[0]}', frequency='{frequency}', opener='{opener[0]}',closer='{closer[0]}' WHERE song_url=\"{s[0]}\"""")
 		else:
 			cur.execute(f"""UPDATE SONGS SET num_plays='0' WHERE song_url=\"{s[0]}\"""")
 
@@ -88,6 +92,10 @@ def full_update(start, end):
 	"""gets show info for all events in events table"""
 
 	delay = 0
+
+	get_bootlegs()
+	get_official_live()
+
 	for i in range(start, end+1):
 		print(i)
 
