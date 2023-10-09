@@ -21,6 +21,7 @@ start_time = datetime.datetime.now()
 def update_counts():
 	"""update various play/performance counts"""
 	for s in cur.execute("""SELECT song_url, song_name FROM SONGS""").fetchall():
+		
 		count = cur.execute(f"""SELECT COUNT(\"{s[0]}\"), MIN(event_url), MAX(event_url) FROM SETLISTS WHERE song_url = \"{s[0]}\" AND set_type NOT LIKE '%Rehearsal%' AND set_type NOT LIKE '%Soundcheck%'""").fetchone()
 		total = cur.execute("""SELECT COUNT(event_id) FROM EVENTS WHERE event_url LIKE '/gig:%'""").fetchone()
 
@@ -32,7 +33,10 @@ def update_counts():
 			frequency = f"{round(((count[0] / total[0]) * 100), 2)}"
 			cur.execute(f"""UPDATE SONGS SET num_plays='{count[0]}', first_played='{first_played[0]}', last_played='{last_played[0]}', frequency='{frequency}', opener='{opener[0]}',closer='{closer[0]}' WHERE song_url=\"{s[0]}\"""")
 		else:
-			cur.execute(f"""UPDATE SONGS SET num_plays='0' WHERE song_url=\"{s[0]}\"""")
+			count = first_played = last_played = opener = closer = frequency = "0"
+			# cur.execute(f"""UPDATE SONGS SET num_plays='0' WHERE song_url=\"{s[0]}\"""")
+			cur.execute(f"""UPDATE SONGS SET num_plays='{count}', first_played='{first_played}', last_played='{last_played}', frequency='{frequency}', opener='{opener}',closer='{closer}' WHERE song_url=\"{s[0]}\"""")
+
 
 		conn.commit()
 
