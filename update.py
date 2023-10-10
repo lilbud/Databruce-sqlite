@@ -124,6 +124,7 @@ def full_update(start, end):
 
 #setlist_to_events()
 # jungleland_artwork()
+get_official_live()
 update_counts()
 csv_export()
 run_time(start_time)

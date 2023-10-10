@@ -7,7 +7,7 @@ File Purpose: Functions to get various kinds of data from Brucebase
 
 import os
 import sqlite3
-import re
+import re, time
 import requests
 from titlecase import titlecase
 from bs4 import BeautifulSoup as bs4
@@ -387,6 +387,21 @@ def get_official_live():
 
 	links = []
 	events = cur.execute("""SELECT event_url FROM EVENTS ORDER BY event_id DESC""").fetchall()
+
+	r = requests.get(f"{main_url}system:page-tags/tag/retail#pages")
+	soup = bs4(r.text, 'lxml')
+	gigPages = []
+
+	for g in soup.find_all('a', href=re.compile("/gig:.*")):
+		gigPages.append(g.get('href'))
+
+	for e in events:
+		if e[0] in gigPages:
+			cur.execute(f"""UPDATE EVENTS SET official='1' WHERE event_url='{e[0]}'""")
+		else:
+			cur.execute(f"""UPDATE EVENTS SET official='0' WHERE event_url='{e[0]}'""")
+		conn.commit()
+
 	for i in range(1,3):
 		print(f"{main_url}stats:official-live-downloads-list/p/{i}")
 		r = requests.get(f"{main_url}stats:official-live-downloads-list/p/{i}")
@@ -398,11 +413,11 @@ def get_official_live():
 		
 		for e in events:
 			if e[0] in links:
-				cur.execute(f"""UPDATE EVENTS SET livedl='1' WHERE event_url='{e[0]}'""")
+				cur.execute(f"""UPDATE EVENTS SET official='1' WHERE event_url='{e[0]}' AND official='0'""")
 			else:
-				cur.execute(f"""UPDATE EVENTS SET livedl='0' WHERE event_url='{e[0]}'""")
+				cur.execute(f"""UPDATE EVENTS SET official='0' WHERE event_url='{e[0]}' AND official='0'""")
 			conn.commit()
 
 		time.sleep(0.5)
-	
+
 	print("got official live downloads")
