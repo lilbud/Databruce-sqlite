@@ -26,14 +26,14 @@ def update_counts():
 		total = cur.execute("""SELECT COUNT(event_id) FROM EVENTS WHERE event_url LIKE '/gig:%'""").fetchone()
 
 		if count[0] > 0:
-			first_played = re.findall("\d{4}-\d{2}-\d{2}", count[1])
-			last_played = re.findall("\d{4}-\d{2}-\d{2}", count[2])
+			# first_played = re.findall(r"\d{4}-\d{2}-\d{2}", count[1])
+			# last_played = re.findall(r"\d{4}-\d{2}-\d{2}", count[2])
 			opener = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '{s[1].replace("'", "''")}, %'""").fetchone()
 			closer = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '%, {s[1].replace("'", "''")}'""").fetchone()
 			frequency = f"{round(((count[0] / total[0]) * 100), 2)}"
-			cur.execute(f"""UPDATE SONGS SET num_plays='{count[0]}', first_played='{first_played[0]}', last_played='{last_played[0]}', frequency='{frequency}', opener='{opener[0]}',closer='{closer[0]}' WHERE song_url=\"{s[0]}\"""")
+			cur.execute(f"""UPDATE SONGS SET num_plays='{count[0]}', first_played='{count[1]}', last_played='{count[2]}', frequency='{frequency}', opener='{opener[0]}',closer='{closer[0]}' WHERE song_url=\"{s[0]}\"""")
 		else:
-			count = first_played = last_played = opener = closer = frequency = "0"
+			count = first_played = last_played = opener = closer = frequency = ""
 			# cur.execute(f"""UPDATE SONGS SET num_plays='0' WHERE song_url=\"{s[0]}\"""")
 			cur.execute(f"""UPDATE SONGS SET num_plays='{count}', first_played='{first_played}', last_played='{last_played}', frequency='{frequency}', opener='{opener}',closer='{closer}' WHERE song_url=\"{s[0]}\"""")
 
@@ -57,7 +57,7 @@ def update_counts():
 	print("band and person count updated")
 
 	for t in cur.execute("""SELECT tour_url, tour_name FROM TOURS""").fetchall():
-		count = cur.execute(f"""SELECT COUNT(\"{t[1]}\"), MIN(event_date), MAX(event_date) FROM EVENTS WHERE tour=\"{t[1]}\" AND event_url LIKE '/gig:%'""").fetchone()
+		count = cur.execute(f"""SELECT COUNT(\"{t[1]}\"), MIN(event_url), MAX(event_url) FROM EVENTS WHERE tour=\"{t[1]}\" AND event_url LIKE '/gig:%'""").fetchone()
 
 		# id_sql = "', '".join(str(x[0].replace("'", "''")) for x in cur.execute(f"""SELECT event_date FROM EVENTS WHERE tour='{t[1].replace("'", "''")}' AND event_url LIKE '/gig:%'""").fetchall())
 		song_count = cur.execute(f"""SELECT COUNT(DISTINCT(song_name)) FROM SETLISTS WHERE event_url IN (SELECT event_url FROM EVENTS WHERE tour='{t[1].replace("'", "''")}' AND event_url LIKE '/gig:%')""").fetchone()[0]
@@ -124,7 +124,7 @@ def full_update(start, end):
 
 #setlist_to_events()
 # jungleland_artwork()
-get_official_live()
+# get_official_live()
 update_counts()
 csv_export()
 run_time(start_time)
