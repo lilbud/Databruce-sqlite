@@ -28,8 +28,8 @@ def update_counts():
 		if count[0] > 0:
 			# first_played = re.findall(r"\d{4}-\d{2}-\d{2}", count[1])
 			# last_played = re.findall(r"\d{4}-\d{2}-\d{2}", count[2])
-			opener = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '{s[1].replace("'", "''")}, %'""").fetchone()
-			closer = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '%, {s[1].replace("'", "''")}'""").fetchone()
+			opener = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '{s[1].replace("'", "''")}%'""").fetchone()
+			closer = cur.execute(f"""SELECT COUNT(event_url) FROM EVENTS WHERE setlist LIKE '%{s[1].replace("'", "''")}'""").fetchone()
 			frequency = f"{round(((count[0] / total[0]) * 100), 2)}"
 			cur.execute(f"""UPDATE SONGS SET num_plays='{count[0]}', first_played='{count[1]}', last_played='{count[2]}', frequency='{frequency}', opener='{opener[0]}',closer='{closer[0]}' WHERE song_url=\"{s[0]}\"""")
 		else:
@@ -122,7 +122,7 @@ def full_update(start, end):
 #usually can just be run for the current year
 #full_update(current_year, current_year)
 
-#setlist_to_events()
+# setlist_to_events()
 # jungleland_artwork()
 # get_official_live()
 update_counts()

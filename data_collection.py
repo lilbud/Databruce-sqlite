@@ -331,10 +331,12 @@ def get_albums():
 def setlist_to_events():
 	for e in cur.execute("""SELECT event_url FROM EVENTS""").fetchall():
 		s = cur.execute("""SELECT song_name FROM SETLISTS WHERE event_url=? AND set_type NOT IN ('Soundcheck','Rehearsal') ORDER BY song_num ASC""", (e[0],)).fetchall()
-		setlist = ", ".join(x[0] for x in s)
 
-		cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", (setlist, e[0]))
-		conn.commit()
+		if len(s) > 1:
+			setlist = ", ".join(x[0] for x in s)
+
+			cur.execute("""UPDATE EVENTS SET setlist=? WHERE event_url=?""", (setlist, e[0]))
+			conn.commit()
 	
 	print("Updated Setlists in EVENTS table")
 

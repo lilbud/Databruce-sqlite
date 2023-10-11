@@ -50,7 +50,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 49,/song:a-matter-of-trust,A Matter Of Trust,/gig:2008-10-16-hammerstein-ballroom-new-york-city-ny,/gig:2008-10-16-hammerstein-ballroom-new-york-city-ny,1,0,0,0.03
 50,/song:amazing-grace,Amazing Grace,,,,,,
 51,/song:amen,Amen,,,,,,
-52,/song:america,America,/gig:1985-02-23-forum-inglewood-ca,/gig:1985-02-23-forum-inglewood-ca,1,0,0,0.03
+52,/song:america,America,/gig:1985-02-23-forum-inglewood-ca,/gig:1985-02-23-forum-inglewood-ca,1,7,0,0.03
 53,/song:american-babylon,American Babylon,/gig:1995-07-22-tradewinds-sea-bright-nj,/gig:1998-03-02-nick-s-fat-city-pittsburgh-pa,8,0,0,0.23
 54,/song:american-beauty,American Beauty,,,,,,
 55,/song:american-land,American Land,/gig:2006-06-22-madison-square-garden-new-york-city-ny,/nobruce:2009-03-13-convention-hall-asbury-park-nj,247,5,109,7.15
@@ -233,7 +233,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 232,/song:cold-sweat,Cold Sweat,/gig:2001-05-27-stone-pony-asbury-park-nj,/gig:2003-04-29-count-basie-theatre-red-bank-nj,2,0,0,0.06
 233,/song:coma-girl,Coma Girl,/gig:2009-06-27-worthy-farm-pilton-england-evening,/gig:2009-06-27-worthy-farm-pilton-england-evening,1,1,0,0.03
 234,/song:come-a-little-bit-closer,Come A Little Bit Closer,/gig:2011-01-29-stone-pony-asbury-park-nj,/gig:2011-01-29-stone-pony-asbury-park-nj,1,0,0,0.03
-235,/song:come-on,Come On,/gig:1970-05-23-vcu-gym-richmond-va,/gig:1970-08-14-parking-deck-richmond-va,4,3,0,0.12
+235,/song:come-on,Come On,/gig:1970-05-23-vcu-gym-richmond-va,/gig:1970-08-14-parking-deck-richmond-va,4,4,0,0.12
 236,/song:come-on-billy-break-out-the-wine,Come On Billy (Break Out The Wine),/gig:1971-07-10-brookdale-community-college-lincroft-nj,/gig:1971-07-29-d-scene-south-amboy-nj-early,4,1,0,0.12
 237,/song:come-on-let-s-go,"Come On, Let's Go",/gig:1982-06-20-stone-pony-asbury-park-nj,/gig:1987-08-02-stone-pony-asbury-park-nj,9,3,0,0.26
 238,/song:come-on-let-s-go-tonight,Come On (Let's Go Tonight),/gig:2010-12-07-carousel-house-asbury-park-nj,/gig:2010-12-07-carousel-house-asbury-park-nj,2,0,0,0.06
@@ -254,7 +254,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 253,/song:crossroads,Crossroads,/gig:1968-09-00-ocean-county-college-toms-river-nj,/gig:1968-09-00-ocean-county-college-toms-river-nj,1,0,0,0.03
 254,/song:crown-liquor,Crown Liquor,/gig:1969-06-01-monroe-park-richmond-va,/gig:1970-02-28-center-richmond-va,2,0,1,0.06
 255,/song:crush-on-you,Crush On You,/gig:1980-10-03-crisler-arena-ann-arbor-mi,/gig:2016-07-28-frognerparken-oslo-norway,79,0,0,2.29
-256,/song:crying,Crying,/gig:1987-09-30-cocoanut-grove-los-angeles-ca,/gig:1989-01-18-waldorf-astoria-hotel-new-york-city-ny,6,1,0,0.17
+256,/song:crying,Crying,/gig:1987-09-30-cocoanut-grove-los-angeles-ca,/gig:1989-01-18-waldorf-astoria-hotel-new-york-city-ny,6,1,1,0.17
 257,/song:crying-in-the-chapel,Crying In The Chapel,/gig:2011-04-02-wonder-bar-asbury-park-nj,/gig:2011-04-02-wonder-bar-asbury-park-nj,1,0,0,0.03
 258,/song:crying-in-the-rain,Crying In The Rain,,,,,,
 259,/song:crystal,Crystal,/gig:1968-05-00-off-broad-street-red-bank-nj,/gig:1968-05-00-off-broad-street-red-bank-nj,1,0,0,0.03
@@ -317,7 +317,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 316,/song:don-t-you-touch-that-thing,Don't You Touch That Thing,,,,,,
 317,/song:double-shot-of-my-baby-s-love,Double Shot (Of My Baby's Love),/gig:1978-08-25-toad-s-place-new-haven-ct,/gig:2009-09-16-bi-lo-center-greenville-sc,5,1,0,0.14
 318,/song:downbound-train,Downbound Train,/gig:1984-07-02-civic-center-saint-paul-mn,/gig:2023-07-02-voldslokka-stadion-oslo-norway,172,4,0,4.98
-319,/song:down-by-the-river,Down By The River,/gig:1985-03-22-entertainment-centre-sydney-australia,/gig:1995-10-28-shoreline-amphitheatre-mountain-view-ca,3,0,0,0.09
+319,/song:down-by-the-river,Down By The River,/gig:1985-03-22-entertainment-centre-sydney-australia,/gig:1995-10-28-shoreline-amphitheatre-mountain-view-ca,3,0,1,0.09
 320,/song:down-in-the-hole,Down In The Hole,,,,,,
 321,/song:down-in-the-valley,Down In The Valley,/gig:1977-10-13-stone-pony-asbury-park-nj,/gig:1977-10-13-stone-pony-asbury-park-nj,1,1,0,0.03
 322,/song:down-the-road-apiece,Down The Road Apiece,/gig:1971-07-10-brookdale-community-college-lincroft-nj,/gig:2019-04-13-tribeca-grill-new-york-city-ny,21,1,2,0.61
@@ -356,7 +356,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 355,/song:expressway-to-your-heart,Expressway To Your Heart,/gig:2009-05-04-nassau-coliseum-uniondale-ny,/gig:2009-05-04-nassau-coliseum-uniondale-ny,1,0,0,0.03
 356,/song:eyes-on-the-prize,Eyes On The Prize,/gig:2006-04-30-fairgrounds-new-orleans-la,/gig:2006-11-21-odyssey-arena-belfast-northern-ireland,42,0,0,1.22
 357,/song:factory,Factory,/gig:1978-07-19-ellis-auditorium-memphis-tn,/gig:2016-09-05-veterans-united-home-loans-amphitheater-virgi,176,8,0,5.1
-358,/song:fade-away,Fade Away,/gig:1980-11-01-memorial-sports-arena-los-angeles-ca,/gig:2016-07-28-frognerparken-oslo-norway,66,1,0,1.91
+358,/song:fade-away,Fade Away,/gig:1980-11-01-memorial-sports-arena-los-angeles-ca,/gig:2016-07-28-frognerparken-oslo-norway,66,1,3,1.91
 359,/song:fa-fa-fa-fa-fa-sad-song,Fa-Fa-Fa-Fa-Fa (Sad Song),/gig:2003-12-08-convention-hall-asbury-park-nj,/gig:2003-12-08-convention-hall-asbury-park-nj,1,0,0,0.03
 360,/song:faith,Faith,/gig:2010-07-23-stone-pony-asbury-park-nj,/gig:2010-07-23-stone-pony-asbury-park-nj,1,0,0,0.03
 361,/song:fame,Fame,,,,,,
@@ -368,7 +368,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 367,/song:fever,Fever,,,,,,
 368,/song:fields-of-gold,Fields Of Gold,/gig:2011-10-01-beacon-theatre-new-york-city-ny,/gig:2011-10-01-beacon-theatre-new-york-city-ny,1,0,0,0.03
 369,/song:fingernails,Fingernails,/gig:1993-05-19-national-stadium-dublin-ireland,/gig:1996-03-17-mean-fiddler-dublin-ireland,2,0,0,0.06
-370,/song:fire,Fire,/gig:1978-05-23-shea-s-theatre-buffalo-ny,/gig:2021-09-04-st-james-theatre-new-york-city-ny,262,5,0,7.59
+370,/song:fire,Fire,/gig:1978-05-23-shea-s-theatre-buffalo-ny,/gig:2021-09-04-st-james-theatre-new-york-city-ny,262,7,4,7.59
 371,/song:fire-jimi-hendrix,Fire (cover),/gig:1967-09-16-left-foot-freehold-nj,/gig:1968-09-00-ocean-county-college-toms-river-nj,2,2,0,0.06
 372,/song:float-away,Float Away,,,,,,
 373,/song:flower-of-scotland,Flower Of Scotland,,,,,,
@@ -381,11 +381,11 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 380,/song:fortunate-son,Fortunate Son,/gig:1987-08-09-stone-pony-asbury-park-nj,/gig:2014-11-11-national-mall-washington-dc,12,1,0,0.35
 381,/song:forward,Forward,/gig:2012-10-18-cuyahoga-community-college-parma-oh,/gig:2012-11-05-nationwide-arena-columbus-oh,7,0,0,0.2
 382,/song:for-what-it-s-worth,For What It's Worth,/gig:1970-05-23-vcu-gym-richmond-va,/gig:1970-05-23-vcu-gym-richmond-va,1,0,0,0.03
-383,/song:for-you,For You,/gig:1972-02-14-pocketful-of-tunes-inc-new-york-city-ny,/gig:2016-09-05-veterans-united-home-loans-amphitheater-virgi,231,8,10,6.69
+383,/song:for-you,For You,/gig:1972-02-14-pocketful-of-tunes-inc-new-york-city-ny,/gig:2016-09-05-veterans-united-home-loans-amphitheater-virgi,231,9,10,6.69
 384,/song:for-your-love-2,For Your Love (Ed Townsend),/gig:1988-05-23-madison-square-garden-new-york-city-ny,/gig:1988-05-23-madison-square-garden-new-york-city-ny,1,1,0,0.03
 385,/song:for-your-love,For Your Love (Yardbirds),/gig:1965-10-00-reception-hall-monmouth-county-nj,/gig:1965-10-00-reception-hall-monmouth-county-nj,1,0,0,0.03
 386,/song:foxy-lady,Foxy Lady,/gig:1968-09-00-ocean-county-college-toms-river-nj,/gig:1968-09-00-ocean-county-college-toms-river-nj,1,0,0,0.03
-387,/song:frankie,Frankie,/gig:1976-03-26-fox-theatre-atlanta-ga,/gig:2016-07-20-casa-arena-horsens-denmark,25,0,0,0.72
+387,/song:frankie,Frankie,/gig:1976-03-26-fox-theatre-atlanta-ga,/gig:2016-07-20-casa-arena-horsens-denmark,25,1,0,0.72
 388,/song:frankie-fell-in-love,Frankie Fell In Love,/gig:2014-01-18-paramount-theatre-asbury-park-nj,/gig:2015-07-18-wonder-bar-asbury-park-nj,9,1,0,0.26
 389,/song:freddie-s-dead,Freddie's Dead,,,,,,
 390,/song:freedom-cadence,Freedom Cadence,,,,,,
@@ -409,7 +409,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 408,/song:get-it-on,Get It On,/gig:1994-10-21-playpen-sayreville-nj,/gig:1994-10-21-playpen-sayreville-nj,1,0,0,0.03
 409,/song:get-out-of-denver,Get Out Of Denver,/gig:2002-04-13-stone-pony-asbury-park-nj,/gig:2012-11-19-pepsi-center-denver-co,4,2,0,0.12
 410,/song:get-out-of-my-life-woman,"Get Out Of My Life, Woman",/gig:1967-09-16-left-foot-freehold-nj,/gig:1968-09-00-ocean-county-college-toms-river-nj,2,0,0,0.06
-411,/song:get-ready,Get Ready,/gig:1989-01-18-waldorf-astoria-hotel-new-york-city-ny,/gig:1989-01-18-waldorf-astoria-hotel-new-york-city-ny,1,0,0,0.03
+411,/song:get-ready,Get Ready,/gig:1989-01-18-waldorf-astoria-hotel-new-york-city-ny,/gig:1989-01-18-waldorf-astoria-hotel-new-york-city-ny,1,0,17,0.03
 412,/song:get-up-i-feel-like-being-a-sex-machine,Get Up (I Feel Like Being A) Sex Machine,/gig:1994-04-30-house-of-blues-west-hollywood-ca,/gig:1994-04-30-house-of-blues-west-hollywood-ca,1,0,0,0.03
 413,/song:get-up-stand-up,"Get Up, Stand Up",/gig:1988-09-02-wembley-stadium-london-england,/gig:1998-12-10-palais-omnisports-paris-france,39,21,18,1.13
 414,/song:get-your-kicks-on-route-66,(Get Your Kicks On) Route 66,/gig:1971-09-01-garfield-park-long-branch-nj,/nobruce:1992-11-22-radio-studio-new-york-city-ny,10,1,0,0.29
@@ -685,7 +685,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 684,/song:jenny-jenny,Jenny Jenny,,,,,,
 685,/song:jersey-girl,Jersey Girl,/gig:1981-06-22-unknown-location-east-orange-nj,/gig:2023-09-03-metlife-stadium-east-rutherford-nj,69,1,17,2.0
 686,/song:jesse,Jesse,,,,,,
-687,/song:jesse-james,Jesse James,/gig:2006-04-30-fairgrounds-new-orleans-la,/gig:2015-05-16-tribeca-grill-new-york-city-ny,61,2,0,1.77
+687,/song:jesse-james,Jesse James,/gig:2006-04-30-fairgrounds-new-orleans-la,/gig:2015-05-16-tribeca-grill-new-york-city-ny,61,2,1,1.77
 688,/song:jesus-was-an-only-son,Jesus Was An Only Son,/gig:2005-04-04-joan-and-robert-rechnitz-theater-red-bank-nj,/gig:2006-11-19-point-theatre-dublin-ireland,79,0,0,2.29
 689,/song:jingle-bell-rock,Jingle Bell Rock,/gig:2001-12-03-convention-hall-asbury-park-nj,/gig:2002-12-22-stone-pony-asbury-park-nj,6,1,0,0.17
 690,/song:jingle-bells,Jingle Bells,/gig:2000-12-17-convention-hall-asbury-park-nj,/gig:2001-12-08-convention-hall-asbury-park-nj,4,1,0,0.12
@@ -726,7 +726,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 725,/song:lady-of-boston,Lady Of Boston,/gig:1971-05-15-newark-state-college-union-nj,/gig:1971-05-15-newark-state-college-union-nj,1,0,1,0.03
 726,/song:lady-of-spain,Lady Of Spain,,,,,,
 727,/song:lady-walking-down-by-the-river,Lady Walking Down By The River,/gig:1970-01-13-matrix-san-francisco-ca,/gig:1970-07-18-sunshine-in-asbury-park-nj,3,0,1,0.09
-728,/song:land,Land,/gig:1976-11-26-bottom-line-new-york-city-ny-late,/gig:1976-11-26-bottom-line-new-york-city-ny-late,1,1,0,0.03
+728,/song:land,Land,/gig:1976-11-26-bottom-line-new-york-city-ny-late,/gig:1976-11-26-bottom-line-new-york-city-ny-late,1,10,257,0.03
 729,/song:land-of-1-000-dances,"Land Of 1,000 Dances",/gig:2012-12-06-jobing-com-arena-glendale-az,/gig:2012-12-06-jobing-com-arena-glendale-az,1,0,0,0.03
 730,/song:land-of-1000-dances,Land Of 1000 Dances,/gig:1982-07-23-east-showgrounds-freehold-nj,/gig:1997-12-16-mcloone-s-rum-runner-sea-bright-nj,3,0,1,0.09
 731,/song:land-of-hope-and-dreams,Land Of Hope And Dreams,/gig:1999-04-09-palau-sant-jordi-barcelona-spain,/gig:2023-06-24-ullevi-gothenburg-sweden,724,9,97,20.97
@@ -924,7 +924,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 923,/song:new-york-skyline,New York Skyline,/gig:2001-12-03-convention-hall-asbury-park-nj,/gig:2001-12-08-convention-hall-asbury-park-nj,4,0,0,0.12
 924,/song:new-york-song,New York Song,/gig:1973-01-04-main-point-bryn-mawr-pa-early,/gig:1973-06-02-whfs-studio-bethesda-md,5,2,1,0.14
 925,/song:new-york-state-of-mind,New York State Of Mind,/gig:2008-10-16-hammerstein-ballroom-new-york-city-ny,/gig:2009-10-29-madison-square-garden-new-york-city-ny,2,0,0,0.06
-926,/song:night,Night,/gig:1975-08-13-bottom-line-new-york-city-ny-late,/nobruce:2009-03-13-convention-hall-asbury-park-nj,256,102,1,7.41
+926,/song:night,Night,/gig:1975-08-13-bottom-line-new-york-city-ny-late,/nobruce:2009-03-13-convention-hall-asbury-park-nj,256,102,3,7.41
 927,/song:night-closing-in,Night Closing In,,,,,,
 928,/song:night-fire,Night Fire,,,,,,
 929,/song:nightshift,Nightshift,/gig:2022-11-14-rockefeller-center-new-york-city-ny,/gig:2023-09-03-metlife-stadium-east-rutherford-nj,65,0,1,1.88
@@ -982,7 +982,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 981,/song:outside-woman-blues,Outside Woman Blues,/gig:1968-09-00-ocean-county-college-toms-river-nj,/gig:1968-09-00-ocean-county-college-toms-river-nj,1,0,0,0.03
 982,/song:over-the-rise,Over The Rise,,,,,,
 983,/song:pain-in-my-heart,Pain In My Heart,,,,,,
-984,/song:paradise,Paradise,/gig:2003-09-13-fedexfield-landover-md,/gig:2005-08-13-pontiac-theatre-vancouver-bc,13,0,0,0.38
+984,/song:paradise,Paradise,/gig:2003-09-13-fedexfield-landover-md,/gig:2005-08-13-pontiac-theatre-vancouver-bc,13,1,0,0.38
 985,/song:paradise-by-the-c,Paradise By The ''C'',/gig:1978-05-23-shea-s-theatre-buffalo-ny,/nobruce:1992-11-21-count-basie-theatre-red-bank-nj,71,1,0,2.06
 986,/song:paradise-john-prine,Paradise (John Prine),/gig:1988-11-12-music-hall-tarrytown-ny,/gig:1988-11-12-music-hall-tarrytown-ny,1,0,0,0.03
 987,/song:paralyzed,Paralyzed,,,,,,
@@ -1036,7 +1036,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 1035,/song:queen-of-the-supermarket,Queen Of The Supermarket,/gig:2009-06-05-stockholms-stadion-stockholm-sweden,/gig:2013-05-07-hk-areena-turku-finland,3,0,0,0.09
 1036,/song:queen-of-the-underworld,Queen Of The Underworld,/gig:2003-12-05-convention-hall-asbury-park-nj,/gig:2003-12-08-convention-hall-asbury-park-nj,3,0,0,0.09
 1037,/song:que-sera-sera,"Que Será, Será",/gig:1982-09-18-big-man-s-west-red-bank-nj,/gig:1982-09-18-big-man-s-west-red-bank-nj,1,0,0,0.03
-1038,/song:racing-in-the-street,Racing In The Street,/gig:1978-05-23-shea-s-theatre-buffalo-ny,/gig:2023-06-26-ullevi-gothenburg-sweden,361,0,0,10.45
+1038,/song:racing-in-the-street,Racing In The Street,/gig:1978-05-23-shea-s-theatre-buffalo-ny,/gig:2023-06-26-ullevi-gothenburg-sweden,361,2,0,10.45
 1039,/song:racing-in-the-street-78,Racing In The Street ('78),/gig:2010-12-07-carousel-house-asbury-park-nj,/gig:2015-07-18-wonder-bar-asbury-park-nj,7,2,0,0.2
 1040,/song:radio-nowhere,Radio Nowhere,/gig:2007-09-28-rockefeller-plaza-new-york-city-ny,/gig:2017-02-21-ami-stadium-christchurch-new-zealand,176,36,0,5.1
 1041,/song:radio-radio,Radio Radio,/gig:2009-09-25-apollo-theater-new-york-city-ny,/gig:2009-09-25-apollo-theater-new-york-city-ny,1,0,1,0.03
@@ -1096,7 +1096,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 1095,/song:roll-of-the-dice,Roll Of The Dice,/gig:1992-06-15-globen-stockholm-sweden,/gig:2017-02-16-entertainment-centre-brisbane-australia,118,1,1,3.42
 1096,/song:roll-over-beethoven,Roll Over Beethoven,/gig:1971-05-14-sunshine-in-asbury-park-nj,/gig:2017-04-21-paramount-theatre-asbury-park-nj,8,1,1,0.23
 1097,/song:rosalita-come-out-tonight,Rosalita (Come Out Tonight),/gig:1973-01-04-main-point-bryn-mawr-pa-late,/gig:2023-09-03-metlife-stadium-east-rutherford-nj,858,4,56,24.85
-1098,/song:rose,Rose,/gig:2000-12-17-convention-hall-asbury-park-nj,/gig:2000-12-18-convention-hall-asbury-park-nj,2,0,0,0.06
+1098,/song:rose,Rose,/gig:2000-12-17-convention-hall-asbury-park-nj,/gig:2000-12-18-convention-hall-asbury-park-nj,2,1,0,0.06
 1099,/song:rose-tattoo,Rose Tattoo,/gig:2020-05-29-fenway-park-boston-ma,/gig:2020-05-29-fenway-park-boston-ma,1,1,0,0.03
 1100,/song:roulette,Roulette,/gig:1988-02-25-centrum-worcester-ma,/gig:2016-07-05-stadio-giuseppe-meazza-milan-italy,57,5,0,1.65
 1101,/song:royals,Royals,/gig:2014-03-01-mt-smart-stadium-auckland-new-zealand,/gig:2014-03-02-mt-smart-stadium-auckland-new-zealand,2,2,0,0.06
@@ -1164,7 +1164,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 1163,/song:she-s-the-one,She's The One,/gig:1974-10-04-avery-fisher-hall-new-york-city-ny,/nobruce:2009-03-13-convention-hall-asbury-park-nj,693,1,0,20.07
 1164,/song:shine-silently,Shine Silently,/gig:2000-12-17-convention-hall-asbury-park-nj,/gig:2003-12-08-convention-hall-asbury-park-nj,10,0,0,0.29
 1165,/song:shotgun,Shotgun,,,,,,
-1166,/song:shout,Shout,/gig:1982-07-17-big-man-s-west-red-bank-nj,/gig:2017-02-25-mt-smart-stadium-auckland-new-zealand,130,0,36,3.76
+1166,/song:shout,Shout,/gig:1982-07-17-big-man-s-west-red-bank-nj,/gig:2017-02-25-mt-smart-stadium-auckland-new-zealand,130,0,252,3.76
 1167,/song:shut-out-the-light,Shut Out The Light,/gig:1984-10-22-alameda-county-coliseum-arena-oakland-ca,/gig:2005-08-07-bradley-center-milwaukee-wi,35,1,0,1.01
 1168,/song:sidewalk,Sidewalk,/gig:1965-10-00-reception-hall-monmouth-county-nj,/gig:1965-10-00-reception-hall-monmouth-county-nj,1,0,0,0.03
 1169,/song:signed-sealed-delivered-i-m-yours,"Signed, Sealed, Delivered I'm Yours",/gig:2008-10-16-hammerstein-ballroom-new-york-city-ny,/gig:2008-10-16-hammerstein-ballroom-new-york-city-ny,1,0,1,0.03
@@ -1187,7 +1187,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 1186,/song:someday-we-ll-be-together,Someday (We'll Be Together),,,,,,
 1187,/song:someday-we-ll-be-together-cover,Someday We'll Be Together,,,,,,
 1188,/song:someone,Someone,,,,,,
-1189,/song:something,Something,/gig:2001-12-03-convention-hall-asbury-park-nj,/gig:2001-12-03-convention-hall-asbury-park-nj,1,1,0,0.03
+1189,/song:something,Something,/gig:2001-12-03-convention-hall-asbury-park-nj,/gig:2001-12-03-convention-hall-asbury-park-nj,1,7,0,0.03
 1190,/song:something-about-you,Something About You,,,,,,
 1191,/song:something-in-the-night,Something In The Night,/gig:1976-08-01-monmouth-arts-center-red-bank-nj,/gig:2023-09-03-metlife-stadium-east-rutherford-nj,105,6,0,3.04
 1192,/song:something-s-gotta-break,Something's Gotta Break,/gig:1970-05-23-vcu-gym-richmond-va,/gig:1970-06-13-ocean-ice-palace-bricktown-nj-early,2,0,0,0.06
@@ -1224,7 +1224,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 1223,/song:stand-on-it,Stand On It,/gig:1985-08-31-giants-stadium-east-rutherford-nj,/gig:2014-04-22-consol-energy-center-pittsburgh-pa,42,2,4,1.22
 1224,/song:start-me-up,Start Me Up,/gig:1989-01-18-waldorf-astoria-hotel-new-york-city-ny,/gig:1989-01-18-waldorf-astoria-hotel-new-york-city-ny,1,0,0,0.03
 1225,/song:state-trooper,State Trooper,/gig:1984-09-08-civic-center-hartford-ct,/gig:2012-11-15-centurylink-center-omaha-ne,36,0,0,1.04
-1226,/song:stay,Stay,/gig:1979-09-21-madison-square-garden-new-york-city-ny,/gig:1989-06-30-bally-s-atlantic-city-nj,5,2,1,0.14
+1226,/song:stay,Stay,/gig:1979-09-21-madison-square-garden-new-york-city-ny,/gig:1989-06-30-bally-s-atlantic-city-nj,5,3,1,0.14
 1227,/song:stayin-alive,Stayin' Alive,/gig:2014-02-26-entertainment-centre-brisbane-australia,/gig:2014-05-17-mohegan-sun-arena-uncasville-ct,3,1,0,0.09
 1228,/song:ste-genevieve,Ste. Genevieve,/gig:2003-05-02-stone-pony-asbury-park-nj,/gig:2003-05-02-stone-pony-asbury-park-nj,1,1,0,0.03
 1229,/song:stems-and-seeds,Stems And Seeds,/gig:1995-08-10-cheers-long-branch-nj,/gig:1995-08-10-cheers-long-branch-nj,1,0,0,0.03
@@ -1247,7 +1247,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 1246,/song:sugar-sugar,"Sugar, Sugar",/gig:2003-04-30-stone-pony-asbury-park-nj,/gig:2009-10-17-stone-pony-asbury-park-nj,4,0,0,0.12
 1247,/song:summer-on-signal-hill,Summer On Signal Hill,,,,,,
 1248,/song:summer-soldier-holler-if-ya-hear-me,Summer Soldier (Holler If Ya Hear Me),,,,,,
-1249,/song:summertime,Summertime,/gig:1965-10-00-reception-hall-monmouth-county-nj,/gig:2015-08-01-wonder-bar-asbury-park-nj,2,0,0,0.06
+1249,/song:summertime,Summertime,/gig:1965-10-00-reception-hall-monmouth-county-nj,/gig:2015-08-01-wonder-bar-asbury-park-nj,2,18,0,0.06
 1250,/song:summertime-blues,Summertime Blues,/gig:1978-07-28-jai-alai-fronton-miami-fl,/gig:2016-09-01-nationals-park-washington-dc,41,18,0,1.19
 1251,/song:sun-city,Sun City,/gig:1987-08-21-stone-pony-asbury-park-nj,/gig:2019-05-08-paramount-theatre-asbury-park-nj,5,0,2,0.14
 1252,/song:sundown,Sundown,/gig:2019-04-00-stone-hill-farm-colts-neck-nj,/gig:2019-04-00-stone-hill-farm-colts-neck-nj,1,0,0,0.03
@@ -1351,12 +1351,12 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 1350,/song:the-patriot-game,The Patriot Game,,,,,,
 1351,/song:the-power-of-prayer,The Power Of Prayer,,,,,,
 1352,/song:the-price-you-pay,The Price You Pay,/gig:1980-10-31-memorial-sports-arena-los-angeles-ca,/gig:2016-07-28-frognerparken-oslo-norway,77,1,0,2.23
-1353,/song:the-promise,The Promise,/gig:1976-08-03-monmouth-arts-center-red-bank-nj,/gig:2016-06-25-ullevi-gothenburg-sweden,72,1,1,2.09
+1353,/song:the-promise,The Promise,/gig:1976-08-03-monmouth-arts-center-red-bank-nj,/gig:2016-06-25-ullevi-gothenburg-sweden,72,37,1,2.09
 1354,/song:the-promised-land,The Promised Land,/gig:1978-05-23-shea-s-theatre-buffalo-ny,/gig:2023-09-03-metlife-stadium-east-rutherford-nj,1460,36,99,42.28
 1355,/song:there-goes-my-miracle,There Goes My Miracle,/gig:2019-04-00-stone-hill-farm-colts-neck-nj,/gig:2019-04-00-stone-hill-farm-colts-neck-nj,1,0,0,0.03
 1356,/song:there-will-never-be-any-other-for-me-but-you,There Will Never Be Any Other For Me But You,/gig:1996-09-19-performing-arts-center-providence-ri,/gig:1997-05-10-sala-kongresowa-warsaw-poland,33,0,0,0.96
 1357,/song:the-rising,The Rising,/gig:2002-08-01-ed-sullivan-theater-new-york-city-ny,/nobruce:2009-03-13-convention-hall-asbury-park-nj,949,63,4,27.48
-1358,/song:the-river,The River,/gig:1979-09-21-madison-square-garden-new-york-city-ny,/gig:2023-07-25-autodromo-monza-italy,696,10,1,20.16
+1358,/song:the-river,The River,/gig:1979-09-21-madison-square-garden-new-york-city-ny,/gig:2023-07-25-autodromo-monza-italy,696,10,2,20.16
 1359,/song:the-star-spangled-banner,The Star-Spangled Banner,/gig:1992-11-18-coliseum-charlotte-nc,/gig:2004-10-13-continental-airlines-arena-east-rutherford-nj,9,0,0,0.26
 1360,/song:the-sun-ain-t-gonna-shine-anymore,The Sun Ain't Gonna Shine Anymore,,,,,,
 1361,/song:the-tears-of-a-clown,The Tears Of A Clown,/gig:2001-12-08-convention-hall-asbury-park-nj,/gig:2001-12-08-convention-hall-asbury-park-nj,1,0,0,0.03
@@ -1406,7 +1406,7 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 1405,/song:today-i-met-the-boy-i-m-gonna-marry,(Today I Met) The Boy I'm Gonna Marry,/gig:2011-03-14-waldorf-astoria-hotel-new-york-city-ny,/nobruce:1992-11-21-count-basie-theatre-red-bank-nj,2,0,0,0.06
 1406,/song:tokyo,Tokyo,/gig:1973-02-10-sunshine-in-asbury-park-nj-early,/gig:1974-06-03-agora-cleveland-oh,6,1,0,0.17
 1407,/song:to-love-somebody,To Love Somebody,/gig:1967-09-30-left-foot-freehold-nj,/gig:1967-09-30-left-foot-freehold-nj,1,0,1,0.03
-1408,/song:tom-joad,Tom Joad,/gig:1996-09-25-e-j-thomas-performing-arts-hall-akron-oh,/gig:2021-05-13-stone-hill-farm-colts-neck-nj,15,15,0,0.43
+1408,/song:tom-joad,Tom Joad,/gig:1996-09-25-e-j-thomas-performing-arts-hall-akron-oh,/gig:2021-05-13-stone-hill-farm-colts-neck-nj,15,15,3,0.43
 1409,/song:tomorrow-never-knows,Tomorrow Never Knows,,,,,,
 1410,/song:tonight,Tonight,,,,,,
 1411,/song:tougher-than-the-rest,Tougher Than The Rest,/gig:1987-10-31-mcloone-s-rum-runner-sea-bright-nj,/gig:2022-10-31-siriusxm-studio-new-york-city-ny,371,1,0,10.74
