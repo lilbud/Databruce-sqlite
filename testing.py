@@ -8,3 +8,11 @@ main_url = "http://brucebase.wikidot.com/"
 conn = sqlite3.connect(os.path.dirname(__file__) + "/_database/database.sqlite")
 cur = conn.cursor()
 temp = []
+
+album = ":therising:"
+
+for a in cur.execute(f"""SELECT DISTINCT(album_name) FROM ALBUMS""").fetchall():
+    if a[0].lower() == "".join(album.strip(":").lower()):
+        album_to_find = a[0]
+    else:
+        album_to_find = "".join(album)
