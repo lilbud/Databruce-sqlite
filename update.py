@@ -122,7 +122,7 @@ def full_update(start, end):
 #usually can just be run for the current year
 #full_update(current_year, current_year)
 
-# setlist_to_events()
+setlist_to_events()
 # jungleland_artwork()
 # get_official_live()
 update_counts()

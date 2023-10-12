@@ -988,8 +988,8 @@ song_id,song_url,song_name,first_played,last_played,num_plays,opener,closer,freq
 987,/song:paralyzed,Paralyzed,,,,,,
 988,/song:park-avenue-beat,Park Avenue Beat,,,,,,
 989,/song:part-man-part-monkey,"Part Man, Part Monkey",/gig:1988-02-25-centrum-worcester-ma,/gig:2008-08-19-hersheypark-stadium-hershey-pa,82,0,0,2.37
-990,/song:party-lights,Party Lights,/gig:1975-12-02-music-hall-boston-ma,/gig:1975-12-02-music-hall-boston-ma,1,0,0,0.03
-991,/song:party-lights-claudine-clark,Party Lights (Claudine Clark),/gig:1975-12-06-mcdonough-arena-washington-dc,/gig:1975-12-11-walsh-auditorium-south-orange-nj,2,0,0,0.06
+990,/song:party-lights,Party Lights,,,,,,
+991,/song:party-lights-claudine-clark,Party Lights (Claudine Clark),/gig:1975-12-02-music-hall-boston-ma,/gig:1975-12-11-walsh-auditorium-south-orange-nj,3,0,0,0.09
 992,/song:pay-me-my-money-down,Pay Me My Money Down,/gig:2006-04-30-fairgrounds-new-orleans-la,/gig:2023-05-15-paris-la-defense-arena-nanterre-france,98,1,2,2.84
 993,/song:peaceful-easy-feeling,Peaceful Easy Feeling,/gig:1973-10-06-field-house-villanova-pa,/gig:1973-10-06-field-house-villanova-pa,1,0,0,0.03
 994,/song:peg-o-my-heart,Peg O' My Heart,/gig:2011-03-18-house-of-blues-boston-ma,/gig:2011-03-18-house-of-blues-boston-ma,1,1,0,0.03
