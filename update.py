@@ -67,6 +67,13 @@ def update_counts():
 
 	print("Tour Event Count Updated")
 	
+def update_premiere_debut():
+	"""updates each setlist and marks if each song is a premiere or debut"""
+
+	# for e in cur.execute(f"""SELECT event_url FROM SETLISTS WHERE event_url LIKE '/gig:%'""").fetchall():
+	# 	print(e)
+
+update_premiere_debut()
 
 def basic_update():
 	"""builds the database, gets the basic amount of information"""
@@ -122,11 +129,11 @@ def full_update(start, end):
 #usually can just be run for the current year
 #full_update(current_year, current_year)
 
-setlist_to_events()
+# setlist_to_events()
 # jungleland_artwork()
 # get_official_live()
-update_counts()
-csv_export()
+# update_counts()
+# csv_export()
 run_time(start_time)
 
 #winsound.Beep(1500, 250)

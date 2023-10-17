@@ -4,3 +4,6 @@ __pycache__
 .gitignore
 .git
 *.bak
+testing.py
+mp3tag-gen.py
+tags.txt
