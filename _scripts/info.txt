@@ -1,0 +1,7 @@
+This folder has some various scripts for database functions. 
+
+database-stuff.txt: different SQL queries for advanced setlist searching
+location_get.py: unused, but returns location for a given database, useful for quick lookup
+setlist_get.py: returns setlist for a given date. Takes a folder path as input, useful for tagging live shows
+mp3tag-gen.py: returns a txt file with the show setlist in the default mp3tag import format. Like the above but easier
+manual_setlist.py: for adding a new setlist manually to the database. Reads from text file. Not needed for a good while (least until April 2024 when tour gets going).

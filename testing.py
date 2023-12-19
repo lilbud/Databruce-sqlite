@@ -1,91 +1,178 @@
-import re, os, sqlite3, requests, datetime, time
+import re, os, sqlite3, requests, datetime, time, html2text, json
 from titlecase import titlecase
 from bs4 import BeautifulSoup as bs4
+from fuzzywuzzy import fuzz
 import pandas as pd
 from helper_stuff import albums, song_link_corrector, name_fix, show_name_split
 
 main_url = "http://brucebase.wikidot.com/"
 conn = sqlite3.connect(os.path.dirname(__file__) + "/_database/database.sqlite")
 cur = conn.cursor()
-snippets = []
-s = "Soundcheck"
-f = open("tags.txt", "w")
+event_types = "/(gig|nogig|interview|rehearsal|nobruce):"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+}
 
-r = requests.get(f"{main_url}system:page-tags")
-soup = bs4(r.text, 'lxml')
+# http://brucebase.wikidot.com/stats:circulating-audio-list/p/1
+# event_url = "/gig:2017-02-14-entertainment-centre-brisbane-australia"
 
-for t in soup.find_all('a', {'class': 'tag'}):
-    if "snip" in t.get('href'):
-        song_name = ""
-        # tag = re.findall("tag/.*", t.get('href'))[0].strip("tag/")
-        tag = t.get('href').replace("system:page-tags/tag/", "")
-        r = requests.get(f"{main_url}{t.get('href').strip("/")}")
-        soup = bs4(r.text, 'lxml')
+# bustout = cur.execute(f"""SELECT MIN(event_url) FROM EVENTS WHERE setlist LIKE '%Janey, Don''t You Lose Heart%' AND tour LIKE 'Summer ''17 Tour'""").fetchone()
 
-        if soup.find('a', href=re.compile("/song:")):
-            song_name = soup.find('a', href=re.compile("/song:")).text
+# print(bustout[0] == event_url)
+# invalid_sets = []
 
-        print(f"{tag}, {song_name}")
-        snippets.append([tag, song_name])
-    
-for s in snippets:
-    f.write(f"{s[0]}, {s[1]}")
+shows = []
+count = 0
 
-# def date_checker(date):
-# 	if date is not None:
-# 		try:
-# 			return datetime.date.fromisoformat(date)
-# 		except:
-# 			return False
-# 	else:
-# 		return False
+l = cur.execute(
+    """SELECT event_url FROM SETLISTS WHERE event_url LIKE '%2005%' and song_url IN (SELECT song_url FROM ALBUMS WHERE album_name = 'Tunnel Of Love' ORDER BY song_num ASC)
+                AND event_url LIKE '%gig%' AND set_type NOT LIKE '%Soundcheck%' AND set_type NOT LIKE '%Rehearsal%'"""
+).fetchall()
+for u in l:
+    current = f"{l.count(u)} {u[0]}"
+    if current not in shows:
+        shows.append(current)
 
-# date = None
-
-# if date is None:
-# 	date = cur.execute("""SELECT event_date FROM EVENTS WHERE setlist != '' ORDER BY event_id DESC LIMIT 1""").fetchone()[0]
-
-# print(date_checker(date))
+shows.sort(reverse=True)
+print(shows)
 
 
+# for i in cur.execute(f"""SELECT set_type FROM (SELECT DISTINCT set_type FROM SETLISTS WHERE set_type LIKE '%(Soundcheck|Rehearsal|Pre-)%')""").fetchall():
+#     invalid_sets.append(i[0])
 
-# # album = ":therising:"
+# print(invalid_sets)
+# with open("circulating-audio-list.txt", "w", encoding="utf-8") as f:
+#     for i in range(1,9):
+#         r = requests.get(f"{main_url}stats:circulating-audio-list/p/{i}")
+#         if r.ok:
+#             soup = bs4(r.text, 'lxml')
+#             links = soup.find('div', {'class': 'yui-content'}).find_all('a', href=re.compile(event_types))
+#             for l in links:
+#                 f.write(f"{l.text} - {l.get('href')}\n")
 
-# # for a in cur.execute(f"""SELECT DISTINCT(album_name) FROM ALBUMS""").fetchall():
-# #     if a[0].lower() == "".join(album.strip(":").lower()):
-# #         album_to_find = a[0]
-# #     else:
-# #         album_to_find = "".join(album)
 
-# def get_relation(name):
-#     """gets info on bands/people that have played with bruce"""
+# setlist = []
 
-#     # check name against database
-#     # if found, get num plays
-#     # search on_stage for first and last performance with bruce
-#     # have type in () next to name
+# h = html2text.HTML2Text()
+# h.ignore_links = False
 
-#     toFind = cur.execute(f"""SELECT relation_name, relation_url, appearances, relation_type FROM RELATIONS WHERE LOWER(relation_name) LIKE '%{name.lower().replace("'", "''")}%'""").fetchone()
+# to handle list element
+# one song link
+# no links
+# multiple links
+# multiple songs, no links
 
-#     if toFind:
-#         name = toFind[0]
-#         url = toFind[1]
-#         appearances = toFind[2]
-#         relation_type = toFind[3]
+# showpage = requests.get("http://brucebase.wikidot.com/gig:1980-10-31-memorial-sports-arena-los-angeles-ca", headers)
+# soup = bs4(showpage.text, 'lxml')
+# content = soup.find('div', {'id':'wiki-tab-0-1'}).find_all('li')
 
-#         if int(appearances) > 0:
-#             first_last = cur.execute(f"""SELECT MIN(event_url), MAX(event_url) FROM ON_STAGE WHERE relation_url LIKE '{url}' AND event_url LIKE '/gig:%'""").fetchone()
+# for c in content:
+#     setlist.append(c.find('a').get('href'))
 
-#             first_date = cur.execute(f"""SELECT event_date FROM EVENTS WHERE event_url LIKE '{first_last[0]}'""").fetchall()[0]
-#             last_date = cur.execute(f"""SELECT event_date FROM EVENTS WHERE event_url LIKE '{first_last[1]}'""").fetchall()[0]
+# print(setlist)
 
-#             print(f"Name: {name} ({relation_type.title()})")
-#             print(f"Appearances: {appearances}")
-#             print(f"First Performance: [{first_date[0]}]({main_url}{first_last[0].strip("/")})")
-#             print(f"Last Performance: [{last_date[0]}]({main_url}{first_last[1].strip("/")})")
+# r = requests.get("http://brucebase.wikidot.com/gignote:1980-10-31-memorial-sports-arena-los-angeles-ca", headers)
+# soup = bs4(r.text, 'lxml')
+# gignote = soup.find('div', {'id':'page-content'})
+# tags = ["relation", "song"]
+# connections = ["snippet", "intro", "introduction"]
+# types = []
 
-# # name = input("enter person to find: ")
-# # get_relation(name)
+# text = str(gignote).split(".")
+# for t in text:
+#     sentence = bs4(t, 'lxml')
+#     types = []
 
-# t = "<:btr:1155865010178904194>"
-# print(re.findall(":.*:", t)[0])
+#     if len(sentence.find_all('a')) > 1:
+#         for i in sentence.find_all('a'):
+#             c = str(sentence.find('body')).replace(str(i), "")
+
+#         print(c)
+
+
+# for s in sentence.find_all('a'):
+#     if s.get('href') in setlist:
+#         print(f"Main Song: {s.get('href')}")
+#     else:
+#         if "/relation:" in s.get('href'):
+#             print(f"Relation: {s.get('href')}")
+
+#         if "/song:" in s.get('href'):
+#             print(f"Snippet: {s.get('href')}")
+
+
+# showpage = requests.get("http://brucebase.wikidot.com/gig:1980-10-30-memorial-sports-arena-los-angeles-ca", headers)
+# soup = bs4(showpage.text, 'lxml')
+# content = soup.find('div', {'id':'wiki-tab-0-1'}).find_all('li')
+
+# for i in content:
+#     song_num = content.index(i)
+
+#     if i.find('a'):
+#         current = i.find_all('a')
+
+#         if len(current) == 1:
+#             setlist.append({'name': i.text, 'url': i.find('a').get('href'), 'song_num': song_num})
+
+#         if len(current) > 1:
+#             for i, c in enumerate(current):
+#                 segue = "no"
+#                 if i != len(current) - 1:
+#                     segue = "yes"
+
+#                 setlist.append({'name': c.text, 'url': c.get('href'), 'song_num': song_num, 'segue': segue})
+#     else:
+#         song = i.text.split(" - ")
+
+#         if len(song) == 1:
+#             setlist.append({'name': i.text, 'url': '', 'song_num': song_num})
+#         elif len(song) > 1:
+#             for i, s in enumerate(song):
+#                 segue = "no"
+#                 if i != len(song) - 1:
+#                     segue = "yes"
+
+#                 setlist.append({'name': s, 'url': '', 'song_num': song_num, 'segue': segue})
+
+# print(json.dumps(setlist, indent=4))
+
+# messing around with springsteenlyrics
+
+# https://www.springsteenlyrics.com/bootlegs.php?filter_{filter}={date}&cmd=list&category=filter_{filter}
+# filter_date, filter_title, filter_version, filter_publicinfo
+# only one at a time
+
+# filter = "date"
+# boot = []
+# listofboots = []
+# # date = input("Enter Date: ")
+# date = "1978-09-19"
+# headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+
+# r = requests.get(f"https://www.springsteenlyrics.com/bootlegs.php?filter_date={date}&cmd=list&category=filter_date", headers=headers)
+# soup = bs4(r.text, 'lxml')
+# for i in soup.find_all('div', {'class': 'blog-post'}):
+#     temp = []
+#     temp.append(i.find('a').find('img').get('title').strip())
+
+#     id = re.findall(r"\d{4,}", re.sub("&.*", "", i.find('a').get('href')))[0]
+#     temp.append(id)
+
+#     for s in i.find('span').next_siblings:
+#         if len(s.text) > 1 and s.name != "span":
+#             temp.append(s.text.strip())
+
+#     listofboots.append(temp)
+
+# for b in listofboots:
+#     # title, id, source/label, date, location, format, duration, artwork, info file
+
+#     artwork = info_file = False
+
+#     if len(b) > 8:
+#         if b[7]:
+#             artwork = True
+#         if b[8]:
+#             info_file = True
+
+#     print(f"\nTitle: {b[0]}\nItem ID: {b[1]}\nSource/Label: {b[2]}\nDate: {b[3]}\nLocation: {b[4]}\nFormat: {b[5]}\nDuration: {b[6]}\nArtwork: {artwork}\nInfo File: {info_file}")

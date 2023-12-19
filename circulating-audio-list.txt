@@ -1,0 +1,2000 @@
+2023-09-03 MetLife Stadium, East Rutherford, NJ - /gig:2023-09-03-metlife-stadium-east-rutherford-nj
+2023-09-01 MetLife Stadium, East Rutherford, NJ - /gig:2023-09-01-metlife-stadium-east-rutherford-nj
+2023-08-30 MetLife Stadium, East Rutherford, NJ - /gig:2023-08-30-metlife-stadium-east-rutherford-nj
+2023-08-26 Gillette Stadium, Foxborough, MA - /gig:2023-08-26-gillette-stadium-foxborough-ma
+2023-08-24 Gillette Stadium, Foxborough, MA - /gig:2023-08-24-gillette-stadium-foxborough-ma
+2023-07-25 Prato Della Gerascia, Autodromo Di Monza, Monza, Italy - /gig:2023-07-25-autodromo-monza-italy
+2023-07-23 Olympiastadion, Munich, Germany - /gig:2023-07-23-olympiastadion-munich-germany
+2023-07-15 Volksparkstadion, Hamburg, Germany - /gig:2023-07-15-volksparkstadion-hamburg-germany
+2023-07-13 Parken Stadium, Copenhagen, Denmark - /gig:2023-07-13-parken-stadium-copenhagen-denmark
+2023-06-30 Voldsløkka Stadion, Oslo, Norway - /gig:2023-06-30-voldslokka-stadion-oslo-norway
+2023-06-28 Ullevi, Gothenburg, Sweden - /gig:2023-06-28-ullevi-gothenburg-sweden
+2023-06-24 Ullevi, Gothenburg, Sweden - /gig:2023-06-24-ullevi-gothenburg-sweden
+2023-06-11 Megaland, Landgraaf, The Netherlands - /gig:2023-06-11-megaland-landgraaf-netherlands
+2023-05-27 Johan Cruijff ArenA, Amsterdam, The Netherlands - /gig:2023-05-27-johan-cruijff-arena-amsterdam-netherlands
+2023-05-25 Johan Cruijff ArenA, Amsterdam, The Netherlands - /gig:2023-05-25-johan-cruijff-arena-amsterdam-netherlands
+2023-05-21 Circus Maximus, Rome, Italy - /gig:2023-05-21-circus-maximus-rome-italy
+2023-05-18 Parco Urbano Giorgio Bassani, Ferrara, Italy - /gig:2023-05-18-parco-urbano-giorgio-bassani-ferrara-italy
+2023-05-15 Paris La Défense Arena, Nanterre, France - /gig:2023-05-15-paris-la-defense-arena-nanterre-france
+2023-05-05 RDS Arena, Dublin, Ireland - /gig:2023-05-05-rds-arena-dublin-ireland
+2023-04-30 Estadi Olímpic Lluís Companys, Barcelona, Spain - /gig:2023-04-30-estadi-olimpic-lluis-companys-barcelona-spain
+2023-04-28 Estadi Olímpic Lluís Companys, Barcelona, Spain - /gig:2023-04-28-estadi-olimpic-lluis-companys-barcelona-spain
+2023-04-11 UBS Arena, Belmont Park, Elmont, NY - /gig:2023-04-11-ubs-arena-elmont-ny
+2023-04-09 UBS Arena, Belmont Park, Elmont, NY - /gig:2023-04-09-ubs-arena-elmont-ny
+2023-04-05 Rocket Mortgage Fieldhouse, Cleveland, OH - /gig:2023-04-05-rocket-mortgage-fieldhouse-cleveland-oh
+2023-04-03 Barclays Center, Brooklyn, NY - /gig:2023-04-03-barclays-center-brooklyn-ny
+2023-04-01 Madison Square Garden, New York City, NY - /gig:2023-04-01-madison-square-garden-new-york-city-ny
+2023-03-29 Little Caesars Arena, Detroit, MI - /gig:2023-03-29-little-caesars-arena-detroit-mi
+2023-03-20 TD Garden, Boston, MA - /gig:2023-03-20-td-garden-boston-ma
+2023-03-16 Wells Fargo Center, Philadelphia, PA - /gig:2023-03-16-wells-fargo-center-philadelphia-pa
+2023-03-05 Xcel Energy Center, Saint Paul, MN - /gig:2023-03-05-xcel-energy-center-saint-paul-mn
+2023-03-02 Ball Arena, Denver, CO - /gig:2023-03-02-ball-arena-denver-co
+2023-02-21 BOK Center, Tulsa, OK - /gig:2023-02-21-bok-center-tulsa-ok
+2023-02-18 T-Mobile Center, Kansas City, MO - /gig:2023-02-18-t-mobile-center-kansas-city-mo
+2023-02-14 Toyota Center, Houston, TX - /gig:2023-02-14-toyota-center-houston-tx
+2023-02-07 Hard Rock Live, Hollywood, FL - /gig:2023-02-07-hard-rock-live-hollywood-fl
+2023-02-05 Amway Center, Orlando, FL - /gig:2023-02-05-amway-center-orlando-fl
+2023-02-03 State Farm Arena, Atlanta, GA - /gig:2023-02-03-state-farm-arena-atlanta-ga
+2023-02-01 Amalie Arena, Tampa, FL - /gig:2023-02-01-amalie-arena-tampa-fl
+2022-11-15 Rockefeller Center, GE Building, Studio 6B, New York City, NY - /gig:2022-11-15-rockefeller-center-new-york-city-ny
+2022-11-14 Rockefeller Center, GE Building, Studio 6B, New York City, NY - /gig:2022-11-14-rockefeller-center-new-york-city-ny
+2022-11-07 David Geffen Hall, Lincoln Center, New York City, NY - /gig:2022-11-07-david-geffen-hall-new-york-city-ny
+2022-10-31 SiriusXM Studio, New York City, NY - /gig:2022-10-31-siriusxm-studio-new-york-city-ny
+2022-06-25 Worthy Farm, Pilton, England - /gig:2022-06-25-worthy-farm-pilton-england
+2021-12-13 Town Hall, New York City, NY - /gig:2021-12-13-town-hall-new-york-city-ny
+2021-11-08 Alice Tully Hall, Lincoln Center, New York City, NY - /gig:2021-11-08-alice-tully-hall-new-york-city-ny
+2021-10-20 Javits Center, New York City, NY - /gig:2021-10-20-javits-center-new-york-city-ny
+2021-09-11 World Trade Center Memorial Plaza, New York City, NY - /gig:2021-09-11-wtc-memorial-plaza-new-york-city-ny
+2021-09-04 St. James Theatre, New York City, NY - /gig:2021-09-04-st-james-theatre-new-york-city-ny
+2021-08-24 St. James Theatre, New York City, NY - /gig:2021-08-24-st-james-theatre-new-york-city-ny
+2021-08-17 St. James Theatre, New York City, NY - /gig:2021-08-17-st-james-theatre-new-york-city-ny
+2021-07-14 St. James Theatre, New York City, NY - /gig:2021-07-14-st-james-theatre-new-york-city-ny
+2021-05-13 Stone Hill Farm, Colts Neck, NJ - /gig:2021-05-13-stone-hill-farm-colts-neck-nj
+2021-01-20 Lincoln Memorial, Washington, DC - /gig:2021-01-20-lincoln-memorial-washington-dc
+2020-12-21 Springsteen Residence, Colts Neck, NJ - /gig:2020-12-21-springsteen-residence-colts-neck-nj
+2020-12-12 Rockefeller Center, GE Building, Studio 8H, New York City, NY - /gig:2020-12-12-rockefeller-center-new-york-city-ny
+2020-11-18 Stone Hill Farm, Colts Neck, NJ - /gig:2020-11-18-stone-hill-farm-colts-neck-nj
+2020-10-27 Springsteen Residence, Colts Neck, NJ - /gig:2020-10-27-springsteen-residence-colts-neck-nj
+2020-05-29 Fenway Park, Boston, MA - /gig:2020-05-29-fenway-park-boston-ma
+2020-01-18 Paramount Theatre, Asbury Park, NJ - /gig:2020-01-18-paramount-theatre-asbury-park-nj
+2019-12-09 Beacon Theatre, New York City, NY - /gig:2019-12-09-beacon-theatre-new-york-city-ny
+2019-07-06 Summer Stage, Stone Pony (The), Asbury Park, NJ - /gig:2019-07-06-stone-pony-asbury-park-nj
+2019-05-08 Paramount Theatre, Asbury Park, NJ - /gig:2019-05-08-paramount-theatre-asbury-park-nj
+2019-05-04 Saban Theatre, Los Angeles, CA - /gig:2019-05-04-saban-theatre-los-angeles-ca
+2018-12-13 Walter Kerr Theatre, New York City, NY - /gig:2018-12-13-walter-kerr-theatre-new-york-city-ny
+2018-11-05 Hulu Theater At Madison Square Garden, New York City, NY - /gig:2018-11-05-hulu-theater-new-york-city-ny
+2018-10-31 Walter Kerr Theatre, New York City, NY - /gig:2018-10-31-walter-kerr-theatre-new-york-city-ny
+2018-10-30 Walter Kerr Theatre, New York City, NY - /gig:2018-10-30-walter-kerr-theatre-new-york-city-ny
+2018-10-12 Walter Kerr Theatre, New York City, NY - /gig:2018-10-12-walter-kerr-theatre-new-york-city-ny
+2018-10-03 Walter Kerr Theatre, New York City, NY - /gig:2018-10-03-walter-kerr-theatre-new-york-city-ny
+2018-09-30 Beach, Sand Stage, Asbury Park, NJ - /gig:2018-09-30-beach-asbury-park-nj
+2018-08-15 Walter Kerr Theatre, New York City, NY - /gig:2018-08-15-walter-kerr-theatre-new-york-city-ny
+2018-07-21 Walter Kerr Theatre, New York City, NY - /gig:2018-07-21-walter-kerr-theatre-new-york-city-ny
+2018-07-18 Madison Square Garden, New York City, NY - /gig:2018-07-18-madison-square-garden-new-york-city-ny
+2018-06-27 Walter Kerr Theatre, New York City, NY - /gig:2018-06-27-walter-kerr-theatre-new-york-city-ny
+2018-06-22 Walter Kerr Theatre, New York City, NY - /gig:2018-06-22-walter-kerr-theatre-new-york-city-ny
+2018-06-19 Walter Kerr Theatre, New York City, NY - /gig:2018-06-19-walter-kerr-theatre-new-york-city-ny
+2018-06-10 Radio City Music Hall, New York City, NY - /gig:2018-06-10-radio-city-music-hall-new-york-city-ny
+2018-06-08 Walter Kerr Theatre, New York City, NY - /gig:2018-06-08-walter-kerr-theatre-new-york-city-ny
+2018-05-10 Walter Kerr Theatre, New York City, NY - /gig:2018-05-10-walter-kerr-theatre-new-york-city-ny
+2018-05-06 Paramount Theatre, Asbury Park, NJ - /gig:2018-05-06-paramount-theatre-asbury-park-nj
+2018-04-23 Beacon Theatre, New York City, NY - /gig:2018-04-23-beacon-theatre-new-york-city-ny
+2018-03-30 Walter Kerr Theatre, New York City, NY - /gig:2018-03-30-walter-kerr-theatre-new-york-city-ny
+2018-03-21 Walter Kerr Theatre, New York City, NY - /gig:2018-03-21-walter-kerr-theatre-new-york-city-ny
+2018-01-30 Walter Kerr Theatre, New York City, NY - /gig:2018-01-30-walter-kerr-theatre-new-york-city-ny
+2018-01-23 Walter Kerr Theatre, New York City, NY - /gig:2018-01-23-walter-kerr-theatre-new-york-city-ny
+2018-01-19 Walter Kerr Theatre, New York City, NY - /gig:2018-01-19-walter-kerr-theatre-new-york-city-ny
+2018-01-11 Walter Kerr Theatre, New York City, NY - /gig:2018-01-11-walter-kerr-theatre-new-york-city-ny
+2018-01-09 Walter Kerr Theatre, New York City, NY - /gig:2018-01-09-walter-kerr-theatre-new-york-city-ny
+2017-12-20 Walter Kerr Theatre, New York City, NY - /gig:2017-12-20-walter-kerr-theatre-new-york-city-ny
+2017-10-21 Walter Kerr Theatre, New York City, NY - /gig:2017-10-21-walter-kerr-theatre-new-york-city-ny
+2017-10-11 Walter Kerr Theatre, New York City, NY - /gig:2017-10-11-walter-kerr-theatre-new-york-city-ny
+2017-10-05 Walter Kerr Theatre, New York City, NY - /gig:2017-10-05-walter-kerr-theatre-new-york-city-ny
+2017-10-04 Walter Kerr Theatre, New York City, NY - /gig:2017-10-04-walter-kerr-theatre-new-york-city-ny
+2017-09-30 Air Canada Centre, Toronto, ON - /gig:2017-09-30-air-canada-centre-toronto-on
+2017-09-15 Madison Square Garden, New York City, NY - /gig:2017-09-15-madison-square-garden-new-york-city-ny
+2017-05-27 Count Basie Theatre, Red Bank, NJ - /gig:2017-05-27-count-basie-theatre-red-bank-nj
+2017-04-22 Paramount Theatre, Asbury Park, NJ - /gig:2017-04-22-paramount-theatre-asbury-park-nj
+2017-04-21 Paramount Theatre, Asbury Park, NJ - /gig:2017-04-21-paramount-theatre-asbury-park-nj
+2016-11-07 Independence Hall, Philadelphia, PA - /gig:2016-11-07-independence-hall-philadelphia-pa
+2016-09-09 Citizens Bank Park, Philadelphia, PA - /gig:2016-09-09-citizens-bank-park-philadelphia-pa
+2016-09-07 Citizens Bank Park, Philadelphia, PA - /gig:2016-09-07-citizens-bank-park-philadelphia-pa
+2016-07-31 Letzigrund, Zurich, Switzerland - /gig:2016-07-31-letzigrund-zurich-switzerland
+2016-07-16 Circus Maximus, Rome, Italy - /gig:2016-07-16-circus-maximus-rome-italy
+2016-07-13 AccorHotels Arena, Paris, France - /gig:2016-07-13-accorhotels-arena-paris-france
+2016-07-11 AccorHotels Arena, Paris, France - /gig:2016-07-11-accorhotels-arena-paris-france
+2016-07-09 Festivalpark, Werchter, Belgium - /gig:2016-07-09-festivalpark-werchter-belgium
+2016-07-05 Stadio Giuseppe Meazza, Milan, Italy - /gig:2016-07-05-stadio-giuseppe-meazza-milan-italy
+2016-07-03 Stadio Giuseppe Meazza, Milan, Italy - /gig:2016-07-03-stadio-giuseppe-meazza-milan-italy
+2016-06-19 Olympiastadion, Berlin, Germany - /gig:2016-06-19-olympiastadion-berlin-germany
+2016-06-17 Olympiastadion, Munich, Germany - /gig:2016-06-17-olympiastadion-munich-germany
+2016-05-19 Bela Vista Park, Lisbon, Portugal - /gig:2016-05-19-bela-vista-park-lisbon-portugal
+2016-01-16 Consol Energy Center, Pittsburgh, PA - /gig:2016-01-16-consol-energy-center-pittsburgh-pa
+2015-12-19 Rockefeller Center, GE Building, Studio 8H, New York City, NY - /gig:2015-12-19-rockefeller-center-new-york-city-ny
+2015-11-18 Shrine Auditorium, Los Angeles, CA - /gig:2015-11-18-shrine-auditorium-los-angeles-ca
+2015-11-10 Theater At Madison Square Garden (The), New York City, NY - /gig:2015-11-10-theater-at-msg-new-york-city-ny
+2015-08-06 NEP Studio 52, New York City, NY - /gig:2015-08-06-nep-studio-52-new-york-city-ny
+2015-07-31 Madison Square Garden, New York City, NY - /gig:2015-07-31-madison-square-garden-new-york-city-ny
+2015-07-18 Wonder Bar, Asbury Park, NJ - /gig:2015-07-18-wonder-bar-asbury-park-nj
+2015-01-17 Paramount Theatre, Asbury Park, NJ - /gig:2015-01-17-paramount-theatre-asbury-park-nj
+2014-12-07 John F. Kennedy Center For The Performing Arts, Washington, DC - /gig:2014-12-07-kennedy-center-washington-dc
+2014-12-01 Duffy Square At Times Square, New York City, NY - /gig:2014-12-01-duffy-square-new-york-city-ny
+2014-11-11 National Mall, Washington, DC - /gig:2014-11-11-national-mall-washington-dc
+2014-11-05 Theater At Madison Square Garden (The), New York City, NY - /gig:2014-11-05-theater-at-msg-new-york-city-ny
+2014-05-29 Bela Vista Park, Lisbon, Portugal - /gig:2014-05-29-bela-vista-park-lisbon-portugal
+2014-05-23 Soldiers & Sailors Memorial Hall & Museum, Pittsburgh, PA - /gig:2014-05-23-soldiers-sailors-hall-pittsburgh-pa
+2014-05-22 Soldiers & Sailors Memorial Hall & Museum, Pittsburgh, PA - /gig:2014-05-22-soldiers-sailors-hall-pittsburgh-pa
+2014-05-18 Mohegan Sun Arena, Uncasville, CT - /gig:2014-05-18-mohegan-sun-arena-uncasville-ct
+2014-05-17 Mohegan Sun Arena, Uncasville, CT - /gig:2014-05-17-mohegan-sun-arena-uncasville-ct
+2014-05-13 Times Union Center, Albany, NY - /gig:2014-05-13-times-union-center-albany-ny
+2014-05-03 New Orleans Fairgrounds, New Orleans, LA - /gig:2014-05-03-fairgrounds-new-orleans-la
+2014-04-15 Nationwide Arena, Columbus, OH - /gig:2014-04-15-nationwide-arena-columbus-oh
+2014-04-12 Farm Bureau Live At Virginia Beach, Virginia Beach, VA - /gig:2014-04-12-farm-bureau-live-virginia-beach-va
+2014-04-10 Barclays Center, Brooklyn, NY - /gig:2014-04-10-barclays-center-brooklyn-ny
+2014-04-08 U.S. Bank Arena, Cincinnati, OH - /gig:2014-04-08-u-s-bank-arena-cincinnati-oh
+2014-04-06 Reunion Arena, Old Site, Dallas, TX - /gig:2014-04-06-reunion-arena-dallas-tx
+2014-02-16 AAMI Park, Melbourne, Australia - /gig:2014-02-16-aami-park-melbourne-australia
+2014-02-01 FNB Stadium, Johannesburg, South Africa - /gig:2014-02-01-fnb-stadium-johannesburg-south-africa
+2014-01-28 Bellville Velodrome, Cape Town, South Africa - /gig:2014-01-28-bellville-velodrome-cape-town-south-africa
+2014-01-26 Bellville Velodrome, Cape Town, South Africa - /gig:2014-01-26-bellville-velodrome-cape-town-south-africa
+2014-01-14 Rockefeller Center, GE Building, Studio 6A, New York City, NY - /gig:2014-01-14-rockefeller-center-new-york-city-ny
+2013-11-06 Theater At Madison Square Garden (The), New York City, NY - /gig:2013-11-06-theater-at-msg-new-york-city-ny
+2013-09-21 Cidade Do Rock, Rio De Janeiro, Brazil - /gig:2013-09-21-cidade-do-rock-rio-de-janeiro-brazil
+2013-09-18 Espaço Das Américas, São Paulo, Brazil - /gig:2013-09-18-espaco-das-americas-sao-paulo-brazil
+2013-09-14 Estadio G.E.B.A., Buenos Aires, Argentina - /gig:2013-09-14-estadio-g-e-b-a-buenos-aires-argentina
+2013-09-12 Movistar Arena, Santiago, Chile - /gig:2013-09-12-movistar-arena-santiago-chile
+2013-07-28 Nowlan Park, Kilkenny, Ireland - /gig:2013-07-28-nowlan-park-kilkenny-ireland
+2013-07-27 Nowlan Park, Kilkenny, Ireland - /gig:2013-07-27-nowlan-park-kilkenny-ireland
+2013-07-24 First Direct Arena, Leeds, England - /gig:2013-07-24-first-direct-arena-leeds-england
+2013-07-23 Millennium Stadium, Cardiff, Wales - /gig:2013-07-23-millennium-stadium-cardiff-wales
+2013-07-20 King's Hall, Belfast, Northern Ireland - /gig:2013-07-20-king-s-hall-belfast-northern-ireland
+2013-07-18 Páirc Uí Chaoimh, Cork, Ireland - /gig:2013-07-18-pairc-ui-chaoimh-cork-ireland
+2013-07-16 Thomond Park, Limerick, Ireland - /gig:2013-07-16-thomond-park-limerick-ireland
+2013-07-13 Festivalpark, Werchter, Belgium - /gig:2013-07-13-festivalpark-werchter-belgium
+2013-07-11 Ippodromo Delle Capannelle, Rome, Italy - /gig:2013-07-11-ippodromo-delle-capannelle-rome-italy
+2013-07-07 Red Bull Arena, Leipzig, Germany - /gig:2013-07-07-red-bull-arena-leipzig-germany
+2013-07-05 Borussia-Park, Mönchengladbach, Germany - /gig:2013-07-05-borussia-park-monchengladbach-germany
+2013-07-03 Stade de Genève, Geneva, Switzerland - /gig:2013-07-03-stade-de-geneve-geneva-switzerland
+2013-06-30 Queen Elizabeth Olympic Park, London, England - /gig:2013-06-30-queen-elizabeth-olympic-park-london-england
+2013-06-29 Stade De France, Saint Denis, France - /gig:2013-06-29-stade-de-france-saint-denis-france
+2013-06-26 Estadio Municipal El Molinón, Gijón, Spain - /gig:2013-06-26-estadio-municipal-el-molinon-gijon-spain
+2013-06-22 Goffertpark, Nijmegen, The Netherlands - /gig:2013-06-22-goffertpark-nijmegen-netherlands
+2013-06-20 Ricoh Arena, Coventry, England - /gig:2013-06-20-ricoh-arena-coventry-england
+2013-06-18 Hampden Park, Glasgow, Scotland - /gig:2013-06-18-hampden-park-glasgow-scotland
+2013-06-15 Wembley Stadium, London, England - /gig:2013-06-15-wembley-stadium-london-england
+2013-06-03 Stadio Giuseppe Meazza, Milan, Italy - /gig:2013-06-03-stadio-giuseppe-meazza-milan-italy
+2013-05-31 Stadio Euganeo, Padua, Italy - /gig:2013-05-31-stadio-euganeo-padua-italy
+2013-05-28 AWD Arena, Hannover, Germany - /gig:2013-05-28-awd-arena-hannover-germany
+2013-05-26 Olympiastadion, Munich, Germany - /gig:2013-05-26-olympiastadion-munich-germany
+2013-05-23 Piazza Del Plebiscito, Naples, Italy - /gig:2013-05-23-piazza-del-plebiscito-naples-italy
+2013-05-16 Jyske Bank Boxen, Herning, Denmark - /gig:2013-05-16-jyske-bank-boxen-herning-denmark
+2013-05-14 Parken Stadium, Copenhagen, Denmark - /gig:2013-05-14-parken-stadium-copenhagen-denmark
+2013-05-11 Friends Arena, Solna, Sweden - /gig:2013-05-11-friends-arena-solna-sweden
+2013-05-08 HK Areena, Turku, Finland - /gig:2013-05-08-hk-areena-turku-finland
+2013-05-07 HK Areena, Turku, Finland - /gig:2013-05-07-hk-areena-turku-finland
+2013-05-04 Friends Arena, Solna, Sweden - /gig:2013-05-04-friends-arena-solna-sweden
+2013-05-03 Friends Arena, Solna, Sweden - /gig:2013-05-03-friends-arena-solna-sweden
+2013-04-30 Telenor Arena, Oslo, Norway - /gig:2013-04-30-telenor-arena-oslo-norway
+2013-04-29 Telenor Arena, Oslo, Norway - /gig:2013-04-29-telenor-arena-oslo-norway
+2013-03-31 Hanging Rock, Mt. Macedon, Australia - /gig:2013-03-31-hanging-rock-macedon-australia
+2013-03-30 Hanging Rock, Mt. Macedon, Australia - /gig:2013-03-30-hanging-rock-macedon-australia
+2013-03-27 Rod Laver Arena, Melbourne, Australia - /gig:2013-03-27-rod-laver-arena-melbourne-australia
+2013-03-26 Rod Laver Arena, Melbourne, Australia - /gig:2013-03-26-rod-laver-arena-melbourne-australia
+2013-03-24 Rod Laver Arena, Melbourne, Australia - /gig:2013-03-24-rod-laver-arena-melbourne-australia
+2013-03-22 Allphones Arena, Sydney, Australia - /gig:2013-03-22-allphones-arena-sydney-australia
+2013-03-20 Allphones Arena, Sydney, Australia - /gig:2013-03-20-allphones-arena-sydney-australia
+2013-03-18 Allphones Arena, Sydney, Australia - /gig:2013-03-18-allphones-arena-sydney-australia
+2013-03-16 Brisbane Entertainment Centre, Brisbane, Australia - /gig:2013-03-16-entertainment-centre-brisbane-australia
+2013-03-14 Brisbane Entertainment Centre, Brisbane, Australia - /gig:2013-03-14-entertainment-centre-brisbane-australia
+2013-02-08 Los Angeles Convention Center, Los Angeles, CA - /gig:2013-02-08-convention-center-los-angeles-ca
+2012-12-15 Prudential Center, Newark, NJ - /gig:2012-12-15-prudential-center-newark-nj
+2012-12-12 Madison Square Garden, New York City, NY - /gig:2012-12-12-madison-square-garden-new-york-city-ny
+2012-12-10 Palacio De Los Deportes, Mexico City, Mexico - /gig:2012-12-10-palacio-de-los-deportes-mexico-city-mexico
+2012-12-06 Jobing.com Arena, Glendale, AZ - /gig:2012-12-06-jobing-com-arena-glendale-az
+2012-12-04 Honda Center, Anaheim, CA - /gig:2012-12-04-honda-center-anaheim-ca
+2012-11-30 Oracle Arena, Oakland, CA - /gig:2012-11-30-oracle-arena-oakland-ca
+2012-11-28 Rose Garden, Portland, OR - /gig:2012-11-28-rose-garden-portland-or
+2012-11-26 Rogers Arena, Vancouver, BC - /gig:2012-11-26-rogers-arena-vancouver-bc
+2012-11-19 Pepsi Center, Denver, CO - /gig:2012-11-19-pepsi-center-denver-co
+2012-11-17 Sprint Center, Kansas City, MO - /gig:2012-11-17-sprint-center-kansas-city-mo
+2012-11-15 CenturyLink Center, Omaha, NE - /gig:2012-11-15-centurylink-center-omaha-ne
+2012-11-12 Xcel Energy Center, Saint Paul, MN - /gig:2012-11-12-xcel-energy-center-saint-paul-mn
+2012-11-11 Xcel Energy Center, Saint Paul, MN - /gig:2012-11-11-xcel-energy-center-saint-paul-mn
+2012-11-08 Beacon Theatre, New York City, NY - /gig:2012-11-08-beacon-theatre-new-york-city-ny
+2012-11-03 KFC Yum! Center, Louisville, KY - /gig:2012-11-03-kfc-yum-center-louisville-ky
+2012-11-02 Rockefeller Center, GE Building, Studio 6A, New York City, NY - /gig:2012-11-02-rockefeller-center-new-york-city-ny
+2012-10-31 Blue Cross Arena At The War Memorial, Rochester, NY - /gig:2012-10-31-blue-cross-arena-rochester-ny
+2012-10-27 Soldiers & Sailors Memorial Hall & Museum, Pittsburgh, PA - /gig:2012-10-27-soldiers-sailors-hall-pittsburgh-pa
+2012-10-27 Consol Energy Center, Pittsburgh, PA - /gig:2012-10-27-consol-energy-center-pittsburgh-pa
+2012-10-25 XL Center, Hartford, CT - /gig:2012-10-25-xl-center-hartford-ct
+2012-10-23 nTelos Wireless Pavilion, Charlottesville, VA - /gig:2012-10-23-ntelos-wireless-pavilion-charlottesville-va
+2012-10-23 John Paul Jones Arena, Charlottesville, VA - /gig:2012-10-23-john-paul-jones-arena-charlottesville-va
+2012-10-21 Copps Coliseum, Hamilton, ON - /gig:2012-10-21-copps-coliseum-hamilton-on
+2012-10-19 Scotiabank Place, Ottawa, ON - /gig:2012-10-19-scotiabank-place-ottawa-on
+2012-10-18 Cuyahoga Community College, Parma, OH - /gig:2012-10-18-cuyahoga-community-college-parma-oh
+2012-09-22 MetLife Stadium, East Rutherford, NJ - /gig:2012-09-22-metlife-stadium-east-rutherford-nj
+2012-09-21 MetLife Stadium, East Rutherford, NJ - /gig:2012-09-21-metlife-stadium-east-rutherford-nj
+2012-09-19 MetLife Stadium, East Rutherford, NJ - /gig:2012-09-19-metlife-stadium-east-rutherford-nj
+2012-09-14 Nationals Park, Washington, DC - /gig:2012-09-14-nationals-park-washington-dc
+2012-09-08 Wrigley Field, Chicago, IL - /gig:2012-09-08-wrigley-field-chicago-il
+2012-09-07 Wrigley Field, Chicago, IL - /gig:2012-09-07-wrigley-field-chicago-il
+2012-09-03 Citizens Bank Park, Philadelphia, PA - /gig:2012-09-03-citizens-bank-park-philadelphia-pa
+2012-09-02 Citizens Bank Park, Philadelphia, PA - /gig:2012-09-02-citizens-bank-park-philadelphia-pa
+2012-08-29 Vernon Downs Raceway, Vernon, NY - /gig:2012-08-29-downs-raceway-vernon-ny
+2012-08-26 Magnetic Hill, Moncton, NB - /gig:2012-08-26-magnetic-hill-moncton-nb
+2012-08-18 Gillette Stadium, Foxborough, MA - /gig:2012-08-18-gillette-stadium-foxborough-ma
+2012-08-15 Fenway Park, Boston, MA - /gig:2012-08-15-fenway-park-boston-ma
+2012-08-14 Fenway Park, Boston, MA - /gig:2012-08-14-fenway-park-boston-ma
+2012-07-31 Olympiastadion, Helsinki, Finland - /gig:2012-07-31-olympiastadion-helsinki-finland
+2012-07-28 Ullevi, Gothenburg, Sweden - /gig:2012-07-28-ullevi-gothenburg-sweden
+2012-07-27 Ullevi, Gothenburg, Sweden - /gig:2012-07-27-ullevi-gothenburg-sweden
+2012-07-24 Koengen, Bergen, Norway - /gig:2012-07-24-koengen-bergen-norway
+2012-07-23 Koengen, Bergen, Norway - /gig:2012-07-23-koengen-bergen-norway
+2012-07-22 Rådhusplassen, Oslo, Norway - /gig:2012-07-22-radhusplassen-oslo-norway
+2012-07-21 Valle Hovin Stadion, Oslo, Norway - /gig:2012-07-21-valle-hovin-stadion-oslo-norway
+2012-07-18 RDS Arena, Dublin, Ireland - /gig:2012-07-18-rds-arena-dublin-ireland
+2012-07-17 RDS Arena, Dublin, Ireland - /gig:2012-07-17-rds-arena-dublin-ireland
+2012-07-14 Hyde Park, London, England (Evening) - /gig:2012-07-14-hyde-park-london-england-2
+2012-07-14 Hyde Park, London, England (Afternoon) - /gig:2012-07-14-hyde-park-london-england-1
+2012-07-12 Ernst-Happel-Stadion, Vienna, Austria - /gig:2012-07-12-ernst-happel-stadion-vienna-austria
+2012-07-11 Synot Tip Arena, Prague, Czech Republic - /gig:2012-07-11-synot-tip-arena-prague-czech-republic
+2012-07-09 Letzigrund, Zurich, Switzerland - /gig:2012-07-09-letzigrund-zurich-switzerland
+2012-07-07 Festivalpladsen, Roskilde, Denmark - /gig:2012-07-07-festivalpladsen-roskilde-denmark
+2012-07-05 Palais Omnisports De Paris-Bercy, Paris, France - /gig:2012-07-05-palais-omnisports-paris-france
+2012-07-04 Palais Omnisports De Paris-Bercy, Paris, France - /gig:2012-07-04-palais-omnisports-paris-france
+2012-06-22 Etihad Stadium, Manchester, England - /gig:2012-06-22-etihad-stadium-manchester-england
+2012-06-21 Stadium Of Light, Sunderland, England - /gig:2012-06-21-stadium-of-light-sunderland-england
+2012-06-19 Park & Suites Arena, Montpellier, France - /gig:2012-06-19-park-suites-arena-montpellier-france
+2012-06-17 Estadio Santiago Bernabéu, Madrid, Spain - /gig:2012-06-17-estadio-santiago-bernabeu-madrid-spain
+2012-06-11 Stadio Nereo Rocco, Trieste, Italy - /gig:2012-06-11-stadio-nereo-rocco-trieste-italy
+2012-06-10 Stadio Artemio Franchi, Florence, Italy - /gig:2012-06-10-stadio-artemio-franchi-florence-italy
+2012-06-07 Stadio Giuseppe Meazza, Milan, Italy - /gig:2012-06-07-stadio-giuseppe-meazza-milan-italy
+2012-06-03 Bela Vista Park, Lisbon, Portugal - /gig:2012-06-03-bela-vista-park-lisbon-portugal
+2012-06-02 Estadio Anoeta, Donostia-San Sebastián, Spain - /gig:2012-06-02-estadio-anoeta-donostia-san-sebastian-spain
+2012-05-30 Olympiastadion, Berlin, Germany - /gig:2012-05-30-olympiastadion-berlin-germany
+2012-05-28 Megaland, Landgraaf, The Netherlands - /gig:2012-05-28-megaland-landgraaf-netherlands
+2012-05-27 Rheinenergiestadion, Cologne, Germany - /gig:2012-05-27-rheinenergiestadion-cologne-germany
+2012-05-25 Commerzbank-Arena, Frankfurt, Germany - /gig:2012-05-25-commerzbank-arena-frankfurt-germany
+2012-05-18 Estadi Olímpic Lluís Companys, Barcelona, Spain - /gig:2012-05-18-estadi-olimpic-lluis-companys-barcelona-spain
+2012-05-17 Estadi Olímpic Lluís Companys, Barcelona, Spain - /gig:2012-05-17-estadi-olimpic-lluis-companys-barcelona-spain
+2012-05-15 Estadio De Gran Canaria, Las Palmas, Gran Canaria, Spain - /gig:2012-05-15-estadio-de-gran-canaria-las-palmas-spain
+2012-05-13 Estadio Olimpico De La Cartuja, Seville, Spain - /gig:2012-05-13-estadio-olimpico-de-la-cartuja-seville-spain
+2012-05-02 Prudential Center, Newark, NJ - /gig:2012-05-02-prudential-center-newark-nj
+2012-04-29 New Orleans Fairgrounds, New Orleans, LA - /gig:2012-04-29-fairgrounds-new-orleans-la
+2012-04-27 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:2012-04-27-memorial-sports-arena-los-angeles-ca
+2012-04-26 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:2012-04-26-memorial-sports-arena-los-angeles-ca
+2012-04-24 HP Pavilion At San Jose, San Jose, CA - /gig:2012-04-24-hp-pavilion-san-jose-ca
+2012-04-16 Times Union Center, Albany, NY - /gig:2012-04-16-times-union-center-albany-ny
+2012-04-13 First Niagara Center, Buffalo, NY - /gig:2012-04-13-first-niagara-center-buffalo-ny
+2012-04-12 Palace Of Auburn Hills (The), Auburn Hills, MI - /gig:2012-04-12-palace-auburn-hills-mi
+2012-04-09 Madison Square Garden, New York City, NY - /gig:2012-04-09-madison-square-garden-new-york-city-ny
+2012-04-06 Madison Square Garden, New York City, NY - /gig:2012-04-06-madison-square-garden-new-york-city-ny
+2012-04-04 Izod Center, East Rutherford, NJ - /gig:2012-04-04-izod-center-east-rutherford-nj
+2012-04-03 Izod Center, East Rutherford, NJ - /gig:2012-04-03-izod-center-east-rutherford-nj
+2012-04-01 Verizon Center, Washington, DC - /gig:2012-04-01-verizon-center-washington-dc
+2012-03-29 Wells Fargo Center, Philadelphia, PA - /gig:2012-03-29-wells-fargo-center-philadelphia-pa
+2012-03-28 Wells Fargo Center, Philadelphia, PA - /gig:2012-03-28-wells-fargo-center-philadelphia-pa
+2012-03-26 TD Garden, Boston, MA - /gig:2012-03-26-td-garden-boston-ma
+2012-03-23 Tampa Bay Times Forum, Tampa, FL - /gig:2012-03-23-bay-times-forum-tampa-fl
+2012-03-19 Greensboro Coliseum, Greensboro, NC - /gig:2012-03-19-coliseum-greensboro-nc
+2012-03-18 Philips Arena, Atlanta, GA - /gig:2012-03-18-philips-arena-atlanta-ga
+2012-03-15 Moody Theater, Austin, TX - /gig:2012-03-15-moody-theater-austin-tx
+2012-03-14 Austin Music Hall, Austin, TX - /gig:2012-03-14-music-hall-austin-tx
+2012-03-09 Apollo Theater, New York City, NY - /gig:2012-03-09-apollo-theater-new-york-city-ny
+2012-03-02 Rockefeller Center, GE Building, Studio 6B, New York City, NY - /gig:2012-03-02-rockefeller-center-new-york-city-ny
+2012-02-27 Rockefeller Center, GE Building, Studio 6B, New York City, NY - /gig:2012-02-27-rockefeller-center-new-york-city-ny
+2012-02-12 Staples Center, Los Angeles, CA - /gig:2012-02-12-staples-center-los-angeles-ca
+2012-01-14 Paramount Theatre, Asbury Park, NJ - /gig:2012-01-14-paramount-theatre-asbury-park-nj
+2011-12-09 Convention Hall, Asbury Park, NJ - /gig:2011-12-09-convention-hall-asbury-park-nj
+2011-12-01 Madison Square Garden, New York City, NY - /gig:2011-12-01-madison-square-garden-new-york-city-ny
+2011-11-09 Beacon Theatre, New York City, NY - /gig:2011-11-09-beacon-theatre-new-york-city-ny
+2011-11-04 Soldiers & Sailors Memorial Hall & Museum, Pittsburgh, PA - /gig:2011-11-04-soldiers-sailors-hall-pittsburgh-pa
+2011-11-03 Soldiers & Sailors Memorial Hall & Museum, Pittsburgh, PA - /gig:2011-11-03-soldiers-sailors-hall-pittsburgh-pa
+2011-07-17 Wonder Bar, Asbury Park, NJ - /gig:2011-07-17-wonder-bar-asbury-park-nj
+2011-04-02 Wonder Bar, Asbury Park, NJ - /gig:2011-04-02-wonder-bar-asbury-park-nj
+2011-03-18 House Of Blues, Boston, MA - /gig:2011-03-18-house-of-blues-boston-ma
+2011-03-14 Waldorf-Astoria Hotel, New York City, NY - /gig:2011-03-14-waldorf-astoria-hotel-new-york-city-ny
+2011-01-15 Paramount Theatre, Asbury Park, NJ - /gig:2011-01-15-paramount-theatre-asbury-park-nj
+2010-11-16 Rockefeller Center, GE Building, Studio 6B, New York City, NY - /gig:2010-11-16-rockefeller-center-new-york-city-ny
+2010-11-05 Soldiers & Sailors Memorial Hall & Museum, Pittsburgh, PA - /gig:2010-11-05-soldiers-sailors-hall-pittsburgh-pa
+2010-11-04 Soldiers & Sailors Memorial Hall & Museum, Pittsburgh, PA - /gig:2010-11-04-soldiers-sailors-hall-pittsburgh-pa
+2010-05-06 Dreyfuss Theater, Madison, NJ - /gig:2010-05-06-dreyfuss-theater-madison-nj
+2010-04-24 Tribeca Grill, New York City, NY - /gig:2010-04-24-tribeca-grill-new-york-city-ny
+2010-01-16 Paramount Theatre, Asbury Park, NJ - /gig:2010-01-16-paramount-theatre-asbury-park-nj
+2009-11-22 HSBC Arena, Buffalo, NY - /gig:2009-11-22-hsbc-arena-buffalo-ny
+2009-11-20 1st Mariner Arena, Baltimore, MD - /gig:2009-11-20-1st-mariner-arena-baltimore-md
+2009-11-18 Sommet Center, Nashville, TN - /gig:2009-11-18-sommet-center-nashville-tn
+2009-11-15 Bradley Center, Milwaukee, WI - /gig:2009-11-15-bradley-center-milwaukee-wi
+2009-11-13 Palace Of Auburn Hills (The), Auburn Hills, MI - /gig:2009-11-13-palace-auburn-hills-mi
+2009-11-10 Quicken Loans Arena, Cleveland, OH - /gig:2009-11-10-quicken-loans-arena-cleveland-oh
+2009-11-08 Madison Square Garden, New York City, NY - /gig:2009-11-08-madison-square-garden-new-york-city-ny
+2009-11-07 Madison Square Garden, New York City, NY - /gig:2009-11-07-madison-square-garden-new-york-city-ny
+2009-10-30 Madison Square Garden, New York City, NY - /gig:2009-10-30-madison-square-garden-new-york-city-ny
+2009-10-29 Madison Square Garden, New York City, NY - /gig:2009-10-29-madison-square-garden-new-york-city-ny
+2009-10-25 Scottrade Center, St. Louis, MO - /gig:2009-10-25-scottrade-center-st-louis-mo
+2009-10-20 Wachovia Spectrum, Philadelphia, PA - /gig:2009-10-20-wachovia-spectrum-philadelphia-pa
+2009-10-19 Wachovia Spectrum, Philadelphia, PA - /gig:2009-10-19-wachovia-spectrum-philadelphia-pa
+2009-10-14 Wachovia Spectrum, Philadelphia, PA - /gig:2009-10-14-wachovia-spectrum-philadelphia-pa
+2009-10-13 Wachovia Spectrum, Philadelphia, PA - /gig:2009-10-13-wachovia-spectrum-philadelphia-pa
+2009-10-09 Giants Stadium, East Rutherford, NJ - /gig:2009-10-09-giants-stadium-east-rutherford-nj
+2009-10-08 Giants Stadium, East Rutherford, NJ - /gig:2009-10-08-giants-stadium-east-rutherford-nj
+2009-10-03 Giants Stadium, East Rutherford, NJ - /gig:2009-10-03-giants-stadium-east-rutherford-nj
+2009-10-02 Giants Stadium, East Rutherford, NJ - /gig:2009-10-02-giants-stadium-east-rutherford-nj
+2009-09-30 Giants Stadium, East Rutherford, NJ - /gig:2009-09-30-giants-stadium-east-rutherford-nj
+2009-09-25 Apollo Theater, New York City, NY - /gig:2009-09-25-apollo-theater-new-york-city-ny
+2009-09-21 Wells Fargo Arena, Des Moines, IA - /gig:2009-09-21-wells-fargo-arena-des-moines-ia
+2009-09-20 United Center, Chicago, IL - /gig:2009-09-20-united-center-chicago-il
+2009-09-16 BI-LO Center, Greenville, SC - /gig:2009-09-16-bi-lo-center-greenville-sc
+2009-09-13 BankAtlantic Center, Sunrise, FL - /gig:2009-09-13-bankatlantic-center-sunrise-fl
+2009-09-12 Ford Amphitheatre, Tampa, FL - /gig:2009-09-12-ford-amphitheatre-tampa-fl
+2009-08-25 Saratoga Performing Arts Center, Saratoga Springs, NY - /gig:2009-08-25-spac-saratoga-springs-ny
+2009-08-23 Comcast Center, Mansfield, MA - /gig:2009-08-23-comcast-center-mansfield-ma
+2009-08-22 Comcast Center, Mansfield, MA - /gig:2009-08-22-comcast-center-mansfield-ma
+2009-08-19 Comcast Theatre, Hartford, CT - /gig:2009-08-19-comcast-theatre-hartford-ct
+2009-08-02 Auditorio Monte Do Gozo, Santiago De Compostela, Spain - /gig:2009-08-02-auditorio-monte-do-gozo-santiago-de-compostel
+2009-08-01 Estadio José Zorrilla, Valladolid, Spain - /gig:2009-08-01-estadio-jose-zorrilla-valladolid-spain
+2009-07-30 Estadio Municipal De Foietes, Benidorm, Spain - /gig:2009-07-30-estadio-municipal-de-foietes-benidorm-spain
+2009-07-28 Estadio Olimpico De La Cartuja, Seville, Spain - /gig:2009-07-28-estadio-olimpico-de-la-cartuja-seville-spain
+2009-07-26 Estadio San Mamés, Bilbao, Spain - /gig:2009-07-26-estadio-san-mames-bilbao-spain
+2009-07-23 Stadio Friuli, Udine, Italy - /gig:2009-07-23-stadio-friuli-udine-italy
+2009-07-21 Stadio Olimpico, Turin, Italy - /gig:2009-07-21-stadio-olimpico-turin-italy
+2009-07-19 Stadio Olimpico, Rome, Italy - /gig:2009-07-19-stadio-olimpico-rome-italy
+2009-07-16 Les Vieilles Charrues, Carhaix, France - /gig:2009-07-16-les-vieilles-charrues-carhaix-france
+2009-07-14 Hampden Park, Glasgow, Scotland - /gig:2009-07-14-hampden-park-glasgow-scotland
+2009-07-12 RDS Arena, Dublin, Ireland - /gig:2009-07-12-rds-arena-dublin-ireland
+2009-07-11 RDS Arena, Dublin, Ireland - /gig:2009-07-11-rds-arena-dublin-ireland
+2009-07-08 MCH Arena, Herning, Denmark - /gig:2009-07-08-mch-arena-herning-denmark
+2009-07-05 Ernst-Happel-Stadion, Vienna, Austria - /gig:2009-07-05-ernst-happel-stadion-vienna-austria
+2009-07-03 Commerzbank-Arena, Frankfurt, Germany - /gig:2009-07-03-commerzbank-arena-frankfurt-germany
+2009-07-02 Olympiastadion, Munich, Germany - /gig:2009-07-02-olympiastadion-munich-germany
+2009-06-30 Stade De Suisse, Bern, Switzerland - /gig:2009-06-30-stade-de-suisse-bern-switzerland
+2009-06-28 Hyde Park, London, England (Evening) - /gig:2009-06-28-hyde-park-london-england-evening
+2009-06-28 Hyde Park, London, England (Afternoon) - /gig:2009-06-28-hyde-park-london-england-afternoon
+2009-06-27 Worthy Farm, Pilton, England (Evening) - /gig:2009-06-27-worthy-farm-pilton-england-evening
+2009-06-27 Worthy Farm, Pilton, England (Afternoon) - /gig:2009-06-27-worthy-farm-pilton-england-afternoon
+2009-06-13 Great Stage Park, Manchester, TN - /gig:2009-06-13-great-stage-park-manchester-tn
+2009-06-10 Koengen, Bergen, Norway - /gig:2009-06-10-koengen-bergen-norway
+2009-06-09 Koengen, Bergen, Norway - /gig:2009-06-09-koengen-bergen-norway
+2009-06-07 Stockholms Stadion, Stockholm, Sweden - /gig:2009-06-07-stockholms-stadion-stockholm-sweden
+2009-06-05 Stockholms Stadion, Stockholm, Sweden - /gig:2009-06-05-stockholms-stadion-stockholm-sweden
+2009-06-04 Stockholms Stadion, Stockholm, Sweden - /gig:2009-06-04-stockholms-stadion-stockholm-sweden
+2009-06-02 Ratinan Stadion, Tampere, Finland - /gig:2009-06-02-ratinan-stadion-tampere-finland
+2009-05-30 Megaland, Landgraaf, The Netherlands - /gig:2009-05-30-megaland-landgraaf-netherlands
+2009-05-23 Izod Center, East Rutherford, NJ - /gig:2009-05-23-izod-center-east-rutherford-nj
+2009-05-21 Izod Center, East Rutherford, NJ - /gig:2009-05-21-izod-center-east-rutherford-nj
+2009-05-19 Mellon Arena, Pittsburgh, PA - /gig:2009-05-19-mellon-arena-pittsburgh-pa
+2009-05-18 Verizon Center, Washington, DC - /gig:2009-05-18-verizon-center-washington-dc
+2009-05-15 Hersheypark Stadium, Hershey, PA - /gig:2009-05-15-hersheypark-stadium-hershey-pa
+2009-05-14 Times Union Center, Albany, NY - /gig:2009-05-14-times-union-center-albany-ny
+2009-05-12 United Center, Chicago, IL - /gig:2009-05-12-united-center-chicago-il
+2009-05-11 Xcel Energy Center, Saint Paul, MN - /gig:2009-05-11-xcel-energy-center-saint-paul-mn
+2009-05-07 Air Canada Centre, Toronto, ON - /gig:2009-05-07-air-canada-centre-toronto-on
+2009-05-05 John Paul Jones Arena, Charlottesville, VA - /gig:2009-05-05-john-paul-jones-arena-charlottesville-va
+2009-05-04 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:2009-05-04-nassau-coliseum-uniondale-ny
+2009-05-03 Madison Square Garden, New York City, NY - /gig:2009-05-03-madison-square-garden-new-york-city-ny
+2009-05-02 Greensboro Coliseum, Greensboro, NC - /gig:2009-05-02-coliseum-greensboro-nc
+2009-04-29 Wachovia Spectrum, Philadelphia, PA - /gig:2009-04-29-wachovia-spectrum-philadelphia-pa
+2009-04-28 Wachovia Spectrum, Philadelphia, PA - /gig:2009-04-28-wachovia-spectrum-philadelphia-pa
+2009-04-26 Philips Arena, Atlanta, GA - /gig:2009-04-26-philips-arena-atlanta-ga
+2009-04-24 XL Center, Hartford, CT - /gig:2009-04-24-xl-center-hartford-ct
+2009-04-22 TD Banknorth Garden, Boston, MA - /gig:2009-04-22-td-banknorth-garden-boston-ma
+2009-04-21 TD Banknorth Garden, Boston, MA - /gig:2009-04-21-td-banknorth-garden-boston-ma
+2009-04-16 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:2009-04-16-memorial-sports-arena-los-angeles-ca
+2009-04-15 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:2009-04-15-memorial-sports-arena-los-angeles-ca
+2009-04-10 Pepsi Center, Denver, CO - /gig:2009-04-10-pepsi-center-denver-co
+2009-04-08 Toyota Center, Houston, TX - /gig:2009-04-08-toyota-center-houston-tx
+2009-04-07 BOK Center, Tulsa, OK - /gig:2009-04-07-bok-center-tulsa-ok
+2009-04-05 Frank Erwin Center, Austin, TX - /gig:2009-04-05-frank-erwin-center-austin-tx
+2009-04-01 HP Pavilion At San Jose, San Jose, CA - /gig:2009-04-01-hp-pavilion-san-jose-ca
+2009-03-19 NEP Studio 52, New York City, NY - /gig:2009-03-19-nep-studio-52-new-york-city-ny
+2009-02-01 Raymond James Stadium, Tampa, FL - /gig:2009-02-01-raymond-james-stadium-tampa-fl
+2009-01-18 Lincoln Memorial, Washington, DC - /gig:2009-01-18-lincoln-memorial-washington-dc
+2008-10-16 Hammerstein Ballroom, New York City, NY - /gig:2008-10-16-hammerstein-ballroom-new-york-city-ny
+2008-10-06 Oestrike Stadium, Ypsilanti, MI - /gig:2008-10-06-oestrike-stadium-ypsilanti-mi
+2008-10-05 Ohio State University, Columbus, OH - /gig:2008-10-05-state-university-columbus-oh
+2008-10-04 Benjamin Franklin Parkway, Philadelphia, PA - /gig:2008-10-04-benjamin-franklin-parkway-philadelphia-pa
+2008-08-30 Roadhouse At The Lakefront (The), Milwaukee, WI - /gig:2008-08-30-roadhouse-at-the-lakefront-milwaukee-wi
+2008-08-24 Sprint Center, Kansas City, MO - /gig:2008-08-24-sprint-center-kansas-city-mo
+2008-08-23 Scottrade Center, St. Louis, MO - /gig:2008-08-23-scottrade-center-st-louis-mo
+2008-08-21 Sommet Center, Nashville, TN - /gig:2008-08-21-sommet-center-nashville-tn
+2008-08-19 Hersheypark Stadium, Hershey, PA - /gig:2008-08-19-hersheypark-stadium-hershey-pa
+2008-08-18 Richmond Coliseum, Richmond, VA - /gig:2008-08-18-coliseum-richmond-va
+2008-08-16 North Charleston Coliseum, Charleston, SC - /gig:2008-08-16-north-charleston-coliseum-charleston-sc
+2008-08-15 Jacksonville Veterans Memorial Arena, Jacksonville, FL - /gig:2008-08-15-veterans-memorial-arena-jacksonville-fl
+2008-08-02 Gillette Stadium, Foxborough, MA - /gig:2008-08-02-gillette-stadium-foxborough-ma
+2008-07-31 Giants Stadium, East Rutherford, NJ - /gig:2008-07-31-giants-stadium-east-rutherford-nj
+2008-07-28 Giants Stadium, East Rutherford, NJ - /gig:2008-07-28-giants-stadium-east-rutherford-nj
+2008-07-27 Giants Stadium, East Rutherford, NJ - /gig:2008-07-27-giants-stadium-east-rutherford-nj
+2008-07-20 Camp Nou, Barcelona, Spain - /gig:2008-07-20-camp-nou-barcelona-spain
+2008-07-19 Camp Nou, Barcelona, Spain - /gig:2008-07-19-camp-nou-barcelona-spain
+2008-07-17 Estadio Santiago Bernabéu, Madrid, Spain - /gig:2008-07-17-estadio-santiago-bernabeu-madrid-spain
+2008-07-15 Estadio Anoeta, Donostia-San Sebastián, Spain - /gig:2008-07-15-estadio-anoeta-donostia-san-sebastian-spain
+2008-07-11 Olympiastadion, Helsinki, Finland - /gig:2008-07-11-olympiastadion-helsinki-finland
+2008-07-08 Valle Hovin Stadion, Oslo, Norway - /gig:2008-07-08-valle-hovin-stadion-oslo-norway
+2008-07-07 Valle Hovin Stadion, Oslo, Norway - /gig:2008-07-07-valle-hovin-stadion-oslo-norway
+2008-07-05 Ullevi, Gothenburg, Sweden - /gig:2008-07-05-ullevi-gothenburg-sweden
+2008-07-04 Ullevi, Gothenburg, Sweden - /gig:2008-07-04-ullevi-gothenburg-sweden
+2008-06-29 Parken Stadium, Copenhagen, Denmark - /gig:2008-06-29-parken-stadium-copenhagen-denmark
+2008-06-27 Parc Des Princes, Paris, France - /gig:2008-06-27-parc-des-princes-paris-france
+2008-06-25 Stadio Giuseppe Meazza, Milan, Italy - /gig:2008-06-25-stadio-giuseppe-meazza-milan-italy
+2008-06-23 Sportpaleis, Antwerp, Belgium - /gig:2008-06-23-sportpaleis-antwerp-belgium
+2008-06-21 HSH Nordbank Arena, Hamburg, Germany - /gig:2008-06-21-hsh-nordbank-arena-hamburg-germany
+2008-06-18 Amsterdam ArenA, Amsterdam, The Netherlands - /gig:2008-06-18-arena-amsterdam-netherlands
+2008-06-16 LTU Arena, Düsseldorf, Germany - /gig:2008-06-16-ltu-arena-dusseldorf-germany
+2008-06-14 Millennium Stadium, Cardiff, Wales - /gig:2008-06-14-millennium-stadium-cardiff-wales
+2008-05-31 Emirates Stadium, London, England - /gig:2008-05-31-emirates-stadium-london-england
+2008-05-30 Emirates Stadium, London, England - /gig:2008-05-30-emirates-stadium-london-england
+2008-05-28 Old Trafford, Manchester, England - /gig:2008-05-28-old-trafford-manchester-england
+2008-05-25 RDS Arena, Dublin, Ireland - /gig:2008-05-25-rds-arena-dublin-ireland
+2008-05-23 RDS Arena, Dublin, Ireland - /gig:2008-05-23-rds-arena-dublin-ireland
+2008-05-22 RDS Arena, Dublin, Ireland - /gig:2008-05-22-rds-arena-dublin-ireland
+2008-05-07 Count Basie Theatre, Red Bank, NJ - /gig:2008-05-07-count-basie-theatre-red-bank-nj
+2008-05-02 BankAtlantic Center, Sunrise, FL - /gig:2008-05-02-bankatlantic-center-sunrise-fl
+2008-04-30 John Paul Jones Arena, Charlottesville, VA - /gig:2008-04-30-john-paul-jones-arena-charlottesville-va
+2008-04-28 Greensboro Coliseum, Greensboro, NC - /gig:2008-04-28-coliseum-greensboro-nc
+2008-04-27 Charlotte Bobcats Arena, Charlotte, NC - /gig:2008-04-27-bobcats-arena-charlotte-nc
+2008-04-25 Philips Arena, Atlanta, GA - /gig:2008-04-25-philips-arena-atlanta-ga
+2008-04-23 Amway Arena, Orlando, FL - /gig:2008-04-23-amway-arena-orlando-fl
+2008-04-22 St. Pete Times Forum, Tampa, FL - /gig:2008-04-22-st-pete-times-forum-tampa-fl
+2008-04-14 Toyota Center, Houston, TX - /gig:2008-04-14-toyota-center-houston-tx
+2008-04-13 American Airlines Center, Dallas, TX - /gig:2008-04-13-american-airlines-center-dallas-tx
+2008-04-08 Honda Center, Anaheim, CA - /gig:2008-04-08-honda-center-anaheim-ca
+2008-04-07 Honda Center, Anaheim, CA - /gig:2008-04-07-honda-center-anaheim-ca
+2008-04-05 HP Pavilion At San Jose, San Jose, CA - /gig:2008-04-05-hp-pavilion-san-jose-ca
+2008-04-04 ARCO Arena, Sacramento, CA - /gig:2008-04-04-arco-arena-sacramento-ca
+2008-03-31 GM Place, Vancouver, BC - /gig:2008-03-31-gm-place-vancouver-bc
+2008-03-29 KeyArena At Seattle Center, Seattle, WA - /gig:2008-03-29-keyarena-at-seattle-center-seattle-wa
+2008-03-28 Rose Garden, Portland, OR - /gig:2008-03-28-rose-garden-portland-or
+2008-03-24 Value City Arena, Columbus, OH - /gig:2008-03-24-value-city-arena-columbus-oh
+2008-03-22 U.S. Bank Arena, Cincinnati, OH - /gig:2008-03-22-u-s-bank-arena-cincinnati-oh
+2008-03-20 Conseco Fieldhouse, Indianapolis, IN - /gig:2008-03-20-conseco-fieldhouse-indianapolis-in
+2008-03-17 Bradley Center, Milwaukee, WI - /gig:2008-03-17-bradley-center-milwaukee-wi
+2008-03-16 Xcel Energy Center, Saint Paul, MN - /gig:2008-03-16-xcel-energy-center-saint-paul-mn
+2008-03-14 Qwest Center, Omaha, NE - /gig:2008-03-14-qwest-center-omaha-ne
+2008-03-10 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:2008-03-10-nassau-coliseum-uniondale-ny
+2008-03-07 HSBC Arena, Buffalo, NY - /gig:2008-03-07-hsbc-arena-buffalo-ny
+2008-03-06 Blue Cross Arena At The War Memorial, Rochester, NY - /gig:2008-03-06-blue-cross-arena-rochester-ny
+2008-03-03 Copps Coliseum, Hamilton, ON - /gig:2008-03-03-copps-coliseum-hamilton-on
+2008-03-02 Bell Centre, Montreal, QC - /gig:2008-03-02-bell-centre-montreal-qc
+2008-02-28 Hartford Civic Center, Hartford, CT - /gig:2008-02-28-civic-center-hartford-ct
+2007-12-19 O2 Arena (The), London, England - /gig:2007-12-19-o2-arena-london-england
+2007-12-17 Palais Omnisports De Paris-Bercy, Paris, France - /gig:2007-12-17-palais-omnisports-paris-france
+2007-12-15 Odyssey Arena, Belfast, Northern Ireland - /gig:2007-12-15-odyssey-arena-belfast-northern-ireland
+2007-12-13 Kölnarena, Cologne, Germany - /gig:2007-12-13-kolnarena-cologne-germany
+2007-12-12 Sportpaleis, Antwerp, Belgium - /gig:2007-12-12-sportpaleis-antwerp-belgium
+2007-12-10 Globen, Stockholm, Sweden - /gig:2007-12-10-globen-stockholm-sweden
+2007-12-08 Forum København, Copenhagen, Denmark - /gig:2007-12-08-forum-kobenhavn-copenhagen-denmark
+2007-12-04 Oslo Spektrum, Oslo, Norway - /gig:2007-12-04-spektrum-oslo-norway
+2007-12-02 SAP Arena, Mannheim, Germany - /gig:2007-12-02-sap-arena-mannheim-germany
+2007-12-01 Gelredome, Arnhem, The Netherlands - /gig:2007-12-01-gelredome-arnhem-netherlands
+2007-11-28 DatchForum, Milan, Italy - /gig:2007-11-28-datchforum-milan-italy
+2007-11-26 Bizkaia Arena, Bilbao, Spain - /gig:2007-11-26-bizkaia-arena-bilbao-spain
+2007-11-25 Palacio De Deportes De Comunidad De Madrid, Madrid, Spain - /gig:2007-11-25-palacio-de-deportes-madrid-spain
+2007-11-18 TD Banknorth Garden, Boston, MA - /gig:2007-11-18-td-banknorth-garden-boston-ma
+2007-11-15 Times Union Center, Albany, NY - /gig:2007-11-15-times-union-center-albany-ny
+2007-11-14 Mellon Arena, Pittsburgh, PA - /gig:2007-11-14-mellon-arena-pittsburgh-pa
+2007-11-12 Verizon Center, Washington, DC - /gig:2007-11-12-verizon-center-washington-dc
+2007-11-11 Verizon Center, Washington, DC - /gig:2007-11-11-verizon-center-washington-dc
+2007-11-05 Palace Of Auburn Hills (The), Auburn Hills, MI - /gig:2007-11-05-palace-auburn-hills-mi
+2007-11-04 Quicken Loans Arena, Cleveland, OH - /gig:2007-11-04-quicken-loans-arena-cleveland-oh
+2007-11-02 Xcel Energy Center, Saint Paul, MN - /gig:2007-11-02-xcel-energy-center-saint-paul-mn
+2007-10-30 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:2007-10-30-memorial-sports-arena-los-angeles-ca
+2007-10-29 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:2007-10-29-memorial-sports-arena-los-angeles-ca
+2007-10-26 Oracle Arena, Oakland, CA - /gig:2007-10-26-oracle-arena-oakland-ca
+2007-10-25 Oracle Arena, Oakland, CA - /gig:2007-10-25-oracle-arena-oakland-ca
+2007-10-22 United Center, Chicago, IL - /gig:2007-10-22-united-center-chicago-il
+2007-10-21 United Center, Chicago, IL - /gig:2007-10-21-united-center-chicago-il
+2007-10-18 Madison Square Garden, New York City, NY - /gig:2007-10-18-madison-square-garden-new-york-city-ny
+2007-10-17 Madison Square Garden, New York City, NY - /gig:2007-10-17-madison-square-garden-new-york-city-ny
+2007-10-15 Air Canada Centre, Toronto, ON - /gig:2007-10-15-air-canada-centre-toronto-on
+2007-10-14 Scotiabank Place, Ottawa, ON - /gig:2007-10-14-scotiabank-place-ottawa-on
+2007-10-10 Continental Airlines Arena, East Rutherford, NJ - /gig:2007-10-10-continental-airlines-arena-east-rutherford-nj
+2007-10-09 Continental Airlines Arena, East Rutherford, NJ - /gig:2007-10-09-continental-airlines-arena-east-rutherford-nj
+2007-10-06 Wachovia Center, Philadelphia, PA - /gig:2007-10-06-wachovia-center-philadelphia-pa
+2007-10-05 Wachovia Center, Philadelphia, PA - /gig:2007-10-05-wachovia-center-philadelphia-pa
+2007-10-02 Hartford Civic Center, Hartford, CT - /gig:2007-10-02-civic-center-hartford-ct
+2007-09-28 Rockefeller Plaza, New York City, NY - /gig:2007-09-28-rockefeller-plaza-new-york-city-ny
+2006-11-21 Odyssey Arena, Belfast, Northern Ireland - /gig:2006-11-21-odyssey-arena-belfast-northern-ireland
+2006-11-19 Point Theatre (The), Dublin, Ireland - /gig:2006-11-19-point-theatre-dublin-ireland
+2006-11-18 Point Theatre (The), Dublin, Ireland - /gig:2006-11-18-point-theatre-dublin-ireland
+2006-11-17 Point Theatre (The), Dublin, Ireland - /gig:2006-11-17-point-theatre-dublin-ireland
+2006-11-14 Hallam FM Arena, Sheffield, England - /gig:2006-11-14-hallam-fm-arena-sheffield-england
+2006-11-12 Wembley Arena, London, England - /gig:2006-11-12-wembley-arena-london-england
+2006-11-11 Wembley Arena, London, England - /gig:2006-11-11-wembley-arena-london-england
+2006-11-09 NEC Arena, Birmingham, England - /gig:2006-11-09-nec-arena-birmingham-england
+2006-11-07 Sportpaleis, Antwerp, Belgium - /gig:2006-11-07-sportpaleis-antwerp-belgium
+2006-11-06 Kölnarena, Cologne, Germany - /gig:2006-11-06-kolnarena-cologne-germany
+2006-10-30 Globen, Stockholm, Sweden - /gig:2006-10-30-globen-stockholm-sweden
+2006-10-29 Oslo Spektrum, Oslo, Norway - /gig:2006-10-29-spektrum-oslo-norway
+2006-10-28 Parken Stadium, Copenhagen, Denmark - /gig:2006-10-28-parken-stadium-copenhagen-denmark
+2006-10-25 Pabellón Deportivo, Santander, Spain - /gig:2006-10-25-pabellon-deportivo-santander-spain
+2006-10-24 Palau Sant Jordi, Barcelona, Spain - /gig:2006-10-24-palau-sant-jordi-barcelona-spain
+2006-10-22 Plaza De Toros De Granada, Granada, Spain - /gig:2006-10-22-plaza-de-toros-granada-spain
+2006-10-21 Estadi Ciutat De València, València, Spain - /gig:2006-10-21-estadi-ciutat-valencia-spain
+2006-10-19 Plaza De Toros De Las Ventas, Madrid, Spain - /gig:2006-10-19-plaza-de-toros-madrid-spain
+2006-10-13 Sportpaleis Ahoy, Rotterdam, The Netherlands - /gig:2006-10-13-sportpaleis-ahoy-rotterdam-netherlands
+2006-10-12 Color Line Arena, Hamburg, Germany - /gig:2006-10-12-color-line-arena-hamburg-germany
+2006-10-10 PalaLottomatica, Rome, Italy - /gig:2006-10-10-palalottomatica-rome-italy
+2006-10-08 PalaMaggiò, Caserta, Italy - /gig:2006-10-08-palamaggio-caserta-italy
+2006-10-07 Arena Santa Giuliana, Perugia, Italy - /gig:2006-10-07-arena-santa-giuliana-perugia-italy
+2006-10-05 Arena Di Verona, Verona, Italy - /gig:2006-10-05-arena-verona-italy
+2006-10-04 Villa Manin, Udine, Italy - /gig:2006-10-04-villa-manin-udine-italy
+2006-10-02 PalaIsozaki, Turin, Italy - /gig:2006-10-02-palaisozaki-turin-italy
+2006-10-01 PalaMalaguti, Bologna, Italy - /gig:2006-10-01-palamalaguti-bologna-italy
+2006-06-25 PNC Bank Arts Center, Holmdel, NJ - /gig:2006-06-25-pnc-bank-arts-center-holmdel-nj
+2006-06-22 Madison Square Garden, New York City, NY - /gig:2006-06-22-madison-square-garden-new-york-city-ny
+2006-06-20 Tweeter Center At The Waterfront, Camden, NJ - /gig:2006-06-20-tweeter-center-camden-nj
+2006-06-19 Saratoga Performing Arts Center, Saratoga Springs, NY - /gig:2006-06-19-spac-saratoga-springs-ny
+2006-06-17 DTE Energy Music Theatre, Clarkston, MI - /gig:2006-06-17-dte-energy-music-theatre-clarkston-mi
+2006-06-16 Blossom Music Center, Cuyahoga Falls, OH - /gig:2006-06-16-blossom-music-center-cuyahoga-falls-oh
+2006-06-14 Bradley Center, Milwaukee, WI - /gig:2006-06-14-bradley-center-milwaukee-wi
+2006-06-13 First Midwest Bank Amphitheatre, Tinley Park, IL - /gig:2006-06-13-first-midwest-bank-amphitheatre-tinley-park-i
+2006-06-11 Xcel Energy Center, Saint Paul, MN - /gig:2006-06-11-xcel-energy-center-saint-paul-mn
+2006-06-10 Wells Fargo Arena, Des Moines, IA - /gig:2006-06-10-wells-fargo-arena-des-moines-ia
+2006-06-06 Sleep Train Pavilion, Concord, CA - /gig:2006-06-06-sleep-train-pavilion-concord-ca
+2006-06-05 Studio 3, NBC Studios, Burbank, CA - /gig:2006-06-05-studio-3-nbc-studios-burbank-ca
+2006-06-05 Greek Theatre, Los Angeles, CA - /gig:2006-06-05-greek-theatre-los-angeles-ca
+2006-06-03 Glendale Arena, Glendale, AZ - /gig:2006-06-03-arena-glendale-az
+2006-05-31 Verizon Wireless Music Center, Noblesville, IN - /gig:2006-05-31-verizon-wireless-music-center-noblesville-in
+2006-05-30 Germain Amphitheater, Columbus, OH - /gig:2006-05-30-germain-amphitheater-columbus-oh
+2006-05-27 Tweeter Center For The Performing Arts, Mansfield, MA - /gig:2006-05-27-tweeter-center-mansfield-ma
+2006-05-21 Hovet, Stockholm, Sweden - /gig:2006-05-21-hovet-stockholm-sweden
+2006-05-20 Oslo Spektrum, Oslo, Norway - /gig:2006-05-20-spektrum-oslo-norway
+2006-05-17 Festhalle, Frankfurt, Germany - /gig:2006-05-17-festhalle-frankfurt-germany
+2006-05-16 Heineken Music Hall, Amsterdam, The Netherlands - /gig:2006-05-16-heineken-music-hall-amsterdam-netherlands
+2006-05-14 Pavelló Olímpic De Badalona, Barcelona, Spain - /gig:2006-05-14-pavello-olimpic-de-badalona-barcelona-spain
+2006-05-12 DatchForum, Milan, Italy - /gig:2006-05-12-datchforum-milan-italy
+2006-05-10 Palais Omnisports De Paris-Bercy, Paris, France - /gig:2006-05-10-palais-omnisports-paris-france
+2006-05-09 LSO St. Luke's, London, England - /gig:2006-05-09-lso-st-luke-s-london-england
+2006-05-08 Hammersmith Apollo, London, England - /gig:2006-05-08-hammersmith-apollo-london-england
+2006-05-07 Manchester Evening News Arena, Manchester, England - /gig:2006-05-07-evening-news-arena-manchester-england
+2006-05-05 Point Theatre (The), Dublin, Ireland - /gig:2006-05-05-point-theatre-dublin-ireland
+2006-04-30 New Orleans Fairgrounds, New Orleans, LA - /gig:2006-04-30-fairgrounds-new-orleans-la
+2006-02-08 Staples Center, Los Angeles, CA - /gig:2006-02-08-staples-center-los-angeles-ca
+2006-01-14 Winter Garden Atrium, New York City, NY - /gig:2006-01-14-winter-garden-atrium-new-york-city-ny
+2005-11-22 Sovereign Bank Arena, Trenton, NJ - /gig:2005-11-22-sovereign-bank-arena-trenton-nj
+2005-11-21 Sovereign Bank Arena, Trenton, NJ - /gig:2005-11-21-sovereign-bank-arena-trenton-nj
+2005-11-19 Hard Rock Live, Hollywood, FL - /gig:2005-11-19-hard-rock-live-hollywood-fl
+2005-11-17 Continental Airlines Arena, East Rutherford, NJ - /gig:2005-11-17-continental-airlines-arena-east-rutherford-nj
+2005-11-16 Continental Airlines Arena, East Rutherford, NJ - /gig:2005-11-16-continental-airlines-arena-east-rutherford-nj
+2005-11-13 Boardwalk Hall, Atlantic City, NJ - /gig:2005-11-13-boardwalk-hall-atlantic-city-nj
+2005-11-11 Ted Constant Convocation Center, Norfolk, VA - /gig:2005-11-11-ted-constant-convocation-center-norfolk-va
+2005-11-09 Wachovia Spectrum, Philadelphia, PA - /gig:2005-11-09-wachovia-spectrum-philadelphia-pa
+2005-11-08 Wachovia Spectrum, Philadelphia, PA - /gig:2005-11-08-wachovia-spectrum-philadelphia-pa
+2005-11-04 St. Pete Times Forum, Tampa, FL - /gig:2005-11-04-st-pete-times-forum-tampa-fl
+2005-10-30 TD Banknorth Garden, Boston, MA - /gig:2005-10-30-td-banknorth-garden-boston-ma
+2005-10-28 TD Banknorth Garden, Boston, MA - /gig:2005-10-28-td-banknorth-garden-boston-ma
+2005-10-24 Richmond Coliseum, Richmond, VA - /gig:2005-10-24-coliseum-richmond-va
+2005-10-21 Dunkin' Donuts Center, Providence, RI - /gig:2005-10-21-dunkin-donuts-center-providence-ri
+2005-10-20 DCU Center, Worcester, MA - /gig:2005-10-20-dcu-center-worcester-ma
+2005-10-15 Veterans Memorial Coliseum, Madison, WI - /gig:2005-10-15-veterans-memorial-coliseum-madison-wi
+2005-10-13 United Center, Chicago, IL - /gig:2005-10-13-united-center-chicago-il
+2005-10-12 Northrop Auditorium, Minneapolis, MN - /gig:2005-10-12-northrop-auditorium-minneapolis-mn
+2005-10-09 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:2005-10-09-nassau-coliseum-uniondale-ny
+2005-10-07 Hartford Civic Center, Hartford, CT - /gig:2005-10-07-civic-center-hartford-ct
+2005-10-06 Blue Cross Arena At The War Memorial, Rochester, NY - /gig:2005-10-06-blue-cross-arena-rochester-ny
+2005-10-04 Paramount Theatre, Asbury Park, NJ - /gig:2005-10-04-paramount-theatre-asbury-park-nj
+2005-08-13 Pontiac Theatre, Vancouver, BC - /gig:2005-08-13-pontiac-theatre-vancouver-bc
+2005-08-11 KeyArena At Seattle Center, Seattle, WA - /gig:2005-08-11-keyarena-seattle-wa
+2005-08-10 Theater Of The Clouds, Portland, OR - /gig:2005-08-10-theater-of-the-clouds-portland-or
+2005-08-07 Bradley Center, Milwaukee, WI - /gig:2005-08-07-bradley-center-milwaukee-wi
+2005-08-06 Fox Theatre, St. Louis, MO - /gig:2005-08-06-fox-theatre-st-louis-mo
+2005-08-03 Van Andel Arena, Grand Rapids, MI - /gig:2005-08-03-van-andel-arena-grand-rapids-mi
+2005-08-01 U.S. Bank Arena, Cincinnati, OH - /gig:2005-08-01-u-s-bank-arena-cincinnati-oh
+2005-07-31 Value City Theatre, Schottenstein Center, Columbus, OH - /gig:2005-07-31-value-city-theatre-columbus-oh
+2005-07-28 Petersen Events Center, Pittsburgh, PA - /gig:2005-07-28-petersen-events-center-pittsburgh-pa
+2005-07-26 Greensboro Coliseum, Greensboro, NC - /gig:2005-07-26-coliseum-greensboro-nc
+2005-07-24 Charlotte Coliseum, Charlotte, NC - /gig:2005-07-24-coliseum-charlotte-nc
+2005-07-23 Philips Arena, Atlanta, GA - /gig:2005-07-23-philips-arena-atlanta-ga
+2005-07-20 Arena At Harbor Yard, Bridgeport, CT - /gig:2005-07-20-arena-at-harbor-yard-bridgeport-ct
+2005-07-18 HSBC Arena, Buffalo, NY - /gig:2005-07-18-hsbc-arena-buffalo-ny
+2005-07-16 Pepsi Arena, Albany, NY - /gig:2005-07-16-pepsi-arena-albany-ny
+2005-07-14 Air Canada Centre, Toronto, ON - /gig:2005-07-14-air-canada-centre-toronto-on
+2005-07-13 Corel Centre, Ottawa, ON - /gig:2005-07-13-corel-centre-ottawa-on
+2005-06-28 ICC Berlin, Berlin, Germany - /gig:2005-06-28-icc-berlin-germany
+2005-06-27 Color Line Arena, Hamburg, Germany - /gig:2005-06-27-color-line-arena-hamburg-germany
+2005-06-25 Hovet, Stockholm, Sweden - /gig:2005-06-25-hovet-stockholm-sweden
+2005-06-23 Scandinavium, Gothenburg, Sweden - /gig:2005-06-23-scandinavium-gothenburg-sweden
+2005-06-22 Forum København, Copenhagen, Denmark - /gig:2005-06-22-forum-kobenhavn-copenhagen-denmark
+2005-06-20 Palais Omnisports De Paris-Bercy, Paris, France - /gig:2005-06-20-palais-omnisports-paris-france
+2005-06-19 Sportpaleis Ahoy, Rotterdam, The Netherlands - /gig:2005-06-19-sportpaleis-ahoy-rotterdam-netherlands
+2005-06-16 Philipshalle, Düsseldorf, Germany - /gig:2005-06-16-philipshalle-dusseldorf-germany
+2005-06-15 Festhalle, Frankfurt, Germany - /gig:2005-06-15-festhalle-frankfurt-germany
+2005-06-13 Olympiahalle, Munich, Germany - /gig:2005-06-13-olympiahalle-munich-germany
+2005-06-07 DatchForum, Milan, Italy - /gig:2005-06-07-datchforum-milan-italy
+2005-06-06 PalaLottomatica, Rome, Italy - /gig:2005-06-06-palalottomatica-rome-italy
+2005-06-04 PalaMalaguti, Bologna, Italy - /gig:2005-06-04-palamalaguti-bologna-italy
+2005-06-02 Palacio De Deportes De Comunidad De Madrid, Madrid, Spain - /gig:2005-06-02-palacio-de-deportes-madrid-spain
+2005-06-01 Pavelló Olímpic De Badalona, Barcelona, Spain - /gig:2005-06-01-pavello-olimpic-de-badalona-barcelona-spain
+2005-05-30 Forest National, Brussels, Belgium - /gig:2005-05-30-forest-national-brussels-belgium
+2005-05-28 Royal Albert Hall, London, England - /gig:2005-05-28-royal-albert-hall-london-england
+2005-05-27 Royal Albert Hall, London, England - /gig:2005-05-27-royal-albert-hall-london-england
+2005-05-24 Point Theatre (The), Dublin, Ireland - /gig:2005-05-24-point-theatre-dublin-ireland
+2005-05-20 Orpheum Theatre, Boston, MA - /gig:2005-05-20-orpheum-theatre-boston-ma
+2005-05-19 Theater At The Continental Airlines Arena, East Rutherford, NJ - /gig:2005-05-19-continental-airlines-arena-east-rutherford-nj
+2005-05-17 Tower Theater, Upper Darby, Philadelphia, PA - /gig:2005-05-17-tower-theater-philadelphia-pa
+2005-05-15 Wolstein Center, Cleveland, OH - /gig:2005-05-15-wolstein-center-cleveland-oh
+2005-05-14 Patriot Center, George Mason University, Fairfax, VA - /gig:2005-05-14-patriot-center-fairfax-va
+2005-05-11 Rosemont Theatre, Rosemont, IL - /gig:2005-05-11-theatre-rosemont-il
+2005-05-10 Xcel Energy Center, Saint Paul, MN - /gig:2005-05-10-xcel-energy-center-saint-paul-mn
+2005-05-07 Lecture Hall (The), Colorado Convention Center, Denver, CO - /gig:2005-05-07-lecture-hall-denver-co
+2005-05-05 Paramount Theatre, Oakland, CA - /gig:2005-05-05-paramount-theatre-oakland-ca
+2005-05-03 Pantages Theatre, Hollywood, CA - /gig:2005-05-03-pantages-theatre-hollywood-ca
+2005-05-02 Pantages Theatre, Hollywood, CA - /gig:2005-05-02-pantages-theatre-hollywood-ca
+2005-04-30 Glendale Arena, Glendale, AZ - /gig:2005-04-30-arena-glendale-az
+2005-04-28 Nokia Live At Grand Prairie, Grand Prairie, TX - /gig:2005-04-28-nokia-live-grand-prairie-tx
+2005-04-25 Fox Theatre, Detroit, MI - /gig:2005-04-25-fox-theatre-detroit-mi
+2005-04-10 Stone Pony (The), Asbury Park, NJ - /gig:2005-04-10-stone-pony-asbury-park-nj
+2005-04-04 Joan And Robert Rechnitz Theater, Red Bank, NJ - /gig:2005-04-04-joan-and-robert-rechnitz-theater-red-bank-nj
+2004-12-19 Harry's Roadhouse, Asbury Park, NJ (Late) - /gig:2004-12-19-harry-s-roadhouse-asbury-park-nj-late
+2004-12-19 Harry's Roadhouse, Asbury Park, NJ (Early) - /gig:2004-12-19-harry-s-roadhouse-asbury-park-nj-early
+2004-12-02 Heinz Hall For The Performing Arts, Pittsburgh, PA - /gig:2004-12-02-heinz-hall-pittsburgh-pa
+2004-11-06 Stone Pony (The), Asbury Park, NJ - /gig:2004-11-06-stone-pony-asbury-park-nj
+2004-10-13 Continental Airlines Arena, East Rutherford, NJ - /gig:2004-10-13-continental-airlines-arena-east-rutherford-nj
+2004-10-11 MCI Center, Washington, DC - /gig:2004-10-11-mci-center-washington-dc
+2004-10-08 TD Waterhouse Centre, Orlando, FL - /gig:2004-10-08-td-waterhouse-centre-orlando-fl
+2004-10-05 Xcel Energy Center, Saint Paul, MN - /gig:2004-10-05-xcel-energy-center-saint-paul-mn
+2004-10-03 Cobo Arena, Detroit, MI - /gig:2004-10-03-cobo-arena-detroit-mi
+2004-10-02 Gund Arena, Cleveland, OH - /gig:2004-10-02-gund-arena-cleveland-oh
+2004-10-01 Wachovia Center, Philadelphia, PA - /gig:2004-10-01-wachovia-center-philadelphia-pa
+2004-09-21 Bowery Ballroom, New York City, NY - /gig:2004-09-21-bowery-ballroom-new-york-city-ny
+2004-03-16 Beacon Theatre, New York City, NY - /gig:2004-03-16-beacon-theatre-new-york-city-ny
+2003-12-08 Convention Hall, Asbury Park, NJ - /gig:2003-12-08-convention-hall-asbury-park-nj
+2003-12-07 Convention Hall, Asbury Park, NJ - /gig:2003-12-07-convention-hall-asbury-park-nj
+2003-12-05 Convention Hall, Asbury Park, NJ - /gig:2003-12-05-convention-hall-asbury-park-nj
+2003-11-01 Stone Pony (The), Asbury Park, NJ - /gig:2003-11-01-stone-pony-asbury-park-nj
+2003-10-04 Shea Stadium, New York City, NY - /gig:2003-10-04-shea-stadium-new-york-city-ny
+2003-10-03 Shea Stadium, New York City, NY - /gig:2003-10-03-shea-stadium-new-york-city-ny
+2003-10-01 Shea Stadium, New York City, NY - /gig:2003-10-01-shea-stadium-new-york-city-ny
+2003-09-27 Miller Park, Milwaukee, WI - /gig:2003-09-27-miller-park-milwaukee-wi
+2003-09-25 Invesco Field At Mile High, Denver, CO - /gig:2003-09-25-invesco-field-at-mile-high-denver-co
+2003-09-21 Comerica Park, Detroit, MI - /gig:2003-09-21-comerica-park-detroit-mi
+2003-09-20 Darien Lake Performing Arts Center, Darien, NY - /gig:2003-09-20-darien-lake-performing-arts-center-darien-ny
+2003-09-18 Rentschler Field, East Hartford, CT - /gig:2003-09-18-rentschler-field-east-hartford-ct
+2003-09-16 Rentschler Field, East Hartford, CT - /gig:2003-09-16-rentschler-field-east-hartford-ct
+2003-09-14 Kenan Memorial Stadium, Chapel Hill, NC - /gig:2003-09-14-kenan-memorial-stadium-chapel-hill-nc
+2003-09-13 FedExField, Landover, MD - /gig:2003-09-13-fedexfield-landover-md
+2003-09-10 SkyDome, Toronto, ON - /gig:2003-09-10-skydome-toronto-on
+2003-09-07 Fenway Park, Boston, MA - /gig:2003-09-07-fenway-park-boston-ma
+2003-09-06 Fenway Park, Boston, MA - /gig:2003-09-06-fenway-park-boston-ma
+2003-08-31 Giants Stadium, East Rutherford, NJ - /gig:2003-08-31-giants-stadium-east-rutherford-nj
+2003-08-30 Giants Stadium, East Rutherford, NJ - /gig:2003-08-30-giants-stadium-east-rutherford-nj
+2003-08-28 Giants Stadium, East Rutherford, NJ - /gig:2003-08-28-giants-stadium-east-rutherford-nj
+2003-08-17 Dodger Stadium, Los Angeles, CA - /gig:2003-08-17-dodger-stadium-los-angeles-ca
+2003-08-16 Pacific Bell Park, San Francisco, CA - /gig:2003-08-16-pacific-bell-park-san-francisco-ca
+2003-08-13 U.S. Cellular Field, Chicago, IL - /gig:2003-08-13-u-s-cellular-field-chicago-il
+2003-08-11 Lincoln Financial Field, Philadelphia, PA - /gig:2003-08-11-lincoln-financial-field-philadelphia-pa
+2003-08-09 Lincoln Financial Field, Philadelphia, PA - /gig:2003-08-09-lincoln-financial-field-philadelphia-pa
+2003-08-08 Lincoln Financial Field, Philadelphia, PA - /gig:2003-08-08-lincoln-financial-field-philadelphia-pa
+2003-08-06 PNC Park, Pittsburgh, PA - /gig:2003-08-06-pnc-park-pittsburgh-pa
+2003-08-02 Gillette Stadium, Foxborough, MA - /gig:2003-08-02-gillette-stadium-foxborough-ma
+2003-08-01 Gillette Stadium, Foxborough, MA - /gig:2003-08-01-gillette-stadium-foxborough-ma
+2003-07-27 Giants Stadium, East Rutherford, NJ - /gig:2003-07-27-giants-stadium-east-rutherford-nj
+2003-07-26 Giants Stadium, East Rutherford, NJ - /gig:2003-07-26-giants-stadium-east-rutherford-nj
+2003-07-24 Giants Stadium, East Rutherford, NJ - /gig:2003-07-24-giants-stadium-east-rutherford-nj
+2003-07-21 Giants Stadium, East Rutherford, NJ - /gig:2003-07-21-giants-stadium-east-rutherford-nj
+2003-07-18 Giants Stadium, East Rutherford, NJ - /gig:2003-07-18-giants-stadium-east-rutherford-nj
+2003-07-17 Giants Stadium, East Rutherford, NJ - /gig:2003-07-17-giants-stadium-east-rutherford-nj
+2003-07-15 Giants Stadium, East Rutherford, NJ - /gig:2003-07-15-giants-stadium-east-rutherford-nj
+2003-06-28 Stadio Giuseppe Meazza, Milan, Italy - /gig:2003-06-28-stadio-giuseppe-meazza-milan-italy
+2003-06-25 Ernst-Happel-Stadion, Vienna, Austria - /gig:2003-06-25-ernst-happel-stadion-vienna-austria
+2003-06-22 Ullevi, Gothenburg, Sweden - /gig:2003-06-22-ullevi-gothenburg-sweden
+2003-06-21 Ullevi, Gothenburg, Sweden - /gig:2003-06-21-ullevi-gothenburg-sweden
+2003-06-19 Valle Hovin Stadion, Oslo, Norway - /gig:2003-06-19-valle-hovin-stadion-oslo-norway
+2003-06-17 Olympiastadion, Helsinki, Finland - /gig:2003-06-17-olympiastadion-helsinki-finland
+2003-06-16 Olympiastadion, Helsinki, Finland - /gig:2003-06-16-olympiastadion-helsinki-finland
+2003-06-14 Parken Stadium, Copenhagen, Denmark - /gig:2003-06-14-parken-stadium-copenhagen-denmark
+2003-06-12 AOL Arena, Hamburg, Germany - /gig:2003-06-12-aol-arena-hamburg-germany
+2003-06-10 Olympiastadion, Munich, Germany - /gig:2003-06-10-olympiastadion-munich-germany
+2003-06-08 Stadio Artemio Franchi, Florence, Italy - /gig:2003-06-08-stadio-artemio-franchi-florence-italy
+2003-05-31 RDS Arena, Dublin, Ireland - /gig:2003-05-31-rds-arena-dublin-ireland
+2003-05-29 Old Trafford Cricket Ground, Manchester, England - /gig:2003-05-29-old-trafford-cricket-ground-manchester-englan
+2003-05-27 National Sports Stadium, London, England - /gig:2003-05-27-national-sports-stadium-london-england
+2003-05-26 National Sports Stadium, London, England - /gig:2003-05-26-national-sports-stadium-london-england
+2003-05-24 Stade De France, Saint-Denis, France - /gig:2003-05-24-stade-de-france-saint-denis-france
+2003-05-22 Arena Aufschalke, Gelsenkirchen, Germany - /gig:2003-05-22-arena-aufschalke-gelsenkirchen-germany
+2003-05-19 Estadio De La Comunidad De Madrid, Madrid, Spain - /gig:2003-05-19-estadio-de-la-comunidad-madrid-spain
+2003-05-17 Estadi Olímpic Lluís Companys, Barcelona, Spain - /gig:2003-05-17-estadi-olimpic-lluis-companys-barcelona-spain
+2003-05-15 Estadio Municipal El Molinón, Gijón, Spain - /gig:2003-05-15-estadio-municipal-el-molinon-gijon-spain
+2003-05-12 Koning Boudewijnstadion, Brussels, Belgium - /gig:2003-05-12-koning-boudewijnstadion-brussels-belgium
+2003-05-10 Südweststadion, Ludwigshafen, Germany - /gig:2003-05-10-sudweststadion-ludwigshafen-germany
+2003-05-08 Stadion Feijenoord, Rotterdam, The Netherlands - /gig:2003-05-08-stadion-feijenoord-rotterdam-netherlands
+2003-05-06 Stadion Feijenoord, Rotterdam, The Netherlands - /gig:2003-05-06-stadion-feijenoord-rotterdam-netherlands
+2003-05-02 Stone Pony (The), Asbury Park, NJ - /gig:2003-05-02-stone-pony-asbury-park-nj
+2003-04-29 Count Basie Theatre, Red Bank, NJ - /gig:2003-04-29-count-basie-theatre-red-bank-nj
+2003-04-19 Bell Centre, Montreal, QC - /gig:2003-04-19-bell-centre-montreal-qc
+2003-04-18 Corel Centre, Ottawa, ON - /gig:2003-04-18-corel-centre-ottawa-on
+2003-04-14 Skyreach Centre, Edmonton, AB - /gig:2003-04-14-skyreach-centre-edmonton-ab
+2003-04-13 Pengrowth Saddledome, Calgary, AB - /gig:2003-04-13-pengrowth-saddledome-calgary-ab
+2003-04-11 Pacific Coliseum, Vancouver, BC - /gig:2003-04-11-pacific-coliseum-vancouver-bc
+2003-04-09 ARCO Arena, Sacramento, CA - /gig:2003-04-09-arco-arena-sacramento-ca
+2003-03-26 Brisbane Entertainment Centre, Brisbane, Australia - /gig:2003-03-26-entertainment-centre-brisbane-australia
+2003-03-25 Brisbane Entertainment Centre, Brisbane, Australia - /gig:2003-03-25-entertainment-centre-brisbane-australia
+2003-03-22 Sydney Cricket Ground, Sydney, Australia - /gig:2003-03-22-cricket-ground-sydney-australia
+2003-03-20 Telstra Dome, Melbourne, Australia - /gig:2003-03-20-telstra-dome-melbourne-australia
+2003-03-11 Blue Cross Arena At The War Memorial, Rochester, NY - /gig:2003-03-11-blue-cross-arena-rochester-ny
+2003-03-10 Dunkin' Donuts Center, Providence, RI - /gig:2003-03-10-dunkin-donuts-center-providence-ri
+2003-03-07 Boardwalk Hall, Atlantic City, NJ - /gig:2003-03-07-boardwalk-hall-atlantic-city-nj
+2003-03-06 Richmond Coliseum, Richmond, VA - /gig:2003-03-06-coliseum-richmond-va
+2003-03-04 Jacksonville Veterans Memorial Coliseum, Jacksonville, FL - /gig:2003-03-04-veterans-memorial-coliseum-jacksonville-fl
+2003-03-02 Frank Erwin Center, Austin, TX - /gig:2003-03-02-frank-erwin-center-austin-tx
+2003-02-28 Arena At Gwinnett Center (The), Duluth, GA - /gig:2003-02-28-arena-at-gwinnett-center-duluth-ga
+2003-02-20 Somerville Theatre, Somerville, MA - /gig:2003-02-20-theatre-somerville-ma
+2003-02-19 Somerville Theatre, Somerville, MA - /gig:2003-02-19-theatre-somerville-ma
+2002-12-17 Conseco Fieldhouse, Indianapolis, IN - /gig:2002-12-17-conseco-fieldhouse-indianapolis-in
+2002-12-16 Value City Arena, Columbus, OH - /gig:2002-12-16-value-city-arena-columbus-oh
+2002-12-13 Pepsi Arena, Albany, NY - /gig:2002-12-13-pepsi-arena-albany-ny
+2002-12-11 Rockefeller Center, GE Building, Studio 6A, New York City, NY - /gig:2002-12-11-rockefeller-center-new-york-city-ny
+2002-12-09 Carolina Center, Columbia, SC - /gig:2002-12-09-carolina-center-columbia-sc
+2002-12-08 Charlotte Coliseum, Charlotte, NC - /gig:2002-12-08-coliseum-charlotte-nc
+2002-12-05 Air Canada Centre, Toronto, ON - /gig:2002-12-05-air-canada-centre-toronto-on
+2002-12-04 Mellon Arena, Pittsburgh, PA - /gig:2002-12-04-mellon-arena-pittsburgh-pa
+2002-12-02 Philips Arena, Atlanta, GA - /gig:2002-12-02-philips-arena-atlanta-ga
+2002-11-24 Ice Palace, Tampa, FL - /gig:2002-11-24-ice-palace-tampa-fl
+2002-11-23 American Airlines Arena, Miami, FL - /gig:2002-11-23-american-airlines-arena-miami-fl
+2002-11-21 TD Waterhouse Centre, Orlando, FL - /gig:2002-11-21-td-waterhouse-centre-orlando-fl
+2002-11-19 Birmingham-Jefferson Civic Center Arena, Birmingham, AL - /gig:2002-11-19-civic-center-arena-birmingham-al
+2002-11-16 Greensboro Coliseum, Greensboro, NC - /gig:2002-11-16-coliseum-greensboro-nc
+2002-11-14 Rupp Arena, Lexington, KY - /gig:2002-11-14-rupp-arena-lexington-ky
+2002-11-12 U.S. Bank Arena, Cincinnati, OH - /gig:2002-11-12-u-s-bank-arena-cincinnati-oh
+2002-11-04 Compaq Center, Houston, TX - /gig:2002-11-04-compaq-center-houston-tx
+2002-11-03 American Airlines Center, Dallas, TX - /gig:2002-11-03-american-airlines-center-dallas-tx
+2002-11-02 Tradewinds, Sea Bright, NJ - /gig:2002-11-02-tradewinds-sea-bright-nj
+2002-10-27 Wembley Arena, London, England - /gig:2002-10-27-wembley-arena-london-england
+2002-10-24 Globen, Stockholm, Sweden - /gig:2002-10-24-globen-stockholm-sweden
+2002-10-22 Sportpaleis Ahoy, Rotterdam, The Netherlands - /gig:2002-10-22-sportpaleis-ahoy-rotterdam-netherlands
+2002-10-20 Velodrom, Berlin, Germany - /gig:2002-10-20-velodrom-berlin-germany
+2002-10-18 PalaMalaguti, Bologna, Italy - /gig:2002-10-18-palamalaguti-bologna-italy
+2002-10-16 Palau Sant Jordi, Barcelona, Spain - /gig:2002-10-16-palau-sant-jordi-barcelona-spain
+2002-10-14 Palais Omnisports De Paris-Bercy, Paris, France - /gig:2002-10-14-palais-omnisports-paris-france
+2002-10-07 HSBC Arena, Buffalo, NY - /gig:2002-10-07-hsbc-arena-buffalo-ny
+2002-10-06 First Union Center, Philadelphia, PA - /gig:2002-10-06-first-union-center-philadelphia-pa
+2002-10-05 Rockefeller Center, GE Building, Studio 8H, New York City, NY - /gig:2002-10-05-rockefeller-center-new-york-city-ny
+2002-10-04 FleetCenter, Boston, MA - /gig:2002-10-04-fleetcenter-boston-ma
+2002-09-30 Xcel Energy Center, Saint Paul, MN - /gig:2002-09-30-xcel-energy-center-saint-paul-mn
+2002-09-29 Fargodome, Fargo, ND - /gig:2002-09-29-fargodome-fargo-nd
+2002-09-27 Bradley Center, Milwaukee, WI - /gig:2002-09-27-bradley-center-milwaukee-wi
+2002-09-25 United Center, Chicago, IL - /gig:2002-09-25-united-center-chicago-il
+2002-09-24 Kemper Arena, Kansas City, MO - /gig:2002-09-24-kemper-arena-kansas-city-mo
+2002-09-22 Pepsi Center, Denver, CO - /gig:2002-09-22-pepsi-center-denver-co
+2002-08-30 Savvis Center, St. Louis, MO - /gig:2002-08-30-savvis-center-st-louis-mo
+2002-08-29 Hayden Planetarium, New York City, NY - /gig:2002-08-29-hayden-planetarium-new-york-city-ny
+2002-08-27 Compaq Center At San Jose, San Jose, CA - /gig:2002-08-27-compaq-center-san-jose-ca
+2002-08-25 America West Arena, Phoenix, AZ - /gig:2002-08-25-america-west-arena-phoenix-az
+2002-08-24 Forum (The), Inglewood, CA - /gig:2002-08-24-forum-inglewood-ca
+2002-08-21 Tacoma Dome, Tacoma, WA - /gig:2002-08-21-dome-tacoma-wa
+2002-08-20 Rose Garden, Portland, OR - /gig:2002-08-20-rose-garden-portland-or
+2002-08-18 Thomas & Mack Center, Las Vegas, NV - /gig:2002-08-18-thomas-mack-center-las-vegas-nv
+2002-08-15 Palace Of Auburn Hills (The), Auburn Hills, MI - /gig:2002-08-15-palace-auburn-hills-mi
+2002-08-14 Gund Arena, Cleveland, OH - /gig:2002-08-14-gund-arena-cleveland-oh
+2002-08-12 Madison Square Garden, New York City, NY - /gig:2002-08-12-madison-square-garden-new-york-city-ny
+2002-08-10 MCI Center, Washington, DC - /gig:2002-08-10-mci-center-washington-dc
+2002-08-07 Continental Airlines Arena, East Rutherford, NJ - /gig:2002-08-07-continental-airlines-arena-east-rutherford-nj
+2002-08-01 Ed Sullivan Theater, New York City, NY - /gig:2002-08-01-ed-sullivan-theater-new-york-city-ny
+2002-07-19 Springsteen Residence, Colts Neck, NJ - /gig:2002-07-19-springsteen-residence-colts-neck-nj
+2001-12-08 Convention Hall, Asbury Park, NJ - /gig:2001-12-08-convention-hall-asbury-park-nj
+2001-12-07 Convention Hall, Asbury Park, NJ - /gig:2001-12-07-convention-hall-asbury-park-nj
+2001-12-06 Convention Hall, Asbury Park, NJ - /gig:2001-12-06-convention-hall-asbury-park-nj
+2001-12-04 Convention Hall, Asbury Park, NJ - /gig:2001-12-04-convention-hall-asbury-park-nj
+2001-12-03 Convention Hall, Asbury Park, NJ - /gig:2001-12-03-convention-hall-asbury-park-nj
+2001-11-03 Tradewinds, Sea Bright, NJ - /gig:2001-11-03-tradewinds-sea-bright-nj
+2001-10-19 Count Basie Theatre, Red Bank, NJ - /gig:2001-10-19-count-basie-theatre-red-bank-nj
+2001-10-18 Count Basie Theatre, Red Bank, NJ - /gig:2001-10-18-count-basie-theatre-red-bank-nj
+2001-09-01 Stone Pony (The), Asbury Park, NJ - /gig:2001-09-01-stone-pony-asbury-park-nj
+2001-08-18 Waterfront, Asbury Park, NJ - /gig:2001-08-18-waterfront-asbury-park-nj
+2001-07-31 Count Basie Theatre, Red Bank, NJ - /gig:2001-07-31-count-basie-theatre-red-bank-nj
+2001-05-27 Stone Pony (The), Asbury Park, NJ - /gig:2001-05-27-stone-pony-asbury-park-nj
+2000-12-18 Convention Hall, Asbury Park, NJ - /gig:2000-12-18-convention-hall-asbury-park-nj
+2000-12-17 Convention Hall, Asbury Park, NJ - /gig:2000-12-17-convention-hall-asbury-park-nj
+2000-11-03 Stone Pony (The), Asbury Park, NJ - /gig:2000-11-03-stone-pony-asbury-park-nj
+2000-07-01 Madison Square Garden, New York City, NY - /gig:2000-07-01-madison-square-garden-new-york-city-ny
+2000-06-29 Madison Square Garden, New York City, NY - /gig:2000-06-29-madison-square-garden-new-york-city-ny
+2000-06-27 Madison Square Garden, New York City, NY - /gig:2000-06-27-madison-square-garden-new-york-city-ny
+2000-06-26 Madison Square Garden, New York City, NY - /gig:2000-06-26-madison-square-garden-new-york-city-ny
+2000-06-23 Madison Square Garden, New York City, NY - /gig:2000-06-23-madison-square-garden-new-york-city-ny
+2000-06-22 Madison Square Garden, New York City, NY - /gig:2000-06-22-madison-square-garden-new-york-city-ny
+2000-06-20 Madison Square Garden, New York City, NY - /gig:2000-06-20-madison-square-garden-new-york-city-ny
+2000-06-17 Madison Square Garden, New York City, NY - /gig:2000-06-17-madison-square-garden-new-york-city-ny
+2000-06-15 Madison Square Garden, New York City, NY - /gig:2000-06-15-madison-square-garden-new-york-city-ny
+2000-06-12 Madison Square Garden, New York City, NY - /gig:2000-06-12-madison-square-garden-new-york-city-ny
+2000-06-04 Philips Arena, Atlanta, GA - /gig:2000-06-04-philips-arena-atlanta-ga
+2000-06-03 Philips Arena, Atlanta, GA - /gig:2000-06-03-philips-arena-atlanta-ga
+2000-05-29 Delta Center, Salt Lake City, UT - /gig:2000-05-29-delta-center-salt-lake-city-ut
+2000-05-27 MGM Grand Garden Arena, Las Vegas, NV - /gig:2000-05-27-mgm-grand-garden-arena-las-vegas-nv
+2000-05-22 Arrowhead Pond Of Anaheim, Anaheim, CA - /gig:2000-05-22-arrowhead-pond-anaheim-ca
+2000-05-21 Arrowhead Pond Of Anaheim, Anaheim, CA - /gig:2000-05-21-arrowhead-pond-anaheim-ca
+2000-05-08 Hartford Civic Center, Hartford, CT - /gig:2000-05-08-civic-center-hartford-ct
+2000-05-07 Hartford Civic Center, Hartford, CT - /gig:2000-05-07-civic-center-hartford-ct
+2000-05-04 Air Canada Centre, Toronto, ON - /gig:2000-05-04-air-canada-centre-toronto-on
+2000-05-03 Air Canada Centre, Toronto, ON - /gig:2000-05-03-air-canada-centre-toronto-on
+2000-04-30 Firstar Center, Cincinnati, OH - /gig:2000-04-30-firstar-center-cincinnati-oh
+2000-04-26 Mellon Arena, Pittsburgh, PA - /gig:2000-04-26-mellon-arena-pittsburgh-pa
+2000-04-25 Mellon Arena, Pittsburgh, PA - /gig:2000-04-25-mellon-arena-pittsburgh-pa
+2000-04-22 Raleigh Entertainment & Sports Arena, Raleigh, NC - /gig:2000-04-22-entertainment-sports-arena-raleigh-nc
+2000-04-21 Charlotte Coliseum, Charlotte, NC - /gig:2000-04-21-coliseum-charlotte-nc
+2000-04-18 Compaq Center, Houston, TX - /gig:2000-04-18-compaq-center-houston-tx
+2000-04-17 Frank Erwin Center, Austin, TX - /gig:2000-04-17-frank-erwin-center-austin-tx
+2000-04-15 Freedom Hall, Louisville, KY - /gig:2000-04-15-freedom-hall-louisville-ky
+2000-04-12 Nashville Arena, Nashville, TN - /gig:2000-04-12-arena-nashville-tn
+2000-04-09 Kemper Arena, Kansas City, MO - /gig:2000-04-09-kemper-arena-kansas-city-mo
+2000-04-08 Kiel Center, St. Louis, MO - /gig:2000-04-08-kiel-center-st-louis-mo
+2000-04-04 Tacoma Dome, Tacoma, WA - /gig:2000-04-04-dome-tacoma-wa
+2000-04-03 Rose Garden, Portland, OR - /gig:2000-04-03-rose-garden-portland-or
+2000-03-31 Pepsi Center, Denver, CO - /gig:2000-03-31-pepsi-center-denver-co
+2000-03-30 Pepsi Center, Denver, CO - /gig:2000-03-30-pepsi-center-denver-co
+2000-03-19 New Orleans Arena, New Orleans, LA - /gig:2000-03-19-arena-new-orleans-la
+2000-03-18 Pyramid Arena, Memphis, TN - /gig:2000-03-18-pyramid-arena-memphis-tn
+2000-03-14 Alltel Arena, Little Rock, AR - /gig:2000-03-14-alltel-arena-little-rock-ar
+2000-03-13 Reunion Arena, Dallas, TX - /gig:2000-03-13-reunion-arena-dallas-tx
+2000-03-10 National Car Rental Center, Sunrise, FL - /gig:2000-03-10-national-car-rental-center-sunrise-fl
+2000-03-09 National Car Rental Center, Sunrise, FL - /gig:2000-03-09-national-car-rental-center-sunrise-fl
+2000-03-06 Ice Palace, Tampa, FL - /gig:2000-03-06-ice-palace-tampa-fl
+2000-03-04 Orlando Arena, Orlando, FL - /gig:2000-03-04-arena-orlando-fl
+2000-02-28 Bryce Jordan Center, University Park, PA - /gig:2000-02-28-bryce-jordan-center-university-park-pa
+1999-12-20 McLoone's Rum Runner, Sea Bright, NJ - /gig:1999-12-20-mcloone-s-rum-runner-sea-bright-nj
+1999-11-29 Target Center, Minneapolis, MN - /gig:1999-11-29-target-center-minneapolis-mn
+1999-11-28 Target Center, Minneapolis, MN - /gig:1999-11-28-target-center-minneapolis-mn
+1999-11-21 Pepsi Arena, Albany, NY - /gig:1999-11-21-pepsi-arena-albany-ny
+1999-11-19 Marine Midland Arena, Buffalo, NY - /gig:1999-11-19-marine-midland-arena-buffalo-ny
+1999-11-17 Value City Arena, Columbus, OH - /gig:1999-11-17-value-city-arena-columbus-oh
+1999-11-15 Gund Arena, Cleveland, OH - /gig:1999-11-15-gund-arena-cleveland-oh
+1999-11-14 Gund Arena, Cleveland, OH - /gig:1999-11-14-gund-arena-cleveland-oh
+1999-11-10 Conseco Fieldhouse, Indianapolis, IN - /gig:1999-11-10-conseco-fieldhouse-indianapolis-in
+1999-11-09 Bradley Center, Milwaukee, WI - /gig:1999-11-09-bradley-center-milwaukee-wi
+1999-11-06 Fargodome, Fargo, ND - /gig:1999-11-06-fargodome-fargo-nd
+1999-10-28 Oakland Arena, Oakland, CA - /gig:1999-10-28-arena-oakland-ca
+1999-10-26 Oakland Arena, Oakland, CA - /gig:1999-10-26-arena-oakland-ca
+1999-10-25 Oakland Arena, Oakland, CA - /gig:1999-10-25-arena-oakland-ca
+1999-10-23 Staples Center, Los Angeles, CA - /gig:1999-10-23-staples-center-los-angeles-ca
+1999-10-21 Staples Center, Los Angeles, CA - /gig:1999-10-21-staples-center-los-angeles-ca
+1999-10-18 Staples Center, Los Angeles, CA - /gig:1999-10-18-staples-center-los-angeles-ca
+1999-10-17 Staples Center, Los Angeles, CA - /gig:1999-10-17-staples-center-los-angeles-ca
+1999-10-15 America West Arena, Phoenix, AZ - /gig:1999-10-15-america-west-arena-phoenix-az
+1999-09-30 United Center, Chicago, IL - /gig:1999-09-30-united-center-chicago-il
+1999-09-28 United Center, Chicago, IL - /gig:1999-09-28-united-center-chicago-il
+1999-09-27 United Center, Chicago, IL - /gig:1999-09-27-united-center-chicago-il
+1999-09-25 First Union Center, Philadelphia, PA - /gig:1999-09-25-first-union-center-philadelphia-pa
+1999-09-24 First Union Spectrum, Philadelphia, PA - /gig:1999-09-24-first-union-spectrum-philadelphia-pa
+1999-09-21 First Union Center, Philadelphia, PA - /gig:1999-09-21-first-union-center-philadelphia-pa
+1999-09-20 First Union Center, Philadelphia, PA - /gig:1999-09-20-first-union-center-philadelphia-pa
+1999-09-15 First Union Center, Philadelphia, PA - /gig:1999-09-15-first-union-center-philadelphia-pa
+1999-09-13 First Union Center, Philadelphia, PA - /gig:1999-09-13-first-union-center-philadelphia-pa
+1999-09-09 Palace Of Auburn Hills (The), Auburn Hills, MI - /gig:1999-09-09-palace-auburn-hills-mi
+1999-09-08 Palace Of Auburn Hills (The), Auburn Hills, MI - /gig:1999-09-08-palace-auburn-hills-mi
+1999-09-03 MCI Center, Washington, DC - /gig:1999-09-03-mci-center-washington-dc
+1999-09-01 MCI Center, Washington, DC - /gig:1999-09-01-mci-center-washington-dc
+1999-08-31 MCI Center, Washington, DC - /gig:1999-08-31-mci-center-washington-dc
+1999-08-27 FleetCenter, Boston, MA - /gig:1999-08-27-fleetcenter-boston-ma
+1999-08-26 FleetCenter, Boston, MA - /gig:1999-08-26-fleetcenter-boston-ma
+1999-08-24 FleetCenter, Boston, MA - /gig:1999-08-24-fleetcenter-boston-ma
+1999-08-22 FleetCenter, Boston, MA - /gig:1999-08-22-fleetcenter-boston-ma
+1999-08-21 FleetCenter, Boston, MA - /gig:1999-08-21-fleetcenter-boston-ma
+1999-08-12 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-08-12-continental-airlines-arena-east-rutherford-nj
+1999-08-11 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-08-11-continental-airlines-arena-east-rutherford-nj
+1999-08-09 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-08-09-continental-airlines-arena-east-rutherford-nj
+1999-08-07 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-08-07-continental-airlines-arena-east-rutherford-nj
+1999-08-06 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-08-06-continental-airlines-arena-east-rutherford-nj
+1999-08-04 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-08-04-continental-airlines-arena-east-rutherford-nj
+1999-08-02 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-08-02-continental-airlines-arena-east-rutherford-nj
+1999-08-01 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-08-01-continental-airlines-arena-east-rutherford-nj
+1999-07-29 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-07-29-continental-airlines-arena-east-rutherford-nj
+1999-07-27 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-07-27-continental-airlines-arena-east-rutherford-nj
+1999-07-26 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-07-26-continental-airlines-arena-east-rutherford-nj
+1999-07-24 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-07-24-continental-airlines-arena-east-rutherford-nj
+1999-07-20 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-07-20-continental-airlines-arena-east-rutherford-nj
+1999-07-18 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-07-18-continental-airlines-arena-east-rutherford-nj
+1999-07-15 Continental Airlines Arena, East Rutherford, NJ - /gig:1999-07-15-continental-airlines-arena-east-rutherford-nj
+1999-06-27 Valle Hovin Stadion, Oslo, Norway - /gig:1999-06-27-valle-hovin-stadion-oslo-norway
+1999-06-26 Parken Stadium, Copenhagen, Denmark - /gig:1999-06-26-parken-stadium-copenhagen-denmark
+1999-06-24 Stockholms Stadion, Stockholm, Sweden - /gig:1999-06-24-stockholms-stadion-stockholm-sweden
+1999-06-23 Stockholms Stadion, Stockholm, Sweden - /gig:1999-06-23-stockholms-stadion-stockholm-sweden
+1999-06-20 Gelredome, Arnhem, The Netherlands - /gig:1999-06-20-gelredome-arnhem-netherlands
+1999-06-19 Gelredome, Arnhem, The Netherlands - /gig:1999-06-19-gelredome-arnhem-netherlands
+1999-06-17 Weserstadion, Bremen, Germany - /gig:1999-06-17-weserstadion-bremen-germany
+1999-06-15 Stadion Am Bieberer Berg, Offenbach, Germany - /gig:1999-06-15-stadion-am-bieberer-berg-offenbach-germany
+1999-06-13 Bruno-Plache-Stadion, Leipzig, Germany - /gig:1999-06-13-bruno-plache-stadion-leipzig-germany
+1999-06-11 Stadio Luigi Ferraris, Genoa, Italy - /gig:1999-06-11-stadio-luigi-ferraris-genoa-italy
+1999-06-07 Estadio De La Comunidad De Madrid, Madrid, Spain - /gig:1999-06-07-estadio-de-la-comunidad-madrid-spain
+1999-06-05 Estadio La Romareda, Zaragoza, Spain - /gig:1999-06-05-estadio-la-romareda-zaragoza-spain
+1999-06-03 Palais Omnisports De Paris-Bercy, Paris, France - /gig:1999-06-03-palais-omnisports-paris-france
+1999-06-02 Palais Omnisports De Paris-Bercy, Paris, France - /gig:1999-06-02-palais-omnisports-paris-france
+1999-05-30 Parkbühne Wuhlheide, Berlin, Germany - /gig:1999-05-30-parkbuhne-wuhlheide-berlin-germany
+1999-05-29 Parkbühne Wuhlheide, Berlin, Germany - /gig:1999-05-29-parkbuhne-wuhlheide-berlin-germany
+1999-05-27 Flanders Expo, Ghent, Belgium - /gig:1999-05-27-flanders-expo-ghent-belgium
+1999-05-25 RDS Arena, Dublin, Ireland - /gig:1999-05-25-rds-arena-dublin-ireland
+1999-05-23 Earls Court, London, England - /gig:1999-05-23-earls-court-london-england
+1999-05-21 Earls Court, London, England - /gig:1999-05-21-earls-court-london-england
+1999-05-19 Earls Court, London, England - /gig:1999-05-19-earls-court-london-england
+1999-05-18 Earls Court, London, England - /gig:1999-05-18-earls-court-london-england
+1999-05-16 NEC Arena, Birmingham, England - /gig:1999-05-16-nec-arena-birmingham-england
+1999-05-02 Manchester Evening News Arena, Manchester, England - /gig:1999-05-02-evening-news-arena-manchester-england
+1999-05-01 Manchester Evening News Arena, Manchester, England - /gig:1999-05-01-evening-news-arena-manchester-england
+1999-04-28 Halle Tony Garnier, Lyon, France - /gig:1999-04-28-halle-tony-garnier-lyon-france
+1999-04-26 Hallenstadion, Zurich, Switzerland - /gig:1999-04-26-hallenstadion-zurich-switzerland
+1999-04-24 Wiener Stadthalle, Vienna, Austria - /gig:1999-04-24-wiener-stadthalle-vienna-austria
+1999-04-23 Donau Arena, Regensburg, Germany - /gig:1999-04-23-donau-arena-regensburg-germany
+1999-04-20 FilaForum, Milan, Italy - /gig:1999-04-20-filaforum-milan-italy
+1999-04-19 FilaForum, Milan, Italy - /gig:1999-04-19-filaforum-milan-italy
+1999-04-17 PalaMalaguti, Bologna, Italy - /gig:1999-04-17-palamalaguti-bologna-italy
+1999-04-15 Kölnarena, Cologne, Germany - /gig:1999-04-15-kolnarena-cologne-germany
+1999-04-13 Olympiahalle, Munich, Germany - /gig:1999-04-13-olympiahalle-munich-germany
+1999-04-11 Palau Sant Jordi, Barcelona, Spain - /gig:1999-04-11-palau-sant-jordi-barcelona-spain
+1999-04-09 Palau Sant Jordi, Barcelona, Spain - /gig:1999-04-09-palau-sant-jordi-barcelona-spain
+1999-03-15 Waldorf-Astoria Hotel, New York City, NY - /gig:1999-03-15-waldorf-astoria-hotel-new-york-city-ny
+1999-02-26 Rockefeller Center, GE Building, Studio 6A, New York City, NY - /gig:1999-02-26-rockefeller-center-new-york-city-ny
+1998-12-14 TVE Studios, Madrid, Spain - /gig:1998-12-14-tve-studios-madrid-spain
+1998-12-11 PalaDozza, Bologna, Italy - /gig:1998-12-11-paladozza-bologna-italy
+1998-12-10 Palais Omnisports De Paris-Bercy, Paris, France - /gig:1998-12-10-palais-omnisports-paris-france
+1998-12-09 Canal+ Studios, Paris, France - /gig:1998-12-09-canal-studios-paris-france
+1998-12-08 TV4 Studios, Stockholm, Sweden - /gig:1998-12-08-tv4-studios-stockholm-sweden
+1998-12-07 RadioEins Studio, Potsdam, Germany - /gig:1998-12-07-radioeins-studio-potsdam-germany
+1998-11-20 WNET Studios, New York City, NY - /gig:1998-11-20-wnet-studios-new-york-city-ny
+1998-04-04 Bay Street Theatre, Sag Harbor, NY - /gig:1998-04-04-bay-street-theatre-sag-harbor-ny
+1998-03-02 Nick's Fat City, Pittsburgh, PA - /gig:1998-03-02-nick-s-fat-city-pittsburgh-pa
+1998-02-06 Tradewinds, Sea Bright, NJ - /gig:1998-02-06-tradewinds-sea-bright-nj
+1998-01-31 Count Basie Theatre, Red Bank, NJ - /gig:1998-01-31-count-basie-theatre-red-bank-nj
+1998-01-22 Sony Music Studios, New York City, NY - /gig:1998-01-22-sony-music-studios-new-york-city-ny
+1997-12-07 John F. Kennedy Center For The Performing Arts, Washington, DC - /gig:1997-12-07-john-f-kennedy-center-washington-dc
+1997-09-04 Radio City Music Hall, New York City, NY - /gig:1997-09-04-radio-city-music-hall-new-york-city-ny
+1997-05-26 Palais Des Congrès De Paris, Paris, France - /gig:1997-05-26-palais-des-congres-paris-france
+1997-05-25 Palais Des Congrès De Paris, Paris, France - /gig:1997-05-25-palais-des-congres-paris-france
+1997-05-22 Teatro Augusteo, Naples, Italy - /gig:1997-05-22-teatro-augusteo-naples-italy
+1997-05-21 Teatro Verdi, Florence, Italy - /gig:1997-05-21-teatro-verdi-florence-italy
+1997-05-19 Zénith Oméga, Toulon, France - /gig:1997-05-19-zenith-omega-toulon-france
+1997-05-18 Palais Des Congrès Acropolis, Nice, France - /gig:1997-05-18-palais-des-congres-acropolis-nice-france
+1997-05-16 Opéra Berlioz, Le Corum, Montpellier, France - /gig:1997-05-16-opera-berlioz-montpellier-france
+1997-05-15 Auditorium Maurice-Ravel, Lyon, France - /gig:1997-05-15-auditorium-maurice-ravel-lyon-france
+1997-05-12 Congress Centre, Prague, Czech Republic - /gig:1997-05-12-congress-centre-prague-czech-republic
+1997-05-10 Sala Kongresowa, Warsaw, Poland - /gig:1997-05-10-sala-kongresowa-warsaw-poland
+1997-05-09 Sala Kongresowa, Warsaw, Poland - /gig:1997-05-09-sala-kongresowa-warsaw-poland
+1997-05-07 Austria Center Vienna, Vienna, Austria - /gig:1997-05-07-center-vienna-austria
+1997-05-06 Austria Center Vienna, Vienna, Austria - /gig:1997-05-06-center-vienna-austria
+1997-05-05 Grand Hôtel, Stockholm, Sweden - /gig:1997-05-05-grand-hotel-stockholm-sweden
+1997-03-08 Tradewinds, Sea Bright, NJ - /gig:1997-03-08-tradewinds-sea-bright-nj
+1997-02-26 Madison Square Garden, New York City, NY - /gig:1997-02-26-madison-square-garden-new-york-city-ny
+1997-02-17 Palais Theatre, Melbourne, Australia - /gig:1997-02-17-palais-theatre-melbourne-australia
+1997-02-16 Palais Theatre, Melbourne, Australia - /gig:1997-02-16-palais-theatre-melbourne-australia
+1997-02-15 Palais Theatre, Melbourne, Australia - /gig:1997-02-15-palais-theatre-melbourne-australia
+1997-02-12 Capitol Theatre, Sydney, Australia - /gig:1997-02-12-capitol-theatre-sydney-australia
+1997-02-11 Capitol Theatre, Sydney, Australia - /gig:1997-02-11-capitol-theatre-sydney-australia
+1997-02-10 Capitol Theatre, Sydney, Australia - /gig:1997-02-10-capitol-theatre-sydney-australia
+1997-02-08 Capitol Theatre, Sydney, Australia - /gig:1997-02-08-capitol-theatre-sydney-australia
+1997-02-07 Capitol Theatre, Sydney, Australia - /gig:1997-02-07-capitol-theatre-sydney-australia
+1997-02-05 Concert Hall (The), QPAC, Brisbane, Australia - /gig:1997-02-05-concert-hall-brisbane-australia
+1997-02-04 Concert Hall (The), QPAC, Brisbane, Australia - /gig:1997-02-04-concert-hall-brisbane-australia
+1997-01-31 Forum Hall, Tōkyō Kokusai Fōramu, Tokyo, Japan - /gig:1997-01-31-kokusai-foramu-tokyo-japan
+1997-01-30 Forum Hall, Tōkyō Kokusai Fōramu, Tokyo, Japan - /gig:1997-01-30-kokusai-foramu-tokyo-japan
+1997-01-29 Forum Hall, Tōkyō Kokusai Fōramu, Tokyo, Japan - /gig:1997-01-29-kokusai-foramu-tokyo-japan
+1997-01-27 Forum Hall, Tōkyō Kokusai Fōramu, Tokyo, Japan - /gig:1997-01-27-kokusai-foramu-tokyo-japan
+1996-12-14 Ovens Auditorium, Charlotte, NC - /gig:1996-12-14-ovens-auditorium-charlotte-nc
+1996-12-12 Ryman Auditorium, Nashville, TN - /gig:1996-12-12-ryman-auditorium-nashville-tn
+1996-12-11 Veterans Memorial Auditorium, Columbus, OH - /gig:1996-12-11-veterans-memorial-auditorium-columbus-oh
+1996-12-10 Music Hall, Cincinnati, OH - /gig:1996-12-10-music-hall-cincinnati-oh
+1996-12-06 Birmingham-Jefferson Civic Center Concert Hall, Birmingham, AL - /gig:1996-12-06-civic-center-concert-hall-birmingham-al
+1996-12-05 Township Auditorium, Columbia, SC - /gig:1996-12-05-township-auditorium-columbia-sc
+1996-12-03 Sunrise Musical Theatre, Sunrise, FL - /gig:1996-12-03-musical-theatre-sunrise-fl
+1996-12-02 Sunrise Musical Theatre, Sunrise, FL - /gig:1996-12-02-musical-theatre-sunrise-fl
+1996-11-26 Paramount Theatre, Asbury Park, NJ - /gig:1996-11-26-paramount-theatre-asbury-park-nj
+1996-11-25 Paramount Theatre, Asbury Park, NJ - /gig:1996-11-25-paramount-theatre-asbury-park-nj
+1996-11-24 Paramount Theatre, Asbury Park, NJ - /gig:1996-11-24-paramount-theatre-asbury-park-nj
+1996-11-21 Murat Theatre, Indianapolis, IN - /gig:1996-11-21-murat-theatre-indianapolis-in
+1996-11-20 Louisville Palace, Louisville, KY - /gig:1996-11-20-palace-louisville-ky
+1996-11-19 Ellis Auditorium, Memphis, TN - /gig:1996-11-19-ellis-auditorium-memphis-tn
+1996-11-14 Lowell Memorial Auditorium, Lowell, MA - /gig:1996-11-14-memorial-auditorium-lowell-ma
+1996-11-13 Landmark Theatre, Syracuse, NY - /gig:1996-11-13-landmark-theatre-syracuse-ny
+1996-11-12 Shea's Performing Arts Center, Buffalo, NY - /gig:1996-11-12-shea-s-performing-arts-center-buffalo-ny
+1996-11-08 Gymnasium, St. Rose Of Lima School, Freehold, NJ - /gig:1996-11-08-st-rose-of-lima-school-freehold-nj
+1996-10-29 Paramount Theatre, Seattle, WA - /gig:1996-10-29-paramount-theatre-seattle-wa
+1996-10-28 Arlene Schnitzer Concert Hall, Portland, OR - /gig:1996-10-28-arlene-schnitzer-concert-hall-portland-or
+1996-10-27 Federal Building, Los Angeles, CA - /gig:1996-10-27-federal-building-los-angeles-ca
+1996-10-26 Event Center Arena, San Jose, CA - /gig:1996-10-26-event-center-arena-san-jose-ca
+1996-10-25 Arlington Theater, Santa Barbara, CA - /gig:1996-10-25-arlington-theater-santa-barbara-ca
+1996-10-23 William Saroyan Theatre, Fresno, CA - /gig:1996-10-23-william-saroyan-theatre-fresno-ca
+1996-10-22 San Diego Civic Theatre, San Diego, CA - /gig:1996-10-22-civic-theatre-san-diego-ca
+1996-10-21 Grady Gammage Memorial Auditorium, Tempe, AZ - /gig:1996-10-21-grady-gammage-memorial-auditorium-tempe-az
+1996-10-19 Kiva Auditorium, Albuquerque, NM - /gig:1996-10-19-kiva-auditorium-albuquerque-nm
+1996-10-17 Paramount Theatre, Denver, CO - /gig:1996-10-17-paramount-theatre-denver-co
+1996-10-16 Paramount Theatre, Denver, CO - /gig:1996-10-16-paramount-theatre-denver-co
+1996-10-03 Northrop Auditorium, Minneapolis, MN - /gig:1996-10-03-northrop-auditorium-minneapolis-mn
+1996-10-02 Riverside Theater, Milwaukee, WI - /gig:1996-10-02-riverside-theater-milwaukee-wi
+1996-10-01 Braden Auditorium, Normal, IL - /gig:1996-10-01-braden-auditorium-normal-il
+1996-09-29 Severance Hall, Cleveland, OH - /gig:1996-09-29-severance-hall-cleveland-oh
+1996-09-26 Hill Auditorium, Ann Arbor, MI - /gig:1996-09-26-hill-auditorium-ann-arbor-mi
+1996-09-25 E.J. Thomas Performing Arts Hall, Akron, OH - /gig:1996-09-25-e-j-thomas-performing-arts-hall-akron-oh
+1996-09-24 James W. Miller Auditorium, Kalamazoo, MI - /gig:1996-09-24-james-w-miller-auditorium-kalamazoo-mi
+1996-09-19 Providence Performing Arts Center, Providence, RI - /gig:1996-09-19-performing-arts-center-providence-ri
+1996-09-18 Oakdale Theatre, Wallingford, CT - /gig:1996-09-18-oakdale-theatre-wallingford-ct
+1996-09-16 Benedum Center For The Performing Arts, Pittsburgh, PA - /gig:1996-09-16-benedum-center-pittsburgh-pa
+1996-05-08 Palacio De Congresos Y Exposiciones, Madrid, Spain - /gig:1996-05-08-palacio-de-congresos-y-exposiciones-madrid-sp
+1996-05-07 Teatro Tívoli, Barcelona, Spain - /gig:1996-05-07-teatro-tivoli-barcelona-spain
+1996-05-06 Teatro Tívoli, Barcelona, Spain - /gig:1996-05-06-teatro-tivoli-barcelona-spain
+1996-05-02 Zürich Kongresshaus, Zurich, Switzerland - /gig:1996-05-02-kongresshaus-zurich-switzerland
+1996-05-01 Palais Des Beaux-Arts, Brussels, Belgium - /gig:1996-05-01-palais-des-beaux-arts-brussels-belgium
+1996-04-30 Salle Erasme, Strasbourg, France - /gig:1996-04-30-salle-erasme-strasbourg-france
+1996-04-27 Royal Albert Hall, London, England - /gig:1996-04-27-royal-albert-hall-london-england
+1996-04-25 Brixton Academy, London, England - /gig:1996-04-25-brixton-academy-london-england
+1996-04-24 Brixton Academy, London, England - /gig:1996-04-24-brixton-academy-london-england
+1996-04-22 Royal Albert Hall, London, England - /gig:1996-04-22-royal-albert-hall-london-england
+1996-04-20 Koningin Elisabethzaal, Antwerp, Belgium - /gig:1996-04-20-koningin-elisabethzaal-antwerp-belgium
+1996-04-19 ICC Berlin, Saal 1, Berlin, Germany - /gig:1996-04-19-icc-berlin-germany
+1996-04-17 Royal Albert Hall, London, England - /gig:1996-04-17-royal-albert-hall-london-england
+1996-04-16 Royal Albert Hall, London, England - /gig:1996-04-16-royal-albert-hall-london-england
+1996-04-13 Teatro Carlo Felice, Genoa, Italy - /gig:1996-04-13-teatro-carlo-felice-genoa-italy
+1996-04-11 Teatro Smeraldo, Milan, Italy - /gig:1996-04-11-teatro-smeraldo-milan-italy
+1996-04-10 Auditorium Santa Cecilia, Rome, Italy - /gig:1996-04-10-auditorium-santa-cecilia-rome-italy
+1996-03-25 Dorothy Chandler Pavilion, Los Angeles, CA - /gig:1996-03-25-dorothy-chandler-pavilion-los-angeles-ca
+1996-03-20 Point Theatre (The), Dublin, Ireland - /gig:1996-03-20-point-theatre-dublin-ireland
+1996-03-19 King's Hall, Belfast, Northern Ireland - /gig:1996-03-19-king-s-hall-belfast-northern-ireland
+1996-03-17 Mean Fiddler (The), Dublin, Ireland - /gig:1996-03-17-mean-fiddler-dublin-ireland
+1996-03-16 Falkonersalen, Copenhagen, Denmark - /gig:1996-03-16-falkonersalen-copenhagen-denmark
+1996-03-14 Oslo Spektrum, Oslo, Norway - /gig:1996-03-14-spektrum-oslo-norway
+1996-03-13 Cirkus, Stockholm, Sweden - /gig:1996-03-13-cirkus-stockholm-sweden
+1996-03-03 Edinburgh Playhouse, Edinburgh, Scotland - /gig:1996-03-03-playhouse-edinburgh-scotland
+1996-03-02 City Hall, Newcastle, England - /gig:1996-03-02-city-hall-newcastle-england
+1996-02-29 Symphony Hall, Birmingham, England - /gig:1996-02-29-symphony-hall-birmingham-england
+1996-02-28 Apollo Theatre, Manchester, England - /gig:1996-02-28-apollo-theatre-manchester-england
+1996-02-26 Koninklijk Theater Carré, Amsterdam, The Netherlands - /gig:1996-02-26-carre-amsterdam-netherlands
+1996-02-25 Doelen (De), Rotterdam, The Netherlands - /gig:1996-02-25-doelen-rotterdam-netherlands
+1996-02-23 Canal+ Studios, Paris, France - /gig:1996-02-23-canal-studios-paris-france
+1996-02-22 Zénith De Paris (Le), Paris, France - /gig:1996-02-22-zenith-paris-france
+1996-02-21 Zénith De Paris (Le), Paris, France - /gig:1996-02-21-zenith-paris-france
+1996-02-18 Philipshalle, Düsseldorf, Germany - /gig:1996-02-18-philipshalle-dusseldorf-germany
+1996-02-17 Congress Centrum Hamburg, Halle 1, Hamburg, Germany - /gig:1996-02-17-congress-centrum-hamburg-germany
+1996-02-15 Rudi-Sedlmayer-Halle, Munich, Germany - /gig:1996-02-15-rudi-sedlmayer-halle-munich-germany
+1996-02-14 Kulturpalast, Dresden, Germany - /gig:1996-02-14-kulturpalast-dresden-germany
+1996-02-12 Alte Oper, Frankfurt, Germany - /gig:1996-02-12-alte-oper-frankfurt-germany
+1996-01-28 Fox Theatre, Atlanta, GA - /gig:1996-01-28-fox-theatre-atlanta-ga
+1996-01-26 Bronco Bowl (The), Dallas, TX - /gig:1996-01-26-bronco-bowl-dallas-tx
+1996-01-25 Austin Music Hall, Austin, TX - /gig:1996-01-25-music-hall-austin-tx
+1996-01-23 Jesse H. Jones Hall For The Performing Arts, Houston, TX - /gig:1996-01-23-jones-hall-houston-tx
+1996-01-22 Saenger Performing Arts Center, New Orleans, LA - /gig:1996-01-22-saenger-performing-arts-center-new-orleans-la
+1996-01-18 Fox Theatre, St. Louis, MO - /gig:1996-01-18-fox-theatre-st-louis-mo
+1996-01-17 Music Hall, Cleveland, OH - /gig:1996-01-17-music-hall-cleveland-oh
+1996-01-16 Music Hall, Cleveland, OH - /gig:1996-01-16-music-hall-cleveland-oh
+1996-01-12 Stambaugh Auditorium, Youngstown, OH - /gig:1996-01-12-stambaugh-auditorium-youngstown-oh
+1996-01-11 Fox Theatre, Detroit, MI - /gig:1996-01-11-fox-theatre-detroit-mi
+1996-01-10 Fox Theatre, Detroit, MI - /gig:1996-01-10-fox-theatre-detroit-mi
+1996-01-08 Massey Hall, Toronto, ON - /gig:1996-01-08-massey-hall-toronto-on
+1996-01-07 Salle Wilfrid-Pelletier, Montreal, QC - /gig:1996-01-07-salle-wilfrid-pelletier-montreal-qc
+1995-12-17 Beacon Theatre, New York City, NY - /gig:1995-12-17-beacon-theatre-new-york-city-ny
+1995-12-16 Orpheum Theatre, Boston, MA - /gig:1995-12-16-orpheum-theatre-boston-ma
+1995-12-15 Orpheum Theatre, Boston, MA - /gig:1995-12-15-orpheum-theatre-boston-ma
+1995-12-14 Ed Sullivan Theater, New York City, NY - /gig:1995-12-14-ed-sullivan-theater-new-york-city-ny
+1995-12-13 Beacon Theatre, New York City, NY - /gig:1995-12-13-beacon-theatre-new-york-city-ny
+1995-12-12 Beacon Theatre, New York City, NY - /gig:1995-12-12-beacon-theatre-new-york-city-ny
+1995-12-09 Tower Theater, Upper Darby, Philadelphia, PA - /gig:1995-12-09-tower-theater-philadelphia-pa
+1995-12-08 Tower Theater, Upper Darby, Philadelphia, PA - /gig:1995-12-08-tower-theater-philadelphia-pa
+1995-12-06 DAR Constitution Hall, Washington, DC - /gig:1995-12-06-dar-constitution-hall-washington-dc
+1995-12-05 DAR Constitution Hall, Washington, DC - /gig:1995-12-05-dar-constitution-hall-washington-dc
+1995-12-03 Rosemont Theatre, Rosemont, IL - /gig:1995-12-03-theatre-rosemont-il
+1995-11-30 Berkeley Community Theatre, Berkeley, CA - /gig:1995-11-30-community-theatre-berkeley-ca
+1995-11-29 Berkeley Community Theatre, Berkeley, CA - /gig:1995-11-29-community-theatre-berkeley-ca
+1995-11-27 Wiltern Theatre, Los Angeles, CA - /gig:1995-11-27-wiltern-theatre-los-angeles-ca
+1995-11-27 NBC Studios, Burbank, CA - /gig:1995-11-27-nbc-studios-burbank-ca
+1995-11-26 Wiltern Theatre, Los Angeles, CA - /gig:1995-11-26-wiltern-theatre-los-angeles-ca
+1995-11-22 Count Basie Theatre, Red Bank, NJ - /gig:1995-11-22-count-basie-theatre-red-bank-nj
+1995-11-19 Shrine Auditorium, Los Angeles, CA - /gig:1995-11-19-shrine-auditorium-los-angeles-ca
+1995-10-28 Shoreline Amphitheatre, Mountain View, CA - /gig:1995-10-28-shoreline-amphitheatre-mountain-view-ca
+1995-10-24 Park West, Chicago, IL - /gig:1995-10-24-park-west-chicago-il
+1995-10-21 Nick's Fat City, Pittsburgh, PA - /gig:1995-10-21-nick-s-fat-city-pittsburgh-pa
+1995-10-20 Nick's Fat City, Pittsburgh, PA - /gig:1995-10-20-nick-s-fat-city-pittsburgh-pa
+1995-10-19 Electric Factory, Philadelphia, PA - /gig:1995-10-19-electric-factory-philadelphia-pa
+1995-10-18 Tramps, New York City, NY - /gig:1995-10-18-tramps-new-york-city-ny
+1995-10-17 Stone Pony (The), Asbury Park, NJ - /gig:1995-10-17-stone-pony-asbury-park-nj
+1995-09-14 Viper Room (The), West Hollywood, CA - /gig:1995-09-14-viper-room-west-hollywood-ca
+1995-09-02 Municipal Stadium, Cleveland, OH - /gig:1995-09-02-municipal-stadium-cleveland-oh
+1995-08-10 Cheers, Long Branch, NJ - /gig:1995-08-10-cheers-long-branch-nj
+1995-07-22 Tradewinds, Sea Bright, NJ - /gig:1995-07-22-tradewinds-sea-bright-nj
+1995-07-09 Café Eckstein, Berlin, Germany - /gig:1995-07-09-cafe-eckstein-berlin-germany
+1995-04-12 Carnegie Hall, New York City, NY - /gig:1995-04-12-carnegie-hall-new-york-city-ny
+1995-04-05 Sony Music Studios, New York City, NY - /gig:1995-04-05-sony-music-studios-new-york-city-ny
+1995-04-05 Ed Sullivan Theater, New York City, NY - /gig:1995-04-05-ed-sullivan-theater-new-york-city-ny
+1995-03-06 Tramps, New York City, NY - /gig:1995-03-06-tramps-new-york-city-ny
+1995-03-01 Shrine Auditorium, Los Angeles, CA - /gig:1995-03-01-shrine-auditorium-los-angeles-ca
+1995-02-21 Tramps, New York City, NY - /gig:1995-02-21-tramps-new-york-city-ny
+1995-02-15 Brooklyn Academy Of Music, Brooklyn, NY - /gig:1995-02-15-academy-of-music-brooklyn-ny
+1994-12-20 Tradewinds, Sea Bright, NJ - /gig:1994-12-20-tradewinds-sea-bright-nj
+1994-10-21 Playpen (The), Sayreville, NJ - /gig:1994-10-21-playpen-sayreville-nj
+1994-10-20 Roseland Ballroom, New York City, NY - /gig:1994-10-20-roseland-ballroom-new-york-city-ny
+1994-09-08 Radio City Music Hall, New York City, NY - /gig:1994-09-08-radio-city-music-hall-new-york-city-ny
+1994-08-26 Classics Cafe, Westwood, NJ - /gig:1994-08-26-classics-cafe-westwood-nj
+1994-08-20 Marz American Style, Long Branch, NJ - /gig:1994-08-20-marz-american-style-long-branch-nj
+1994-07-16 Stone Pony (The), Asbury Park, NJ - /gig:1994-07-16-stone-pony-asbury-park-nj
+1994-06-18 McCabe's Guitar Shop, Santa Monica, CA - /gig:1994-06-18-mccabe-s-guitar-shop-santa-monica-ca
+1994-03-21 Dorothy Chandler Pavilion, Los Angeles, CA - /gig:1994-03-21-dorothy-chandler-pavilion-los-angeles-ca
+1994-03-01 Radio City Music Hall, New York City, NY - /gig:1994-03-01-radio-city-music-hall-new-york-city-ny
+1994-01-27 Universal Amphitheatre, Los Angeles, CA - /gig:1994-01-27-universal-amphitheatre-los-angeles-ca
+1994-01-20 Waldorf-Astoria Hotel, New York City, NY - /gig:1994-01-20-waldorf-astoria-hotel-new-york-city-ny
+1993-06-28 Tradewinds, Sea Bright, NJ - /gig:1993-06-28-tradewinds-sea-bright-nj
+1993-06-26 Madison Square Garden, New York City, NY - /gig:1993-06-26-madison-square-garden-new-york-city-ny
+1993-06-25 Rockefeller Center, GE Building, Studio 6A, New York City, NY - /gig:1993-06-25-rockefeller-center-new-york-city-ny
+1993-06-24 Brendan Byrne Arena, East Rutherford, NJ - /gig:1993-06-24-brendan-byrne-arena-east-rutherford-nj
+1993-06-01 Valle Hovin Stadion, Oslo, Norway - /gig:1993-06-01-valle-hovin-stadion-oslo-norway
+1993-05-30 Gentofte Stadion, Gentofte, Denmark - /gig:1993-05-30-stadion-gentofte-denmark
+1993-05-28 Stockholms Stadion, Stockholm, Sweden - /gig:1993-05-28-stockholms-stadion-stockholm-sweden
+1993-05-25 Stadio Flaminio, Rome, Italy - /gig:1993-05-25-stadio-flaminio-rome-italy
+1993-05-22 National Bowl (The), Milton Keynes, England - /gig:1993-05-22-national-bowl-milton-keynes-england
+1993-05-20 RDS Arena, Dublin, Ireland - /gig:1993-05-20-rds-arena-dublin-ireland
+1993-05-19 National Stadium, Dublin, Ireland - /gig:1993-05-19-national-stadium-dublin-ireland
+1993-05-17 Maimarkthalle, Mannheim, Germany - /gig:1993-05-17-maimarkthalle-mannheim-germany
+1993-05-16 Alter Flughafen-Riem, Munich, Germany - /gig:1993-05-16-alter-flughafen-riem-munich-germany
+1993-05-15 Hotel Bayerischer Hof, Munich, Germany - /gig:1993-05-15-hotel-bayerischer-hof-munich-germany
+1993-05-14 Waldbühne, Berlin, Germany - /gig:1993-05-14-waldbuhne-berlin-germany
+1993-05-11 Estadi Olímpic De Montjuïc, Barcelona, Spain - /gig:1993-05-11-estadi-olimpic-de-montjuic-barcelona-spain
+1993-05-09 Auditorio Monte Do Gozo, Santiago De Compostela, Spain - /gig:1993-05-09-auditorio-monte-do-gozo-santiago-de-compostel
+1993-05-07 Estadio Municipal El Molinón, Gijón, Spain - /gig:1993-05-07-estadio-municipal-el-molinon-gijon-spain
+1993-05-05 Estadio Vicente Calderón, Madrid, Spain - /gig:1993-05-05-estadio-vicente-calderon-madrid-spain
+1993-05-01 Estádio José Alvalade, Lisbon, Portugal - /gig:1993-05-01-estadio-jose-alvalade-lisbon-portugal
+1993-04-24 Flanders Expo, Ghent, Belgium - /gig:1993-04-24-flanders-expo-ghent-belgium
+1993-04-23 Flanders Expo, Ghent, Belgium - /gig:1993-04-23-flanders-expo-ghent-belgium
+1993-04-20 Sportpaleis Ahoy, Rotterdam, The Netherlands - /gig:1993-04-20-sportpaleis-ahoy-rotterdam-netherlands
+1993-04-19 Sportpaleis Ahoy, Rotterdam, The Netherlands - /gig:1993-04-19-sportpaleis-ahoy-rotterdam-netherlands
+1993-04-16 Sheffield Arena, Sheffield, England - /gig:1993-04-16-arena-sheffield-england
+1993-04-15 Sheffield Arena, Sheffield, England - /gig:1993-04-15-arena-sheffield-england
+1993-04-13 Halle Tony Garnier, Lyon, France - /gig:1993-04-13-halle-tony-garnier-lyon-france
+1993-04-11 Stadio Marc'Antonio Bentegodi, Verona, Italy - /gig:1993-04-11-stadio-marc-antonio-bentegodi-verona-italy
+1993-04-08 Hallenstadion, Zurich, Switzerland - /gig:1993-04-08-hallenstadion-zurich-switzerland
+1993-04-07 Hallenstadion, Zurich, Switzerland - /gig:1993-04-07-hallenstadion-zurich-switzerland
+1993-04-04 Westfalenhalle, Dortmund, Germany - /gig:1993-04-04-westfalenhalle-dortmund-germany
+1993-04-03 Westfalenhalle, Dortmund, Germany - /gig:1993-04-03-westfalenhalle-dortmund-germany
+1993-03-31 SECC, Glasgow, Scotland - /gig:1993-03-31-secc-glasgow-scotland
+1993-01-12 Century Plaza Hotel, Los Angeles, CA - /gig:1993-01-12-century-plaza-hotel-los-angeles-ca
+1992-12-27 Stone Pony (The), Asbury Park, NJ - /gig:1992-12-27-stone-pony-asbury-park-nj
+1992-12-17 Rupp Arena, Lexington, KY - /gig:1992-12-17-rupp-arena-lexington-ky
+1992-12-16 Civic Arena, Pittsburgh, PA - /gig:1992-12-16-civic-arena-pittsburgh-pa
+1992-12-14 Boston Garden, Boston, MA - /gig:1992-12-14-garden-boston-ma
+1992-12-13 Boston Garden, Boston, MA - /gig:1992-12-13-garden-boston-ma
+1992-12-08 Spectrum, Philadelphia, PA - /gig:1992-12-08-spectrum-philadelphia-pa
+1992-12-07 Spectrum, Philadelphia, PA - /gig:1992-12-07-spectrum-philadelphia-pa
+1992-12-05 Market Square Arena, Indianapolis, IN - /gig:1992-12-05-market-square-arena-indianapolis-in
+1992-12-03 St. Louis Arena, St. Louis, MO - /gig:1992-12-03-arena-st-louis-mo
+1992-12-02 Reunion Arena, Dallas, TX - /gig:1992-12-02-reunion-arena-dallas-tx
+1992-11-30 Omni (The), Atlanta, GA - /gig:1992-11-30-omni-atlanta-ga
+1992-11-24 Miami Arena, Miami, FL - /gig:1992-11-24-arena-miami-fl
+1992-11-23 Orlando Arena, Orlando, FL - /gig:1992-11-23-arena-orlando-fl
+1992-11-18 Charlotte Coliseum, Charlotte, NC - /gig:1992-11-18-coliseum-charlotte-nc
+1992-11-17 Dean E. Smith Student Activities Center, Chapel Hill, NC - /gig:1992-11-17-dean-e-smith-sac-chapel-hill-nc
+1992-11-15 Hartford Civic Center, Hartford, CT - /gig:1992-11-15-civic-center-hartford-ct
+1992-11-13 Carrier Dome, Syracuse, NY - /gig:1992-11-13-carrier-dome-syracuse-ny
+1992-11-10 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:1992-11-10-nassau-coliseum-uniondale-ny
+1992-11-09 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:1992-11-09-nassau-coliseum-uniondale-ny
+1992-11-06 SkyDome, Toronto, ON - /gig:1992-11-06-skydome-toronto-on
+1992-11-05 SkyDome, Toronto, ON - /gig:1992-11-05-skydome-toronto-on
+1992-11-03 Bradley Center, Milwaukee, WI - /gig:1992-11-03-bradley-center-milwaukee-wi
+1992-10-31 Target Center, Minneapolis, MN - /gig:1992-10-31-target-center-minneapolis-mn
+1992-10-30 Hilton Coliseum, Ames, IA - /gig:1992-10-30-hilton-coliseum-ames-ia
+1992-10-26 McNichols Sports Arena, Denver, CO - /gig:1992-10-26-mcnichols-sports-arena-denver-co
+1992-10-22 Shoreline Amphitheatre, Mountain View, CA - /gig:1992-10-22-shoreline-amphitheatre-mountain-view-ca
+1992-10-21 Shoreline Amphitheatre, Mountain View, CA - /gig:1992-10-21-shoreline-amphitheatre-mountain-view-ca
+1992-10-18 Northlands Coliseum, Edmonton, AB - /gig:1992-10-18-northlands-coliseum-edmonton-ab
+1992-10-17 Olympic Saddledome, Calgary, AB - /gig:1992-10-17-olympic-saddledome-calgary-ab
+1992-10-15 Pacific Coliseum, Vancouver, BC - /gig:1992-10-15-pacific-coliseum-vancouver-bc
+1992-10-13 Tacoma Dome, Tacoma, WA - /gig:1992-10-13-dome-tacoma-wa
+1992-10-06 ARCO Arena, Sacramento, CA - /gig:1992-10-06-arco-arena-sacramento-ca
+1992-10-03 America West Arena, Phoenix, AZ - /gig:1992-10-03-america-west-arena-phoenix-az
+1992-10-02 America West Arena, Phoenix, AZ - /gig:1992-10-02-america-west-arena-phoenix-az
+1992-09-29 San Diego Sports Arena, San Diego, CA - /gig:1992-09-29-sports-arena-san-diego-ca
+1992-09-28 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1992-09-28-memorial-sports-arena-los-angeles-ca
+1992-09-25 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1992-09-25-memorial-sports-arena-los-angeles-ca
+1992-09-24 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1992-09-24-memorial-sports-arena-los-angeles-ca
+1992-09-22 Warner Hollywood Studios, Los Angeles, CA - /gig:1992-09-22-warner-hollywood-studios-los-angeles-ca
+1992-09-03 World Music Theatre, Tinley Park, IL - /gig:1992-09-03-world-music-theatre-tinley-park-il
+1992-09-02 World Music Theatre, Tinley Park, IL - /gig:1992-09-02-world-music-theatre-tinley-park-il
+1992-08-29 Spectrum, Philadelphia, PA - /gig:1992-08-29-spectrum-philadelphia-pa
+1992-08-28 Spectrum, Philadelphia, PA - /gig:1992-08-28-spectrum-philadelphia-pa
+1992-08-26 Capital Centre, Largo, MD - /gig:1992-08-26-capital-centre-largo-md
+1992-08-25 Capital Centre, Largo, MD - /gig:1992-08-25-capital-centre-largo-md
+1992-08-22 Richfield Coliseum, Richfield, OH - /gig:1992-08-22-coliseum-richfield-oh
+1992-08-21 Richfield Coliseum, Richfield, OH - /gig:1992-08-21-coliseum-richfield-oh
+1992-08-18 Palace Of Auburn Hills (The), Auburn Hills, MI - /gig:1992-08-18-palace-auburn-hills-mi
+1992-08-17 Palace Of Auburn Hills (The), Auburn Hills, MI - /gig:1992-08-17-palace-auburn-hills-mi
+1992-08-14 Centrum In Worcester, Worcester, MA - /gig:1992-08-14-centrum-worcester-ma
+1992-08-13 Centrum In Worcester, Worcester, MA - /gig:1992-08-13-centrum-worcester-ma
+1992-08-10 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-08-10-brendan-byrne-arena-east-rutherford-nj
+1992-08-07 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-08-07-brendan-byrne-arena-east-rutherford-nj
+1992-08-06 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-08-06-brendan-byrne-arena-east-rutherford-nj
+1992-08-04 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-08-04-brendan-byrne-arena-east-rutherford-nj
+1992-08-02 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-08-02-brendan-byrne-arena-east-rutherford-nj
+1992-07-31 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-07-31-brendan-byrne-arena-east-rutherford-nj
+1992-07-30 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-07-30-brendan-byrne-arena-east-rutherford-nj
+1992-07-28 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-07-28-brendan-byrne-arena-east-rutherford-nj
+1992-07-26 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-07-26-brendan-byrne-arena-east-rutherford-nj
+1992-07-25 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-07-25-brendan-byrne-arena-east-rutherford-nj
+1992-07-23 Brendan Byrne Arena, East Rutherford, NJ - /gig:1992-07-23-brendan-byrne-arena-east-rutherford-nj
+1992-07-13 Wembley Arena, London, England - /gig:1992-07-13-wembley-arena-london-england
+1992-07-12 Wembley Arena, London, England - /gig:1992-07-12-wembley-arena-london-england
+1992-07-10 Wembley Arena, London, England - /gig:1992-07-10-wembley-arena-london-england
+1992-07-09 Wembley Arena, London, England - /gig:1992-07-09-wembley-arena-london-england
+1992-07-06 Wembley Arena, London, England - /gig:1992-07-06-wembley-arena-london-england
+1992-07-04 Plaza Monumental, Barcelona, Spain - /gig:1992-07-04-plaza-monumental-barcelona-spain
+1992-07-03 Plaza Monumental, Barcelona, Spain - /gig:1992-07-03-plaza-monumental-barcelona-spain
+1992-06-30 Palais Omnisports De Paris-Bercy, Paris, France - /gig:1992-06-30-palais-omnisports-paris-france
+1992-06-29 Palais Omnisports De Paris-Bercy, Paris, France - /gig:1992-06-29-palais-omnisports-paris-france
+1992-06-26 Festhalle, Frankfurt, Germany - /gig:1992-06-26-festhalle-frankfurt-germany
+1992-06-25 Festhalle, Frankfurt, Germany - /gig:1992-06-25-festhalle-frankfurt-germany
+1992-06-21 Forum Di Assago, Milan, Italy - /gig:1992-06-21-forum-di-assago-milan-italy
+1992-06-20 Forum Di Assago, Milan, Italy - /gig:1992-06-20-forum-di-assago-milan-italy
+1992-06-17 Globen, Stockholm, Sweden - /gig:1992-06-17-globen-stockholm-sweden
+1992-06-15 Globen, Stockholm, Sweden - /gig:1992-06-15-globen-stockholm-sweden
+1992-05-09 Rockefeller Center, GE Building, Studio 8H, New York City, NY - /gig:1992-05-09-rockefeller-center-new-york-city-ny
+1991-07-12 McLoone's Rum Runner, Sea Bright, NJ - /gig:1991-07-12-mcloone-s-rum-runner-sea-bright-nj
+1991-01-20 McLoone's Rum Runner, Sea Bright, NJ - /gig:1991-01-20-mcloone-s-rum-runner-sea-bright-nj
+1990-11-17 Shrine Auditorium, Los Angeles, CA - /gig:1990-11-17-shrine-auditorium-los-angeles-ca
+1990-11-16 Shrine Auditorium, Los Angeles, CA - /gig:1990-11-16-shrine-auditorium-los-angeles-ca
+1990-03-01 Forum (The), Inglewood, CA - /gig:1990-03-01-forum-inglewood-ca
+1989-09-22 Stone Pony (The), Asbury Park, NJ - /gig:1989-09-22-stone-pony-asbury-park-nj
+1989-08-11 Garden State Arts Center, Holmdel, NJ - /gig:1989-08-11-garden-state-arts-center-holmdel-nj
+1989-08-02 Cheers, Long Branch, NJ - /gig:1989-08-02-cheers-long-branch-nj
+1989-07-27 Headliner (The), Neptune, NJ - /gig:1989-07-27-headliner-neptune-nj
+1989-07-23 Stone Pony (The), Asbury Park, NJ - /gig:1989-07-23-stone-pony-asbury-park-nj
+1989-07-09 Stone Pony (The), Asbury Park, NJ - /gig:1989-07-09-stone-pony-asbury-park-nj
+1989-07-01 Stone Pony (The), Asbury Park, NJ - /gig:1989-07-01-stone-pony-asbury-park-nj
+1989-06-30 Bally's Atlantic City, Atlantic City, NJ - /gig:1989-06-30-bally-s-atlantic-city-nj
+1989-06-24 Stone Pony (The), Asbury Park, NJ - /gig:1989-06-24-stone-pony-asbury-park-nj
+1989-06-14 Jones Beach Theater, Wantagh, NY - /gig:1989-06-14-jones-beach-theater-wantagh-ny
+1989-06-09 Stone Pony (The), Asbury Park, NJ - /gig:1989-06-09-stone-pony-asbury-park-nj
+1989-06-02 Stone Pony (The), Asbury Park, NJ - /gig:1989-06-02-stone-pony-asbury-park-nj
+1988-11-26 Stone (The), San Francisco, CA - /gig:1988-11-26-stone-san-francisco-ca
+1988-10-15 Estadio Antonio Vespucio Liberti, Buenos Aires, Argentina - /gig:1988-10-15-estadio-antonio-vespucio-liberti-buenos-aires
+1988-10-12 Parque Antártica, São Paulo, Brazil - /gig:1988-10-12-parque-antartica-sao-paulo-brazil
+1988-10-03 Olympiáko Stádio "Spyros Louis", Athens, Greece - /gig:1988-10-03-olympiako-stadio-spyros-louis-athens-greece
+1988-09-27 Tōkyō Dōmu, Tokyo, Japan - /gig:1988-09-27-domu-tokyo-japan
+1988-09-23 Oakland-Alameda County Coliseum, Oakland, CA - /gig:1988-09-23-alameda-county-coliseum-oakland-ca
+1988-09-21 Los Angeles Memorial Coliseum, Los Angeles, CA - /gig:1988-09-21-memorial-coliseum-los-angeles-ca
+1988-09-19 John F. Kennedy Stadium, Philadelphia, PA - /gig:1988-09-19-john-f-kennedy-stadium-philadelphia-pa
+1988-09-17 Olympic Stadium, Montreal, QC - /gig:1988-09-17-olympic-stadium-montreal-qc
+1988-09-15 Maple Leaf Gardens, Toronto, ON - /gig:1988-09-15-maple-leaf-gardens-toronto-on
+1988-09-10 Camp Nou, Barcelona, Spain - /gig:1988-09-10-camp-nou-barcelona-spain
+1988-09-08 Stadio Comunale, Turin, Italy - /gig:1988-09-08-stadio-comunale-turin-italy
+1988-09-06 Népstadion, Budapest, Hungary - /gig:1988-09-06-nepstadion-budapest-hungary
+1988-09-05 Palais Omnisports De Paris-Bercy, Paris, France - /gig:1988-09-05-palais-omnisports-paris-france
+1988-09-04 Palais Omnisports De Paris-Bercy, Paris, France - /gig:1988-09-04-palais-omnisports-paris-france
+1988-09-02 Wembley Stadium, London, England - /gig:1988-09-02-wembley-stadium-london-england
+1988-08-24 Madison Square Garden, New York City, NY - /gig:1988-08-24-madison-square-garden-new-york-city-ny
+1988-08-21 Stone Pony (The), Asbury Park, NJ - /gig:1988-08-21-stone-pony-asbury-park-nj
+1988-08-03 Camp Nou, Barcelona, Spain - /gig:1988-08-03-camp-nou-barcelona-spain
+1988-08-02 Estadio Vicente Calderón, Madrid, Spain - /gig:1988-08-02-estadio-vicente-calderon-madrid-spain
+1988-07-30 Weserstadion, Bremen, West Germany - /gig:1988-07-30-weserstadion-bremen-germany
+1988-07-27 Valle Hovin Stadion, Oslo, Norway - /gig:1988-07-27-valle-hovin-stadion-oslo-norway
+1988-07-25 Københavns Idrætspark, Copenhagen, Denmark - /gig:1988-07-25-idraetspark-copenhagen-denmark
+1988-07-23 Strøget, Copenhagen, Denmark - /gig:1988-07-23-stroget-copenhagen-denmark
+1988-07-22 Waldbühne, West Berlin, West Germany - /gig:1988-07-22-waldbuhne-berlin-germany
+1988-07-19 Radrennbahn Weissensee, East Berlin, East Germany - /gig:1988-07-19-radrennbahn-weissensee-berlin-germany
+1988-07-17 Olympia-Reitstadion Riem, Munich, West Germany - /gig:1988-07-17-olympia-reitstadion-riem-munich-germany
+1988-07-14 St. Jakob Stadion, Basel, Switzerland - /gig:1988-07-14-st-jakob-stadion-basel-switzerland
+1988-07-12 Waldstadion, Frankfurt, West Germany - /gig:1988-07-12-waldstadion-frankfurt-germany
+1988-07-10 Bramall Lane, Sheffield, England - /gig:1988-07-10-bramall-lane-sheffield-england
+1988-07-09 Bramall Lane, Sheffield, England - /gig:1988-07-09-bramall-lane-sheffield-england
+1988-07-07 RDS Arena, Dublin, Ireland - /gig:1988-07-07-rds-arena-dublin-ireland
+1988-07-03 Stockholms Stadion, Stockholm, Sweden - /gig:1988-07-03-stockholms-stadion-stockholm-sweden
+1988-07-02 Stockholms Stadion, Stockholm, Sweden - /gig:1988-07-02-stockholms-stadion-stockholm-sweden
+1988-06-29 Stadion Feijenoord, Rotterdam, The Netherlands - /gig:1988-06-29-stadion-feijenoord-rotterdam-netherlands
+1988-06-28 Stadion Feijenoord, Rotterdam, The Netherlands - /gig:1988-06-28-stadion-feijenoord-rotterdam-netherlands
+1988-06-25 Wembley Stadium, London, England - /gig:1988-06-25-wembley-stadium-london-england
+1988-06-22 Villa Park, Birmingham, England - /gig:1988-06-22-villa-park-birmingham-england
+1988-06-21 Villa Park, Birmingham, England - /gig:1988-06-21-villa-park-birmingham-england
+1988-06-19 Hippodrome De Vincennes, Paris, France - /gig:1988-06-19-hippodrome-de-vincennes-paris-france
+1988-06-18 Château De Vincennes, Paris, France - /gig:1988-06-18-chateau-de-vincennes-paris-france
+1988-06-16 Stadio Flaminio, Rome, Italy - /gig:1988-06-16-stadio-flaminio-rome-italy
+1988-06-15 Stadio Flaminio, Rome, Italy - /gig:1988-06-15-stadio-flaminio-rome-italy
+1988-06-13 Piazza Di Spagna, Rome, Italy - /gig:1988-06-13-piazza-di-spagna-rome-italy
+1988-06-11 Stadio Comunale, Turin, Italy - /gig:1988-06-11-stadio-comunale-turin-italy
+1988-05-23 Madison Square Garden, New York City, NY - /gig:1988-05-23-madison-square-garden-new-york-city-ny
+1988-05-22 Madison Square Garden, New York City, NY - /gig:1988-05-22-madison-square-garden-new-york-city-ny
+1988-05-19 Madison Square Garden, New York City, NY - /gig:1988-05-19-madison-square-garden-new-york-city-ny
+1988-05-18 Madison Square Garden, New York City, NY - /gig:1988-05-18-madison-square-garden-new-york-city-ny
+1988-05-16 Madison Square Garden, New York City, NY - /gig:1988-05-16-madison-square-garden-new-york-city-ny
+1988-05-13 Market Square Arena, Indianapolis, IN - /gig:1988-05-13-market-square-arena-indianapolis-in
+1988-05-10 Met Center, Bloomington, MN - /gig:1988-05-10-met-center-bloomington-mn
+1988-05-09 Met Center, Bloomington, MN - /gig:1988-05-09-met-center-bloomington-mn
+1988-05-06 Tacoma Dome, Tacoma, WA - /gig:1988-05-06-dome-tacoma-wa
+1988-05-05 Tacoma Dome, Tacoma, WA - /gig:1988-05-05-dome-tacoma-wa
+1988-05-03 Shoreline Amphitheatre, Mountain View, CA - /gig:1988-05-03-shoreline-amphitheatre-mountain-view-ca
+1988-05-02 Shoreline Amphitheatre, Mountain View, CA - /gig:1988-05-02-shoreline-amphitheatre-mountain-view-ca
+1988-04-28 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1988-04-28-memorial-sports-arena-los-angeles-ca
+1988-04-27 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1988-04-27-memorial-sports-arena-los-angeles-ca
+1988-04-25 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1988-04-25-memorial-sports-arena-los-angeles-ca
+1988-04-23 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1988-04-23-memorial-sports-arena-los-angeles-ca
+1988-04-22 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1988-04-22-memorial-sports-arena-los-angeles-ca
+1988-04-20 McNichols Sports Arena, Denver, CO - /gig:1988-04-20-mcnichols-sports-arena-denver-co
+1988-04-17 St. Louis Arena, St. Louis, MO - /gig:1988-04-17-arena-st-louis-mo
+1988-04-15 Frank Erwin Center, Austin, TX - /gig:1988-04-15-frank-erwin-center-austin-tx
+1988-04-13 Summit (The), Houston, TX - /gig:1988-04-13-summit-houston-tx
+1988-04-12 Summit (The), Houston, TX - /gig:1988-04-12-summit-houston-tx
+1988-04-05 Capital Centre, Largo, MD - /gig:1988-04-05-capital-centre-largo-md
+1988-04-04 Capital Centre, Largo, MD - /gig:1988-04-04-capital-centre-largo-md
+1988-04-02 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:1988-04-02-nassau-coliseum-uniondale-ny
+1988-04-01 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:1988-04-01-nassau-coliseum-uniondale-ny
+1988-03-29 Joe Louis Arena, Detroit, MI - /gig:1988-03-29-joe-louis-arena-detroit-mi
+1988-03-28 Joe Louis Arena, Detroit, MI - /gig:1988-03-28-joe-louis-arena-detroit-mi
+1988-03-26 Rupp Arena, Lexington, KY - /gig:1988-03-26-rupp-arena-lexington-ky
+1988-03-23 Omni (The), Atlanta, GA - /gig:1988-03-23-omni-atlanta-ga
+1988-03-22 Omni (The), Atlanta, GA - /gig:1988-03-22-omni-atlanta-ga
+1988-03-20 Civic Arena, Pittsburgh, PA - /gig:1988-03-20-civic-arena-pittsburgh-pa
+1988-03-17 Rosemont Horizon, Rosemont, IL - /gig:1988-03-17-horizon-rosemont-il
+1988-03-16 Rosemont Horizon, Rosemont, IL - /gig:1988-03-16-horizon-rosemont-il
+1988-03-14 Richfield Coliseum, Richfield, OH - /gig:1988-03-14-coliseum-richfield-oh
+1988-03-13 Richfield Coliseum, Richfield, OH - /gig:1988-03-13-coliseum-richfield-oh
+1988-03-09 Spectrum, Philadelphia, PA - /gig:1988-03-09-spectrum-philadelphia-pa
+1988-03-08 Spectrum, Philadelphia, PA - /gig:1988-03-08-spectrum-philadelphia-pa
+1988-03-04 Dean E. Smith Student Activities Center, Chapel Hill, NC - /gig:1988-03-04-dean-e-smith-sac-chapel-hill-nc
+1988-03-03 Dean E. Smith Student Activities Center, Chapel Hill, NC - /gig:1988-03-03-dean-e-smith-sac-chapel-hill-nc
+1988-02-29 Centrum In Worcester, Worcester, MA - /gig:1988-02-29-centrum-worcester-ma
+1988-02-28 Centrum In Worcester, Worcester, MA - /gig:1988-02-28-centrum-worcester-ma
+1988-02-25 Centrum In Worcester, Worcester, MA - /gig:1988-02-25-centrum-worcester-ma
+1987-12-13 Madison Square Garden, New York City, NY - /gig:1987-12-13-madison-square-garden-new-york-city-ny
+1987-12-07 Carnegie Hall, New York City, NY - /gig:1987-12-07-carnegie-hall-new-york-city-ny
+1987-12-05 Stone Pony (The), Asbury Park, NJ - /gig:1987-12-05-stone-pony-asbury-park-nj
+1987-11-20 Stone Pony (The), Asbury Park, NJ - /gig:1987-11-20-stone-pony-asbury-park-nj
+1987-11-06 Rumson Country Day School, Rumson, NJ - /gig:1987-11-06-country-day-school-rumson-nj
+1987-10-31 McLoone's Rum Runner, Sea Bright, NJ - /gig:1987-10-31-mcloone-s-rum-runner-sea-bright-nj
+1987-10-23 St. Peter's Church, New York City, NY - /gig:1987-10-23-st-peter-s-church-new-york-city-ny
+1987-10-08 Ritz (The), New York City, NY - /gig:1987-10-08-ritz-new-york-city-ny
+1987-09-25 John F. Kennedy Stadium, Philadelphia, PA - /gig:1987-09-25-john-f-kennedy-stadium-philadelphia-pa
+1987-08-26 Key Largo, Belmar, NJ - /gig:1987-08-26-key-largo-belmar-nj
+1987-08-22 Stone Pony (The), Asbury Park, NJ - /gig:1987-08-22-stone-pony-asbury-park-nj
+1987-08-21 Stone Pony (The), Asbury Park, NJ - /gig:1987-08-21-stone-pony-asbury-park-nj
+1987-08-09 Stone Pony (The), Asbury Park, NJ - /gig:1987-08-09-stone-pony-asbury-park-nj
+1987-08-02 Stone Pony (The), Asbury Park, NJ - /gig:1987-08-02-stone-pony-asbury-park-nj
+1987-07-31 Stone Pony (The), Asbury Park, NJ - /gig:1987-07-31-stone-pony-asbury-park-nj
+1987-07-30 Green Parrot, Neptune, NJ - /gig:1987-07-30-green-parrot-neptune-nj
+1987-04-12 Stone Pony (The), Asbury Park, NJ - /gig:1987-04-12-stone-pony-asbury-park-nj
+1986-11-05 Zénith De Paris (Le), Paris, France - /gig:1986-11-05-zenith-paris-france
+1986-10-13 Shoreline Amphitheatre, Mountain View, CA - /gig:1986-10-13-shoreline-amphitheatre-mountain-view-ca
+1986-03-02 Stone Pony (The), Asbury Park, NJ - /gig:1986-03-02-stone-pony-asbury-park-nj
+1986-01-19 Stone Pony (The), Asbury Park, NJ - /gig:1986-01-19-stone-pony-asbury-park-nj
+1985-10-02 Los Angeles Memorial Coliseum, Los Angeles, CA - /gig:1985-10-02-memorial-coliseum-los-angeles-ca
+1985-09-30 Los Angeles Memorial Coliseum, Los Angeles, CA - /gig:1985-09-30-memorial-coliseum-los-angeles-ca
+1985-09-29 Los Angeles Memorial Coliseum, Los Angeles, CA - /gig:1985-09-29-memorial-coliseum-los-angeles-ca
+1985-09-27 Los Angeles Memorial Coliseum, Los Angeles, CA - /gig:1985-09-27-memorial-coliseum-los-angeles-ca
+1985-09-24 Mile High Stadium, Denver, CO - /gig:1985-09-24-mile-high-stadium-denver-co
+1985-09-23 Mile High Stadium, Denver, CO - /gig:1985-09-23-mile-high-stadium-denver-co
+1985-09-19 Oakland-Alameda County Coliseum, Oakland, CA - /gig:1985-09-19-alameda-county-coliseum-oakland-ca
+1985-09-18 Oakland-Alameda County Coliseum, Oakland, CA - /gig:1985-09-18-alameda-county-coliseum-oakland-ca
+1985-09-14 Cotton Bowl, Dallas, TX - /gig:1985-09-14-cotton-bowl-dallas-tx
+1985-09-13 Cotton Bowl, Dallas, TX - /gig:1985-09-13-cotton-bowl-dallas-tx
+1985-09-10 Orange Bowl, Miami, FL - /gig:1985-09-10-orange-bowl-miami-fl
+1985-09-09 Orange Bowl, Miami, FL - /gig:1985-09-09-orange-bowl-miami-fl
+1985-09-06 Hoosier Dome, Indianapolis, IN - /gig:1985-09-06-hoosier-dome-indianapolis-in
+1985-09-04 Pontiac Silverdome, Pontiac, MI - /gig:1985-09-04-silverdome-pontiac-mi
+1985-09-01 Giants Stadium, East Rutherford, NJ - /gig:1985-09-01-giants-stadium-east-rutherford-nj
+1985-08-31 Giants Stadium, East Rutherford, NJ - /gig:1985-08-31-giants-stadium-east-rutherford-nj
+1985-08-27 CNE Stadium, Toronto, ON - /gig:1985-08-27-cne-stadium-toronto-on
+1985-08-26 CNE Stadium, Toronto, ON - /gig:1985-08-26-cne-stadium-toronto-on
+1985-08-22 Giants Stadium, East Rutherford, NJ - /gig:1985-08-22-giants-stadium-east-rutherford-nj
+1985-08-21 Giants Stadium, East Rutherford, NJ - /gig:1985-08-21-giants-stadium-east-rutherford-nj
+1985-08-19 Giants Stadium, East Rutherford, NJ - /gig:1985-08-19-giants-stadium-east-rutherford-nj
+1985-08-18 Giants Stadium, East Rutherford, NJ - /gig:1985-08-18-giants-stadium-east-rutherford-nj
+1985-08-15 Veterans Stadium, Philadelphia, PA - /gig:1985-08-15-veterans-stadium-philadelphia-pa
+1985-08-14 Veterans Stadium, Philadelphia, PA - /gig:1985-08-14-veterans-stadium-philadelphia-pa
+1985-08-11 Three Rivers Stadium, Pittsburgh, PA - /gig:1985-08-11-three-rivers-stadium-pittsburgh-pa
+1985-08-09 Soldier Field, Chicago, IL - /gig:1985-08-09-soldier-field-chicago-il
+1985-08-07 Municipal Stadium, Cleveland, OH - /gig:1985-08-07-municipal-stadium-cleveland-oh
+1985-08-05 RFK Stadium, Washington, DC - /gig:1985-08-05-rfk-stadium-washington-dc
+1985-07-07 Roundhay Park, Leeds, England - /gig:1985-07-07-roundhay-park-leeds-england
+1985-07-06 Wembley Stadium, London, England - /gig:1985-07-06-wembley-stadium-london-england
+1985-07-04 Wembley Stadium, London, England - /gig:1985-07-04-wembley-stadium-london-england
+1985-07-03 Wembley Stadium, London, England - /gig:1985-07-03-wembley-stadium-london-england
+1985-06-30 Parc De La Courneuve, Paris, France - /gig:1985-06-30-parc-de-la-courneuve-paris-france
+1985-06-29 Parc De La Courneuve, Paris, France - /gig:1985-06-29-parc-de-la-courneuve-paris-france
+1985-06-25 Stade Geoffroy-Guichard, Saint-Étienne, France - /gig:1985-06-25-stade-geoffroy-guichard-saint-etienne-france
+1985-06-23 Stade Richter, Montpellier, France - /gig:1985-06-23-stade-richter-montpellier-france
+1985-06-21 Stadio Giuseppe Meazza, Milan, Italy - /gig:1985-06-21-stadio-giuseppe-meazza-milan-italy
+1985-06-18 Olympiastadion, Munich, West Germany - /gig:1985-06-18-olympiastadion-munich-germany
+1985-06-15 Waldstadion, Frankfurt, West Germany - /gig:1985-06-15-waldstadion-frankfurt-germany
+1985-06-13 Stadion Feijenoord, Rotterdam, The Netherlands - /gig:1985-06-13-stadion-feijenoord-rotterdam-netherlands
+1985-06-12 Stadion Feijenoord, Rotterdam, The Netherlands - /gig:1985-06-12-stadion-feijenoord-rotterdam-netherlands
+1985-06-09 Ullevi, Gothenburg, Sweden - /gig:1985-06-09-ullevi-gothenburg-sweden
+1985-06-08 Ullevi, Gothenburg, Sweden - /gig:1985-06-08-ullevi-gothenburg-sweden
+1985-06-05 St. James' Park, Newcastle, England - /gig:1985-06-05-st-james-park-newcastle-england
+1985-06-04 St. James' Park, Newcastle, England - /gig:1985-06-04-st-james-park-newcastle-england
+1985-06-01 Slane Castle, Slane, Ireland - /gig:1985-06-01-castle-slane-ireland
+1985-04-23 Ōsaka-jō Hōru, Osaka, Japan - /gig:1985-04-23-jo-horu-osaka-japan
+1985-04-22 Ōsaka-jō Hōru, Osaka, Japan - /gig:1985-04-22-jo-horu-osaka-japan
+1985-04-19 Kyoto Furitsu Taiikukan, Kyoto, Japan - /gig:1985-04-19-furitsu-taiikukan-kyoto-japan
+1985-04-16 Kokuritsu Yoyogi Kyōgi-jō, Tokyo, Japan - /gig:1985-04-16-kokuritsu-yoyogi-kyogi-jo-tokyo-japan
+1985-04-15 Kokuritsu Yoyogi Kyōgi-jō, Tokyo, Japan - /gig:1985-04-15-kokuritsu-yoyogi-kyogi-jo-tokyo-japan
+1985-04-13 Kokuritsu Yoyogi Kyōgi-jō, Tokyo, Japan - /gig:1985-04-13-kokuritsu-yoyogi-kyogi-jo-tokyo-japan
+1985-04-11 Kokuritsu Yoyogi Kyōgi-jō, Tokyo, Japan - /gig:1985-04-11-kokuritsu-yoyogi-kyogi-jo-tokyo-japan
+1985-04-10 Kokuritsu Yoyogi Kyōgi-jō, Tokyo, Japan - /gig:1985-04-10-kokuritsu-yoyogi-kyogi-jo-tokyo-japan
+1985-04-04 Melbourne Showgrounds, Melbourne, Australia - /gig:1985-04-04-showgrounds-melbourne-australia
+1985-04-03 Melbourne Showgrounds, Melbourne, Australia - /gig:1985-04-03-showgrounds-melbourne-australia
+1985-03-28 Sydney Entertainment Centre, Sydney, Australia - /gig:1985-03-28-entertainment-centre-sydney-australia
+1985-03-27 Sydney Entertainment Centre, Sydney, Australia - /gig:1985-03-27-entertainment-centre-sydney-australia
+1985-03-24 Sydney Entertainment Centre, Sydney, Australia - /gig:1985-03-24-entertainment-centre-sydney-australia
+1985-03-23 Sydney Entertainment Centre, Sydney, Australia - /gig:1985-03-23-entertainment-centre-sydney-australia
+1985-03-22 Sydney Entertainment Centre, Sydney, Australia - /gig:1985-03-22-entertainment-centre-sydney-australia
+1985-03-21 Sydney Entertainment Centre, Sydney, Australia - /gig:1985-03-21-entertainment-centre-sydney-australia
+1985-02-23 Forum (The), Inglewood, CA - /gig:1985-02-23-forum-inglewood-ca
+1985-01-27 Carrier Dome, Syracuse, NY - /gig:1985-01-27-carrier-dome-syracuse-ny
+1985-01-26 Carrier Dome, Syracuse, NY - /gig:1985-01-26-carrier-dome-syracuse-ny
+1985-01-24 Providence Civic Center, Providence, RI - /gig:1985-01-24-civic-center-providence-ri
+1985-01-23 Providence Civic Center, Providence, RI - /gig:1985-01-23-civic-center-providence-ri
+1985-01-19 Greensboro Coliseum, Greensboro, NC - /gig:1985-01-19-coliseum-greensboro-nc
+1985-01-18 Greensboro Coliseum, Greensboro, NC - /gig:1985-01-18-coliseum-greensboro-nc
+1985-01-16 Charlotte Coliseum, Charlotte, NC - /gig:1985-01-16-coliseum-charlotte-nc
+1985-01-15 Charlotte Coliseum, Charlotte, NC - /gig:1985-01-15-coliseum-charlotte-nc
+1985-01-13 Carolina Coliseum, Columbia, SC - /gig:1985-01-13-carolina-coliseum-columbia-sc
+1985-01-10 Freedom Hall, Louisville, KY - /gig:1985-01-10-freedom-hall-louisville-ky
+1985-01-08 Market Square Arena, Indianapolis, IN - /gig:1985-01-08-market-square-arena-indianapolis-in
+1985-01-07 Market Square Arena, Indianapolis, IN - /gig:1985-01-07-market-square-arena-indianapolis-in
+1985-01-05 Hampton Roads Coliseum, Hampton, VA - /gig:1985-01-05-roads-coliseum-hampton-va
+1985-01-04 Hampton Roads Coliseum, Hampton, VA - /gig:1985-01-04-roads-coliseum-hampton-va
+1984-12-17 Omni (The), Atlanta, GA - /gig:1984-12-17-omni-atlanta-ga
+1984-12-16 Omni (The), Atlanta, GA - /gig:1984-12-16-omni-atlanta-ga
+1984-12-14 Mid-South Coliseum, Memphis, TN - /gig:1984-12-14-mid-south-coliseum-memphis-tn
+1984-12-13 Mid-South Coliseum, Memphis, TN - /gig:1984-12-13-mid-south-coliseum-memphis-tn
+1984-12-11 Rupp Arena, Lexington, KY - /gig:1984-12-11-rupp-arena-lexington-ky
+1984-12-09 Murphy Center, Murfreesboro, TN - /gig:1984-12-09-murphy-center-murfreesboro-tn
+1984-12-07 Leon County Civic Center, Tallahassee, FL - /gig:1984-12-07-leon-county-civic-center-tallahassee-fl
+1984-12-06 Birmingham-Jefferson Civic Center Arena, Birmingham, AL - /gig:1984-12-06-civic-center-arena-birmingham-al
+1984-12-02 LSU Assembly Center, Baton Rouge, LA - /gig:1984-12-02-lsu-assembly-center-baton-rouge-la
+1984-11-30 Summit (The), Houston, TX - /gig:1984-11-30-summit-houston-tx
+1984-11-29 Summit (The), Houston, TX - /gig:1984-11-29-summit-houston-tx
+1984-11-26 Reunion Arena, Dallas, TX - /gig:1984-11-26-reunion-arena-dallas-tx
+1984-11-25 Reunion Arena, Dallas, TX - /gig:1984-11-25-reunion-arena-dallas-tx
+1984-11-23 Frank Erwin Center, Austin, TX - /gig:1984-11-23-frank-erwin-center-austin-tx
+1984-11-19 Kemper Arena, Kansas City, MO - /gig:1984-11-19-kemper-arena-kansas-city-mo
+1984-11-18 Bob Devaney Sports Center, Lincoln, NE - /gig:1984-11-18-bob-devaney-sports-center-lincoln-ne
+1984-11-16 Hilton Coliseum, Ames, IA - /gig:1984-11-16-hilton-coliseum-ames-ia
+1984-11-15 St. Louis Arena, St. Louis, MO - /gig:1984-11-15-arena-st-louis-mo
+1984-11-12 McNichols Sports Arena, Denver, CO - /gig:1984-11-12-mcnichols-sports-arena-denver-co
+1984-11-11 McNichols Sports Arena, Denver, CO - /gig:1984-11-11-mcnichols-sports-arena-denver-co
+1984-11-08 ASU Activity Center, Tempe, AZ - /gig:1984-11-08-asu-activity-center-tempe-az
+1984-11-04 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1984-11-04-memorial-sports-arena-los-angeles-ca
+1984-11-02 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1984-11-02-memorial-sports-arena-los-angeles-ca
+1984-10-31 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1984-10-31-memorial-sports-arena-los-angeles-ca
+1984-10-29 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1984-10-29-memorial-sports-arena-los-angeles-ca
+1984-10-28 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1984-10-28-memorial-sports-arena-los-angeles-ca
+1984-10-26 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1984-10-26-memorial-sports-arena-los-angeles-ca
+1984-10-25 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1984-10-25-memorial-sports-arena-los-angeles-ca
+1984-10-22 Oakland-Alameda County Coliseum Arena, Oakland, CA - /gig:1984-10-22-alameda-county-coliseum-arena-oakland-ca
+1984-10-21 Oakland-Alameda County Coliseum Arena, Oakland, CA - /gig:1984-10-21-alameda-county-coliseum-arena-oakland-ca
+1984-10-19 Tacoma Dome, Tacoma, WA - /gig:1984-10-19-dome-tacoma-wa
+1984-10-17 Tacoma Dome, Tacoma, WA - /gig:1984-10-17-dome-tacoma-wa
+1984-10-15 Pacific Coliseum, Vancouver, BC - /gig:1984-10-15-pacific-coliseum-vancouver-bc
+1984-10-07 Stone Pony (The), Asbury Park, NJ - /gig:1984-10-07-stone-pony-asbury-park-nj
+1984-09-26 Community Theatre (The), Morristown, NJ - /gig:1984-09-26-community-theatre-morristown-nj
+1984-09-25 Buffalo Memorial Auditorium, Buffalo, NY - /gig:1984-09-25-memorial-auditorium-buffalo-ny
+1984-09-24 Buffalo Memorial Auditorium, Buffalo, NY - /gig:1984-09-24-memorial-auditorium-buffalo-ny
+1984-09-22 Civic Arena, Pittsburgh, PA - /gig:1984-09-22-civic-arena-pittsburgh-pa
+1984-09-21 Civic Arena, Pittsburgh, PA - /gig:1984-09-21-civic-arena-pittsburgh-pa
+1984-09-18 Spectrum, Philadelphia, PA - /gig:1984-09-18-spectrum-philadelphia-pa
+1984-09-17 Spectrum, Philadelphia, PA - /gig:1984-09-17-spectrum-philadelphia-pa
+1984-09-15 Spectrum, Philadelphia, PA - /gig:1984-09-15-spectrum-philadelphia-pa
+1984-09-14 Spectrum, Philadelphia, PA - /gig:1984-09-14-spectrum-philadelphia-pa
+1984-09-12 Spectrum, Philadelphia, PA - /gig:1984-09-12-spectrum-philadelphia-pa
+1984-09-11 Spectrum, Philadelphia, PA - /gig:1984-09-11-spectrum-philadelphia-pa
+1984-09-08 Hartford Civic Center, Hartford, CT - /gig:1984-09-08-civic-center-hartford-ct
+1984-09-07 Hartford Civic Center, Hartford, CT - /gig:1984-09-07-civic-center-hartford-ct
+1984-09-05 Centrum In Worcester, Worcester, MA - /gig:1984-09-05-centrum-worcester-ma
+1984-09-04 Centrum In Worcester, Worcester, MA - /gig:1984-09-04-centrum-worcester-ma
+1984-09-02 Stone Pony (The), Asbury Park, NJ - /gig:1984-09-02-stone-pony-asbury-park-nj
+1984-08-29 Capital Centre, Largo, MD - /gig:1984-08-29-capital-centre-largo-md
+1984-08-28 Capital Centre, Largo, MD - /gig:1984-08-28-capital-centre-largo-md
+1984-08-26 Capital Centre, Largo, MD - /gig:1984-08-26-capital-centre-largo-md
+1984-08-25 Capital Centre, Largo, MD - /gig:1984-08-25-capital-centre-largo-md
+1984-08-22 Stone Pony (The), Asbury Park, NJ - /gig:1984-08-22-stone-pony-asbury-park-nj
+1984-08-20 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-20-brendan-byrne-arena-east-rutherford-nj
+1984-08-19 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-19-brendan-byrne-arena-east-rutherford-nj
+1984-08-17 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-17-brendan-byrne-arena-east-rutherford-nj
+1984-08-16 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-16-brendan-byrne-arena-east-rutherford-nj
+1984-08-12 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-12-brendan-byrne-arena-east-rutherford-nj
+1984-08-11 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-11-brendan-byrne-arena-east-rutherford-nj
+1984-08-09 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-09-brendan-byrne-arena-east-rutherford-nj
+1984-08-08 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-08-brendan-byrne-arena-east-rutherford-nj
+1984-08-06 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-06-brendan-byrne-arena-east-rutherford-nj
+1984-08-05 Brendan Byrne Arena, East Rutherford, NJ - /gig:1984-08-05-brendan-byrne-arena-east-rutherford-nj
+1984-07-31 Joe Louis Arena, Detroit, MI - /gig:1984-07-31-joe-louis-arena-detroit-mi
+1984-07-30 Joe Louis Arena, Detroit, MI - /gig:1984-07-30-joe-louis-arena-detroit-mi
+1984-07-27 Saratoga Performing Arts Center, Saratoga Springs, NY - /gig:1984-07-27-spac-saratoga-springs-ny
+1984-07-26 CNE Grandstand, Toronto, ON - /gig:1984-07-26-cne-grandstand-toronto-on
+1984-07-24 CNE Grandstand, Toronto, ON - /gig:1984-07-24-cne-grandstand-toronto-on
+1984-07-23 CNE Grandstand, Toronto, ON - /gig:1984-07-23-cne-grandstand-toronto-on
+1984-07-21 Montreal Forum, Montreal, QC - /gig:1984-07-21-forum-montreal-qc
+1984-07-18 Rosemont Horizon, Rosemont, IL - /gig:1984-07-18-horizon-rosemont-il
+1984-07-17 Rosemont Horizon, Rosemont, IL - /gig:1984-07-17-horizon-rosemont-il
+1984-07-15 Rosemont Horizon, Rosemont, IL - /gig:1984-07-15-horizon-rosemont-il
+1984-07-13 Alpine Valley Music Theatre, East Troy, WI - /gig:1984-07-13-alpine-valley-music-theatre-east-troy-wi
+1984-07-12 Alpine Valley Music Theatre, East Troy, WI - /gig:1984-07-12-alpine-valley-music-theatre-east-troy-wi
+1984-07-09 Richfield Coliseum, Richfield, OH - /gig:1984-07-09-coliseum-richfield-oh
+1984-07-08 Richfield Coliseum, Richfield, OH - /gig:1984-07-08-coliseum-richfield-oh
+1984-07-06 Riverfront Coliseum, Cincinnati, OH - /gig:1984-07-06-riverfront-coliseum-cincinnati-oh
+1984-07-05 Riverfront Coliseum, Cincinnati, OH - /gig:1984-07-05-riverfront-coliseum-cincinnati-oh
+1984-07-02 St. Paul Civic Center, Saint Paul, MN - /gig:1984-07-02-civic-center-saint-paul-mn
+1984-07-01 St. Paul Civic Center, Saint Paul, MN - /gig:1984-07-01-civic-center-saint-paul-mn
+1984-06-29 St. Paul Civic Center, Saint Paul, MN - /gig:1984-06-29-civic-center-saint-paul-mn
+1984-06-01 Stone Pony (The), Asbury Park, NJ - /gig:1984-06-01-stone-pony-asbury-park-nj
+1984-05-26 Xanadu, Asbury Park, NJ - /gig:1984-05-26-xanadu-asbury-park-nj
+1984-05-19 Stone Pony (The), Asbury Park, NJ - /gig:1984-05-19-stone-pony-asbury-park-nj
+1984-04-22 Stone Pony (The), Asbury Park, NJ - /gig:1984-04-22-stone-pony-asbury-park-nj
+1984-04-13 Ripley's Music Hall, Philadelphia, PA - /gig:1984-04-13-ripley-s-music-hall-philadelphia-pa
+1984-04-08 Stone Pony (The), Asbury Park, NJ - /gig:1984-04-08-stone-pony-asbury-park-nj
+1984-01-14 Patrix, New Brunswick, NJ - /gig:1984-01-14-patrix-new-brunswick-nj
+1983-12-28 Monmouth Arts Center, Red Bank, NJ - /gig:1983-12-28-monmouth-arts-center-red-bank-nj
+1983-08-19 Brighton Bar, Long Branch, NJ - /gig:1983-08-19-brighton-bar-long-branch-nj
+1983-08-14 Stone Pony (The), Asbury Park, NJ - /gig:1983-08-14-stone-pony-asbury-park-nj
+1983-08-02 Madison Square Garden, New York City, NY - /gig:1983-08-02-madison-square-garden-new-york-city-ny
+1983-07-16 Headliner (The), Neptune, NJ - /gig:1983-07-16-headliner-neptune-nj
+1983-06-18 Stone Pony (The), Asbury Park, NJ - /gig:1983-06-18-stone-pony-asbury-park-nj
+1983-01-08 Big Man's West, Red Bank, NJ - /gig:1983-01-08-big-man-s-west-red-bank-nj
+1982-11-27 Club Lingerie, Los Angeles, CA - /gig:1982-11-27-club-lingerie-los-angeles-ca
+1982-10-03 Stone Pony (The), Asbury Park, NJ - /gig:1982-10-03-stone-pony-asbury-park-nj
+1982-09-25 Stone Pony (The), Asbury Park, NJ - /gig:1982-09-25-stone-pony-asbury-park-nj
+1982-09-21 Peppermint Lounge, New York City, NY - /gig:1982-09-21-peppermint-lounge-new-york-city-ny
+1982-09-18 Big Man's West, Red Bank, NJ - /gig:1982-09-18-big-man-s-west-red-bank-nj
+1982-09-04 Big Man's West, Red Bank, NJ - /gig:1982-09-04-big-man-s-west-red-bank-nj
+1982-08-23 Brighton Bar, Long Branch, NJ - /gig:1982-08-23-brighton-bar-long-branch-nj
+1982-08-15 Stone Pony (The), Asbury Park, NJ - /gig:1982-08-15-stone-pony-asbury-park-nj
+1982-08-08 Stone Pony (The), Asbury Park, NJ - /gig:1982-08-08-stone-pony-asbury-park-nj
+1982-08-07 Big Man's West, Red Bank, NJ - /gig:1982-08-07-big-man-s-west-red-bank-nj
+1982-08-06 Big Man's West, Red Bank, NJ - /gig:1982-08-06-big-man-s-west-red-bank-nj
+1982-07-31 Big Man's West, Red Bank, NJ - /gig:1982-07-31-big-man-s-west-red-bank-nj
+1982-07-25 Stone Pony (The), Asbury Park, NJ - /gig:1982-07-25-stone-pony-asbury-park-nj
+1982-07-23 Fast Lane (The), Asbury Park, NJ - /gig:1982-07-23-fast-lane-asbury-park-nj
+1982-07-17 Big Man's West, Red Bank, NJ - /gig:1982-07-17-big-man-s-west-red-bank-nj
+1982-06-27 Stone Pony (The), Asbury Park, NJ - /gig:1982-06-27-stone-pony-asbury-park-nj
+1982-06-26 Big Man's West, Red Bank, NJ - /gig:1982-06-26-big-man-s-west-red-bank-nj
+1982-06-12 Central Park, New York City, NY - /gig:1982-06-12-central-park-new-york-city-ny
+1982-06-12 Big Man's West, Red Bank, NJ - /gig:1982-06-12-big-man-s-west-red-bank-nj
+1982-05-29 Big Man's West, Red Bank, NJ - /gig:1982-05-29-big-man-s-west-red-bank-nj
+1982-05-08 Fast Lane (The), Asbury Park, NJ - /gig:1982-05-08-fast-lane-asbury-park-nj
+1982-04-11 Big Man's West, Red Bank, NJ - /gig:1982-04-11-big-man-s-west-red-bank-nj
+1982-04-10 Big Man's West, Red Bank, NJ - /gig:1982-04-10-big-man-s-west-red-bank-nj
+1982-04-09 Big Man's West, Red Bank, NJ - /gig:1982-04-09-big-man-s-west-red-bank-nj
+1982-02-20 Big Man's West, Red Bank, NJ - /gig:1982-02-20-big-man-s-west-red-bank-nj
+1982-01-12 Royal Manor North, North Brunswick, NJ - /gig:1982-01-12-royal-manor-north-north-brunswick-nj
+1981-09-14 Riverfront Coliseum, Cincinnati, OH - /gig:1981-09-14-riverfront-coliseum-cincinnati-oh
+1981-09-13 Riverfront Coliseum, Cincinnati, OH - /gig:1981-09-13-riverfront-coliseum-cincinnati-oh
+1981-09-11 Rosemont Horizon, Rosemont, IL - /gig:1981-09-11-horizon-rosemont-il
+1981-09-10 Rosemont Horizon, Rosemont, IL - /gig:1981-09-10-horizon-rosemont-il
+1981-09-08 Rosemont Horizon, Rosemont, IL - /gig:1981-09-08-horizon-rosemont-il
+1981-09-05 Perkins Palace, Pasadena, CA - /gig:1981-09-05-perkins-palace-pasadena-ca
+1981-09-02 San Diego Sports Arena, San Diego, CA - /gig:1981-09-02-sports-arena-san-diego-ca
+1981-08-28 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1981-08-28-memorial-sports-arena-los-angeles-ca
+1981-08-27 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1981-08-27-memorial-sports-arena-los-angeles-ca
+1981-08-24 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1981-08-24-memorial-sports-arena-los-angeles-ca
+1981-08-23 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1981-08-23-memorial-sports-arena-los-angeles-ca
+1981-08-21 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1981-08-21-memorial-sports-arena-los-angeles-ca
+1981-08-20 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1981-08-20-memorial-sports-arena-los-angeles-ca
+1981-08-17 Red Rocks Amphitheatre, Morrison, CO - /gig:1981-08-17-red-rocks-amphitheatre-morrison-co
+1981-08-16 Red Rocks Amphitheatre, Morrison, CO - /gig:1981-08-16-red-rocks-amphitheatre-morrison-co
+1981-08-12 Joe Louis Arena, Detroit, MI - /gig:1981-08-12-joe-louis-arena-detroit-mi
+1981-08-11 Joe Louis Arena, Detroit, MI - /gig:1981-08-11-joe-louis-arena-detroit-mi
+1981-08-07 Capital Centre, Largo, MD - /gig:1981-08-07-capital-centre-largo-md
+1981-08-06 Bayou (The), Washington, DC - /gig:1981-08-06-bayou-washington-dc
+1981-08-05 Capital Centre, Largo, MD - /gig:1981-08-05-capital-centre-largo-md
+1981-08-04 Capital Centre, Largo, MD - /gig:1981-08-04-capital-centre-largo-md
+1981-07-30 Richfield Coliseum, Richfield, OH - /gig:1981-07-30-coliseum-richfield-oh
+1981-07-29 Richfield Coliseum, Richfield, OH - /gig:1981-07-29-coliseum-richfield-oh
+1981-07-19 Spectrum, Philadelphia, PA - /gig:1981-07-19-spectrum-philadelphia-pa
+1981-07-18 Spectrum, Philadelphia, PA - /gig:1981-07-18-spectrum-philadelphia-pa
+1981-07-16 Spectrum, Philadelphia, PA - /gig:1981-07-16-spectrum-philadelphia-pa
+1981-07-15 Spectrum, Philadelphia, PA - /gig:1981-07-15-spectrum-philadelphia-pa
+1981-07-13 Spectrum, Philadelphia, PA - /gig:1981-07-13-spectrum-philadelphia-pa
+1981-07-11 Big Man's West, Red Bank, NJ - /gig:1981-07-11-big-man-s-west-red-bank-nj
+1981-07-09 Brendan Byrne Arena, East Rutherford, NJ - /gig:1981-07-09-brendan-byrne-arena-east-rutherford-nj
+1981-07-08 Brendan Byrne Arena, East Rutherford, NJ - /gig:1981-07-08-brendan-byrne-arena-east-rutherford-nj
+1981-07-06 Brendan Byrne Arena, East Rutherford, NJ - /gig:1981-07-06-brendan-byrne-arena-east-rutherford-nj
+1981-07-05 Brendan Byrne Arena, East Rutherford, NJ - /gig:1981-07-05-brendan-byrne-arena-east-rutherford-nj
+1981-07-03 Brendan Byrne Arena, East Rutherford, NJ - /gig:1981-07-03-brendan-byrne-arena-east-rutherford-nj
+1981-07-02 Brendan Byrne Arena, East Rutherford, NJ - /gig:1981-07-02-brendan-byrne-arena-east-rutherford-nj
+1981-06-14 Hollywood Bowl, Los Angeles, CA - /gig:1981-06-14-hollywood-bowl-los-angeles-ca
+1981-06-08 Birmingham International Arena, Birmingham, England - /gig:1981-06-08-international-arena-birmingham-england
+1981-06-07 Birmingham International Arena, Birmingham, England - /gig:1981-06-07-international-arena-birmingham-england
+1981-06-05 Wembley Arena, London, England - /gig:1981-06-05-wembley-arena-london-england
+1981-06-04 Wembley Arena, London, England - /gig:1981-06-04-wembley-arena-london-england
+1981-06-02 Wembley Arena, London, England - /gig:1981-06-02-wembley-arena-london-england
+1981-06-01 Wembley Arena, London, England - /gig:1981-06-01-wembley-arena-london-england
+1981-05-30 Wembley Arena, London, England - /gig:1981-05-30-wembley-arena-london-england
+1981-05-29 Wembley Arena, London, England - /gig:1981-05-29-wembley-arena-london-england
+1981-05-27 Brighton Centre (The), Brighton, England - /gig:1981-05-27-centre-brighton-england
+1981-05-26 Brighton Centre (The), Brighton, England - /gig:1981-05-26-centre-brighton-england
+1981-05-20 Bingley Hall, Stafford, England - /gig:1981-05-20-bingley-hall-stafford-england
+1981-05-17 Edinburgh Playhouse, Edinburgh, Scotland - /gig:1981-05-17-playhouse-edinburgh-scotland
+1981-05-16 Edinburgh Playhouse, Edinburgh, Scotland - /gig:1981-05-16-playhouse-edinburgh-scotland
+1981-05-14 Apollo Theatre, Manchester, England - /gig:1981-05-14-apollo-theatre-manchester-england
+1981-05-13 Apollo Theatre, Manchester, England - /gig:1981-05-13-apollo-theatre-manchester-england
+1981-05-11 City Hall, Newcastle, England - /gig:1981-05-11-city-hall-newcastle-england
+1981-05-08 Johanneshovs Isstadion, Stockholm, Sweden - /gig:1981-05-08-johanneshovs-isstadion-stockholm-sweden
+1981-05-07 Johanneshovs Isstadion, Stockholm, Sweden - /gig:1981-05-07-johanneshovs-isstadion-stockholm-sweden
+1981-05-05 Drammenshallen, Drammen, Norway - /gig:1981-05-05-drammenshallen-drammen-norway
+1981-05-03 Scandinavium, Gothenburg, Sweden - /gig:1981-05-03-scandinavium-gothenburg-sweden
+1981-05-02 Brøndbyhallen, Copenhagen, Denmark - /gig:1981-05-02-brondbyhallen-copenhagen-denmark
+1981-05-01 Forum København, Copenhagen, Denmark - /gig:1981-05-01-forum-kobenhavn-copenhagen-denmark
+1981-04-29 Sportpaleis Ahoy, Rotterdam, The Netherlands - /gig:1981-04-29-sportpaleis-ahoy-rotterdam-netherlands
+1981-04-28 Sportpaleis Ahoy, Rotterdam, The Netherlands - /gig:1981-04-28-sportpaleis-ahoy-rotterdam-netherlands
+1981-04-26 Forest National, Brussels, Belgium - /gig:1981-04-26-forest-national-brussels-belgium
+1981-04-24 Palais Des Sports De Gerland, Lyon, France - /gig:1981-04-24-palais-des-sports-lyon-france
+1981-04-21 Palau Municipal D'Esports, Barcelona, Spain - /gig:1981-04-21-palau-municipal-d-esports-barcelona-spain
+1981-04-19 Palais Des Sports De Saint-Ouen, Paris, France - /gig:1981-04-19-palais-des-sports-paris-france
+1981-04-18 Palais Des Sports De Saint-Ouen, Paris, France - /gig:1981-04-18-palais-des-sports-paris-france
+1981-04-16 Olympiahalle, Munich, West Germany - /gig:1981-04-16-olympiahalle-munich-germany
+1981-04-14 Festhalle, Frankfurt, West Germany - /gig:1981-04-14-festhalle-frankfurt-germany
+1981-04-11 Hallenstadion, Zurich, Switzerland - /gig:1981-04-11-hallenstadion-zurich-switzerland
+1981-04-09 ICC Berlin, West Berlin, West Germany - /gig:1981-04-09-icc-berlin-germany
+1981-04-07 Congress Centrum Hamburg, Hamburg, West Germany - /gig:1981-04-07-congress-centrum-hamburg-germany
+1981-03-05 Market Square Arena, Indianapolis, IN - /gig:1981-03-05-market-square-arena-indianapolis-in
+1981-03-04 Rupp Arena, Lexington, KY - /gig:1981-03-04-rupp-arena-lexington-ky
+1981-03-02 Hampton Roads Coliseum, Hampton, VA - /gig:1981-03-02-roads-coliseum-hampton-va
+1981-02-28 Greensboro Coliseum, Greensboro, NC - /gig:1981-02-28-coliseum-greensboro-nc
+1981-02-26 Nashville Municipal Auditorium, Nashville, TN - /gig:1981-02-26-municipal-auditorium-nashville-tn
+1981-02-23 Omni (The), Atlanta, GA - /gig:1981-02-23-omni-atlanta-ga
+1981-02-22 Carolina Coliseum, Columbia, SC - /gig:1981-02-22-carolina-coliseum-columbia-sc
+1981-02-20 Hollywood Sportatorium (The), Pembroke Pines, FL - /gig:1981-02-20-hollywood-sportatorium-pembroke-pines-fl
+1981-02-18 Jacksonville Veterans Memorial Coliseum, Jacksonville, FL - /gig:1981-02-18-veterans-memorial-coliseum-jacksonville-fl
+1981-02-16 Lakeland Civic Center, Lakeland, FL - /gig:1981-02-16-civic-center-lakeland-fl
+1981-02-15 Lakeland Civic Center, Lakeland, FL - /gig:1981-02-15-civic-center-lakeland-fl
+1981-02-13 Humphrey Coliseum, Starkville, MS - /gig:1981-02-13-humphrey-coliseum-starkville-ms
+1981-02-12 Municipal Auditorium, Mobile, AL - /gig:1981-02-12-municipal-auditorium-mobile-al
+1981-02-07 Assembly Hall, Champaign, IL - /gig:1981-02-07-assembly-hall-champaign-il
+1981-02-05 Kemper Arena, Kansas City, MO - /gig:1981-02-05-kemper-arena-kansas-city-mo
+1981-02-02 Dane County Memorial Coliseum, Madison, WI - /gig:1981-02-02-dane-county-memorial-coliseum-madison-wi
+1981-02-01 St. Paul Civic Center, Saint Paul, MN - /gig:1981-02-01-civic-center-saint-paul-mn
+1981-01-29 Hilton Coliseum, Ames, IA - /gig:1981-01-29-hilton-coliseum-ames-ia
+1981-01-28 Checkerdome, St. Louis, MO - /gig:1981-01-28-checkerdome-st-louis-mo
+1981-01-26 Athletic & Convocation Center, South Bend, IN - /gig:1981-01-26-athletic-convocation-center-south-bend-in
+1981-01-24 Ottawa Civic Centre, Ottawa, ON - /gig:1981-01-24-civic-centre-ottawa-on
+1981-01-23 Montreal Forum, Montreal, QC - /gig:1981-01-23-forum-montreal-qc
+1981-01-21 Maple Leaf Gardens, Toronto, ON - /gig:1981-01-21-maple-leaf-gardens-toronto-on
+1981-01-20 Maple Leaf Gardens, Toronto, ON - /gig:1981-01-20-maple-leaf-gardens-toronto-on
+1980-12-31 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:1980-12-31-nassau-coliseum-uniondale-ny
+1980-12-29 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:1980-12-29-nassau-coliseum-uniondale-ny
+1980-12-28 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:1980-12-28-nassau-coliseum-uniondale-ny
+1980-12-19 Madison Square Garden, New York City, NY - /gig:1980-12-19-madison-square-garden-new-york-city-ny
+1980-12-18 Madison Square Garden, New York City, NY - /gig:1980-12-18-madison-square-garden-new-york-city-ny
+1980-12-16 Boston Garden, Boston, MA - /gig:1980-12-16-garden-boston-ma
+1980-12-15 Boston Garden, Boston, MA - /gig:1980-12-15-garden-boston-ma
+1980-12-12 Hartford Civic Center, Hartford, CT - /gig:1980-12-12-civic-center-hartford-ct
+1980-12-11 Providence Civic Center, Providence, RI - /gig:1980-12-11-civic-center-providence-ri
+1980-12-09 Spectrum, Philadelphia, PA - /gig:1980-12-09-spectrum-philadelphia-pa
+1980-12-08 Spectrum, Philadelphia, PA - /gig:1980-12-08-spectrum-philadelphia-pa
+1980-12-06 Spectrum, Philadelphia, PA - /gig:1980-12-06-spectrum-philadelphia-pa
+1980-12-04 Buffalo Memorial Auditorium, Buffalo, NY - /gig:1980-12-04-memorial-auditorium-buffalo-ny
+1980-12-02 Rochester Community War Memorial, Rochester, NY - /gig:1980-12-02-community-war-memorial-rochester-ny
+1980-12-01 Civic Arena, Pittsburgh, PA - /gig:1980-12-01-civic-arena-pittsburgh-pa
+1980-11-30 Civic Arena, Pittsburgh, PA - /gig:1980-11-30-civic-arena-pittsburgh-pa
+1980-11-28 Madison Square Garden, New York City, NY - /gig:1980-11-28-madison-square-garden-new-york-city-ny
+1980-11-27 Madison Square Garden, New York City, NY - /gig:1980-11-27-madison-square-garden-new-york-city-ny
+1980-11-24 Capital Centre, Largo, MD - /gig:1980-11-24-capital-centre-largo-md
+1980-11-23 Capital Centre, Largo, MD - /gig:1980-11-23-capital-centre-largo-md
+1980-11-20 Rosemont Horizon, Rosemont, IL - /gig:1980-11-20-horizon-rosemont-il
+1980-11-15 Summit (The), Houston, TX - /gig:1980-11-15-summit-houston-tx
+1980-11-14 Summit (The), Houston, TX - /gig:1980-11-14-summit-houston-tx
+1980-11-11 LSU Assembly Center, Baton Rouge, LA - /gig:1980-11-11-lsu-assembly-center-baton-rouge-la
+1980-11-09 Special Events Center, Austin, TX - /gig:1980-11-09-special-events-center-austin-tx
+1980-11-08 Reunion Arena, Dallas, TX - /gig:1980-11-08-reunion-arena-dallas-tx
+1980-11-03 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1980-11-03-memorial-sports-arena-los-angeles-ca
+1980-11-01 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1980-11-01-memorial-sports-arena-los-angeles-ca
+1980-10-31 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1980-10-31-memorial-sports-arena-los-angeles-ca
+1980-10-30 Los Angeles Memorial Sports Arena, Los Angeles, CA - /gig:1980-10-30-memorial-sports-arena-los-angeles-ca
+1980-10-28 Oakland-Alameda County Coliseum Arena, Oakland, CA - /gig:1980-10-28-alameda-county-coliseum-arena-oakland-ca
+1980-10-27 Oakland-Alameda County Coliseum Arena, Oakland, CA - /gig:1980-10-27-alameda-county-coliseum-arena-oakland-ca
+1980-10-25 Memorial Coliseum, Portland, OR - /gig:1980-10-25-memorial-coliseum-portland-or
+1980-10-24 Seattle Center Coliseum, Seattle, WA - /gig:1980-10-24-center-coliseum-seattle-wa
+1980-10-20 McNichols Sports Arena, Denver, CO - /gig:1980-10-20-mcnichols-sports-arena-denver-co
+1980-10-18 Kiel Opera House, St. Louis, MO - /gig:1980-10-18-kiel-opera-house-st-louis-mo
+1980-10-17 Kiel Opera House, St. Louis, MO - /gig:1980-10-17-kiel-opera-house-st-louis-mo
+1980-10-14 Mecca Arena, Milwaukee, WI - /gig:1980-10-14-mecca-arena-milwaukee-wi
+1980-10-13 St. Paul Civic Center, Saint Paul, MN - /gig:1980-10-13-civic-center-saint-paul-mn
+1980-10-11 Uptown Theatre, Chicago, IL - /gig:1980-10-11-uptown-theatre-chicago-il
+1980-10-10 Uptown Theatre, Chicago, IL - /gig:1980-10-10-uptown-theatre-chicago-il
+1980-10-09 Cobo Arena, Detroit, MI - /gig:1980-10-09-cobo-arena-detroit-mi
+1980-10-07 Richfield Coliseum, Richfield, OH - /gig:1980-10-07-coliseum-richfield-oh
+1980-10-06 Richfield Coliseum, Richfield, OH - /gig:1980-10-06-coliseum-richfield-oh
+1980-10-04 Riverfront Coliseum, Cincinnati, OH - /gig:1980-10-04-riverfront-coliseum-cincinnati-oh
+1980-10-03 Crisler Arena, Ann Arbor, MI - /gig:1980-10-03-crisler-arena-ann-arbor-mi
+1979-10-05 Fast Lane (The), Asbury Park, NJ - /gig:1979-10-05-fast-lane-asbury-park-nj
+1979-09-22 Madison Square Garden, New York City, NY - /gig:1979-09-22-madison-square-garden-new-york-city-ny
+1979-09-21 Madison Square Garden, New York City, NY - /gig:1979-09-21-madison-square-garden-new-york-city-ny
+1979-05-27 Paramount Theatre, Asbury Park, NJ - /gig:1979-05-27-paramount-theatre-asbury-park-nj
+1979-03-14 Fast Lane (The), Asbury Park, NJ - /gig:1979-03-14-fast-lane-asbury-park-nj
+1979-01-01 Richfield Coliseum, Richfield, OH - /gig:1979-01-01-coliseum-richfield-oh
+1978-12-31 Richfield Coliseum, Richfield, OH - /gig:1978-12-31-coliseum-richfield-oh
+1978-12-30 Cobo Arena, Detroit, MI - /gig:1978-12-30-cobo-arena-detroit-mi
+1978-12-28 Stanley Theatre, Pittsburgh, PA - /gig:1978-12-28-stanley-theatre-pittsburgh-pa
+1978-12-27 Stanley Theatre, Pittsburgh, PA - /gig:1978-12-27-stanley-theatre-pittsburgh-pa
+1978-12-20 Seattle Center Arena, Seattle, WA - /gig:1978-12-20-center-arena-seattle-wa
+1978-12-19 Paramount Theatre, Portland, OR - /gig:1978-12-19-paramount-theatre-portland-or
+1978-12-16 Winterland Ballroom, San Francisco, CA - /gig:1978-12-16-winterland-ballroom-san-francisco-ca
+1978-12-15 Winterland Ballroom, San Francisco, CA - /gig:1978-12-15-winterland-ballroom-san-francisco-ca
+1978-12-13 Tucson Community Center Arena, Tucson, AZ - /gig:1978-12-13-community-center-arena-tucson-az
+1978-12-08 Summit (The), Houston, TX - /gig:1978-12-08-summit-houston-tx
+1978-12-07 Special Events Center, Austin, TX - /gig:1978-12-07-special-events-center-austin-tx
+1978-12-03 SIU Arena, Carbondale, IL - /gig:1978-12-03-siu-arena-carbondale-il
+1978-12-01 Lloyd Noble Center, Norman, OK - /gig:1978-12-01-lloyd-noble-center-norman-ok
+1978-11-29 St. Paul Civic Center, Saint Paul, MN - /gig:1978-11-29-civic-center-saint-paul-mn
+1978-11-28 Dane County Memorial Coliseum, Madison, WI - /gig:1978-11-28-dane-county-memorial-coliseum-madison-wi
+1978-11-27 Mecca Arena, Milwaukee, WI - /gig:1978-11-27-mecca-arena-milwaukee-wi
+1978-11-25 Kiel Opera House, St. Louis, MO - /gig:1978-11-25-kiel-opera-house-st-louis-mo
+1978-11-21 McGaw Hall, Evanston, IL - /gig:1978-11-21-mcgaw-hall-evanston-il
+1978-11-20 Assembly Hall, Champaign, IL - /gig:1978-11-20-assembly-hall-champaign-il
+1978-11-16 Maple Leaf Gardens, Toronto, ON - /gig:1978-11-16-maple-leaf-gardens-toronto-on
+1978-11-14 Utica Memorial Auditorium, Utica, NY - /gig:1978-11-14-memorial-auditorium-utica-ny
+1978-11-12 RPI Field House, Troy, NY - /gig:1978-11-12-rpi-field-house-troy-ny
+1978-11-10 Reilly Center, St. Bonaventure, NY - /gig:1978-11-10-reilly-center-st-bonaventure-ny
+1978-11-08 Montreal Forum, Montreal, QC - /gig:1978-11-08-forum-montreal-qc
+1978-11-07 Barton Hall, Ithaca, NY - /gig:1978-11-07-barton-hall-ithaca-ny
+1978-11-02 Capital Centre, Largo, MD - /gig:1978-11-02-capital-centre-largo-md
+1978-11-01 Jadwin Gymnasium, Princeton, NJ - /gig:1978-11-01-jadwin-gymnasium-princeton-nj
+1978-10-17 Troubadour (The), West Hollywood, CA - /gig:1978-10-17-troubadour-west-hollywood-ca
+1978-10-01 Fox Theatre, Atlanta, GA - /gig:1978-10-01-fox-theatre-atlanta-ga
+1978-09-30 Fox Theatre, Atlanta, GA - /gig:1978-09-30-fox-theatre-atlanta-ga
+1978-09-29 Boutwell Memorial Auditorium, Birmingham, AL - /gig:1978-09-29-boutwell-memorial-auditorium-birmingham-al
+1978-09-21 Capitol Theatre, Passaic, NJ - /gig:1978-09-21-capitol-theatre-passaic-nj
+1978-09-19 Capitol Theatre, Passaic, NJ - /gig:1978-09-19-capitol-theatre-passaic-nj
+1978-09-17 Palladium, New York City, NY - /gig:1978-09-17-palladium-new-york-city-ny
+1978-09-16 Palladium, New York City, NY - /gig:1978-09-16-palladium-new-york-city-ny
+1978-09-15 Palladium, New York City, NY - /gig:1978-09-15-palladium-new-york-city-ny
+1978-09-13 Springfield Civic Center, Springfield, MA - /gig:1978-09-13-civic-center-springfield-ma
+1978-09-12 Onondaga County War Memorial Auditorium, Syracuse, NY - /gig:1978-09-12-onondaga-county-war-memorial-auditorium-syrac
+1978-09-09 Athletic & Convocation Center, South Bend, IN - /gig:1978-09-09-athletic-convocation-center-south-bend-in
+1978-09-06 Uptown Theatre, Chicago, IL - /gig:1978-09-06-uptown-theatre-chicago-il
+1978-09-05 Veterans Memorial Auditorium, Columbus, OH - /gig:1978-09-05-veterans-memorial-auditorium-columbus-oh
+1978-09-03 Saginaw Civic Center, Saginaw, MI - /gig:1978-09-03-civic-center-saginaw-mi
+1978-09-01 Masonic Temple Theatre, Detroit, MI - /gig:1978-09-01-masonic-temple-theatre-detroit-mi
+1978-08-30 Agora (The), Cleveland, OH - /gig:1978-08-30-agora-cleveland-oh
+1978-08-29 Stanley Theatre, Pittsburgh, PA - /gig:1978-08-29-stanley-theatre-pittsburgh-pa
+1978-08-26 Providence Civic Center, Providence, RI - /gig:1978-08-26-civic-center-providence-ri
+1978-08-25 New Haven Veterans Memorial Coliseum, New Haven, CT - /gig:1978-08-25-veterans-memorial-coliseum-new-haven-ct
+1978-08-23 Madison Square Garden, New York City, NY - /gig:1978-08-23-madison-square-garden-new-york-city-ny
+1978-08-22 Madison Square Garden, New York City, NY - /gig:1978-08-22-madison-square-garden-new-york-city-ny
+1978-08-21 Madison Square Garden, New York City, NY - /gig:1978-08-21-madison-square-garden-new-york-city-ny
+1978-08-19 Spectrum, Philadelphia, PA - /gig:1978-08-19-spectrum-philadelphia-pa
+1978-08-18 Spectrum, Philadelphia, PA - /gig:1978-08-18-spectrum-philadelphia-pa
+1978-08-15 Capital Centre, Largo, MD - /gig:1978-08-15-capital-centre-largo-md
+1978-08-14 Hampton Roads Coliseum, Hampton, VA - /gig:1978-08-14-roads-coliseum-hampton-va
+1978-08-10 Rochester Community War Memorial, Rochester, NY - /gig:1978-08-10-community-war-memorial-rochester-ny
+1978-08-09 Agora (The), Cleveland, OH - /gig:1978-08-09-agora-cleveland-oh
+1978-08-05 Louisville Gardens, Louisville, KY - /gig:1978-08-05-gardens-louisville-ky
+1978-08-04 Charleston Civic Center, Charleston, WV - /gig:1978-08-04-civic-center-charleston-wv
+1978-07-29 Bayfront Center Arena, St. Petersburg, FL - /gig:1978-07-29-bayfront-center-arena-st-petersburg-fl
+1978-07-28 Jai Alai Fronton, Miami, FL - /gig:1978-07-28-jai-alai-fronton-miami-fl
+1978-07-21 Nashville Municipal Auditorium, Nashville, TN - /gig:1978-07-21-municipal-auditorium-nashville-tn
+1978-07-18 Jackson Municipal Auditorium, Jackson, MS - /gig:1978-07-18-municipal-auditorium-jackson-ms
+1978-07-16 Municipal Auditorium, New Orleans, LA - /gig:1978-07-16-municipal-auditorium-new-orleans-la
+1978-07-15 Sam Houston Coliseum, Houston, TX - /gig:1978-07-15-sam-houston-coliseum-houston-tx
+1978-07-14 San Antonio Municipal Auditorium, San Antonio, TX - /gig:1978-07-14-municipal-auditorium-san-antonio-tx
+1978-07-12 Dallas Convention Center Theater, Dallas, TX - /gig:1978-07-12-convention-center-theater-dallas-tx
+1978-07-09 San Diego Sports Arena, San Diego, CA - /gig:1978-07-09-sports-arena-san-diego-ca
+1978-07-08 Arizona Veterans Memorial Coliseum, Phoenix, AZ - /gig:1978-07-08-veterans-memorial-coliseum-phoenix-az
+1978-07-07 Roxy Theatre (The), West Hollywood, CA - /gig:1978-07-07-roxy-theatre-west-hollywood-ca
+1978-07-05 Forum (The), Inglewood, CA - /gig:1978-07-05-forum-inglewood-ca
+1978-07-01 Berkeley Community Theatre, Berkeley, CA - /gig:1978-07-01-community-theatre-berkeley-ca
+1978-06-30 Berkeley Community Theatre, Berkeley, CA - /gig:1978-06-30-community-theatre-berkeley-ca
+1978-06-29 San Jose Center For The Performing Arts, San Jose, CA - /gig:1978-06-29-performing-arts-center-san-jose-ca
+1978-06-25 Paramount Northwest Theatre, Seattle, WA - /gig:1978-06-25-paramount-northwest-theatre-seattle-wa
+1978-06-24 Paramount Theatre, Portland, OR - /gig:1978-06-24-paramount-theatre-portland-or
+1978-06-20 Red Rocks Amphitheatre, Morrison, CO - /gig:1978-06-20-red-rocks-amphitheatre-morrison-co
+1978-06-16 Memorial Hall, Kansas City, KS - /gig:1978-06-16-memorial-hall-kansas-city-ks
+1978-06-14 Civic Auditorium Music Hall, Omaha, NE - /gig:1978-06-14-civic-auditorium-music-hall-omaha-ne
+1978-06-10 Metropolitan Sports Center, Bloomington, MN - /gig:1978-06-10-metropolitan-sports-center-bloomington-mn
+1978-06-09 Mecca Arena, Milwaukee, WI - /gig:1978-06-09-mecca-arena-milwaukee-wi
+1978-06-08 Dane County Memorial Coliseum, Madison, WI - /gig:1978-06-08-dane-county-memorial-coliseum-madison-wi
+1978-06-05 Sports Arena, Toledo, OH - /gig:1978-06-05-sports-arena-toledo-oh
+1978-06-03 Nassau Veterans Memorial Coliseum, Uniondale, NY - /gig:1978-06-03-nassau-coliseum-uniondale-ny
+1978-06-02 Halsey Field House, Annapolis, MD - /gig:1978-06-02-halsey-field-house-annapolis-md
+1978-05-31 Music Hall, Boston, MA - /gig:1978-05-31-music-hall-boston-ma
+1978-05-30 Music Hall, Boston, MA - /gig:1978-05-30-music-hall-boston-ma
+1978-05-29 Music Hall, Boston, MA - /gig:1978-05-29-music-hall-boston-ma
+1978-05-27 Spectrum, Philadelphia, PA - /gig:1978-05-27-spectrum-philadelphia-pa
+1978-05-26 Spectrum, Philadelphia, PA - /gig:1978-05-26-spectrum-philadelphia-pa
+1978-05-24 Palace Theatre, Albany, NY - /gig:1978-05-24-palace-theatre-albany-ny
+1978-05-23 Shea's Buffalo Theatre, Buffalo, NY - /gig:1978-05-23-shea-s-theatre-buffalo-ny
+1977-12-31 Capitol Theatre, Passaic, NJ - /gig:1977-12-31-capitol-theatre-passaic-nj
+1977-12-30 CBGB Second Avenue Theatre, New York City, NY - /gig:1977-12-30-cbgb-theater-new-york-city-ny
+1977-12-02 Loeb Student Center, New York City, NY - /gig:1977-12-02-loeb-student-center-new-york-city-ny
+1977-10-13 Stone Pony (The), Asbury Park, NJ - /gig:1977-10-13-stone-pony-asbury-park-nj
+1977-09-13 Stone Pony (The), Asbury Park, NJ - /gig:1977-09-13-stone-pony-asbury-park-nj
+1977-09-04 Stone Pony (The), Asbury Park, NJ - /gig:1977-09-04-stone-pony-asbury-park-nj
+1977-05-13 Monmouth Arts Center, Red Bank, NJ (Late) - /gig:1977-05-13-monmouth-arts-center-red-bank-nj-late
+1977-05-13 Monmouth Arts Center, Red Bank, NJ (Early) - /gig:1977-05-13-monmouth-arts-center-red-bank-nj-early
+1977-05-12 Monmouth Arts Center, Red Bank, NJ - /gig:1977-05-12-monmouth-arts-center-red-bank-nj
+1977-04-17 Stone Pony (The), Asbury Park, NJ - /gig:1977-04-17-stone-pony-asbury-park-nj
+1977-03-25 Music Hall, Boston, MA - /gig:1977-03-25-music-hall-boston-ma
+1977-03-24 Music Hall, Boston, MA - /gig:1977-03-24-music-hall-boston-ma
+1977-03-23 Music Hall, Boston, MA - /gig:1977-03-23-music-hall-boston-ma
+1977-03-22 Music Hall, Boston, MA - /gig:1977-03-22-music-hall-boston-ma
+1977-03-19 Central Maine Youth Center, Lewiston, ME - /gig:1977-03-19-central-maine-youth-center-lewiston-me
+1977-03-18 New Haven Veterans Memorial Coliseum, New Haven, CT - /gig:1977-03-18-veterans-memorial-coliseum-new-haven-ct
+1977-03-15 Broome County Veterans Memorial Arena, Binghamton, NY - /gig:1977-03-15-broome-county-veterans-memorial-arena-bingham
+1977-03-14 Mid-Hudson Civic Center, Poughkeepsie, NY - /gig:1977-03-14-mid-hudson-civic-center-poughkeepsie-ny
+1977-03-13 Towson Center, Towson, MD - /gig:1977-03-13-center-towson-md
+1977-03-11 Gymnasium, Latrobe, PA - /gig:1977-03-11-gymnasium-latrobe-pa
+1977-03-10 Sports Arena, Toledo, OH - /gig:1977-03-10-sports-arena-toledo-oh
+1977-03-06 Jai Alai Fronton, Miami, FL - /gig:1977-03-06-jai-alai-fronton-miami-fl
+1977-03-05 Jai-Alai Fronton, Orlando, FL - /gig:1977-03-05-jai-alai-fronton-orlando-fl
+1977-03-04 Civic Auditorium, Jacksonville, FL - /gig:1977-03-04-civic-auditorium-jacksonville-fl
+1977-02-28 Fox Theatre, St. Louis, MO - /gig:1977-02-28-fox-theatre-st-louis-mo
+1977-02-27 Riverfront Coliseum, Cincinnati, OH - /gig:1977-02-27-riverfront-coliseum-cincinnati-oh
+1977-02-26 Indiana Convention Center, Indianapolis, IN - /gig:1977-02-26-convention-center-indianapolis-in
+1977-02-23 Auditorium Theatre, Chicago, IL - /gig:1977-02-23-auditorium-theatre-chicago-il
+1977-02-22 Milwaukee Auditorium, Milwaukee, WI - /gig:1977-02-22-auditorium-milwaukee-wi
+1977-02-19 St. Paul Civic Center Theatre, Saint Paul, MN - /gig:1977-02-19-civic-center-theatre-saint-paul-mn
+1977-02-17 Richfield Coliseum, Richfield, OH - /gig:1977-02-17-coliseum-richfield-oh
+1977-02-15 Masonic Temple Theatre, Detroit, MI - /gig:1977-02-15-masonic-temple-theatre-detroit-mi
+1977-02-13 Maple Leaf Gardens, Toronto, ON - /gig:1977-02-13-maple-leaf-gardens-toronto-on
+1977-02-12 Ottawa Civic Centre, Ottawa, ON - /gig:1977-02-12-civic-centre-ottawa-on
+1976-11-26 Bottom Line (The), New York City, NY (Late) - /gig:1976-11-26-bottom-line-new-york-city-ny-late
+1976-11-26 Bottom Line (The), New York City, NY (Early) - /gig:1976-11-26-bottom-line-new-york-city-ny-early
+1976-11-04 Palladium, New York City, NY - /gig:1976-11-04-palladium-new-york-city-ny
+1976-11-03 Palladium, New York City, NY - /gig:1976-11-03-palladium-new-york-city-ny
+1976-11-02 Palladium, New York City, NY - /gig:1976-11-02-palladium-new-york-city-ny
+1976-10-30 Palladium, New York City, NY - /gig:1976-10-30-palladium-new-york-city-ny
+1976-10-29 Palladium, New York City, NY - /gig:1976-10-29-palladium-new-york-city-ny
+1976-10-28 Palladium, New York City, NY - /gig:1976-10-28-palladium-new-york-city-ny
+1976-10-27 Spectrum, Philadelphia, PA - /gig:1976-10-27-spectrum-philadelphia-pa
+1976-10-25 Spectrum, Philadelphia, PA - /gig:1976-10-25-spectrum-philadelphia-pa
+1976-10-18 McDonough Arena, Washington, DC - /gig:1976-10-18-mcdonough-arena-washington-dc
+1976-10-17 McDonough Arena, Washington, DC - /gig:1976-10-17-mcdonough-arena-washington-dc
+1976-10-16 William & Mary Hall, Williamsburg, VA - /gig:1976-10-16-william-mary-hall-williamsburg-va
+1976-10-13 Wilkins Theatre, Union, NJ - /gig:1976-10-13-wilkins-theatre-union-nj
+1976-10-12 Rutgers Gym, New Brunswick, NJ - /gig:1976-10-12-rutgers-gym-new-brunswick-nj
+1976-10-10 Millett Hall, Oxford, OH - /gig:1976-10-10-millett-hall-oxford-oh
+1976-10-09 Athletic & Convocation Center, South Bend, IN - /gig:1976-10-09-athletic-convocation-center-south-bend-in
+1976-10-05 Santa Barbara County Bowl, Santa Barbara, CA - /gig:1976-10-05-county-bowl-santa-barbara-ca
+1976-10-02 Paramount Theatre, Oakland, CA - /gig:1976-10-02-paramount-theatre-oakland-ca
+1976-09-30 Santa Monica Civic Auditorium, Santa Monica, CA - /gig:1976-09-30-civic-auditorium-santa-monica-ca
+1976-09-29 Santa Monica Civic Auditorium, Santa Monica, CA - /gig:1976-09-29-civic-auditorium-santa-monica-ca
+1976-09-26 Arizona Veterans Memorial Coliseum, Phoenix, AZ - /gig:1976-09-26-veterans-memorial-coliseum-phoenix-az
+1976-09-04 Stone Pony (The), Asbury Park, NJ - /gig:1976-09-04-stone-pony-asbury-park-nj
+1976-08-22 Springfield Civic Center, Springfield, MA - /gig:1976-08-22-civic-center-springfield-ma
+1976-08-21 Palace Theater, Waterbury, CT - /gig:1976-08-21-palace-theater-waterbury-ct
+1976-08-07 Monmouth Arts Center, Red Bank, NJ - /gig:1976-08-07-monmouth-arts-center-red-bank-nj
+1976-08-06 Monmouth Arts Center, Red Bank, NJ - /gig:1976-08-06-monmouth-arts-center-red-bank-nj
+1976-08-05 Monmouth Arts Center, Red Bank, NJ - /gig:1976-08-05-monmouth-arts-center-red-bank-nj
+1976-08-03 Monmouth Arts Center, Red Bank, NJ - /gig:1976-08-03-monmouth-arts-center-red-bank-nj
+1976-08-02 Monmouth Arts Center, Red Bank, NJ - /gig:1976-08-02-monmouth-arts-center-red-bank-nj
+1976-08-01 Monmouth Arts Center, Red Bank, NJ - /gig:1976-08-01-monmouth-arts-center-red-bank-nj
+1976-05-30 Stone Pony (The), Asbury Park, NJ - /gig:1976-05-30-stone-pony-asbury-park-nj
+1976-05-27 Eisenhower Hall Auditorium, West Point, NY - /gig:1976-05-27-eisenhower-hall-auditorium-west-point-ny
+1976-05-13 Municipal Auditorium, New Orleans, LA - /gig:1976-05-13-municipal-auditorium-new-orleans-la
+1976-05-10 Municipal Auditorium Theater, Mobile, AL - /gig:1976-05-10-municipal-auditorium-theater-mobile-al
+1976-04-29 Ellis Auditorium, Memphis, TN - /gig:1976-04-29-ellis-auditorium-memphis-tn
+1976-04-22 Burruss Auditorium, Blacksburg, VA - /gig:1976-04-22-burruss-auditorium-blacksburg-va
+1976-04-13 Rec Hall, University Park, PA - /gig:1976-04-13-rec-hall-university-park-pa
+1976-04-10 Paul Mellon Arts Center, Wallingford, CT - /gig:1976-04-10-paul-mellon-arts-center-wallingford-ct
+1976-04-09 Reid Athletic Center, Hamilton, NY - /gig:1976-04-09-reid-athletic-center-hamilton-ny
+1976-04-08 Allen Theatre, Cleveland, OH - /gig:1976-04-08-allen-theatre-cleveland-oh
+1976-04-07 Allen Theatre, Cleveland, OH - /gig:1976-04-07-allen-theatre-cleveland-oh
+1976-04-05 Ohio Theatre, Columbus, OH - /gig:1976-04-05-theatre-columbus-oh
+1976-04-04 MSU Auditorium, East Lansing, MI - /gig:1976-04-04-msu-auditorium-east-lansing-mi
+1976-03-28 Cameron Indoor Stadium, Durham, NC - /gig:1976-03-28-cameron-indoor-stadium-durham-nc
+1975-12-31 Tower Theater, Upper Darby, Philadelphia, PA - /gig:1975-12-31-tower-theater-philadelphia-pa
+1975-12-30 Tower Theater, Upper Darby, Philadelphia, PA - /gig:1975-12-30-tower-theater-philadelphia-pa
+1975-12-28 Tower Theater, Upper Darby, Philadelphia, PA - /gig:1975-12-28-tower-theater-philadelphia-pa
+1975-12-27 Tower Theater, Upper Darby, Philadelphia, PA - /gig:1975-12-27-tower-theater-philadelphia-pa
+1975-12-21 Seneca Field House, Toronto, ON - /gig:1975-12-21-seneca-field-house-toronto-on
+1975-12-17 Kleinhans Music Hall, Buffalo, NY - /gig:1975-12-17-kleinhans-music-hall-buffalo-ny
+1975-12-16 Laker Hall Gym, Oswego, NY - /gig:1975-12-16-laker-hall-gym-oswego-ny
+1975-12-12 Post Dome, Greenvale, NY - /gig:1975-12-12-post-dome-greenvale-ny
+1975-12-11 Walsh Auditorium, South Orange, NJ - /gig:1975-12-11-walsh-auditorium-south-orange-nj
+1975-12-06 McDonough Arena, Washington, DC - /gig:1975-12-06-mcdonough-arena-washington-dc
+1975-12-05 McDonough Arena, Washington, DC - /gig:1975-12-05-mcdonough-arena-washington-dc
+1975-12-03 Music Hall, Boston, MA - /gig:1975-12-03-music-hall-boston-ma
+1975-12-02 Music Hall, Boston, MA - /gig:1975-12-02-music-hall-boston-ma
+1975-11-24 Hammersmith Odeon, London, England - /gig:1975-11-24-hammersmith-odeon-london-england
+1975-11-23 Amsterdam RAI, Amsterdam, The Netherlands - /gig:1975-11-23-rai-amsterdam-netherlands
+1975-11-21 Stockholms Konserthuset, Stockholm, Sweden - /gig:1975-11-21-konserthuset-stockholm-sweden
+1975-11-18 Hammersmith Odeon, London, England - /gig:1975-11-18-hammersmith-odeon-london-england
+1975-11-10 Jai Alai Fronton, Tampa, FL - /gig:1975-11-10-jai-alai-fronton-tampa-fl
+1975-11-06 Grady Gammage Memorial Auditorium, Tempe, AZ - /gig:1975-11-06-grady-gammage-memorial-auditorium-tempe-az
+1975-11-01 Robertson Gymnasium, Santa Barbara, CA - /gig:1975-11-01-robertson-gymnasium-santa-barbara-ca
+1975-10-26 Paramount Northwest Theatre, Seattle, WA - /gig:1975-10-26-paramount-northwest-theatre-seattle-wa
+1975-10-19 Roxy Theatre (The), West Hollywood, CA - /gig:1975-10-19-roxy-theatre-west-hollywood-ca
+1975-10-18 Roxy Theatre (The), West Hollywood, CA (Late) - /gig:1975-10-18-roxy-theatre-west-hollywood-ca-late
+1975-10-17 Roxy Theatre (The), West Hollywood, CA (Late) - /gig:1975-10-17-roxy-theatre-west-hollywood-ca-late
+1975-10-17 Roxy Theatre (The), West Hollywood, CA (Early) - /gig:1975-10-17-roxy-theatre-west-hollywood-ca-early
+1975-10-11 Monmouth Arts Center, Red Bank, NJ (Late) - /gig:1975-10-11-monmouth-arts-center-red-bank-nj-late
+1975-10-04 Michigan Palace, Detroit, MI - /gig:1975-10-04-palace-detroit-mi
+1975-10-02 Uptown Theatre, Milwaukee, WI - /gig:1975-10-02-uptown-theatre-milwaukee-wi
+1975-09-28 Memorial Hall, Kansas City, KS - /gig:1975-09-28-memorial-hall-kansas-city-ks
+1975-09-27 Ambassador Theatre, St. Louis, MO - /gig:1975-09-27-ambassador-theatre-st-louis-mo
+1975-09-26 Hancher Auditorium, Iowa City, IA - /gig:1975-09-26-hancher-auditorium-iowa-city-ia
+1975-09-23 Hill Auditorium, Ann Arbor, MI - /gig:1975-09-23-hill-auditorium-ann-arbor-mi
+1975-09-21 Guthrie Theater, Minneapolis, MN - /gig:1975-09-21-guthrie-theater-minneapolis-mn
+1975-09-16 Dallas Convention Center Theater, Dallas, TX - /gig:1975-09-16-convention-center-theater-dallas-tx
+1975-09-13 Music Hall, Houston, TX - /gig:1975-09-13-music-hall-houston-tx
+1975-09-12 Municipal Auditorium, Austin, TX - /gig:1975-09-12-municipal-auditorium-austin-tx
+1975-09-06 Theatre Of Performing Arts, New Orleans, LA - /gig:1975-09-06-theatre-of-performing-arts-new-orleans-la
+1975-08-23 Alex Cooley's Electric Ballroom, Atlanta, GA - /gig:1975-08-23-electric-ballroom-atlanta-ga
+1975-08-17 Bottom Line (The), New York City, NY (Early) - /gig:1975-08-17-bottom-line-new-york-city-ny-early
+1975-08-16 Bottom Line (The), New York City, NY (Early) - /gig:1975-08-16-bottom-line-new-york-city-ny-early
+1975-08-15 Bottom Line (The), New York City, NY (Early) - /gig:1975-08-15-bottom-line-new-york-city-ny-early
+1975-08-14 Bottom Line (The), New York City, NY (Early) - /gig:1975-08-14-bottom-line-new-york-city-ny-early
+1975-08-13 Bottom Line (The), New York City, NY (Late) - /gig:1975-08-13-bottom-line-new-york-city-ny-late
+1975-08-10 Allen Theatre, Cleveland, OH - /gig:1975-08-10-allen-theatre-cleveland-oh
+1975-08-08 Akron Civic Theatre, Akron, OH - /gig:1975-08-08-civic-theatre-akron-oh
+1975-08-02 Chrysler Hall, Norfolk, VA - /gig:1975-08-02-chrysler-hall-norfolk-va
+1975-08-01 Mosque (The), Richmond, VA - /gig:1975-08-01-mosque-richmond-va
+1975-07-30 Carter Barron Amphitheatre, Washington, DC - /gig:1975-07-30-carter-barron-amphitheatre-washington-dc
+1975-07-28 Carter Barron Amphitheatre, Washington, DC - /gig:1975-07-28-carter-barron-amphitheatre-washington-dc
+1975-07-26 Keystone Hall, Kutztown, PA - /gig:1975-07-26-keystone-hall-kutztown-pa
+1975-07-25 Keystone Hall, Kutztown, PA - /gig:1975-07-25-keystone-hall-kutztown-pa
+1975-07-23 Music Inn (The), Stockbridge, MA - /gig:1975-07-23-music-inn-stockbridge-ma
+1975-07-22 Geneva Theatre, Geneva, NY - /gig:1975-07-22-theatre-geneva-ny
+1975-07-20 Palace Concert Theater, Providence, RI - /gig:1975-07-20-palace-concert-theater-providence-ri
+1975-03-08 DAR Constitution Hall, Washington, DC - /gig:1975-03-08-dar-constitution-hall-washington-dc
+1975-03-07 Painters Mill Music Fair, Owings Mills, MD - /gig:1975-03-07-painters-mill-music-fair-owings-mills-md
+1975-02-23 Westbury Music Fair, Westbury, NY - /gig:1975-02-23-music-fair-westbury-ny
+1975-02-07 Widener Field House, Chester, PA - /gig:1975-02-07-widener-field-house-chester-pa
+1975-02-06 Widener Field House, Chester, PA - /gig:1975-02-06-widener-field-house-chester-pa
+1975-02-05 Main Point (The), Bryn Mawr, PA - /gig:1975-02-05-main-point-bryn-mawr-pa
+1974-12-08 Burlington Memorial Auditorium, Burlington, VT - /gig:1974-12-08-memorial-auditorium-burlington-vt
+1974-12-07 Geneva Theatre, Geneva, NY - /gig:1974-12-07-theatre-geneva-ny
+1974-12-06 State Theatre, New Brunswick, NJ - /gig:1974-12-06-state-theatre-new-brunswick-nj
+1974-11-29 War Memorial, Trenton, NJ - /gig:1974-11-29-war-memorial-trenton-nj
+1974-11-23 Mainstage Auditorium, Salem, MA - /gig:1974-11-23-mainstage-auditorium-salem-ma
+1974-11-01 Tower Theater, Upper Darby, Philadelphia, PA - /gig:1974-11-01-tower-theater-philadelphia-pa
+1974-10-29 Music Hall, Boston, MA - /gig:1974-10-29-music-hall-boston-ma
+1974-10-26 Julia Sanderson Theater, Springfield, MA - /gig:1974-10-26-julia-sanderson-theater-springfield-ma
+1974-10-19 Memorial Chapel Concert Hall, Schenectady, NY - /gig:1974-10-19-memorial-chapel-concert-hall-schenectady-ny
+1974-10-18 Capitol Theatre, Passaic, NJ - /gig:1974-10-18-capitol-theatre-passaic-nj
+1974-10-12 Alexander Hall, Princeton, NJ (Late) - /gig:1974-10-12-alexander-hall-princeton-nj-late
+1974-10-11 Shady Grove Music Fair, Gaithersburg, MD - /gig:1974-10-11-shady-grove-music-fair-gaithersburg-md
+1974-10-04 Avery Fisher Hall, Lincoln Center, New York City, NY - /gig:1974-10-04-avery-fisher-hall-new-york-city-ny
+1974-09-22 Student Center, Union, NJ - /gig:1974-09-22-student-center-union-nj
+1974-07-13 Bottom Line (The), New York City, NY (Late) - /gig:1974-07-13-bottom-line-new-york-city-ny-late
+1974-07-12 Bottom Line (The), New York City, NY (Early) - /gig:1974-07-12-bottom-line-new-york-city-ny-early
+1974-06-03 Agora (The), Cleveland, OH - /gig:1974-06-03-agora-cleveland-oh
+1974-06-02 Agora (The), Toledo, OH - /gig:1974-06-02-agora-toledo-oh
+1974-05-09 Harvard Square Theatre, Cambridge, MA (Early) - /gig:1974-05-09-harvard-square-theatre-cambridge-ma-early
+1974-04-09 WBCN Studio, Boston, MA - /gig:1974-04-09-wbcn-studio-boston-ma
+1974-03-10 Liberty Hall, Houston, TX (Late) - /gig:1974-03-10-liberty-hall-houston-tx-late
+1974-03-09 Liberty Hall, Houston, TX (Late) - /gig:1974-03-09-liberty-hall-houston-tx-late
+1974-03-09 KLOL Studio, Houston, TX - /gig:1974-03-09-klol-studio-houston-tx
+1974-03-03 Gaston Hall, Washington, DC (Late) - /gig:1974-03-03-gaston-hall-washington-dc-late
+1974-02-01 Allen Theatre, Cleveland, OH - /gig:1974-02-01-allen-theatre-cleveland-oh
+1974-01-29 Muther's Music Emporium, Nashville, TN - /gig:1974-01-29-muther-s-music-emporium-nashville-tn
+1974-01-25 Mosque (The), Richmond, VA - /gig:1974-01-25-mosque-richmond-va
+1974-01-12 Joint In The Woods (The), Parsippany, NJ - /gig:1974-01-12-joint-in-the-woods-parsippany-nj
+1974-01-06 Joe's Place, Cambridge, MA - /gig:1974-01-06-joe-s-place-cambridge-ma
+1973-12-06 Childe Harold, Washington, DC - /gig:1973-12-06-childe-harold-washington-dc
+1973-11-25 Curry Hicks Cage, Amherst, MA - /gig:1973-11-25-curry-hicks-cage-amherst-ma
+1973-11-17 Roxy Theatre, Philadelphia, PA (Late) - /gig:1973-11-17-roxy-theatre-philadelphia-pa-late
+1973-10-31 Main Point (The), Bryn Mawr, PA (Late) - /gig:1973-10-31-main-point-bryn-mawr-pa-late
+1973-07-31 My Father's Place, Roslyn, NY (Late) - /gig:1973-07-31-my-father-s-place-roslyn-ny-late
+1973-07-23 Max's Kansas City, New York City, NY (Early) - /gig:1973-07-23-max-s-kansas-city-new-york-city-ny-early
+1973-07-20 Max's Kansas City, New York City, NY (Early) - /gig:1973-07-20-max-s-kansas-city-new-york-city-ny-early
+1973-06-13 Broome County Veterans Memorial Arena, Binghamton, NY - /gig:1973-06-13-broome-county-veterans-memorial-arena-bingham
+1973-06-06 Spectrum, Philadelphia, PA - /gig:1973-06-06-spectrum-philadelphia-pa
+1973-06-02 Radio Studio WHFS-FM, Bethesda, MD - /gig:1973-06-02-whfs-studio-bethesda-md
+1973-05-31 Richmond Coliseum, Richmond, VA - /gig:1973-05-31-coliseum-richmond-va
+1973-05-31 Alpha Sound Studios, Richmond, VA - /gig:1973-05-31-alpha-sound-studios-richmond-va
+1973-04-24 Main Point (The), Bryn Mawr, PA (Early) - /gig:1973-04-24-main-point-bryn-mawr-pa-early
+1973-03-02 Berkeley Community Theatre, Berkeley, CA - /gig:1973-03-02-community-theatre-berkeley-ca
+1973-02-14 New Gymnasium, Richmond, VA - /gig:1973-02-14-new-gymnasium-richmond-va
+1973-01-31 Max's Kansas City, New York City, NY (Late) - /gig:1973-01-31-max-s-kansas-city-new-york-city-ny-late
+1973-01-31 Max's Kansas City, New York City, NY (Early) - /gig:1973-01-31-max-s-kansas-city-new-york-city-ny-early
+1973-01-09 WBCN Studio, Boston, MA - /gig:1973-01-09-wbcn-studio-boston-ma
+1972-08-10 Max's Kansas City, New York City, NY (Early) - /gig:1972-08-10-max-s-kansas-city-new-york-city-ny-early
+1972-02-26 Back Door (The), Richmond, VA - /gig:1972-02-26-back-door-richmond-va
+1972-02-25 Back Door (The), Richmond, VA - /gig:1972-02-25-back-door-richmond-va
+1972-02-04 Back Door (The), Richmond, VA - /gig:1972-02-04-back-door-richmond-va
+1972-01-21 Captain's Garter (The), Neptune, NJ - /gig:1972-01-21-captain-s-garter-neptune-nj
+1971-12-17 Ledge (The), New Brunswick, NJ - /gig:1971-12-17-ledge-new-brunswick-nj
+1971-12-11 Student Prince, Asbury Park, NJ - /gig:1971-12-11-student-prince-asbury-park-nj
+1971-12-03 Student Prince, Asbury Park, NJ - /gig:1971-12-03-student-prince-asbury-park-nj
+1971-11-13 Student Prince, Asbury Park, NJ - /gig:1971-11-13-student-prince-asbury-park-nj
+1971-10-30 VCU New Gym, Richmond, VA - /gig:1971-10-30-vcu-new-gym-richmond-va
+1971-10-23 Keller Hall Gymnasium, Richmond, VA - /gig:1971-10-23-keller-hall-gymnasium-richmond-va
+1971-09-01 Garfield Park, Long Branch, NJ - /gig:1971-09-01-garfield-park-long-branch-nj
+1971-07-23 Guggenheim Bandshell, New York City, NY - /gig:1971-07-23-guggenheim-bandshell-new-york-city-ny
+1971-07-10 Brookdale Community College, Lincroft, NJ - /gig:1971-07-10-brookdale-community-college-lincroft-nj
+1971-05-15 Newark State College, Union, NJ - /gig:1971-05-15-newark-state-college-union-nj
+1971-01-29 Upstage (The), Asbury Park, NJ (Early) - /gig:1971-01-29-upstage-asbury-park-nj-early
+1971-01-23 Upstage (The), Asbury Park, NJ - /gig:1971-01-23-upstage-asbury-park-nj
+1971-01-22 Upstage (The), Asbury Park, NJ - /gig:1971-01-22-upstage-asbury-park-nj
+1971-01-18 D'Scene, South Amboy, NJ - /gig:1971-01-18-d-scene-south-amboy-nj
+1970-11-27 Sunshine In, Asbury Park, NJ (Early) - /gig:1970-11-27-sunshine-in-asbury-park-nj-early
+1970-10-11 Mosque (The), Richmond, VA - /gig:1970-10-11-mosque-richmond-va
+1970-08-14 7th And Marshall Street Parking Deck, Richmond, VA - /gig:1970-08-14-parking-deck-richmond-va
+1970-07-18 Sunshine In, Asbury Park, NJ - /gig:1970-07-18-sunshine-in-asbury-park-nj
+1970-07-17 Sunshine In, Asbury Park, NJ - /gig:1970-07-17-sunshine-in-asbury-park-nj
+1970-06-19 String Factory (The), Richmond, VA - /gig:1970-06-19-string-factory-richmond-va
+1970-06-13 Ocean Ice Palace, Bricktown, NJ (Early) - /gig:1970-06-13-ocean-ice-palace-bricktown-nj-early
+1970-05-23 VCU Gym, Richmond, VA - /gig:1970-05-23-vcu-gym-richmond-va
+1970-04-24 Monmouth College, West Long Branch, NJ - /gig:1970-04-24-monmouth-college-west-long-branch-nj
+1970-01-13 Matrix (The), San Francisco, CA - /gig:1970-01-13-matrix-san-francisco-ca
+1969-09-20 Center (The), Richmond, VA - /gig:1969-09-20-center-richmond-va
+1967-09-30 Left Foot (The), Freehold, NJ - /gig:1967-09-30-left-foot-freehold-nj
