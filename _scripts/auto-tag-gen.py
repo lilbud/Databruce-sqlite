@@ -1,4 +1,5 @@
 import re, os, sqlite3
+from unidecode import unidecode
 
 db_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..\\_database\\database.sqlite")
@@ -6,14 +7,15 @@ db_path = os.path.abspath(
 
 conn = sqlite3.connect(db_path)
 cur = conn.cursor()
-# E:\Music\Bootlegs\Bruce_Springsteen\1984\_untagged
-artist = "Bruce_Springsteen"
-year = "2002"
+# G:\Music\Bootlegs\Bruce_Springsteen\1984\_untagged
+artist = "Bruce Springsteen"
+year = "1972"
 
 
 def loop(artist, year):
-    # path = f"E:\Media\Music\Bootlegs\{artist}\{year}\_untagged"
-    path = f"E:\Media\Music\Bootlegs\{artist}\_tosort"
+    # path = f"G:\Media\Music\Bootlegs\{artist}\{year}\_untagged"
+    # path = f"G:\Media\Music\Bootlegs\{artist}\{year}"
+    path = f"G:\\Media\\Music\\Bootlegs\\{artist}\\_tosort"
 
     # loop dirs, in each get the date and pass to mp3tag gen
 
@@ -45,7 +47,7 @@ def loop(artist, year):
                         )
                     )
                     setlist = cur.execute(
-                        f"""SELECT song_name, segue FROM SETLISTS WHERE event_url='{e[0]}' ORDER BY song_num ASC"""
+                        f"""SELECT song_name, segue FROM SETLISTS WHERE event_url='{e[0]}' AND set_type='Show' ORDER BY song_num ASC"""
                     ).fetchall()
 
                     for song in setlist:
@@ -59,7 +61,7 @@ def loop(artist, year):
 
                         line = f"{artist}  -  {date} - {album}  -  {song_name}{segue}  -    -  {date[0:4]}  -  {genre}  -  {comment}"
                         print(line)
-                        my_file.write(f"{line}\n")
+                        my_file.write(unidecode(f"{line}\n"))
 
                 print(f"file saved to {output_path}")
 
