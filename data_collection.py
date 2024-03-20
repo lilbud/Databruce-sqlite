@@ -414,21 +414,27 @@ def get_tours():
 def get_tour_events(url, name):
     """Finds the tour that an event belongs to and updates that entry in EVENTS"""
 
+    print(name)
     r = requests.get(f"{main_url}{url.strip('/')}", headers, timeout=10).text
     soup = bs4(r, "lxml")
 
     for t in soup.find("div", {"class": "yui-content"}).find_all("li"):
         if t.find("a", href=re.compile(event_types)):
-            cur.execute(
-                """UPDATE EVENTS SET tour=? WHERE event_url=? AND tour=?""",
-                (
-                    name,
-                    t.find("a").get("href"),
-                    "",
-                ),
-            )
+            print(t.find("a").get("href"))
+            tour_name = name
+        else:
+            tour_name = ""
 
-            conn.commit()
+        cur.execute(
+            """UPDATE EVENTS SET tour=? WHERE event_url=? AND tour=?""",
+            (
+                tour_name,
+                t.find("a").get("href"),
+                "",
+            ),
+        )
+
+        conn.commit()
 
 
 def get_albums():
