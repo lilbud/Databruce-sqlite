@@ -404,9 +404,11 @@ def get_tours():
         if i[1] == "/stats:shows-rvr16-tour":
             tour_name = "The River Tour '16"
 
-        tour.append([i[1], tour_name, 0])
+        tour.append([i[1], tour_name, "", "", 0, 0])
 
-    cur.executemany("""INSERT OR IGNORE INTO TOURS VALUES (NULL, ?, ?, ?)""", tour)
+    cur.executemany(
+        """INSERT OR IGNORE INTO TOURS VALUES (NULL, ?, ?, ?, ?, ?, ?)""", tour
+    )
     conn.commit()
 
 

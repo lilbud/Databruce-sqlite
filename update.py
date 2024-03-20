@@ -177,8 +177,17 @@ def full_update(start, end):
 # basic_update()
 # usually can just be run for the current year
 
-full_update(2023, current_year)
-setlist_to_events()
+# full_update(2023, current_year)
+# setlist_to_events()
+
+get_tours()
+
+for t in cur.execute("""SELECT tour_url, tour_name FROM TOURS""").fetchall():
+    get_tour_events(t[0], t[1])
+    print(t[1])
+    time.sleep(1)
+
+
 # jungleland_artwork()
 # get_official_live()
 update_counts()
