@@ -1,17 +1,51 @@
 import re, os, sqlite3, requests, datetime, time, html2text, json
 from titlecase import titlecase
 from bs4 import BeautifulSoup as bs4
-from fuzzywuzzy import fuzz
+
+# from fuzzywuzzy import fuzz
 import pandas as pd
 from helper_stuff import albums, song_link_corrector, name_fix, show_name_split
 
-main_url = "http://brucebase.wikidot.com/"
+# main_url = "http://brucebase.wikidot.com/"
 conn = sqlite3.connect(os.path.dirname(__file__) + "/_database/database.sqlite")
 cur = conn.cursor()
-event_types = "/(gig|nogig|interview|rehearsal|nobruce):"
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-}
+# event_types = "/(gig|nogig|interview|rehearsal|nobruce):"
+# headers = {
+#     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+# }
+
+openers = []
+openerlist = []
+openercount = []
+
+setlists = cur.execute(
+    """SELECT event_date, setlist FROM EVENTS WHERE tour='Darkness On The Edge Of Town Tour' AND setlist != ''"""
+).fetchall()
+
+for s in setlists:
+    opener = s[1].split(",")[0]
+    if opener == "Oh":
+        opener = "Oh, Boy!"
+
+    if opener != "" or opener != " ":
+        openers.append(opener)
+
+    if opener not in openerlist:
+        openerlist.append(opener)
+
+
+openers.sort()
+# for o in openers:
+#     print(o)
+for i in openerlist:
+    # print(f"{i}: {openers.count(i)}")
+    openercount.append([openers.count(i), i])
+
+openercount.sort()
+print("---")
+for c in openercount:
+    print(f"{c[1]}: Opened {c[0]} Times")
+    print("---")
 
 # http://brucebase.wikidot.com/stats:circulating-audio-list/p/1
 # event_url = "/gig:2017-02-14-entertainment-centre-brisbane-australia"
@@ -21,20 +55,20 @@ headers = {
 # print(bustout[0] == event_url)
 # invalid_sets = []
 
-shows = []
-count = 0
+# shows = []
+# count = 0
 
-l = cur.execute(
-    """SELECT event_url FROM SETLISTS WHERE event_url LIKE '%2005%' and song_url IN (SELECT song_url FROM ALBUMS WHERE album_name = 'Tunnel Of Love' ORDER BY song_num ASC)
-                AND event_url LIKE '%gig%' AND set_type NOT LIKE '%Soundcheck%' AND set_type NOT LIKE '%Rehearsal%'"""
-).fetchall()
-for u in l:
-    current = f"{l.count(u)} {u[0]}"
-    if current not in shows:
-        shows.append(current)
+# l = cur.execute(
+#     """SELECT event_url FROM SETLISTS WHERE event_url LIKE '%2005%' and song_url IN (SELECT song_url FROM ALBUMS WHERE album_name = 'Tunnel Of Love' ORDER BY song_num ASC)
+#                 AND event_url LIKE '%gig%' AND set_type NOT LIKE '%Soundcheck%' AND set_type NOT LIKE '%Rehearsal%'"""
+# ).fetchall()
+# for u in l:
+#     current = f"{l.count(u)} {u[0]}"
+#     if current not in shows:
+#         shows.append(current)
 
-shows.sort(reverse=True)
-print(shows)
+# shows.sort(reverse=True)
+# print(shows)
 
 
 # for i in cur.execute(f"""SELECT set_type FROM (SELECT DISTINCT set_type FROM SETLISTS WHERE set_type LIKE '%(Soundcheck|Rehearsal|Pre-)%')""").fetchall():

@@ -166,9 +166,9 @@ def get_events_by_year(year):
     for e in soup.find_all("a", href=re.compile(f"{event_types}{str(year)}")):
         if e.find_parent().name == "strong":
             event_url = e.get("href")
-            location_url = (
-                show
-            ) = tour = setlist = bootleg = official = setlist_fm_id = ""
+            location_url = show = tour = setlist = bootleg = official = (
+                setlist_fm_id
+            ) = ""
             event_date = re.findall(r"\d{4}-\d{2}-\d{2}", e.text)[0]
 
             shows.append(
@@ -183,11 +183,11 @@ def get_events_by_year(year):
                     official,
                 ]
             )
-            cur.execute(
-                """UPDATE SETLISTS SET event_date=? WHERE event_url=?""",
-                (event_date, event_url),
-            )
-            conn.commit()
+            # cur.execute(
+            #     """UPDATE SETLISTS SET event_date=? WHERE event_url=?""",
+            #     (event_date, event_url),
+            # )
+            # conn.commit()
 
     cur.executemany(
         """INSERT OR IGNORE INTO EVENTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?)""", shows
@@ -207,10 +207,11 @@ def get_onStage(tab, url):
             f"""SELECT relation_url, relation_type FROM RELATIONS WHERE relation_url LIKE '{m.get('href')}'"""
         ).fetchone()
 
-        if r[1] == "band":
-            onStage.append([url, r[0], "Band"])
-        elif r[1] == "person":
-            onStage.append([url, r[0], "Person"])
+        if r:
+            if r[1] == "band":
+                onStage.append([url, r[0], "Band"])
+            elif r[1] == "person":
+                onStage.append([url, r[0], "Person"])
 
     cur.executemany(
         """INSERT OR IGNORE INTO ON_STAGE VALUES (NULL, ?, ?, ?)""", onStage
@@ -283,13 +284,14 @@ def get_setlist_by_url(tab, url, date):
                             ).fetchone()[0]
                             show.append(
                                 [
-                                    date,
                                     url,
                                     song_url,
                                     song_name,
                                     set_type,
                                     song_num_in_set,
                                     song_num,
+                                    0,
+                                    0,
                                     0,
                                 ]
                             )
@@ -307,7 +309,6 @@ def get_setlist_by_url(tab, url, date):
 
                                 show.append(
                                     [
-                                        date,
                                         url,
                                         song_url,
                                         song_name,
@@ -315,6 +316,8 @@ def get_setlist_by_url(tab, url, date):
                                         song_num_in_set,
                                         song_num,
                                         segue,
+                                        0,
+                                        0,
                                     ]
                                 )
                                 song_num += 1
@@ -326,13 +329,14 @@ def get_setlist_by_url(tab, url, date):
                             song_name = titlecase(s.text)
                             show.append(
                                 [
-                                    date,
                                     url,
                                     song_url,
                                     song_name,
                                     set_type,
                                     song_num_in_set,
                                     song_num,
+                                    0,
+                                    0,
                                     0,
                                 ]
                             )
@@ -342,7 +346,7 @@ def get_setlist_by_url(tab, url, date):
 
     if show:
         cur.executemany(
-            """INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            """INSERT OR IGNORE INTO SETLISTS VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             show,
         )
         conn.commit()

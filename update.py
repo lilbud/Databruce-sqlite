@@ -148,8 +148,8 @@ def full_update(start, end):
 
     delay = 0
 
-    get_bootlegs()
-    get_official_live()
+    # get_bootlegs()
+    # get_official_live()
 
     for i in range(start, end + 1):
         print(i)
@@ -176,9 +176,9 @@ def full_update(start, end):
 
 # basic_update()
 # usually can just be run for the current year
-# full_update(current_year, current_year)
 
-# setlist_to_events()
+full_update(2023, current_year)
+setlist_to_events()
 # jungleland_artwork()
 # get_official_live()
 update_counts()
