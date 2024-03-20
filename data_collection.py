@@ -166,9 +166,8 @@ def get_events_by_year(year):
     for e in soup.find_all("a", href=re.compile(f"{event_types}{str(year)}")):
         if e.find_parent().name == "strong":
             event_url = e.get("href")
-            location_url = show = tour = setlist = bootleg = official = (
-                setlist_fm_id
-            ) = ""
+            location_url = show = tour = setlist = ""
+
             event_date = re.findall(r"\d{4}-\d{2}-\d{2}", e.text)[0]
 
             shows.append(
@@ -179,8 +178,8 @@ def get_events_by_year(year):
                     show,
                     tour,
                     setlist,
-                    bootleg,
-                    official,
+                    0,
+                    0,
                 ]
             )
             # cur.execute(
@@ -588,9 +587,9 @@ def get_official_live():
 
         for e in events:
             if e[0] in links:
-                official = "1"
+                official = 1
             else:
-                official = "0"
+                official = 0
 
             cur.execute(
                 f"""UPDATE EVENTS SET official='{official}' WHERE event_url='{e[0]}' AND official='0'"""
