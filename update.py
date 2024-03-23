@@ -118,7 +118,7 @@ def update_premiere_debut():
 # update_premiere_debut()
 
 
-def basic_update():
+def basic_update(start_year):
     """builds the database, gets the basic amount of information"""
 
     get_bands()
@@ -177,6 +177,7 @@ def full_update(start, end):
 # basic_update()
 # usually can just be run for the current year
 
+get_events_by_year(2024)
 full_update(current_year, current_year)
 setlist_to_events()
 
