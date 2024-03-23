@@ -177,8 +177,8 @@ def full_update(start, end):
 # basic_update()
 # usually can just be run for the current year
 
-# full_update(2023, current_year)
-# setlist_to_events()
+full_update(current_year, current_year)
+setlist_to_events()
 
 # get_tours()
 
