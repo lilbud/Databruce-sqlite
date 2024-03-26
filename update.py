@@ -32,6 +32,7 @@ from csv_export import csv_export
 main_url = "http://brucebase.wikidot.com/"
 current_year = int(datetime.datetime.now().date().strftime("%Y"))
 start_time = datetime.datetime.now()
+current_date = datetime.datetime.now(tz=datetime.timezone.utc)
 
 
 def update_counts():
@@ -156,7 +157,7 @@ def full_update(start, end):
 
         # for u in cur.execute(f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(i)}%' AND date(event_date) < date('now', '+1 days')""").fetchall():
         for u in cur.execute(
-            f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(i)}%'"""
+            f"""SELECT event_url FROM EVENTS WHERE event_date LIKE '{str(i)}%' AND event_date <= '{current_date.date()}'"""
         ).fetchall():
             setcheck = cur.execute(
                 f"""SELECT EXISTS(SELECT 1 FROM SETLISTS WHERE event_url LIKE '%{u[0]}%' LIMIT 1)"""
@@ -177,9 +178,9 @@ def full_update(start, end):
 # basic_update()
 # usually can just be run for the current year
 
-get_venues()
-# full_update(current_year, current_year)
-# setlist_to_events()
+# get_venues()
+full_update(current_year, current_year)
+setlist_to_events()
 
 # get_tours()
 
