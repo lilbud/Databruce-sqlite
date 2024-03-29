@@ -1,5 +1,5 @@
 import re, os, sqlite3
-from unidecode import unidecode
+# from unidecode import unidecode
 
 db_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..\\_database\\database.sqlite")
@@ -28,7 +28,7 @@ def loop(artist, year):
 
         if event_get:
             for e in event_get:
-                output_path = f"{path}\{i}\mp3tag.txt"
+                output_path = fr"{path}\{i}\mp3tag.txt"
                 with open(output_path, "w") as my_file:
                     try:
                         band = cur.execute(
@@ -61,7 +61,7 @@ def loop(artist, year):
 
                         line = f"{artist}  -  {date} - {album}  -  {song_name}{segue}  -    -  {date[0:4]}  -  {genre}  -  {comment}"
                         print(line)
-                        my_file.write(unidecode(f"{line}\n"))
+                        my_file.write(f"{line}\n")
 
                 print(f"file saved to {output_path}")
 

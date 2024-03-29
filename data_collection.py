@@ -7,7 +7,8 @@ File Purpose: Functions to get various kinds of data from Brucebase
 
 import os
 import sqlite3
-import re, time
+import re
+import time
 import requests
 from titlecase import titlecase
 from bs4 import BeautifulSoup as bs4
@@ -56,7 +57,7 @@ def get_bands():
             bands.append([b.get("href"), band_name, 0, "band"])
 
     cur.executemany(
-        f"""INSERT OR IGNORE INTO RELATIONS VALUES (NULL, ?, ?, ?, ?)""",
+        """INSERT OR IGNORE INTO RELATIONS VALUES (NULL, ?, ?, ?, ?)""",
         sorted(bands, key=lambda band: band[1].replace("The ", "")),
     )
 
@@ -220,7 +221,6 @@ def get_onStage(tab, url):
 
 def get_setlist_by_url(tab, url, date):
     """Gets the Setlist for a provided event_url"""
-
     song_name = ""
     set_type = "Show"
     song_num = 1
@@ -261,7 +261,6 @@ def get_setlist_by_url(tab, url, date):
                                 ).fetchone()[0]
                                 show.append(
                                     [
-                                        date,
                                         url,
                                         song_url,
                                         song_name,
@@ -269,6 +268,8 @@ def get_setlist_by_url(tab, url, date):
                                         song_num_in_set,
                                         song_num,
                                         segue,
+                                        0,
+                                        0,
                                     ]
                                 )
                                 song_num += 1
@@ -380,8 +381,8 @@ def get_show_info(url):
             conn.commit()
 
         for n in nav:
-            if n.text == "On Stage":
-                get_onStage(soup.find(id=f"wiki-tab-0-{nav.index(n)}"), url)
+            # if n.text == "On Stage":
+            #     get_onStage(soup.find(id=f"wiki-tab-0-{nav.index(n)}"), url)
             if n.text == "Setlist":
                 get_setlist_by_url(
                     soup.find(id=f"wiki-tab-0-{nav.index(n)}"), url, date[0]
