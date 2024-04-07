@@ -381,8 +381,8 @@ def get_show_info(url):
             conn.commit()
 
         for n in nav:
-            # if n.text == "On Stage":
-            #     get_onStage(soup.find(id=f"wiki-tab-0-{nav.index(n)}"), url)
+            if n.text == "On Stage":
+                get_onStage(soup.find(id=f"wiki-tab-0-{nav.index(n)}"), url)
             if n.text == "Setlist":
                 get_setlist_by_url(
                     soup.find(id=f"wiki-tab-0-{nav.index(n)}"), url, date[0]
