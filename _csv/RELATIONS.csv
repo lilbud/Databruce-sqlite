@@ -24,7 +24,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 23,/relation:bobby-bandiera-band,The Bobby Bandiera Band,31,band
 24,/relation:boccigalupe-the-badboys,Boccigalupe & The Badboys,4,band
 25,/relation:bon-iver,Bon Iver,0,band
-26,/relation:bon-jovi,Bon Jovi,6,band
+26,/relation:bon-jovi,Bon Jovi,7,band
 27,/relation:booker-t-the-m-g-s,Booker T & The M.G.'s,1,band
 28,/relation:brian-kirk-the-jirks,Brian Kirk & The Jirks,1,band
 29,/relation:bright-eyes,Bright Eyes,4,band
@@ -67,9 +67,9 @@ relation_id,relation_url,relation_name,appearances,relation_type
 66,/relation:the-drifters,The Drifters,1,band
 67,/relation:dropkick-murphys,Dropkick Murphys,3,band
 68,/relation:the-dukes,The Dukes,1,band
-69,/relation:the-e-street-band,The E Street Band,1964,band
-70,/relation:the-e-street-choir,The E Street Choir,355,band
-71,/relation:the-e-street-horns,The E Street Horns,266,band
+69,/relation:the-e-street-band,The E Street Band,1969,band
+70,/relation:the-e-street-choir,The E Street Choir,360,band
+71,/relation:the-e-street-horns,The E Street Horns,271,band
 72,/relation:earth,Earth,22,band
 73,/relation:the-eddie-testa-band,The Eddie Testa Band,1,band
 74,/relation:elvis-costello-the-imposters,Elvis Costello & The Imposters,1,band
@@ -276,7 +276,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 275,/relation:tori-allen,Tori Allen,1,person
 276,/relation:dawne-allynne,Dawne Allynne,2,person
 277,/relation:johnny-almond,Johnny Almond,1,person
-278,/relation:anthony-almonte,Anthony Almonte,81,person
+278,/relation:anthony-almonte,Anthony Almonte,86,person
 279,/relation:phil-alvin,Phil Alvin,1,person
 280,/relation:waleed-aly,Waleed Aly,0,person
 281,/relation:anthony-amato,Anthony Amato,0,person
@@ -404,7 +404,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 403,/relation:natalya-bing,Natalya Bing,1,person
 404,/relation:john-binkley,John Binkley,54,person
 405,/relation:curt-bisquera,Curt Bishera,1,person
-406,/relation:roy-bittan,Roy Bittan,1775,person
+406,/relation:roy-bittan,Roy Bittan,1780,person
 407,/relation:ryan-bittan,Ryan Bittan,1,person
 408,/relation:aloe-blacc,Aloe Blacc,1,person
 409,/relation:seneca-black,Seneca Black,2,person
@@ -440,7 +440,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 439,/relation:bertrand-bonello,Bertrand Bonello,0,person
 440,/relation:jimi-bones,Jimi Bones,1,person
 441,/relation:jimmie-bones,Jimmie Bones,0,person
-442,/relation:jon-bon-jovi,Jon Bon Jovi,23,person
+442,/relation:jon-bon-jovi,Jon Bon Jovi,24,person
 443,/relation:bono,Bono,10,person
 444,/relation:karla-bonoff,Karla Bonoff,1,person
 445,/relation:duke-bootee,Duke Bootee,0,person
@@ -454,7 +454,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 453,/relation:coy-bowles,Coy Bowles,2,person
 454,/relation:edith-bowman,Edith Bowman,0,person
 455,/relation:bob-boyd,Bob Boyd,5,person
-456,/relation:everett-bradley,Everett Bradley,195,person
+456,/relation:everett-bradley,Everett Bradley,196,person
 457,/relation:billy-bragg,Billy Bragg,2,person
 458,/relation:nelson-bragg,Nelson Bragg,2,person
 459,/relation:lachlan-bramble,Lachlan Bramble,1,person
@@ -497,7 +497,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 496,/relation:frank-bruno,Frank Bruno,85,person
 497,/relation:frank-bruno-sr,Frank Bruno Sr.,0,person
 498,/relation:justin-bruns,Justin Bruns,0,person
-499,/relation:david-bryan,David Bryan,12,person
+499,/relation:david-bryan,David Bryan,13,person
 500,/relation:mark-bryan,Mark Bryan,2,person
 501,/relation:paul-bryan,Paul Bryan,1,person
 502,/relation:aidy-bryant,Aidy Bryant,1,person
@@ -521,7 +521,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 520,/relation:t-bone-burnett,T Bone Burnett,2,person
 521,/relation:malcolm-burn,Malcolm Burn,0,person
 522,/relation:orville-burrell,Orville Burrell,0,person
-523,/relation:glen-burtnik,Glen Burtnik,11,person
+523,/relation:glen-burtnik,Glen Burtnik,12,person
 524,/relation:andy-burton,Andy Burton,6,person
 525,/relation:bj-burton,BJ Burton,0,person
 526,/relation:james-burton,James Burton,1,person
@@ -636,7 +636,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 635,/relation:mario-cipollina,Mario Cipollina,1,person
 636,/relation:dan-cipriano,Dan Cipriano,0,person
 637,/relation:eric-clapton,Eric Clapton,1,person
-638,/relation:dane-clark,Dane Clark,0,person
+638,/relation:dane-clark,Dane Clark,1,person
 639,/relation:michael-clarke,Michael Clarke,1,person
 640,/relation:steve-clarke,Steve Clarke,3,person
 641,/relation:gene-clark,Gene Clark,1,person
@@ -654,7 +654,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 653,/relation:christopher-clemons,Christopher Clemons,1,person
 654,/relation:clarence-clemons,Clarence Clemons,1641,person
 655,/relation:jack-clemons,Jack Clemons,1,person
-656,/relation:jake-clemons,Jake Clemons,369,person
+656,/relation:jake-clemons,Jake Clemons,374,person
 657,/relation:jarod-clemons,Jarod Clemons,4,person
 658,/relation:jimmy-cliff,Jimmy Cliff,3,person
 659,/relation:mark-clifford,Mark Clifford,4,person
@@ -716,7 +716,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 715,/relation:robert-cray,Robert Cray,1,person
 716,/relation:laura-creamer,Laura Creamer,1,person
 717,/relation:niki-cremmen,Niki Cremmen,0,person
-718,/relation:marshall-crenshaw,Marshall Crenshaw,3,person
+718,/relation:marshall-crenshaw,Marshall Crenshaw,4,person
 719,/relation:robert-crenshaw,Robert Crenshaw,1,person
 720,/relation:jim-cretecos,Jim Cretecos,1,person
 721,/relation:keith-cronin,Keith Cronin,2,person
@@ -744,7 +744,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 743,/relation:d-angelo,D'Angelo,1,person
 744,/relation:bobby-daniel,Bobby Daniel,2,person
 745,/relation:vincent-daniele,Vincent Daniele,7,person
-746,/relation:barry-danielian,Barry Danielian,268,person
+746,/relation:barry-danielian,Barry Danielian,273,person
 747,/relation:francine-daniels,Francine Daniels,4,person
 748,/relation:rick-danko,Rick Danko,1,person
 749,/relation:mark-dann,Mark Dann,0,person
@@ -807,7 +807,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 806,/relation:tomas-diaz,Tomas Diaz,2,person
 807,/relation:bo-diddley,Bo Diddley,1,person
 808,/relation:ani-difranco,Ani DiFranco,2,person
-809,/relation:dennis-diken,Dennis Diken,3,person
+809,/relation:dennis-diken,Dennis Diken,4,person
 810,/relation:don-dilego,Don DiLego,1,person
 811,/relation:jimmy-dillon,Jimmy Dillon,2,person
 812,/relation:dion-dimucci,Dion DiMucci,10,person
@@ -844,7 +844,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 843,/relation:annie-brody-dutka,Annie Brody Dutka,0,person
 844,/relation:ted-dwane,Ted Dwane,2,person
 845,/relation:david-dye,David Dye,0,person
-846,/relation:ada-dyer,Ada Dyer,77,person
+846,/relation:ada-dyer,Ada Dyer,82,person
 847,/relation:bob-dylan,Bob Dylan,6,person
 848,/relation:jakob-dylan,Jakob Dylan,2,person
 849,/relation:obie-dziedzic,Obie Dziedzic,0,person
@@ -916,7 +916,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 915,/relation:mike-finnigan,Mike Finnigan,0,person
 916,/relation:joseph-firecrow,Joseph Firecrow,1,person
 917,/relation:carl-fischer,Carl Fischer,2,person
-918,/relation:lisa-fischer,Lisa Fischer,12,person
+918,/relation:lisa-fischer,Lisa Fischer,13,person
 919,/relation:steve-fishell,Steve Fishell,0,person
 920,/relation:randi-fishenfeld,Randi Fishenfeld,2,person
 921,/relation:michael-fisher,Michael Fisher,0,person
@@ -994,12 +994,12 @@ relation_id,relation_url,relation_name,appearances,relation_type
 993,/relation:gloria-gaynor,Gloria Gaynor,1,person
 994,/relation:clark-gayton,Clark Gayton,262,person
 995,/relation:rick-gazda,Rick Gazda,21,person
-996,/relation:jon-e-gee,Jon E. Gee,0,person
+996,/relation:jon-e-gee,Jon E. Gee,1,person
 997,/relation:mickey-gee,Mickey Gee,2,person
 998,/relation:buffalo-bill-gelber,Bill Gelber,1,person
 999,/relation:bob-geldof,Bob Geldof,3,person
 1000,/relation:chris-george,Chris George,0,person
-1001,/relation:lisa-germano,Lisa Germano,1,person
+1001,/relation:lisa-germano,Lisa Germano,3,person
 1002,/relation:gina-gershon,Gina Gershon,1,person
 1003,/relation:tiokasin-ghosthorse,Tiokasin Ghosthorse,1,person
 1004,/relation:billy-gibbons,Billy Gibbons,1,person
@@ -1014,7 +1014,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1013,/relation:jimmie-dale-gilmore,Jimmie Dale Gilmore,1,person
 1014,/relation:kevin-gilmore,Kevin Gilmore,1,person
 1015,/relation:allen-ginsberg,Allen Ginsberg,1,person
-1016,/relation:charles-giordano,Charles Giordano,631,person
+1016,/relation:charles-giordano,Charles Giordano,636,person
 1017,/relation:dante-givens,Dante Givens,0,person
 1018,/relation:malcolm-gladwell,Malcolm Gladwell,0,person
 1019,/relation:bob-glaub,Bob Glaub,7,person
@@ -1376,9 +1376,9 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1375,/relation:carole-king,Carole King,2,person
 1376,/relation:gayle-king,Gayle King,0,person
 1377,/relation:hana-king,Hana King,2,person
-1378,/relation:curtis-king,Curtis King Jr.,439,person
+1378,/relation:curtis-king,Curtis King Jr.,444,person
 1379,/relation:stephen-king,Stephen King,1,person
-1380,/relation:troye-kinnett,Troye Kinnett,0,person
+1380,/relation:troye-kinnett,Troye Kinnett,2,person
 1381,/relation:kevn-kinney,Kevn Kinney,1,person
 1382,/relation:brian-kirk,Brian Kirk,1,person
 1383,/relation:kenny-kirkland,Kenny Kirkland,6,person
@@ -1495,7 +1495,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1494,/relation:liz,Liz,1,person
 1495,/relation:bob-lizik,Bob Lizik,2,person
 1496,/relation:tom-lloyd,Tom Lloyd,1,person
-1497,/relation:nils-lofgren,Nils Lofgren,1178,person
+1497,/relation:nils-lofgren,Nils Lofgren,1183,person
 1498,/relation:tom-lofgren,Tom Lofgren,1,person
 1499,/relation:kenny-loggins,Kenny Loggins,0,person
 1500,/relation:justin-lomery,Justin Lomery,0,person
@@ -1518,7 +1518,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1517,/relation:mike-love,Mike Love,1,person
 1518,/relation:ben-lovett,Ben Lovett,2,person
 1519,/relation:lyle-lovett,Lyle Lovett,1,person
-1520,/relation:lisa-lowell,Lisa Lowell,173,person
+1520,/relation:lisa-lowell,Lisa Lowell,178,person
 1521,/relation:zane-lowe,Zane Lowe,0,person
 1522,/relation:diane-lozito,Diane Lozito,0,person
 1523,/relation:jeff-lubin,Jeff Lubin,1,person
@@ -1537,7 +1537,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1536,/relation:barry-lynn,Barry Lynn,2,person
 1537,/relation:jeff-lynne,Jeff Lynne,2,person
 1538,/relation:john-lyon,John Lyon,0,person
-1539,/relation:graham-maby,Graham Maby,1,person
+1539,/relation:graham-maby,Graham Maby,2,person
 1540,/relation:colin-macdonald,Colin MacDonald,1,person
 1541,/relation:john-angus-macdonald,John-Angus MacDonald,1,person
 1542,/relation:steve-mackey,Steve Mackey,0,person
@@ -1568,7 +1568,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1567,/relation:matt-mangano,Matt Mangano,2,person
 1568,/relation:barry-manilow,Barry Manilow,0,person
 1569,/relation:mike-mani,Mike Mani,1,person
-1570,/relation:ed-manion,Ed Manion,481,person
+1570,/relation:ed-manion,Ed Manion,486,person
 1571,/relation:richard-manitoba,Richard Manitoba,0,person
 1572,/relation:ben-mankiewicz,Ben Mankiewicz,0,person
 1573,/relation:vinnie-manniello,Vinnie Manniello,106,person
@@ -1642,7 +1642,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1641,/relation:maureen-mcdermott,Maureen McDermott,1,person
 1642,/relation:clarence-mcdonald,Clarence McDonald,1,person
 1643,/relation:dolette-mcdonald,Dolette McDonald,6,person
-1644,/relation:hugh-mcdonald,Hugh McDonald,11,person
+1644,/relation:hugh-mcdonald,Hugh McDonald,12,person
 1645,/relation:joe-mcdonald,Joe McDonald,1,person
 1646,/relation:matthew-mcdonald,Matthew McDonald,2,person
 1647,/relation:james-mcdonnell,James McDonnell,0,person
@@ -1668,8 +1668,8 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1667,/relation:john-meisner,John Meisner,0,person
 1668,/relation:stefanos-melas,Stefanos Melas,2,person
 1669,/relation:molly-meldrum,Molly Meldrum,0,person
-1670,/relation:ozzie-melendez,Ozzie Melendez,76,person
-1671,/relation:john-mellencamp,John Mellencamp,6,person
+1670,/relation:ozzie-melendez,Ozzie Melendez,81,person
+1671,/relation:john-mellencamp,John Mellencamp,8,person
 1672,/relation:melle-mel,Melle Mel,1,person
 1673,/relation:wendy-melvoin,Wendy Melvoin,1,person
 1674,/relation:paul-menotiades,Paul Menotiades,2,person
@@ -1724,7 +1724,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1723,/relation:johnny-moore,Johnny Moore,1,person
 1724,/relation:kenny-moore,Kenny Moore,0,person
 1725,/relation:kevin-moore,Kevin Moore,0,person
-1726,/relation:michelle-moore,Michelle Moore,269,person
+1726,/relation:michelle-moore,Michelle Moore,274,person
 1727,/relation:jesse-moorer,Jesse Moorer,11,person
 1728,/relation:sam-moore,Sam Moore,8,person
 1729,/relation:scarlett-lee-moore,Scarlett Lee Moore,1,person
@@ -1751,7 +1751,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1750,/relation:karl-mueller,Karl Mueller,1,person
 1751,/relation:jamie-muhoberac,Jamie Muhoberac,0,person
 1752,/relation:larry-mullen,Larry Mullen Jr.,6,person
-1753,/relation:marc-muller,Marc Muller,1,person
+1753,/relation:marc-muller,Marc Muller,2,person
 1754,/relation:kevin-mulligan,Kevin Mulligan,0,person
 1755,/relation:mark-mullins,Mark Mullins,1,person
 1756,/relation:marcus-mumford,Marcus Mumford,2,person
@@ -1894,7 +1894,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1893,/relation:carl-perkins,Carl Perkins,1,person
 1894,/relation:emma-perkins,Emma Perkins,1,person
 1895,/relation:ian-perkins,Ian Perkins,1,person
-1896,/relation:jaquita-perkins,Jaquita Perkins,2,person
+1896,/relation:jaquita-perkins,Jaquita Perkins,3,person
 1897,/relation:jimmy-perkins,Jimmy Perkins,1,person
 1898,/relation:spike-perkins,Spike Perkins,1,person
 1899,/relation:hunter-perrin,Hunter Perrin,0,person
@@ -1966,7 +1966,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 1965,/relation:mark-radcliffe,Mark Radcliffe,0,person
 1966,/relation:rahiem,Rahiem,1,person
 1967,/relation:bonnie-raitt,Bonnie Raitt,11,person
-1968,/relation:curt-ramm,Curt Ramm,360,person
+1968,/relation:curt-ramm,Curt Ramm,365,person
 1969,/relation:joey-ramone,Joey Ramone,1,person
 1970,/relation:tyler-ramsey,Tyler Ramsey,1,person
 1971,/relation:billy-rancher,Billy Rancher,1,person
@@ -2021,7 +2021,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2020,/relation:jimmy-rip,Jimmy Rip,0,person
 2021,/relation:josh-ritter,Josh Ritter,1,person
 2022,/relation:michel-rivard,Michel Rivard,1,person
-2023,/relation:mark-rivera,Mark Rivera,4,person
+2023,/relation:mark-rivera,Mark Rivera,5,person
 2024,/relation:robert-b-rivkin,Robert B. Rivkin,0,person
 2025,/relation:miles-robbins,Miles Robbins,1,person
 2026,/relation:tim-robbins,Tim Robbins,2,person
@@ -2127,7 +2127,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2126,/relation:ed-sciaky,Ed Sciaky,0,person
 2127,/relation:mike-scialfa,Mike Scialfa,5,person
 2128,/relation:patricia-scialfa,Patricia Scialfa,1,person
-2129,/relation:patti-scialfa,Patti Scialfa,1129,person
+2129,/relation:patti-scialfa,Patti Scialfa,1131,person
 2130,/relation:chris-scianni,Chris Scianni,2,person
 2131,/relation:scorpio,Scorpio,1,person
 2132,/relation:martin-scorsese,Martin Scorsese,1,person
@@ -2166,7 +2166,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2165,/relation:david-lee-shamlian,David Lee Shamlian,4,person
 2166,/relation:tony-shanahan,Tony Shanahan,2,person
 2167,/relation:l-shankar,L. Shankar,4,person
-2168,/relation:john-shanks,John Shanks,1,person
+2168,/relation:john-shanks,John Shanks,2,person
 2169,/relation:sophie-shao,Sophie Shao,0,person
 2170,/relation:ed-sheeran,Ed Sheeran,1,person
 2171,/relation:george-shelby,George Shelby,1,person
@@ -2232,7 +2232,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2231,/relation:caroll-spinney,Caroll Spinney,1,person
 2232,/relation:bob-spitz,Bob Spitz,0,person
 2233,/relation:adele-springsteen,Adele Springsteen,7,person
-2234,/relation:bruce-springsteen,Bruce Springsteen,3637,person
+2234,/relation:bruce-springsteen,Bruce Springsteen,3649,person
 2235,/relation:douglas-springsteen,Douglas Springsteen,0,person
 2236,/relation:evan-springsteen,Evan Springsteen,5,person
 2237,/relation:jessica-springsteen,Jessica Springsteen,2,person
@@ -2305,7 +2305,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2304,/relation:billy-talbot,Billy Talbot,3,person
 2305,/relation:vinnie-talerico,Vinnie Talerico,0,person
 2306,/relation:crystal-taliefero,Crystal Taliefero,113,person
-2307,/relation:garry-tallent,Garry Tallent,2110,person
+2307,/relation:garry-tallent,Garry Tallent,2115,person
 2308,/relation:olivia-tallent,Olivia Tallent,2,person
 2309,/relation:sherl-tallent,Sherl Tallent,2,person
 2310,/relation:amy-tan,Amy Tan,1,person
@@ -2363,7 +2363,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2362,/relation:ron-tooley,Ron Tooley,7,person
 2363,/relation:mark-tornillo,Mark Tornillo,0,person
 2364,/relation:al-torrente,Al Torrente,1,person
-2365,/relation:tico-torres,Tico Torres,6,person
+2365,/relation:tico-torres,Tico Torres,7,person
 2366,/relation:pete-townshend,Pete Townshend,4,person
 2367,/relation:simon-townshend,Simon Townshend,1,person
 2368,/relation:annabelle-traves,Annabelle Traves,2,person
@@ -2379,7 +2379,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2378,/relation:tina-turner,Tina Turner,1,person
 2379,/relation:ron-tutt,Ron Tutt,1,person
 2380,/relation:steven-tyler,Steven Tyler,2,person
-2381,/relation:soozie-tyrell,Soozie Tyrell,842,person
+2381,/relation:soozie-tyrell,Soozie Tyrell,847,person
 2382,/relation:jay-ungar,Jay Ungar,1,person
 2383,/relation:ruth-ungar,Ruth Ungar,1,person
 2384,/relation:michael-utley,Michael Utley,1,person
@@ -2393,7 +2393,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2392,/relation:ronnie-vannucci-jr,Ronnie Vannucci Jr.,1,person
 2393,/relation:maureen-van-zandt-2,Maureen Van Zandt,0,person
 2394,/relation:steve-van-zandt,Steven Van Zandt,0,person
-2395,/relation:steven-van-zandt,Steven Van Zandt,1502,person
+2395,/relation:steven-van-zandt,Steven Van Zandt,1508,person
 2396,/relation:juan-vasquez,Juan Vásquez,0,person
 2397,/relation:ben-vaughn,Ben Vaughn,0,person
 2398,/relation:eddie-vedder,Eddie Vedder,8,person
@@ -2418,7 +2418,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2417,/relation:john-waasdorp,John Waasdorp,3,person
 2418,/relation:waddy-wachtel,Waddy Wachtel,3,person
 2419,/relation:jim-wacker,Jim Wacker,0,person
-2420,/relation:matt-wade,Matt Wade,0,person
+2420,/relation:matt-wade,Matt Wade,1,person
 2421,/relation:jessie-wagner,Jessie Wagner,5,person
 2422,/relation:kenn-wagner,Kenn Wagner,0,person
 2423,/relation:robert-wagner,Robert Wagner,1,person
@@ -2433,7 +2433,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2432,/relation:danny-walsh,Danny Walsh,0,person
 2433,/relation:joe-walsh,Joe Walsh,3,person
 2434,/relation:nick-walusko,Nick Walusko,2,person
-2435,/relation:mike-wanchic,Mike Wanchic,1,person
+2435,/relation:mike-wanchic,Mike Wanchic,3,person
 2436,/relation:m-ward,M. Ward,1,person
 2437,/relation:michael-ward,Michael Ward,2,person
 2438,/relation:jennifer-warnes,Jennifer Warnes,1,person
@@ -2461,7 +2461,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2460,/relation:ali-weinberg,Ali Weinberg,13,person
 2461,/relation:becky-weinberg,Becky Weinberg,0,person
 2462,/relation:jay-weinberg,Jay Weinberg,36,person
-2463,/relation:max-weinberg,Max Weinberg,1678,person
+2463,/relation:max-weinberg,Max Weinberg,1683,person
 2464,/relation:paul-weisenstein,Paul Weisenstein,1,person
 2465,/relation:eric-weissberg,Eric Weissberg,1,person
 2466,/relation:florence-welch,Florence Welch,0,person
@@ -2551,7 +2551,7 @@ relation_id,relation_url,relation_name,appearances,relation_type
 2550,/relation:helen-yee,Helen Yee,0,person
 2551,/relation:johnny-t-yerington,Johnny T. Yerington,0,person
 2552,/relation:jungsun-yoo,Jungsun Yoo,0,person
-2553,/relation:andy-york,Andy York,2,person
+2553,/relation:andy-york,Andy York,3,person
 2554,/relation:pete-yorn,Pete Yorn,1,person
 2555,/relation:jeff-young,Jeff Young,4,person
 2556,/relation:kirsty-young,Kirsty Young,0,person

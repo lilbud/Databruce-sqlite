@@ -1,5 +1,5 @@
 tour_id,tour_url,tour_name,first_show,last_show,num_shows,num_songs
-1,/stats:shows-23int-tour,2023 International Tour,/gig:2023-02-01-amalie-arena-tampa-fl,/gig:2023-09-03-metlife-stadium-east-rutherford-nj,66,76
+1,/stats:shows-23int-tour,2023 International Tour,/gig:2023-02-01-amalie-arena-tampa-fl,/gig:2024-11-22-rogers-arena-vancouver-bc,118,84
 2,/stats:shows-sob-tour,Springsteen On Broadway,/gig:2017-10-03-walter-kerr-theatre-new-york-city-ny,/gig:2021-09-04-st-james-theatre-new-york-city-ny,268,22
 3,/stats:shows-sumr17-tour,Summer '17 Tour,/gig:2017-01-22-arena-perth-australia,/gig:2017-02-25-mt-smart-stadium-auckland-new-zealand,14,94
 4,/stats:shows-book-tour,Book Promotion Tour,None,None,0,0

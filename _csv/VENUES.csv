@@ -150,7 +150,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 149,/venue:bayfront-center-arena-st-petersburg-fl,Bayfront Center Arena,St. Petersburg,FL,USA,1
 150,/venue:bayfront-park-amphitheater-miami-fl,Bayfront Park Amphitheater,Miami,FL,USA,1
 151,/venue:bayou-washington-dc,The Bayou,Washington,DC,USA,1
-152,/venue:beach-asbury-park-nj,Beach,Asbury Park,NJ,USA,1
+152,/venue:beach-asbury-park-nj,Beach,Asbury Park,NJ,USA,2
 153,/venue:beach-ocean-grove-nj,Beach,Ocean Grove,NJ,USA,0
 154,/venue:beach-pavilion-jersey-shore-nj,Beach Pavilion,Jersey Shore,NJ,USA,1
 155,/venue:beachcomber-long-branch-nj,The Beachcomber,Long Branch,NJ,USA,1
@@ -159,7 +159,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 158,/venue:beard-eaves-memorial-coliseum-auburn-al,Beard-Eaves-Memorial Coliseum,Auburn,AL,USA,0
 159,/venue:bears-stadium-denver-co,Bears Stadium,Denver,CO,USA,0
 160,/venue:bela-vista-park-lisbon-portugal,Bela Vista Park,Lisbon,,Portugal,3
-161,/venue:bell-centre-montreal-qc,Bell Centre,Montreal,QC,Canada,2
+161,/venue:bell-centre-montreal-qc,Bell Centre,Montreal,QC,Canada,3
 162,/venue:bell-lightbox-toronto-on,Bell Lightbox,Toronto,ON,Canada,0
 163,/venue:bell-mts-place-winnipeg-mb,Bell MTS Place,Winnipeg,MB,MB,0
 164,/venue:bellco-theatre-denver-co,Bellco Theatre,Denver,CO,USA,0
@@ -270,9 +270,9 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 269,/venue:camp-arrowhead-marlboro-nj,Camp Arrowhead,Marlboro,NJ,USA,2
 270,/venue:camp-nou-barcelona-spain,Camp Nou,Barcelona,,Spain,6
 271,/venue:campus-center-meadville-pa,Campus Center,Meadville,PA,USA,1
-272,/venue:canada-life-centre-winnipeg-mb,Canada Life Centre,Winnipeg,MB,MB,0
+272,/venue:canada-life-centre-winnipeg-mb,Canada Life Centre,Winnipeg,MB,MB,1
 273,/venue:canadian-airlines-saddledome-calgary-ab,Canadian Airlines Saddledome,Calgary,AB,Canada,0
-274,/venue:canadian-tire-centre-ottawa-on,Canadian Tire Centre,Ottawa,ON,Canada,0
+274,/venue:canadian-tire-centre-ottawa-on,Canadian Tire Centre,Ottawa,ON,Canada,1
 275,/venue:canal-studios-paris-france,Canal+ Studios,Paris,,France,2
 276,/venue:capital-centre-largo-md,Capital Centre,Largo,MD,USA,15
 277,/venue:capital-one-arena-washington-dc,Capital One Arena,Washington,DC,USA,1
@@ -319,7 +319,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 318,/venue:charlie-s-place-cambridge-ma,Charlie's Place,Cambridge,MA,USA,8
 319,/venue:bobcats-arena-charlotte-nc,Charlotte Bobcats Arena,Charlotte,NC,USA,1
 320,/venue:coliseum-charlotte-nc,Charlotte Coliseum,Charlotte,NC,USA,7
-321,/venue:chase-center-san-francisco-ca,Chase Center,San Francisco,CA,USA,0
+321,/venue:chase-center-san-francisco-ca,Chase Center,San Francisco,CA,USA,2
 322,/venue:checkerdome-st-louis-mo,Checkerdome,St. Louis,MO,USA,1
 323,/venue:cheers-long-branch-nj,Cheers,Long Branch,NJ,USA,7
 324,/venue:chelsea-piers-new-york-city-ny,Chelsea Piers,New York City,NY,USA,2
@@ -342,7 +342,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 341,/venue:circus-maximus-rome-italy,Circus Maximus,Rome,,Italy,2
 342,/venue:cirkus-stockholm-sweden,Cirkus,Stockholm,,Sweden,1
 343,/venue:citi-performing-arts-center-boston-ma,Citi Performing Arts Center,Boston,MA,USA,0
-344,/venue:citizens-bank-park-philadelphia-pa,Citizens Bank Park,Philadelphia,PA,USA,4
+344,/venue:citizens-bank-park-philadelphia-pa,Citizens Bank Park,Philadelphia,PA,USA,6
 345,/venue:city-hall-jersey-city-nj,City Hall,Jersey City,NJ,USA,0
 346,/venue:city-national-civic-san-jose-ca,City National Civic,San Jose,CA,USA,0
 347,/venue:city-stadium-manchester-england,City Of manchester Stadium,Manchester,,England,0
@@ -419,7 +419,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 418,/venue:cretecos-residence-new-york-city-ny,Cretecos Residence,New York City,NY,USA,0
 419,/venue:crisler-arena-ann-arbor-mi,Crisler Arena,Ann Arbor,MI,USA,1
 420,/venue:crisler-center-ann-arbor-mi,Crisler Center,Ann Arbor,MI,USA,0
-421,/venue:croke-park-dublin-ireland,Croke Park,Dublin,,Ireland,2
+421,/venue:croke-park-dublin-ireland,Croke Park,Dublin,,Ireland,3
 422,/venue:crypto-com-arena-los-angeles-ca,Crypto.com Arena,Los Angeles,CA,USA,0
 423,/venue:crystal-ballroom-new-york-city-ny,Crystal Ballroom,New York City,NY,USA,1
 424,/venue:cumberland-county-memorial-arena-fayetteville-nc,Cumberland County Memorial Arena,Fayetteville,NC,USA,1
@@ -444,7 +444,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 443,/venue:darien-lake-performing-arts-center-darien-ny,Darien Lake Performing Arts Center,Darien,NY,USA,1
 444,/venue:dartmouth-college-hanover-nh,Dartmouth College,Hanover,NH,USA,0
 445,/venue:datchforum-milan-italy,DatchForum,Milan,,Italy,3
-446,/venue:david-geffen-hall-new-york-city-ny,David Geffen Hall,New York City,NY,USA,1
+446,/venue:david-geffen-hall-new-york-city-ny,David Geffen Hall,New York City,NY,USA,2
 447,/venue:davis-gym-lewisburg-pa,Davis Gym,Lewisburg,PA,USA,1
 448,/venue:doelen-rotterdam-netherlands,De Doelen,Rotterdam,,The Netherlands,1
 449,/venue:park-recreation-center-deal-nj,Deal Park Recreation Center,Deal,NJ,USA,1
@@ -511,7 +511,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 510,/venue:espaco-das-americas-sao-paulo-brazil,Espaço Das Américas,São Paulo,,Brazil,1
 511,/venue:estadi-ciutat-valencia-spain,Estadi Ciutat De València,València,,Spain,1
 512,/venue:estadi-olimpic-de-montjuic-barcelona-spain,Estadi Olímpic De Montjuïc,Barcelona,,Spain,1
-513,/venue:estadi-olimpic-lluis-companys-barcelona-spain,Estadi Olímpic Lluís Companys,Barcelona,,Spain,6
+513,/venue:estadi-olimpic-lluis-companys-barcelona-spain,Estadi Olímpic Lluís Companys,Barcelona,,Spain,8
 514,/venue:estadio-anoeta-donostia-san-sebastian-spain,Estadio Anoeta,Donostia-San Sebastián,,Spain,3
 515,/venue:estadio-antonio-vespucio-liberti-buenos-aires-argentin,Estadio Antonio Vespucio Liberti,Buenos Aires,,Argentina,1
 516,/venue:estadio-ciudad-mendoza-argentina,Estadio Ciudad De Mendoza,Mendoza,,Argentina,0
@@ -565,7 +565,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 564,/venue:felt-forum-new-york-city-ny,Felt Forum,New York City,NY,USA,0
 565,/venue:fenway-park-boston-ma,Fenway Park,Boston,MA,USA,6
 566,/venue:festhalle-frankfurt-germany,Festhalle Frankfurt,Frankfurt,,Germany,5
-567,/venue:festivalpark-werchter-belgium,Festivalpark,Werchter,,Belgium,3
+567,/venue:festivalpark-werchter-belgium,Festivalpark,Werchter,,Belgium,4
 568,/venue:festivalpladsen-roskilde-denmark,Festivalpladsen,Roskilde,,Denmark,1
 569,/venue:field-house-springfield-ma,Field House,Springfield,MA,USA,1
 570,/venue:filaforum-milan-italy,FilaForum,Milan,,Italy,2
@@ -589,7 +589,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 588,/venue:floyd-l-maines-veterans-memorial-arena-binghamton-ny,Floyd L. Maines Veterans Memorial Arena,Binghamton,NY,USA,0
 589,/venue:flydsa-arena-sheffield-england,FlyDSA Arena,Sheffield,,England,0
 590,/venue:fogerty-residence-beverly-hills-ca,Fogerty Residence,Beverly Hills,CA,USA,1
-591,/venue:footprint-center-phoenix-az,Footprint Center,Phoenix,AZ,USA,0
+591,/venue:footprint-center-phoenix-az,Footprint Center,Phoenix,AZ,USA,2
 592,/venue:ford-amphitheatre-tampa-fl,Ford Amphitheatre,Tampa,FL,USA,1
 593,/venue:ford-center-oklahoma-city-ok,Ford Center,Oklahoma City,OK,USA,0
 594,/venue:forest-national-brussels-belgium,Forest National,Brussels,,Belgium,2
@@ -620,7 +620,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 619,/venue:township-high-school-freehold-nj,Freehold Township High School,Freehold,NJ,USA,2
 620,/venue:freewood-acres-fire-dept-hall-howell-nj,Freewood Acres Fire Dept. Hall,Howell,NJ,USA,1
 621,/venue:convention-entertainment-center-fresno-ca,Fresno Convention & Entertainment Center,Fresno,CA,USA,0
-622,/venue:friends-arena-solna-sweden,Friends Arena,Solna,,Sweden,3
+622,/venue:friends-arena-solna-sweden,Friends Arena,Solna,,Sweden,5
 623,/venue:frognerparken-oslo-norway,Frognerparken,Oslo,,Norway,1
 624,/venue:futureshow-station-bologna-italy,Futureshow Station,Bologna,,Italy,0
 625,/venue:gm-place-vancouver-bc,GM Place,Vancouver,BC,Canada,1
@@ -652,7 +652,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 651,/venue:state-college-glassboro-nj,Glassboro State College,Glassboro,NJ,USA,0
 652,/venue:arena-glendale-az,Glendale Arena,Glendale,AZ,USA,2
 653,/venue:globen-stockholm-sweden,Globen,Stockholm,,Sweden,5
-654,/venue:goffertpark-nijmegen-netherlands,Goffertpark,Nijmegen,,The Netherlands,1
+654,/venue:goffertpark-nijmegen-netherlands,Goffertpark,Nijmegen,,The Netherlands,3
 655,/venue:grady-gammage-memorial-auditorium-tempe-az,Grady Gammage Memorial Auditorium,Tempe,AZ,USA,4
 656,/venue:grand-hotel-stockholm-sweden,Grand Hôtel,Stockholm,,Sweden,1
 657,/venue:grand-ole-opry-house-nashville-tn,Grand Ole Opry House,Nashville,TN,USA,0
@@ -790,7 +790,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 789,/venue:meadows-amphitheatre-irvine-ca,Irvine Meadows Amphitheatre,Irvine,CA,USA,1
 790,/venue:izod-center-east-rutherford-nj,Izod Center,East Rutherford,NJ,USA,4
 791,/venue:j-benson-cartage-centre-ottawa-on,J. Benson Cartage Centre,Ottawa,ON,Canada,0
-792,/venue:jma-wireless-dome-syracuse-ny,JMA Wireless Dome,Syracuse,NY,USA,0
+792,/venue:jma-wireless-dome-syracuse-ny,JMA Wireless Dome,Syracuse,NY,USA,1
 793,/venue:jabberwocky-club-syracuse-ny,Jabberwocky Club,Syracuse,NY,USA,0
 794,/venue:jack-kent-cooke-stadium-landover-md,Jack Kent Cooke Stadium,Landover,MD,USA,0
 795,/venue:jack-s-sugar-shack-hollywood-ca,Jack's Sugar Shack,Hollywood,CA,USA,1
@@ -862,7 +862,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 861,/venue:keybank-center-buffalo-ny,KeyBank Center,Buffalo,NY,USA,1
 862,/venue:keystone-palo-alto-ca,The Keystone,Palo Alto,CA,USA,1
 863,/venue:keystone-hall-kutztown-pa,Keystone Hall,Kutztown,PA,USA,3
-864,/venue:kia-forum-inglewood-ca,Kia Forum,Inglewood,CA,USA,0
+864,/venue:kia-forum-inglewood-ca,Kia Forum,Inglewood,CA,USA,2
 865,/venue:kiel-auditorium-st-louis-mo,Kiel Auditorium,St. Louis,MO,USA,1
 866,/venue:kiel-center-st-louis-mo,Kiel Center,St. Louis,MO,USA,1
 867,/venue:kiel-opera-house-st-louis-mo,Kiel Opera House,St. Louis,MO,USA,3
@@ -947,7 +947,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 946,/venue:loew-s-theatre-akron-oh,Loew's Theatre,Akron,OH,USA,0
 947,/venue:loew-s-theatre-providence-ri,Loew's Theatre,Providence,RI,USA,0
 948,/venue:loews-cinema-red-bank-nj,Loews Cinema,Red Bank,NJ,USA,0
-949,/venue:convention-center-los-angeles-ca,Los Angeles Convention Center,Los Angeles,CA,USA,3
+949,/venue:convention-center-los-angeles-ca,Los Angeles Convention Center,Los Angeles,CA,USA,4
 950,/venue:memorial-coliseum-los-angeles-ca,Los Angeles Memorial Coliseum,Los Angeles,CA,USA,5
 951,/venue:memorial-sports-arena-los-angeles-ca,Los Angeles Memorial Sports Arena,Los Angeles,CA,USA,34
 952,/venue:music-center-los-angeles-ca,Los Angeles Music Center,Los Angeles,CA,USA,0
@@ -971,7 +971,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 970,/venue:mts-centre-winnipeg-mb,MTS Centre,Winnipeg,MB,MB,0
 971,/venue:mtv-studios-camden-town-england,MTV Studios,Camden Town,,England,1
 972,/venue:mtv-studios-new-york-city-ny,MTV Studios,New York City,NY,USA,1
-973,/venue:mvp-arena-albany-ny,MVP Arena,Albany,NY,USA,0
+973,/venue:mvp-arena-albany-ny,MVP Arena,Albany,NY,USA,1
 974,/venue:macmorland-center-chester-pa,MacMorland Center,Chester,PA,USA,1
 975,/venue:macauley-s-theatre-louisville-ky,Macauley's Theatre,Louisville,KY,USA,1
 976,/venue:madison-square-garden-new-york-city-ny,Madison Square Garden,New York City,NY,USA,52
@@ -1084,7 +1084,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1083,/venue:civic-center-mobile-al,Mobile Civic Center,Mobile,AL,USA,0
 1084,/venue:municipal-auditorium-mobile-al,Mobile Municipal Auditorium,Mobile,AL,USA,1
 1085,/venue:moda-center-portland-or,Moda Center,Portland,OR,USA,2
-1086,/venue:mohegan-sun-arena-uncasville-ct,Mohegan Sun Arena,Uncasville,CT,USA,2
+1086,/venue:mohegan-sun-arena-uncasville-ct,Mohegan Sun Arena,Uncasville,CT,USA,3
 1087,/venue:molson-centre-montreal-qc,Molson Centre,Montreal,QC,Canada,0
 1088,/venue:monmouth-arts-center-red-bank-nj,Monmouth Arts Center,Red Bank,NJ,USA,14
 1089,/venue:monmouth-college-west-long-branch-nj,Monmouth College,West Long Branch,NJ,USA,6
@@ -1153,8 +1153,8 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1152,/venue:national-sports-stadium-london-england,National Sports Stadium,London,,England,2
 1153,/venue:national-sports-stadium-harare-zimbabwe,National Sports Stadium,Harare,,Zimbabwe,1
 1154,/venue:national-stadium-dublin-ireland,National Stadium,Dublin,,Ireland,1
-1155,/venue:nationals-park-washington-dc,Nationals Park,Washington,DC,USA,2
-1156,/venue:nationwide-arena-columbus-oh,Nationwide Arena,Columbus,OH,USA,2
+1155,/venue:nationals-park-washington-dc,Nationals Park,Washington,DC,USA,3
+1156,/venue:nationwide-arena-columbus-oh,Nationwide Arena,Columbus,OH,USA,3
 1157,/venue:neil-simon-theatre-new-york-city-ny,Neil Simon Theatre,New York City,NY,USA,0
 1158,/venue:network-associates-coliseum-oakland-ca,Network Associates Coliseum,Oakland,CA,USA,0
 1159,/venue:bingley-hall-stafford-england,New Bingley Hall,Stafford,,England,1
@@ -1162,7 +1162,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1161,/venue:new-era-field-orchard-park-ny,New Era Field,Orchard Park,NY,USA,0
 1162,/venue:coliseum-new-haven-ct,New Haven Coliseum,New Haven,CT,USA,0
 1163,/venue:veterans-memorial-coliseum-new-haven-ct,New Haven Veterans Memorial Coliseum,New Haven,CT,USA,3
-1164,/venue:performing-arts-center-newark-nj,New Jersey Performing Arts Center,Newark,NJ,USA,2
+1164,/venue:performing-arts-center-newark-nj,New Jersey Performing Arts Center,Newark,NJ,USA,4
 1165,/venue:new-meadowlands-stadium-east-rutherford-nj,New Meadowlands Stadium,East Rutherford,NJ,USA,0
 1166,/venue:new-forum-montreal-qc,New Montreal Forum,Montreal,QC,Canada,0
 1167,/venue:arena-new-orleans-la,New Orleans Arena,New Orleans,LA,USA,1
@@ -1193,7 +1193,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1192,/venue:northwell-health-at-jones-beach-theater-wantagh-ny,Northwell Health At Jones Beach Theater,Wantagh,NY,USA,0
 1193,/venue:northwestern-university-evanston-il,Northwestern University,Evanston,IL,USA,0
 1194,/venue:nourse-theater-san-francisco-ca,Nourse Theater,San Francisco,CA,USA,0
-1195,/venue:nowlan-park-kilkenny-ireland,Nowlan Park,Kilkenny,,Ireland,2
+1195,/venue:nowlan-park-kilkenny-ireland,Nowlan Park,Kilkenny,,Ireland,3
 1196,/venue:nepstadion-budapest-hungary,Népstadion,Budapest,,Hungary,1
 1197,/venue:o-co-coliseum-oakland-ca,O.co Coliseum,Oakland,CA,USA,0
 1198,/venue:o2-dublin-ireland,The O2,Dublin,,Ireland,0
@@ -1233,7 +1233,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1232,/venue:olympia-reitstadion-riem-munich-germany,Olympia-Reitstadion Riem,Munich,,Germany,1
 1233,/venue:olympiahalle-munich-germany,Olympiahalle,Munich,,Germany,3
 1234,/venue:olympiako-stadio-spyros-louis-athens-greece,"Olympiakó Stádio Athinon ""Spyros Louis""",Athens,,Greece,1
-1235,/venue:olympiastadion-helsinki-finland,Olympiastadion,Helsinki,,Finland,4
+1235,/venue:olympiastadion-helsinki-finland,Olympiastadion,Helsinki,,Finland,5
 1236,/venue:olympiastadion-berlin-germany,Olympiastadion,Berlin,,Germany,2
 1237,/venue:olympiastadion-munich-germany,Olympiastadion,Munich,,Germany,6
 1238,/venue:olympic-saddledome-calgary-ab,Olympic Saddledome,Calgary,AB,Canada,1
@@ -1246,7 +1246,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1245,/venue:opera-berlioz-montpellier-france,Opéra Berlioz,Montpellier,,France,1
 1246,/venue:oracle-arena-oakland-ca,Oracle Arena,Oakland,CA,USA,4
 1247,/venue:orange-bowl-miami-fl,Orange Bowl,Miami,FL,USA,2
-1248,/venue:oriole-park-at-camden-yards-baltimore-md,Oriole Park At Camden Yards,Baltimore,MD,USA,0
+1248,/venue:oriole-park-at-camden-yards-baltimore-md,Oriole Park At Camden Yards,Baltimore,MD,USA,1
 1249,/venue:orion-live-club-rome-italy,Orion Live Club,Rome,,Italy,1
 1250,/venue:arena-orlando-fl,Orlando Arena,Orlando,FL,USA,2
 1251,/venue:orpheum-theatre-boston-ma,Orpheum Theatre,Boston,MA,USA,3
@@ -1259,7 +1259,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1258,/venue:pnc-arena-raleigh-nc,PNC Arena,Raleigh,NC,USA,1
 1259,/venue:pnc-bank-arts-center-holmdel-nj,PNC Bank Arts Center,Holmdel,NJ,USA,5
 1260,/venue:pnc-park-pittsburgh-pa,PNC Park,Pittsburgh,PA,USA,1
-1261,/venue:ppg-paints-arena-pittsburgh-pa,PPG Paints Arena,Pittsburgh,PA,USA,0
+1261,/venue:ppg-paints-arena-pittsburgh-pa,PPG Paints Arena,Pittsburgh,PA,USA,2
 1262,/venue:pabellon-deportivo-santander-spain,Pabellón Deportivo,Santander,,Spain,1
 1263,/venue:pacific-bell-park-san-francisco-ca,Pacific Bell Park,San Francisco,CA,USA,1
 1264,/venue:pacific-coliseum-vancouver-bc,Pacific Coliseum,Vancouver,BC,Canada,3
@@ -1330,7 +1330,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1329,/venue:paul-s-mall-boston-ma,Paul's Mall,Boston,MA,USA,14
 1330,/venue:pavello-olimpic-de-badalona-barcelona-spain,Pavelló Olímpic De Badalona,Barcelona,,Spain,2
 1331,/venue:peabody-opera-house-st-louis-mo,Peabody Opera House,St. Louis,MO,USA,0
-1332,/venue:pechanga-arena-san-diego-ca,Pechanga Arena San Diego,San Diego,CA,USA,0
+1332,/venue:pechanga-arena-san-diego-ca,Pechanga Arena San Diego,San Diego,CA,USA,1
 1333,/venue:pengrowth-saddledome-calgary-ab,Pengrowth Saddledome,Calgary,AB,Canada,1
 1334,/venue:state-university-university-park-pa,Penn State University,University Park,PA,USA,0
 1335,/venue:pennsylvania-decade-pittsburgh-pa,Pennsylvania Decade,Pittsburgh,PA,USA,1
@@ -1392,7 +1392,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1391,/venue:puskas-ferenc-stadion-budapest-hungary,Puskás Ferenc Stadion,Budapest,,Hungary,0
 1392,/venue:putnam-gymnasium-houlton-me,Putnam Gymnasium,Houlton,ME,USA,1
 1393,/venue:pyramid-arena-memphis-tn,Pyramid Arena,Memphis,TN,USA,1
-1394,/venue:pairc-ui-chaoimh-cork-ireland,Páirc Uí Chaoimh,Cork,,Ireland,1
+1394,/venue:pairc-ui-chaoimh-cork-ireland,Páirc Uí Chaoimh,Cork,,Ireland,2
 1395,/venue:qe-ii-jubilee-sports-centre-brisbane-australia,QE II Jubilee Sports Centre,Brisbane,,Australia,1
 1396,/venue:qantas-credit-union-arena-sydney-australia,Qantas Credit Union Arena,Sydney,,Australia,0
 1397,/venue:qudos-bank-arena-sydney-australia,Qudos Bank Arena,Sydney,,Australia,2
@@ -1470,9 +1470,9 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1469,/venue:rocket-mortgage-fieldhouse-cleveland-oh,Rocket Mortgage Fieldhouse,Cleveland,OH,USA,1
 1470,/venue:rockitz-music-club-richmond-va,Rockitz Music Club,Richmond,VA,USA,0
 1471,/venue:rod-laver-arena-melbourne-australia,Rod Laver Arena,Melbourne,,Australia,3
-1472,/venue:rogers-arena-vancouver-bc,Rogers Arena,Vancouver,BC,Canada,1
+1472,/venue:rogers-arena-vancouver-bc,Rogers Arena,Vancouver,BC,Canada,2
 1473,/venue:rogers-centre-toronto-on,Rogers Centre,Toronto,ON,Canada,1
-1474,/venue:rogers-place-edmonton-ab,Rogers Place,Edmonton,AB,Canada,0
+1474,/venue:rogers-place-edmonton-ab,Rogers Place,Edmonton,AB,Canada,1
 1475,/venue:rona-centre-ottawa-on,Rona Centre,Ottawa,ON,Canada,0
 1476,/venue:rose-center-new-york-city-ny,Rose Center For Earth And Space,New York City,NY,USA,0
 1477,/venue:rose-garden-portland-or,Rose Garden,Portland,OR,USA,4
@@ -1544,7 +1544,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1543,/venue:center-for-the-performing-arts-san-jose-ca,San Jose Center For The Performing Arts,San Jose,CA,USA,1
 1544,/venue:civic-auditorium-san-jose-ca,San Jose Civic Auditorium,San Jose,CA,USA,0
 1545,/venue:state-university-san-jose-ca,San José State University,San José,CA,USA,0
-1546,/venue:san-siro-milan-italy,San Siro,Milan,,Italy,0
+1546,/venue:san-siro-milan-italy,San Siro,Milan,,Italy,2
 1547,/venue:sandy-s-beverly-ma,Sandy's,Beverly,MA,USA,1
 1548,/venue:santa-clara-county-fairgrounds-san-jose-ca,Santa Clara County Fairgrounds,San Jose,CA,USA,0
 1549,/venue:university-santa-clara-ca,Santa Clara University,Santa Clara,CA,USA,0
@@ -1558,9 +1558,9 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1557,/venue:schenley-park-pittsburgh-pa,Schenley Park,Pittsburgh,PA,USA,0
 1558,/venue:school-rumson-nj,School,Rumson,NJ,USA,0
 1559,/venue:schottenstein-center-columbus-oh,Schottenstein Center,Columbus,OH,USA,1
-1560,/venue:scotiabank-arena-toronto-on,Scotiabank Arena,Toronto,ON,Canada,0
+1560,/venue:scotiabank-arena-toronto-on,Scotiabank Arena,Toronto,ON,Canada,2
 1561,/venue:scotiabank-place-ottawa-on,Scotiabank Place,Ottawa,ON,Canada,2
-1562,/venue:scotiabank-saddledome-calgary-ab,Scotiabank Saddledome,Calgary,AB,Canada,0
+1562,/venue:scotiabank-saddledome-calgary-ab,Scotiabank Saddledome,Calgary,AB,Canada,1
 1563,/venue:scott-amphitheater-swarthmore-pa,Scott Amphitheater,Swarthmore,PA,USA,1
 1564,/venue:scottrade-center-st-louis-mo,Scottrade Center,St. Louis,MO,USA,2
 1565,/venue:scullville-studios-egg-harbor-township-nj,Scullville Studios,Egg Harbor Township,NJ,USA,0
@@ -1656,7 +1656,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1655,/venue:civic-center-theatre-saint-paul-mn,St. Paul Civic Center Theatre,Saint Paul,MN,USA,1
 1656,/venue:st-pete-times-forum-tampa-fl,St. Pete Times Forum,Tampa,FL,USA,2
 1657,/venue:st-peter-s-church-new-york-city-ny,St. Peter's Church,New York City,NY,USA,1
-1658,/venue:st-rose-of-lima-church-freehold-nj,St. Rose Of Lima Church,Freehold,NJ,USA,0
+1658,/venue:st-rose-of-lima-church-freehold-nj,St. Rose Of Lima Church,Freehold,NJ,USA,1
 1659,/venue:st-rose-of-lima-school-freehold-nj,St. Rose Of Lima School,Freehold,NJ,USA,6
 1660,/venue:st-thomas-church-new-york-city-ny,St. Thomas Church,New York City,NY,USA,0
 1661,/venue:stade-colombes-france,Stade De Colombes,Colombes,,France,0
@@ -1686,7 +1686,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1685,/venue:stadio-olimpico-turin-italy,Stadio Olimpico,Turin,,Italy,1
 1686,/venue:stadion-am-bieberer-berg-offenbach-germany,Stadion Am Bieberer Berg,Offenbach,,Germany,1
 1687,/venue:stadion-feijenoord-rotterdam-netherlands,Stadion Feijenoord,Rotterdam,,The Netherlands,6
-1688,/venue:stadium-of-light-sunderland-england,Stadium Of Light,Sunderland,,England,1
+1688,/venue:stadium-of-light-sunderland-england,Stadium Of Light,Sunderland,,England,2
 1689,/venue:stambaugh-auditorium-youngstown-oh,Stambaugh Auditorium,Youngstown,OH,USA,1
 1690,/venue:stanhope-arms-london-england,The Stanhope Arms,London,,England,1
 1691,/venue:stanley-theatre-pittsburgh-pa,Stanley Theatre,Pittsburgh,PA,USA,4
@@ -1906,7 +1906,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1905,/venue:unknown-location-philadelphia-pa,Unknown Location,Philadelphia,PA,USA,0
 1906,/venue:unknown-location-memphis-tn,Unknown Location,Memphis,TN,USA,0
 1907,/venue:unknown-location-nashville-tn,Unknown Location,Nashville,TN,USA,0
-1908,/venue:unknown-location-unknown-city,Unknown Location,,,Unknown Location,1
+1908,/venue:unknown-location-unknown-city,Unknown Location,,,Unknown Location,3
 1909,/venue:unknown-location-richmond-va,Unknown Location,Richmond,VA,USA,1
 1910,/venue:unknown-location-janesville-wi,Unknown Location,Janesville,WI,USA,1
 1911,/venue:upstage-asbury-park-nj,The Upstage,Asbury Park,NJ,USA,41
@@ -1998,7 +1998,7 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 1997,/venue:wells-fargo-theatre-denver-co,Wells Fargo Theatre,Denver,CO,USA,0
 1998,/venue:welsh-ryan-arena-evanston-il,Welsh Ryan Arena,Evanston,IL,USA,0
 1999,/venue:wembley-arena-london-england,Wembley Arena,London,,England,14
-2000,/venue:wembley-stadium-london-england,Wembley Stadium,London,,England,8
+2000,/venue:wembley-stadium-london-england,Wembley Stadium,London,,England,10
 2001,/venue:weserstadion-bremen-germany,Weserstadion,Bremen,,Germany,2
 2002,/venue:state-college-west-chester-pa,West Chester State College,West Chester,PA,USA,0
 2003,/venue:university-west-chester-pa,West Chester University Of Pennsylvania,West Chester,PA,USA,0
@@ -2063,3 +2063,23 @@ venue_id,venue_url,venue_name,venue_city,venue_state,venue_country,num_performan
 2062,/venue:ipayone-center-san-diego-ca,iPayOne Center,San Diego,CA,USA,0
 2063,/venue:ntelos-wireless-pavilion-charlottesville-va,nTelos Wireless Pavilion,Charlottesville,VA,USA,1
 2064,/venue:jo-horu-osaka-japan,Ōsaka-jō Hōru,Osaka,,Japan,2
+4334,/venue:boucher-road-playing-fields-belfast-northern-ireland,Boucher Road Playing Fields,Belfast,,Northern Ireland,0
+4405,/venue:capital-centre-landover-md,Capital Centre,Landover,MD,USA,0
+4559,/venue:civitas-metropolitano-madrid-spain,Cívitas Metropolitano,Madrid,,Spain,0
+4596,/venue:dokken-bergen-norway,Dokken,Bergen,,Norway,0
+4714,/venue:five-rings-farm-wellington-fl,Five Rings Farm,Wellington,FL,USA,1
+4765,/venue:gateway-national-recreational-area-sandy-hook-nj,Gateway National Recreational Area,Sandy Hook,NJ,USA,0
+4796,/venue:great-hall-west-long-branch-nj,Great Hall At Shadow Lawn,West Long Branch,NJ,USA,0
+4859,/venue:heinz-von-heiden-arena-hannover-germany,Heinz-von-Heiden-Arena,Hannover,,Germany,0
+5066,/venue:letnany-airport-prague-czech-republic,Letnany Airport,Prague,,Czech Republic,0
+5341,/venue:oak-hill-estate-tualatin-or,Oak Hill Estate,Tualatin,OR,USA,0
+5355,/venue:dyrskueplads-odense-denmark,Odense Dyrskueplads,Odense,,Denmark,0
+5387,/venue:orange-velodrome-marseille-france,Orange Vélodrome,Marseille,,France,0
+5489,/venue:suns-arena-phoenix-az,Phoenix Suns Arena,Phoenix,AZ,USA,0
+5520,/venue:principality-stadium-cardiff-wales,Principality Stadium,Cardiff,,Wales,0
+5737,/venue:siriusxm-studio-las-vegas-nv,SiriusXM Studio,Las Vegas,NV,USA,0
+5797,/venue:st-mary-s-medical-center-west-palm-beach-fl,St. Mary's Medical Center,West Palm Beach,FL,USA,0
+5817,/venue:stade-velodrome-marseille-france,Stade Vélodrome,Marseille,,France,0
+5873,/venue:sunset-marquis-hotel-west-hollywood-ca,Sunset Marquis Hotel,West Hollywood,CA,USA,0
+5890,/venue:t-mobile-arena-las-vegas-nv,T-Mobile Arena,Las Vegas,NV,USA,1
+6100,/venue:virgin-megastore-new-york-city-ny,Virgin Megastore,New York City,NY,USA,0

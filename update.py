@@ -172,19 +172,12 @@ def full_update(start, end):
 
 # basic_update()
 # usually can just be run for the current year
-
-# get_venues()
-full_update(current_year, current_year)
-# get_show_info("/gig:2024-03-25-pechanga-arena-san-diego-ca")
-setlist_to_events()
-
-# get_tours()
-
-
-# jungleland_artwork()
 # get_official_live()
-update_counts()
-# csv_export()
-run_time(start_time)
 
 # winsound.Beep(1500, 250)
+
+if __name__ == "__main__":
+    full_update(current_year, current_year)
+    setlist_to_events()
+    update_counts()
+    run_time(start_time)
