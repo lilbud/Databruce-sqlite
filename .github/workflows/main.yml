@@ -4,8 +4,8 @@ on:
   schedule:
     - cron: '0 3 * * *'
 jobs:
-  updatedb:
-    runs-on: ubuntu-latest
+  # updatedb:
+  #   runs-on: ubuntu-latest
 
     # steps:
     #   - name: Checkout
