@@ -78,7 +78,9 @@ jobs:
       #     apt-get install --yes postgresql-client-16
 
       - name: Install PGLoader
-        run: apt-get install --yes pgloader
+        run: |
+          apt-get update
+          apt-get install --yes pgloader
       
       - name: Check out repository code
         uses: actions/checkout@v3
