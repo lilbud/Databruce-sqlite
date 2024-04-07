@@ -78,16 +78,16 @@ jobs:
           apt-cache policy postgresql-client
           apt-get install postgresql-client -y
       
-      # - name: Check out repository code
-      #   uses: actions/checkout@v3
+      - name: Check out repository code
+        uses: actions/checkout@v3
       
-      # - name: update postgresql db
-      #   run: 
-      #     pgloader _database/database.sqlite
-      #     postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
+      - name: update postgresql db
+        run: 
+          pgloader _database/database.sqlite
+          postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
 
-      # - name: Install Heroku Cli
-      #   run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+      - name: Install Heroku Cli
+        run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
       
       # - name: Login to Heroku Container Registry
       #   env: 
@@ -96,10 +96,10 @@ jobs:
       #     heroku auth:login
       #     heroku container:login
 
-      # - name: push DB changes to Heroku and reboot
-      #   env: 
-      #     HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      #   run: |
-      #     heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
-      #     heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db?sslmode=require DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
-      #     heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
+      - name: push DB changes to Heroku and reboot
+        env: 
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: |
+          heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
+          heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db?sslmode=require DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
+          heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
