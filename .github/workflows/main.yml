@@ -40,12 +40,12 @@ jobs:
     # containers must run in Linux based operating systems
     runs-on: ubuntu-latest
     # Docker Hub image that `postgres-job` executes in
-    container: node:20
+    container: node:latest
     services:
       # label used to access the service container
       postgres:
         # Docker Hub image
-        image: postgres:16
+        image: postgres:latest
         # service environment variables
         # `POSTGRES_HOST` is `postgres`
         env:
@@ -67,15 +67,16 @@ jobs:
     steps:
       - name: update packages
         run: |
-          apt-get update
-    
+          apt-get update && apt upgrade -y
+  
       - name: Install PGLoader
         run: |
           apt-get install --yes pgloader
           
       - name: Install pgsql client
         run: |
-          apt install postgresql-client-16 -y
+          apt-cache policy postgres-client
+          apt install postgresql-client=16 -y
       
       # - name: Check out repository code
       #   uses: actions/checkout@v3
