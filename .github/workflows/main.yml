@@ -71,7 +71,6 @@ jobs:
   
       - name: Install pgsql client
         run: |
-          apt-get install postgresql -y
           apt-get install postgresql-client -y
 
       - name: Install PGLoader
@@ -88,12 +87,12 @@ jobs:
         run: 
           pgloader _database/database.sqlite postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
           
-      # - name: Login to Heroku Container Registry
-      #   env: 
-      #     HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      #   run: |
-      #     heroku auth:login
-      #     heroku container:login
+      - name: Login to Heroku Container Registry
+        env: 
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: |
+          heroku auth:login
+          heroku container:login
 
       - name: push DB changes to Heroku and reboot
         run: |
