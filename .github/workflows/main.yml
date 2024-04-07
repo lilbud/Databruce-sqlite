@@ -40,7 +40,7 @@ jobs:
     # containers must run in Linux based operating systems
     runs-on: ubuntu-latest
     # Docker Hub image that `postgres-job` executes in
-    container: node:latest
+    container: node20
 
     # service containers to run with `postgres-job`
     services:
@@ -74,8 +74,8 @@ jobs:
       - name: Install PostgreSQL client
         run: |
           apt-get update
-          apt-get install --yes postgresql
-          apt-get install --yes postgresql-client
+          apt-get install --yes postgresql-16
+          apt-get install --yes postgresql-client-16
 
       - name: Install PGLoader
         run: apt-get install --yes pgloader
