@@ -1,8 +1,8 @@
 name: update database and push
 on:
-  push:
+#   push:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 0 * * *'
 jobs:
   # updatedb:
   #   runs-on: ubuntu-latest
@@ -47,7 +47,7 @@ jobs:
       # label used to access the service container
       postgres:
         # Docker Hub image
-        image: postgres:latest
+        image: postgres
         # service environment variables
         # `POSTGRES_HOST` is `postgres`
         env:
@@ -71,16 +71,16 @@ jobs:
           --health-retries 5
 
     steps:
-      # - name: Install PostgreSQL client
-      #   run: |
-      #     apt-get update
-      #     apt-get install --yes postgresql-16
-      #     apt-get install --yes postgresql-client-16
-
+      - name: update packages
+        run: |
+          apt-get update
+          
       - name: Install PGLoader
         run: |
           apt-get update
           apt-get install --yes pgloader
+          apt-get install --yes postgresql-16
+          apt-get install --yes postgresql-client-16
       
       - name: Check out repository code
         uses: actions/checkout@v3
