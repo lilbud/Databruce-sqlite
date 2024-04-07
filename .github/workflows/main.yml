@@ -4,39 +4,39 @@ on:
   schedule:
     - cron: '0 3 * * *'
 jobs:
-  # updatedb:
-  #   runs-on: ubuntu-latest
+  updatedb:
+    runs-on: ubuntu-latest
 
-    # steps:
-    #   - name: Checkout
-    #     uses: actions/checkout@v3
-    #   - name: Set up Python 3.x
-    #     uses: actions/setup-python@v4
-    #     with:
-    #       python-version: 3.11
-    #   - name: Install dependencies
-    #     run: |
-    #       python -m pip install --upgrade pip
-    #       python -m pip install -r requirements.txt
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
       
-    #   - name: run database update
-    #     run: python update.py
+      - name: run database update
+        run: python update.py
       
-    #   - name: run csv_export
-    #     run: python csv_export.py
+      - name: run csv_export
+        run: python csv_export.py
 
-    #   - name: Commit
-    #     run: |
-    #       git config --local user.name "${GITHUB_ACTOR}"
-    #       git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-    #       git commit -am "Auto updated posts" || echo "No changes to commit"
-    #   - name: Push
-    #     run: |
-    #       git push origin main
+      - name: Commit
+        run: |
+          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git commit -am "Auto updated posts" || echo "No changes to commit"
+      - name: Push
+        run: |
+          git push origin main
 
   #label of the container job
   postgres-job:
-    #needs: updatedb
+    needs: updatedb
     # containers must run in Linux based operating systems
     runs-on: ubuntu-latest
     # Docker Hub image that `postgres-job` executes in
@@ -105,4 +105,7 @@ jobs:
           heroku config:set PGSSLMODE=require --app ${{ secrets.HEROKU_APP_NAME }}
           heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
           heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
-          heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
+      - name: restart dynos
+        if: always()
+        run: heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
+
