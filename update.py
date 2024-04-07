@@ -6,8 +6,7 @@ File Purpose: Updates the Database file, uses the functions in Data_Collection
 """
 
 import time
-import datetime, re, requests
-from bs4 import BeautifulSoup as bs4
+import datetime
 from data_collection import (
     get_bands,
     get_people,
@@ -15,19 +14,15 @@ from data_collection import (
     get_venues,
     get_tours,
     setlist_to_events,
-    get_bootlegs,
-    get_official_live,
 )
 from data_collection import (
     get_albums,
     get_events_by_year,
     get_tour_events,
     get_show_info,
-    jungleland_artwork,
 )
 from data_collection import conn, cur
 from helper_stuff import run_time
-from csv_export import csv_export
 
 main_url = "http://brucebase.wikidot.com/"
 current_year = int(datetime.datetime.now().date().strftime("%Y"))
@@ -188,7 +183,7 @@ setlist_to_events()
 
 # jungleland_artwork()
 # get_official_live()
-# update_counts()
+update_counts()
 # csv_export()
 run_time(start_time)
 

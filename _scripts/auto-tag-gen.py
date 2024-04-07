@@ -1,4 +1,6 @@
-import re, os, sqlite3
+import re
+import os
+import sqlite3
 # from unidecode import unidecode
 
 db_path = os.path.abspath(
@@ -28,7 +30,7 @@ def loop(artist, year):
 
         if event_get:
             for e in event_get:
-                output_path = fr"{path}\{i}\mp3tag.txt"
+                output_path = rf"{path}\{i}\mp3tag.txt"
                 with open(output_path, "w") as my_file:
                     try:
                         band = cur.execute(
@@ -36,7 +38,7 @@ def loop(artist, year):
                         ).fetchone()[0]
                         artist = f"Bruce Springsteen & {band}"
                     except:
-                        artist = f"Bruce Springsteen"
+                        artist = "Bruce Springsteen"
 
                     album = ", ".join(
                         filter(
