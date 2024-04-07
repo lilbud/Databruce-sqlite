@@ -1,6 +1,6 @@
 name: update database and push
 on:
-  # push:
+  push:
   schedule:
     - cron: '0 3 * * *'
 jobs:
@@ -85,7 +85,7 @@ jobs:
       
       - name: update postgresql db
         run: 
-          pgloader _database/database.sqlite postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
+          pgloader _database/database.sqlite postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db?sslmode=allow
       
       - name: Heroku login credentials
         env:
@@ -103,5 +103,5 @@ jobs:
       - name: push DB changes to Heroku and reboot
         run: |
           heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
-          heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
+          heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db?sslmode=allow DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
           heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
