@@ -65,9 +65,9 @@ jobs:
           --health-retries 5
 
     steps:
-      - name: update packages
-        run: |
-          apt-get update && apt upgrade -y
+      # - name: update packages
+      #   run: |
+      #     apt-get update && apt upgrade -y
   
       - name: Install PGLoader
         run: |
@@ -75,7 +75,10 @@ jobs:
           
       - name: Install pgsql client
         run: |
-          apt-cache policy postgresql-client
+          sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+          wget -qO- https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo tee /etc/apt/trusted.gpg.d/pgdg.asc &>/dev/null
+          apt-get update
+          apt-get install postgresql -y
           apt-get install postgresql-client -y
       
       - name: Check out repository code
