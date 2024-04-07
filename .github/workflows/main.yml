@@ -40,12 +40,12 @@ jobs:
     # containers must run in Linux based operating systems
     runs-on: ubuntu-latest
     # Docker Hub image that `postgres-job` executes in
-    container: node:latest
+    container: node:20
     services:
       # label used to access the service container
       postgres:
         # Docker Hub image
-        image: postgres:latest
+        image: postgres:16
         # service environment variables
         # `POSTGRES_HOST` is `postgres`
         env:
@@ -65,11 +65,6 @@ jobs:
           --health-retries 5
 
     steps:
-      - name: pgsql
-        run: |
-          sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
-          wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-    
       - name: update packages
         run: |
           apt-get update
@@ -82,16 +77,16 @@ jobs:
         run: |
           apt install postgresql-client-16 -y
       
-      - name: Check out repository code
-        uses: actions/checkout@v3
+      # - name: Check out repository code
+      #   uses: actions/checkout@v3
       
-      - name: update postgresql db
-        run: 
-          pgloader _database/database.sqlite
-          postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
+      # - name: update postgresql db
+      #   run: 
+      #     pgloader _database/database.sqlite
+      #     postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
 
-      - name: Install Heroku Cli
-        run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+      # - name: Install Heroku Cli
+      #   run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
       
       # - name: Login to Heroku Container Registry
       #   env: 
@@ -100,10 +95,10 @@ jobs:
       #     heroku auth:login
       #     heroku container:login
 
-      - name: push DB changes to Heroku and reboot
-        env: 
-          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-        run: |
-          heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
-          heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db?sslmode=require DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
-          heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
+      # - name: push DB changes to Heroku and reboot
+      #   env: 
+      #     HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      #   run: |
+      #     heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
+      #     heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db?sslmode=require DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
+      #     heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
