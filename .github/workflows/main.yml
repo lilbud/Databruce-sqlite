@@ -75,7 +75,7 @@ jobs:
           
       - name: Install pgsql client
         run: |
-          apt-get install --yes postgresql-client-16
+          apt-get install --yes postgresql-client
       
       - name: Check out repository code
         uses: actions/checkout@v3
