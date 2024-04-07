@@ -1,8 +1,8 @@
 name: update database and push
 on:
-#   push:
-  schedule:
-    - cron: '0 0 * * *'
+  push:
+  # schedule:
+  #   - cron: '0 0 * * *'
 jobs:
   # updatedb:
   #   runs-on: ubuntu-latest
@@ -40,25 +40,19 @@ jobs:
     # containers must run in Linux based operating systems
     runs-on: ubuntu-latest
     # Docker Hub image that `postgres-job` executes in
-    container: node:20
-
-    # service containers to run with `postgres-job`
+    container: node:latest
     services:
       # label used to access the service container
       postgres:
         # Docker Hub image
-        image: postgres
+        image: postgres:latest
         # service environment variables
         # `POSTGRES_HOST` is `postgres`
         env:
-          # optional (defaults to `postgres`)
           POSTGRES_DB: postgres_db
           POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
-          # required
           POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
-          # optional (defaults to `5432`)
           POSTGRES_PORT: 5432
-          # optional (defaults to `postgres`)
           POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
         ports:
           # maps tcp port 5432 on service container to the host
@@ -74,12 +68,13 @@ jobs:
       - name: update packages
         run: |
           apt-get update
-          
+    
       - name: Install PGLoader
         run: |
-          apt-get update
           apt-get install --yes pgloader
-          apt-get install --yes postgresql-16
+          
+      - name: Install pgsql client
+        run: |
           apt-get install --yes postgresql-client-16
       
       - name: Check out repository code
