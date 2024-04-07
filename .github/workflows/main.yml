@@ -75,8 +75,8 @@ jobs:
           
       - name: Install pgsql client
         run: |
-          apt-cache policy postgres-client
-          apt install postgresql-client=16 -y
+          apt-cache policy postgresql-client
+          apt-get install postgresql-client -y
       
       # - name: Check out repository code
       #   uses: actions/checkout@v3
