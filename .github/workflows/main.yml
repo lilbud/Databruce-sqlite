@@ -102,7 +102,7 @@ jobs:
           EOF
       - name: push DB changes to Heroku and reboot
         run: |
-          heroku config:set PGSSLMODE=require --app ${{ secrets.HEROKU_APP_NAME }}
+          heroku pg:psql --app ${{ secrets.HEROKU_APP_NAME }}
           heroku pg:reset --confirm brucebot-discord --app ${{ secrets.HEROKU_APP_NAME }}
           heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
       - name: restart dynos
