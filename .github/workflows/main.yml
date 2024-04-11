@@ -104,7 +104,7 @@ jobs:
         run: |
           heroku pg:psql --app ${{ secrets.HEROKU_APP_NAME }}
           heroku pg:reset --confirm ${{ secrets.HEROKU_APP_NAME }} --app ${{ secrets.HEROKU_APP_NAME }}
-          heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db?sslmode=require DATABASE_URL?sslmode=require --app ${{ secrets.HEROKU_APP_NAME }}
+          heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db?sslmode=require DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
       - name: restart dynos
         if: always()
         run: heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
