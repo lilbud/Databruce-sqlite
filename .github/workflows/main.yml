@@ -1,6 +1,6 @@
 name: update database and push
 on:
-  push:
+  # push:
   schedule:
     - cron: '0 3 * * *'
 jobs:
@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --local user.name "${GITHUB_ACTOR}"
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git commit -am "Auto updated posts" || echo "No changes to commit"
+          git commit -am "Auto updated database with new events" || echo "No changes to commit"
       - name: Push
         run: |
           git push origin main
