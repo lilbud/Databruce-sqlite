@@ -1,6 +1,6 @@
 name: update database and push
 on:
-  push:
+  # push:
   schedule:
     - cron: '0 3 * * *'
 jobs:
@@ -35,77 +35,77 @@ jobs:
           git push origin main
 
   #label of the container job
-  postgres-job:
-    needs: updatedb
-    # containers must run in Linux based operating systems
-    runs-on: ubuntu-latest
-    # Docker Hub image that `postgres-job` executes in
-    container: node:latest
-    services:
-      # label used to access the service container
-      postgres:
-        # Docker Hub image
-        image: postgres:15.6
-        # service environment variables
-        # `POSTGRES_HOST` is `postgres`
-        env:
-          POSTGRES_DB: postgres_db
-          POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
-          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
-          POSTGRES_PORT: 5432
-          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
-        ports:
-          # maps tcp port 5432 on service container to the host
-          - 5432:5432
-        # set health checks to wait until postgres has started
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
+  # postgres-job:
+  #   needs: updatedb
+  #   # containers must run in Linux based operating systems
+  #   runs-on: ubuntu-latest
+  #   # Docker Hub image that `postgres-job` executes in
+  #   container: node:latest
+  #   services:
+  #     # label used to access the service container
+  #     postgres:
+  #       # Docker Hub image
+  #       image: postgres:15.6
+  #       # service environment variables
+  #       # `POSTGRES_HOST` is `postgres`
+  #       env:
+  #         POSTGRES_DB: postgres_db
+  #         POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
+  #         POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+  #         POSTGRES_PORT: 5432
+  #         POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
+  #       ports:
+  #         # maps tcp port 5432 on service container to the host
+  #         - 5432:5432
+  #       # set health checks to wait until postgres has started
+  #       options: >-
+  #         --health-cmd pg_isready
+  #         --health-interval 10s
+  #         --health-timeout 5s
+  #         --health-retries 5
 
-    steps:
-      - name: update
-        run: |
-          apt-get update
+  #   steps:
+  #     - name: update
+  #       run: |
+  #         apt-get update
   
-      - name: Install pgsql client
-        run: |
-          apt-get install postgresql-client -y
+  #     - name: Install pgsql client
+  #       run: |
+  #         apt-get install postgresql-client -y
 
-      - name: Install PGLoader
-        run: |
-          apt-get install pgloader -y
+  #     - name: Install PGLoader
+  #       run: |
+  #         apt-get install pgloader -y
 
-      - name: Install Heroku Cli
-        run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+  #     - name: Install Heroku Cli
+  #       run: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
       
-      - name: Check out repository code
-        uses: actions/checkout@v3
+  #     - name: Check out repository code
+  #       uses: actions/checkout@v3
       
-      - name: update postgresql db
-        run: 
-          pgloader _database/database.sqlite postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
+  #     - name: update postgresql db
+  #       run: 
+  #         pgloader _database/database.sqlite postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db
       
-      - name: Heroku login credentials
-        env:
-            HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-            HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }}
-        run: |
-          cat > ~/.netrc <<EOF
-            machine api.heroku.com
-              login $HEROKU_EMAIL
-              password $HEROKU_API_KEY
-            machine git.heroku.com
-              login $HEROKU_EMAIL
-              password $HEROKU_API_KEY
-          EOF
-      - name: push DB changes to Heroku and reboot
-        run: |
-          heroku pg:psql --app ${{ secrets.HEROKU_APP_NAME }}
-          heroku pg:reset --confirm ${{ secrets.HEROKU_APP_NAME }} --app ${{ secrets.HEROKU_APP_NAME }}
-          heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
-      - name: restart dynos
-        if: always()
-        run: heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
+  #     - name: Heroku login credentials
+  #       env:
+  #           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+  #           HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }}
+  #       run: |
+  #         cat > ~/.netrc <<EOF
+  #           machine api.heroku.com
+  #             login $HEROKU_EMAIL
+  #             password $HEROKU_API_KEY
+  #           machine git.heroku.com
+  #             login $HEROKU_EMAIL
+  #             password $HEROKU_API_KEY
+  #         EOF
+  #     - name: push DB changes to Heroku and reboot
+  #       run: |
+  #         heroku pg:psql --app ${{ secrets.HEROKU_APP_NAME }}
+  #         heroku pg:reset --confirm ${{ secrets.HEROKU_APP_NAME }} --app ${{ secrets.HEROKU_APP_NAME }}
+  #         heroku pg:push postgresql://${{ secrets.POSTGRES_USER }}:${{ secrets.POSTGRES_PASSWORD }}@postgres:5432/postgres_db DATABASE_URL --app ${{ secrets.HEROKU_APP_NAME }}
+  #     - name: restart dynos
+  #       if: always()
+  #       run: heroku ps:restart --app ${{ secrets.HEROKU_APP_NAME }}
 
