@@ -2,7 +2,7 @@ name: update database and push
 on:
   push:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 22 * * *'
 jobs:
   updatedb:
     runs-on: ubuntu-latest
