@@ -177,6 +177,7 @@ def full_update(start, end):
 # winsound.Beep(1500, 250)
 
 if __name__ == "__main__":
+    get_songs()
     full_update(current_year, current_year)
     setlist_to_events()
     update_counts()
