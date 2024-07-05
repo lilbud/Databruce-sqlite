@@ -280,7 +280,7 @@ def get_setlist_by_url(tab, url, date):
                         else:  # no segue, single song with link
                             song_url = song_link_corrector(s.find("a").get("href"))
                             song_name = cur.execute(
-                                f"""SELECT song_name FROM SONGS WHERE song_url LIKE '{song_url}'"""
+                                f"""SELECT song_name FROM SONGS WHERE song_url = '{song_url}'"""
                             ).fetchone()[0]
                             show.append(
                                 [
