@@ -1,3 +1,6 @@
+# UPDATE
+As of 2024-07-30, this is now an archived repo. I've rebuilt the database basically from scratch using PostgreSQL, which definitely helps since Heroku uses it and for the past year I've used a series of workarounds to get the SQLite version -> Heroku. Plus being PGSQL from the getgo allows for much more in terms of data and features.
+
 # databruce
 A SQLite database of Bruce Springsteens career
 
